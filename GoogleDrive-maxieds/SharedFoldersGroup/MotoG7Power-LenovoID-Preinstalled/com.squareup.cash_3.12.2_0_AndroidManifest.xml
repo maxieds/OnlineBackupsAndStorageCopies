@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest versionCode="3120200" versionName="3.12.2" compileSdkVersion="28" compileSdkVersionCodename="9" package="com.squareup.cash" platformBuildVersionCode="28" platformBuildVersionName="9">
+  <uses-sdk minSdkVersion="21" targetSdkVersion="28"/>
+  <uses-feature name="android.hardware.bluetooth" required="false"/>
+  <uses-feature name="android.hardware.bluetooth_le" required="false"/>
+  <uses-feature name="android.hardware.camera" required="false"/>
+  <uses-feature name="android.hardware.camera.autofocus" required="false"/>
+  <uses-feature name="android.hardware.location" required="false"/>
+  <uses-feature name="android.hardware.location.gps" required="false"/>
+  <uses-feature name="android.hardware.location.network" required="false"/>
+  <uses-feature name="android.hardware.microphone" required="false"/>
+  <uses-feature name="android.hardware.touchscreen" required="false"/>
+  <uses-feature name="android.hardware.wifi" required="false"/>
+  <uses-permission name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission name="android.permission.BLUETOOTH"/>
+  <uses-permission name="android.permission.BLUETOOTH_ADMIN"/>
+  <uses-permission name="android.permission.CAMERA"/>
+  <uses-permission name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission name="android.permission.INTERNET"/>
+  <uses-permission name="android.permission.READ_CONTACTS"/>
+  <uses-permission name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission name="android.permission.READ_PROFILE"/>
+  <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission-sdk-23 name="android.permission.USE_FINGERPRINT"/>
+  <uses-permission name="android.permission.VIBRATE"/>
+  <uses-permission name="android.permission.USE_BIOMETRIC"/>
+  <uses-permission name="android.permission.USE_FINGERPRINT"/>
+  <uses-permission name="android.permission.WAKE_LOCK"/>
+  <uses-permission name="com.google.android.c2dm.permission.RECEIVE"/>
+  <uses-feature glEsVersion="0x20000" required="true"/>
+  <uses-permission name="android.permission.NFC"/>
+  <uses-feature name="android.hardware.nfc" required="false"/>
+  <uses-permission name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE"/>
+  <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <application theme="Theme.Cash.Splash" label="Cash App" icon="res/mipmap-anydpi-v26/launcher_icon.xml" name="com.squareup.cash.CashApp" backupAgent="com.squareup.cash.CashBackupAgent" allowBackup="true" fullBackupContent="res/xml/appsflyer_backup_rules.xml" resizeableActivity="false" roundIcon="res/mipmap-anydpi-v26/launcher_icon_round.xml" appComponentFactory="androidx.core.app.CoreComponentFactory">
+    <meta-data name="com.google.android.backup.api_key" value="AEdPqrEAAAAILJ2so2a2YjWm_AL8qEob39fZWcEkraHYvLFdIA"/>
+    <meta-data name="com.google.android.geo.API_KEY" value="AIzaSyDs_DFJuIT8NoQNCcezh493IT47HitpsSY"/>
+    <meta-data name="com.squareup.safetynet.API_KEY" value="AIzaSyDs_DFJuIT8NoQNCcezh493IT47HitpsSY"/>
+    <meta-data name="android.max_aspect" value="2.1"/>
+    <activity label="Cash App" name="com.squareup.cash.ui.MainActivity" launchMode="2" screenOrientation="1" windowSoftInputMode="0x33">
+      <intent-filter>
+        <action name="android.intent.action.MAIN"/>
+        <category name="android.intent.category.LAUNCHER"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.MAIN"/>
+        <category name="android.intent.category.NOTIFICATION_PREFERENCES"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <data scheme="https" host="cash.me" pathPrefix="/deposit/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/deposit/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/d/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/d/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch"/>
+        <data scheme="https" host="cash.me" pathPrefix="/app/verify-email/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/app/verify-email/"/>
+        <data scheme="https" host="cash.me" pathPattern="/verify/.*"/>
+        <data scheme="https" host="cash.app" pathPattern="/verify/.*"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch/bitcoin/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch/bitcoin/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/loyalty/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/loyalty/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch/card-drawer/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch/card-drawer/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch/referrals/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch/referrals/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch/support"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch/support"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch/add-cash"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch/add-cash"/>
+        <data scheme="https" host="cash.me" pathPrefix="/launch/auto-add-cash"/>
+        <data scheme="https" host="cash.app" pathPrefix="/launch/auto-add-cash"/>
+        <data scheme="https" host="cash.me" pathPattern="/$.*"/>
+        <data scheme="https" host="cash.app" pathPattern="/$.*"/>
+        <data scheme="https" host="cash.me" pathPattern="/$.*/.*"/>
+        <data scheme="https" host="cash.app" pathPattern="/$.*/.*"/>
+        <data scheme="https" host="cash.me" pathPattern="/£.*"/>
+        <data scheme="https" host="cash.app" pathPattern="/£.*"/>
+        <data scheme="https" host="cash.me" pathPattern="/£.*/.*"/>
+        <data scheme="https" host="cash.app" pathPattern="/£.*/.*"/>
+        <data scheme="https" host="cash.me" pathPrefix="/pay/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/pay/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/oauth2/authorization"/>
+        <data scheme="https" host="cash.app" pathPrefix="/oauth2/authorization"/>
+        <data scheme="https" host="cash.me" pathPrefix="/documents/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/documents/"/>
+        <data scheme="https" host="cash.me" pathPrefix="/f/"/>
+        <data scheme="https" host="cash.app" pathPrefix="/f/"/>
+      </intent-filter>
+    </activity>
+    <activity theme="Theme.Cash.DialogActivity" name="com.squareup.cash.ui.PasscodeActivity" excludeFromRecents="true" launchMode="3" screenOrientation="1" noHistory="true"/>
+    <activity theme="Theme.Cash.Default.Accent.FullScreen" name="com.squareup.cash.livenesscheck.backend.CashLivenessCheckActivity" screenOrientation="1"/>
+    <service name="com.squareup.cash.ui.gcm.PushMessagingService" exported="false">
+      <intent-filter>
+        <action name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <service name="com.squareup.cash.ui.gcm.InstanceIdService">
+      <intent-filter>
+        <action name="com.google.firebase.INSTANCE_ID_EVENT"/>
+      </intent-filter>
+    </service>
+    <service name="com.squareup.cash.ui.gcm.NotificationJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.squareup.cash.ui.gcm.NotificationActionService" exported="false"/>
+    <service name="com.squareup.cash.data.activity.OfflineJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.squareup.cash.data.download.DownloadJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.squareup.cash.data.support.SupportFlowActivityReporterJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.squareup.cash.integration.analytics.AnalyticsEventReceiver" exported="false">
+      <intent-filter>
+        <action name="com.squareup.cash.ACTION_ANALYTICS_EVENT"/>
+      </intent-filter>
+    </receiver>
+    <provider name="androidx.core.content.FileProvider" exported="false" authorities="com.squareup.cash.fileprovider" grantUriPermissions="true">
+      <meta-data name="android.support.FILE_PROVIDER_PATHS" resource="file_paths"/>
+    </provider>
+    <activity theme="Theme.AppCompat.NoActionBar.FullScreen" name="com.getbouncer.cardverify.LivenessCheckActivity" screenOrientation="1" configChanges="0x80"/>
+    <activity theme="Theme.AppCompat.NoActionBar.FullScreen" name="com.getbouncer.cardverify.VerifyActivity" screenOrientation="1" configChanges="0x80"/>
+    <activity theme="Theme.AppCompat.NoActionBar.FullScreen" name="com.getbouncer.cardverify.ScanActivity" screenOrientation="1" configChanges="0x80"/>
+    <activity theme="Theme.AppCompat.NoActionBar.FullScreen" name="com.getbouncer.cardscan.base.ScanActivityImpl" screenOrientation="1" configChanges="0x80"/>
+    <activity theme="PlacesAutocompleteOverlay" label="Pick a place" name="com.google.android.libraries.places.widget.AutocompleteActivity" exported="false" windowSoftInputMode="0x10"/>
+    <activity theme="DeviceCredentialHandlerTheme" name="androidx.biometric.DeviceCredentialHandlerActivity" exported="true"/>
+    <service name="com.google.firebase.messaging.FirebaseMessagingService" exported="false">
+      <intent-filter priority="-500">
+        <action name="com.google.firebase.MESSAGING_EVENT"/>
+      </intent-filter>
+    </service>
+    <service name="com.google.firebase.components.ComponentDiscoveryService" exported="false">
+      <meta-data name="com.google.firebase.components:com.google.firebase.iid.Registrar" value="com.google.firebase.components.ComponentRegistrar"/>
+    </service>
+    <receiver name="com.google.firebase.iid.FirebaseInstanceIdReceiver" permission="com.google.android.c2dm.permission.SEND" exported="true">
+      <intent-filter>
+        <action name="com.google.android.c2dm.intent.RECEIVE"/>
+      </intent-filter>
+    </receiver>
+    <uses-library name="org.apache.http.legacy" required="false"/>
+    <activity theme="Theme.Translucent.NoTitleBar" name="com.google.android.gms.common.api.GoogleApiActivity" exported="false"/>
+    <activity theme="Theme.Translucent" name="com.google.android.gms.ads.AdActivity" exported="false" configChanges="0xfb0"/>
+    <meta-data name="com.google.android.gms.version" value="12451000"/>
+    <service name="com.squareup.cash.integration.analytics.JobBatchScheduler$Service" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.squareup.tape.batcher.AlarmBatchScheduler$Receiver" exported="false"/>
+    <service name="com.squareup.tape.batcher.AlarmBatchScheduler$Service" exported="false"/>
+    <provider name="com.squareup.picasso.PicassoProvider" exported="false" authorities="com.squareup.cash.com.squareup.picasso"/>
+    <provider name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" exported="false" multiprocess="true" authorities="com.squareup.cash.lifecycle-process"/>
+    <meta-data name="com.bugsnag.android.BUILD_UUID" value="b773f5ab-86f0-4570-904e-7ce41893bdca"/>
+  </application>
+</manifest>

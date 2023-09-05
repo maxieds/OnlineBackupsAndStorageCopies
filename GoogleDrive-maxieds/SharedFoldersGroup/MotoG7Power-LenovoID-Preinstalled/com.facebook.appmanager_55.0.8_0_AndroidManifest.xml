@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest versionCode="204482575" versionName="55.0.8" compileSdkVersion="29" compileSdkVersionCodename="10" package="com.facebook.appmanager" platformBuildVersionCode="29" platformBuildVersionName="10">
+  <compatible-screens>
+    <screen screenSize="200" screenDensity="320"/>
+    <screen screenSize="300" screenDensity="320"/>
+    <screen screenSize="400" screenDensity="320"/>
+    <screen screenSize="500" screenDensity="320"/>
+    <screen screenSize="200" screenDensity="280"/>
+    <screen screenSize="300" screenDensity="280"/>
+    <screen screenSize="400" screenDensity="280"/>
+    <screen screenSize="500" screenDensity="280"/>
+  </compatible-screens>
+  <uses-sdk minSdkVersion="21" targetSdkVersion="29" minSdk="21"/>
+  <uses-feature glEsVersion="0x20000" required="false"/>
+  <uses-feature name="android.hardware.touchscreen" required="false"/>
+  <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission name="android.permission.WAKE_LOCK"/>
+  <uses-permission name="android.permission.GET_PACKAGE_SIZE"/>
+  <uses-permission name="android.permission.FOREGROUND_SERVICE"/>
+  <permission name="com.facebook.appmanager.ACCESS" protectionLevel="0x2"/>
+  <uses-permission name="com.facebook.appmanager.ACCESS"/>
+  <permission name="com.facebook.appmanager.API_ACCESS" protectionLevel="0x0"/>
+  <uses-permission name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission name="android.permission.INTERNET"/>
+  <uses-permission name="android.permission.WRITE_EXTERNAL_STORAGE" maxSdkVersion="22"/>
+  <uses-permission name="android.permission.READ_EXTERNAL_STORAGE" maxSdkVersion="22"/>
+  <uses-permission name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION"/>
+  <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-feature name="android.hardware.wifi" required="false"/>
+  <application theme="Theme.AppManager" label="Facebook App Manager" name="com.facebook.oxygen.appmanager.app.AppManagerApplication" debuggable="false" allowBackup="false" hardwareAccelerated="true" supportsRtl="true" networkSecurityConfig="res/xml/fb_network_security_config.xml" appComponentFactory="androidx.core.app.CoreComponentFactory">
+    <meta-data name="com.facebook.build_rule" value="appmanager_staticdi_xhdpi_arm64_release_fbsign"/>
+    <meta-data name="com.facebook.package_type" value="release"/>
+    <meta-data name="com.facebook.build_time" value="1584614607000L"/>
+    <meta-data name="com.facebook.versioncontrol.branch" value="master"/>
+    <meta-data name="com.facebook.versioncontrol.revision" value="MASTER"/>
+    <meta-data name="android.max_aspect" value="3.0"/>
+    <provider name="androidx.lifecycle.ProcessLifecycleOwnerInitializer" exported="false" multiprocess="true" authorities="com.facebook.appmanager.lifecycle-process"/>
+    <service name="androidx.room.MultiInstanceInvalidationService" exported="false"/>
+    <receiver name="androidx.work.impl.utils.ForceStopRunnable$BroadcastReceiver" enabled="true" exported="false" directBootAware="false"/>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryChargingProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.ACTION_POWER_CONNECTED"/>
+        <action name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$BatteryNotLowProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.BATTERY_OKAY"/>
+        <action name="android.intent.action.BATTERY_LOW"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$StorageNotLowProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.DEVICE_STORAGE_LOW"/>
+        <action name="android.intent.action.DEVICE_STORAGE_OK"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxy$NetworkStateProxy" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.RescheduleReceiver" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="android.intent.action.BOOT_COMPLETED"/>
+        <action name="android.intent.action.TIME_SET"/>
+        <action name="android.intent.action.TIMEZONE_CHANGED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="androidx.work.impl.background.systemalarm.ConstraintProxyUpdateReceiver" enabled="false" exported="false" directBootAware="false">
+      <intent-filter>
+        <action name="androidx.work.impl.background.systemalarm.UpdateProxies"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.facebook.analytics2.logger.LollipopUploadService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.facebook.analytics2.logger.AlarmBasedUploadService" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.apphealth.oem.OemAppHealthReceiver" permission="com.samsung.permission.READ_SM_DATA" exported="true">
+      <intent-filter>
+        <action name="com.samsung.android.action.WARNING_NOTIFICATION"/>
+      </intent-filter>
+    </receiver>
+    <activity theme="Theme.AppManager.Transparent" name="com.facebook.oxygen.appmanager.appupdate.AppUpdateRequestRedirectActivity" exported="true" noHistory="true"/>
+    <provider name="com.facebook.oxygen.appmanager.appupdate.AppUpdateAvailabilityCheckProvider" permission="com.facebook.appmanager.API_ACCESS" exported="true" authorities="com.facebook.appmanager.appupdate"/>
+    <provider name="com.facebook.oxygen.appmanager.configuration.attribution.AttributionProvider" exported="true" authorities="com.facebook.appmanager.attribution"/>
+    <service name="com.facebook.oxygen.appmanager.connectivity.ConnectivityCheckJobSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <activity name="com.facebook.oxygen.appmanager.crashmanager.ActionCompletedActivity" exported="false"/>
+    <activity name="com.facebook.oxygen.appmanager.crashmanager.CrashReportManagerActivity" permission="com.facebook.system.ACCESS" exported="true" windowSoftInputMode="0x10">
+      <intent-filter>
+        <action name="com.facebook.oxygen.installer.SEND_CRASH_REPORT"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity name="com.facebook.oxygen.appmanager.devex.ui.about.AboutActivity" exported="false" screenOrientation="14"/>
+    <provider name="com.facebook.oxygen.appmanager.devex.ui.about.provider.StubRedirectingProvider" permission="com.facebook.appmanager.ACCESS" exported="true" authorities="com.facebook.appmanager.internal.stubs"/>
+    <activity name="com.facebook.oxygen.appmanager.devex.ui.common.FragmentHostActivity" exported="false" screenOrientation="14"/>
+    <activity name="com.facebook.oxygen.appmanager.deviceinfo.DeviceInfoActivity" exported="false" screenOrientation="1"/>
+    <provider name="com.facebook.oxygen.appmanager.deviceinfo.DeviceInfoRedirectingProvider" permission="com.facebook.appmanager.ACCESS" exported="true" authorities="com.facebook.appmanager.deviceinfo.stubs"/>
+    <receiver name="com.facebook.oxygen.appmanager.download.api.android.AndroidDownloadCompleteReceiver" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.DOWNLOAD_COMPLETE"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.facebook.oxygen.appmanager.download.api.catalyst.CatalystDownloadCompleteReceiver" exported="false">
+      <intent-filter>
+        <action name="com.facebook.oxygen.downloadmanager.DOWNLOAD_COMPLETE"/>
+      </intent-filter>
+    </receiver>
+    <provider name="com.facebook.oxygen.appmanager.firstparty.settings.FirstPartySettingsProvider" exported="true" authorities="com.facebook.appmanager.firstparty.settings"/>
+    <receiver name="com.facebook.oxygen.appmanager.firstparty.tos.ShouldShowTos" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.firstparty.tos.ShouldAcceptTos" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.firstparty.tos.ShouldShowExplicitTos" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.installer.InstallerCrashReceiver" permission="com.facebook.system.ACCESS" exported="true">
+      <intent-filter>
+        <action name="com.facebook.oxygen.installer.CRASH"/>
+        <action name="com.facebook.oxygen.installer.SOFT_ERROR"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.facebook.oxygen.appmanager.installer.tritium.token.update.TritiumTokenJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <provider name="com.facebook.oxygen.appmanager.modularity.ModularityApiProvider" permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" enabled="false" exported="true" authorities="com.facebook.appmanager.modularity"/>
+    <provider name="com.facebook.oxygen.appmanager.nekodirect.NekoDirectProvider" permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" enabled="false" exported="true" authorities="com.facebook.appmanager.nekodirect"/>
+    <service name="com.facebook.oxygen.appmanager.phoenix.core.PhoenixService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.phoenix.core.PhoenixInstallCompleteReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.provisioning.DeviceOwnerProvisioningCompleteReceiver" permission="com.facebook.deviceowner.ACCESS" exported="true">
+      <intent-filter>
+        <action name="com.facebook.oxygen.deviceowner.DEVICE_OWNER_PROVISIONING_COMPLETED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.facebook.oxygen.appmanager.recovery.DataClearReceiver" permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" exported="true">
+      <intent-filter>
+        <action name="com.facebook.appmanager.cleardata"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.facebook.oxygen.appmanager.scheduler.RescheduleService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.scheduler.RescheduleReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.scheduler.background.SchedulerReceiver" exported="false"/>
+    <service name="com.facebook.oxygen.appmanager.scheduler.schedulers.jobscheduler.JobSchedulerBackUpService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.facebook.oxygen.appmanager.scheduler.schedulers.jobscheduler.JobSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.scheduler.schedulers.jobscheduler.JobSchedulerReceiver" exported="false"/>
+    <service name="com.facebook.oxygen.appmanager.scheduler.schedulers.alarmmanager.AlarmManagerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.scheduler.schedulers.alarmmanager.AlarmManagerReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.sso.FirstPartyAuthEventReceiver" permission="com.facebook.permission.prod.FB_APP_COMMUNICATION" exported="true">
+      <intent-filter>
+        <action name="com.facebook.appmanager.fb4a.auth.EVENT"/>
+      </intent-filter>
+    </receiver>
+    <provider name="com.facebook.oxygen.appmanager.thirdparty.settings.ThirdPartySettingsProvider" exported="true" authorities="com.facebook.appmanager.thirdparty.settings"/>
+    <activity theme="Theme.AppManager.About" label="About" name="com.facebook.oxygen.appmanager.ui.about.AboutActivity" enabled="false" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="fbapps" host="appmanager" pathPrefix="/about"/>
+      </intent-filter>
+    </activity>
+    <activity theme="Theme.AppManager.NoActionBar" name="com.facebook.oxygen.appmanager.ui.appupdates.ManagedFirstPartyAppsActivity" enabled="false" exported="true">
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="fbapps" host="appmanager" pathPrefix="/installedapps"/>
+      </intent-filter>
+    </activity>
+    <activity theme="Theme.AppManager.NoActionBar" name="com.facebook.oxygen.appmanager.ui.appupdates.SingleAppUpdateSettingsActivity" enabled="false" exported="true">
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="fbapps" host="appmanager" pathPrefix="/updatesettings"/>
+      </intent-filter>
+    </activity>
+    <activity theme="Theme.AppManager.Transparent" name="com.facebook.oxygen.appmanager.ui.crossinstall.CrossInstallActivity" noHistory="true"/>
+    <activity theme="Theme.AppManager.StubInstall" name="com.facebook.oxygen.appmanager.ui.landing.StubInstallActivity" exported="true"/>
+    <activity-alias name="com.facebook.oxygen.appmanager.ui.InstallActivity" exported="true" targetActivity="com.facebook.oxygen.appmanager.ui.landing.StubInstallActivity"/>
+    <activity theme="Theme.AppManager.Transparent.NoAnimation" name="com.facebook.oxygen.appmanager.ui.msitetos.MSiteTosHandlerActivity" enabled="false" exported="true">
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="m.facebook.com" pathPrefix="/jrdr/am/tos"/>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="mobile.facebook.com" pathPrefix="/jrdr/am/tos"/>
+      </intent-filter>
+    </activity>
+    <service name="com.facebook.oxygen.appmanager.ui.notification.InstallNotificationService" exported="false"/>
+    <activity theme="Theme.AppManager.Overlay" name="com.facebook.oxygen.appmanager.ui.notification.UpdateActivity" exported="false"/>
+    <activity theme="Theme.AppManager.Transparent" name="com.facebook.oxygen.appmanager.ui.notification.NetworkSelectionActivity" exported="false" noHistory="true"/>
+    <receiver name="com.facebook.oxygen.appmanager.ui.notification.UpdateNotificationActionBroadcastReceiver" exported="false">
+      <intent-filter>
+        <action name="com.facebook.appmanager.NOTIFICATION_UPDATE"/>
+      </intent-filter>
+    </receiver>
+    <service name="com.facebook.oxygen.appmanager.ui.offline.OfflineInstallJobSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.facebook.oxygen.appmanager.update.core.UpdateService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.facebook.oxygen.appmanager.update.retry.InstallRetryJobSchedulerService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.update.core.InstallerCallbackReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.update.installqueue.InstallQueueResumeReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.update.core.TritiumCallbackReceiver" exported="true">
+      <intent-filter>
+        <action name="com.facebook.appmanager.UPDATE_CALLBACK"/>
+      </intent-filter>
+    </receiver>
+    <activity theme="Theme.AppManager.Overlay.NoActionBar" name="com.facebook.oxygen.appmanager.webinstall.WebInstallActivity" exported="false"/>
+    <activity-alias name="com.facebook.oxygen.appmanager.webinstall.WebInstallDeepLinkActivity" enabled="false" exported="true" targetActivity="com.facebook.oxygen.appmanager.webinstall.WebInstallActivity">
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="fbapps" host="appmanager" path="/webinstall"/>
+      </intent-filter>
+    </activity-alias>
+    <activity-alias name="com.facebook.oxygen.appmanager.webinstall.WebInstallAppLinkActivity" enabled="false" exported="true" targetActivity="com.facebook.oxygen.appmanager.webinstall.WebInstallActivity">
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="www.facebook.com" pathPrefix="/android"/>
+        <data scheme="https" host="www.facebook.com" pathPrefix="/android_upgrade"/>
+        <data scheme="https" host="www.facebook.com" pathPrefix="/apps/details"/>
+        <data scheme="https" host="www.facebook.com" pathPrefix="/apps/thanks"/>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="m.facebook.com" pathPrefix="/android"/>
+        <data scheme="https" host="m.facebook.com" pathPrefix="/android_upgrade"/>
+        <data scheme="https" host="m.facebook.com" pathPrefix="/apps/details"/>
+        <data scheme="https" host="m.facebook.com" pathPrefix="/apps/thanks"/>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="mobile.facebook.com" pathPrefix="/android"/>
+        <data scheme="https" host="mobile.facebook.com" pathPrefix="/android_upgrade"/>
+        <data scheme="https" host="mobile.facebook.com" pathPrefix="/apps/details"/>
+        <data scheme="https" host="mobile.facebook.com" pathPrefix="/apps/thanks"/>
+      </intent-filter>
+    </activity-alias>
+    <activity theme="Theme.AppManager.Overlay.NoActionBar" name="com.facebook.oxygen.appmanager.webinstall.WebInstallActivityV2" exported="false"/>
+    <activity-alias name="com.facebook.oxygen.appmanager.webinstall.WebInstallAppLinkActivityV2" enabled="false" exported="true" targetActivity="com.facebook.oxygen.appmanager.webinstall.WebInstallActivityV2">
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="www.facebook.com" pathPrefix="/click.php"/>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="m.facebook.com" pathPrefix="/click.php"/>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="mobile.facebook.com" pathPrefix="/click.php"/>
+      </intent-filter>
+      <intent-filter autoVerify="true">
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="https" host="mtouch.facebook.com" pathPrefix="/click.php"/>
+      </intent-filter>
+    </activity-alias>
+    <service name="com.facebook.oxygen.appmanager.zerorating.updates.ZeroRatingNotificationJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.common.boot.OnBootCompleteReceiver" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.BOOT_COMPLETED"/>
+      </intent-filter>
+    </receiver>
+    <provider name="com.facebook.oxygen.common.downloadmanager.impl.DownloadProvider" exported="false" authorities="com.facebook.appmanager.downloads"/>
+    <service name="com.facebook.oxygen.common.downloadmanager.impl.DownloadJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.facebook.oxygen.common.downloadmanager.impl.DownloadIdleService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <service name="com.facebook.oxygen.common.jobqueue.JobQueueService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.common.jobqueue.JobQueueReceiver" exported="false"/>
+    <service name="com.facebook.oxygen.appmanager.common.jobqueue.JobQueueService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.appmanager.common.jobqueue.JobQueueReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.common.packages.event.manifest.ManifestPackageEventReceiver" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.PACKAGE_ADDED"/>
+        <action name="android.intent.action.PACKAGE_REPLACED"/>
+        <action name="android.intent.action.PACKAGE_FULLY_REMOVED"/>
+        <data scheme="package"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.facebook.oxygen.common.packages.selfupdate.MyPackageUpdatedReceiver" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.MY_PACKAGE_REPLACED"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.facebook.oxygen.common.periodicwork.PeriodicWorkAlarmReceiver" exported="false"/>
+    <receiver name="com.facebook.oxygen.common.periodicwork.PeriodicWorkGuardReceiver" exported="false"/>
+    <service name="com.facebook.oxygen.common.periodicwork.PeriodicWorkJobService" permission="android.permission.BIND_JOB_SERVICE" exported="false"/>
+    <receiver name="com.facebook.oxygen.preloads.sdk.firstparty.settings.TosAcceptedFlag" enabled="false" exported="false"/>
+    <meta-data name="com.facebook.appmanager.api.level" value="14"/>
+  </application>
+</manifest>

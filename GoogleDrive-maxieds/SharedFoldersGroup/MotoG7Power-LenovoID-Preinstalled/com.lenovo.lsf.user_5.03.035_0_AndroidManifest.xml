@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest versionCode="503035" versionName="5.03.035" package="com.lenovo.lsf.user" platformBuildVersionCode="26" platformBuildVersionName="8.0.0">
+  <uses-sdk minSdkVersion="16" targetSdkVersion="26"/>
+  <uses-permission name="android.permission.INTERNET"/>
+  <uses-permission name="android.permission.VIBRATE"/>
+  <uses-permission name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission name="android.permission.READ_PRIVILEGED_PHONE_STATE"/>
+  <uses-permission name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission name="android.permission.MANAGE_ACCOUNTS"/>
+  <uses-permission name="android.permission.USE_CREDENTIALS"/>
+  <uses-permission name="android.permission.GET_ACCOUNTS"/>
+  <uses-permission name="android.permission.GET_ACCOUNTS_PRIVILEGED"/>
+  <uses-permission name="android.permission.AUTHENTICATE_ACCOUNTS"/>
+  <permission name="com.lenovo.lsf.permission.activity_internal" protectionLevel="0x3"/>
+  <uses-permission name="com.lenovo.lsf.permission.activity_internal"/>
+  <meta-data name="android.support.VERSION" value="25.3.1"/>
+  <application label="Lenovo ID" icon="res/drawable-xhdpi-v4/motoid_lsf_account_logo.png" allowBackup="true">
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.AccountFirstActivity" screenOrientation="1" windowSoftInputMode="0x3"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.PsLoginActivity" screenOrientation="1" configChanges="0x4a0" windowSoftInputMode="0x3"/>
+    <activity theme="motoid_lsf_ui2" name="com.lenovo.lsf.lenovoid.ui.PsLoginFirstActivity" launchMode="2" screenOrientation="1" configChanges="0x4a0" windowSoftInputMode="0x3">
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+        <category name="android.intent.category.BROWSABLE"/>
+        <data scheme="com.lenovo.lsf.user.openapp.lenovoid"/>
+      </intent-filter>
+    </activity>
+    <activity theme="motoid_lsf_ui_transparent" name="com.lenovo.lsf.lenovoid.ui.PsLoginFirstGmailActivity" launchMode="2" screenOrientation="1" configChanges="0x4a0" windowSoftInputMode="0x3">
+      <intent-filter>
+        <action name="android.intent.action.VIEW"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.EmailSignupActivity" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x3"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.ChangePasswordActivity" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x3"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.account.PsUserSettingActivity" exported="true" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_holo" icon="@0" name="com.lenovo.lsf.lenovoid.ui.AccountInfoActivity" launchMode="2" screenOrientation="1" configChanges="0x4b0" logo="@0"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.EmailResetPWDStep1Activity" screenOrientation="1" configChanges="0x4b0" windowSoftInputMode="0x5"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.EmailResetPWDStep2Activity" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_ui.not_transparent" name="com.lenovo.lsf.lenovoid.ui.ServiceProtocolActivityBack" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.ThirdLoginWebView" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.ThirdBindingEmailActivity" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.ThirdBindingEmailPasswordActivity" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.AboutActivity" screenOrientation="1" configChanges="0x4b0"/>
+    <activity theme="motoid_lsf_ui" name="com.lenovo.lsf.lenovoid.ui.GPLLicensesActivity" screenOrientation="1" configChanges="0x4b0"/>
+    <service name="com.lenovo.lsf.account.auth.AuthenticationService" permission="com.lenovo.lsf.permission.activity_internal" exported="true">
+      <intent-filter>
+        <action name="android.accounts.AccountAuthenticator"/>
+      </intent-filter>
+      <intent-filter>
+        <action name="com.motorola.accounts.AccountHelper"/>
+      </intent-filter>
+      <meta-data name="com.motorola.accounts.AccountHelper" resource="lenovoid_account_helper"/>
+      <meta-data name="android.accounts.AccountAuthenticator" resource="authenticator"/>
+    </service>
+    <activity theme="Theme.Translucent.NoTitleBar" label="Lenovo ID" name="com.facebook.FacebookActivity" configChanges="0x5b0"/>
+    <meta-data name="com.facebook.sdk.ApplicationId" value="313605572071959"/>
+    <meta-data name="com.facebook.sdk.ApplicationName" value="LenovoID"/>
+    <activity theme="Theme.Translucent.NoTitleBar" name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity" exported="false" excludeFromRecents="true"/>
+    <service name="com.google.android.gms.auth.api.signin.RevocationBoundService" permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" exported="true"/>
+    <activity theme="Theme.Translucent.NoTitleBar" name="com.google.android.gms.common.api.GoogleApiActivity" exported="false"/>
+    <meta-data name="com.google.android.gms.version" value="11020000"/>
+  </application>
+</manifest>

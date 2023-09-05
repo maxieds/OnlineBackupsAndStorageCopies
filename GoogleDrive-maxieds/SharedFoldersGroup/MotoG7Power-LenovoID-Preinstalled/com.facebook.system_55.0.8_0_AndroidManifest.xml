@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?><manifest versionCode="204482500" versionName="55.0.8" compileSdkVersion="29" compileSdkVersionCodename="10" package="com.facebook.system" platformBuildVersionCode="29" platformBuildVersionName="10">
+  <uses-sdk minSdkVersion="21" targetSdkVersion="29"/>
+  <uses-feature name="android.hardware.touchscreen" required="false"/>
+  <permission name="com.facebook.system.ACCESS" protectionLevel="0x2"/>
+  <uses-permission name="com.facebook.system.ACCESS"/>
+  <permission name="com.facebook.system.stub.ENABLE_APPMANAGER" protectionLevel="0x0"/>
+  <uses-permission name="android.permission.INSTALL_PACKAGES"/>
+  <uses-permission name="android.permission.DELETE_PACKAGES"/>
+  <uses-permission name="android.permission.CHANGE_COMPONENT_ENABLED_STATE"/>
+  <uses-permission name="android.permission.GET_TASKS"/>
+  <uses-permission name="android.permission.REAL_GET_TASKS"/>
+  <application label="Facebook App Installer" name="com.facebook.oxygen.installer.app.InstallerApplication" debuggable="false" allowBackup="false">
+    <meta-data name="com.facebook.build_rule" value="installer_release_fbsign"/>
+    <meta-data name="com.facebook.package_type" value="release"/>
+    <meta-data name="com.facebook.build_time" value="1584614584000L"/>
+    <meta-data name="com.facebook.versioncontrol.branch" value="master"/>
+    <meta-data name="com.facebook.versioncontrol.revision" value="MASTER"/>
+    <provider name="com.facebook.oxygen.installer.api.AppManagerApiProvider" permission="com.facebook.appmanager.ACCESS" exported="true" authorities="com.facebook.system.api.appmanager"/>
+    <provider name="com.facebook.oxygen.installer.api.OculusApiProvider" permission="com.oculus.horizon.permission.ACCESS" exported="true" authorities="com.facebook.system.api.oculus"/>
+    <provider name="com.facebook.oxygen.installer.api.StubApiProvider" permission="com.facebook.system.stub.ENABLE_APPMANAGER" exported="true" authorities="com.facebook.system.api.stub"/>
+    <provider name="com.facebook.oxygen.installer.audit.provider.AuditDataApiProvider" permission="com.facebook.appmanager.ACCESS" exported="true" authorities="com.facebook.system.api.audit"/>
+    <service name="com.facebook.oxygen.installer.core.InstallationManagerCallbackService" exported="false"/>
+    <receiver name="com.facebook.oxygen.installer.core.InstallationManagerCallbackReceiver" exported="false"/>
+    <activity name="com.facebook.oxygen.installer.crashhandler.CrashRedirectActivity" enabled="false" exported="false">
+      <intent-filter>
+        <action name="android.intent.action.APP_ERROR"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <service name="com.facebook.oxygen.installer.service.InstallerService" permission="com.facebook.appmanager.ACCESS" exported="true"/>
+    <receiver name="com.facebook.oxygen.installer.storage.StorageLowReceiver" exported="true">
+      <intent-filter>
+        <action name="android.intent.action.DEVICE_STORAGE_LOW"/>
+      </intent-filter>
+    </receiver>
+    <receiver name="com.facebook.oxygen.installer.storage.PeriodicCleanupReceiver" permission="com.facebook.appmanager.ACCESS" exported="true">
+      <intent-filter>
+        <action name="com.facebook.oxygen.installer.PERIODIC_CLEANUP"/>
+      </intent-filter>
+    </receiver>
+    <activity name="com.facebook.oxygen.installer.ui.AppDetailsActivity" enabled="false" exported="false">
+      <intent-filter>
+        <action name="android.intent.action.SHOW_APP_INFO"/>
+        <category name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <meta-data name="com.facebook.system.api.level" value="9"/>
+  </application>
+</manifest>
