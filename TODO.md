@@ -9,4 +9,7 @@
 * `GoogleDrive-maxieds/SharedFoldersGroup/MotoG7Power-LenovoID-Preinstalled/.thumbdata4--1967290299` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/MotoG7Power-LenovoID-Preinstalled/sms_backup_2020-12-15_18-33-58.zip` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/MotoG7Power-LenovoID-Preinstalled/com.facebook.orca_260.0.0.22.122.apk` (archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/SharedFoldersGroup/MotoPowerPhone-PostPandemicBackup/kh-shabbat-hagim.pdf` (archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/SharedFoldersGroup/ABQFraud3/VID_20220831_215236297.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/SharedFoldersGroup/ABQFraud3/VID_20220831_220931475.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/ABQFraud3/SJSSFuneral/iCloud Photos from Cheryl Rauchwerk.zip` (zip file contains mp4 video -- archived at maxieds85v6@GoogleDrive)
