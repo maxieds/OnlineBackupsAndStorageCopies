@@ -4,7 +4,7 @@
 
 * Backup all data from Google Photos
 * Gmail emails with attachments
-* `legal-records-prep/working-coarse-org/_videos/RPReplay*.mp4` backups to another Google Drive account?
+* `legal-records-prep/working-coarse-org/_videos/RPReplay*.mp4` backups to another Google Drive account (some in directory archived at maxieds85v6@GoogleDrive)?
 * Any other Google Takeout data of interest?
 * Google Drive `Storage/` folder interesting contents
 
