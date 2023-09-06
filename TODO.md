@@ -2,11 +2,23 @@
 
 ## TODO: Working list of tasks
 
+### Google account: maxieds
+
 * Backup all data from Google Photos
 * Gmail emails with attachments
 * `legal-records-prep/working-coarse-org/_videos/RPReplay*.mp4` backups to another Google Drive account (some in directory archived at maxieds85v6@GoogleDrive)?
 * Any other Google Takeout data of interest?
 * Google Drive `Storage/` folder interesting contents
+
+### Google accounts: maxieds85v3, maxieds85v5
+
+* Drive subfolders that are not too large to upload, or can be arachived on Github with LFS
+
+### Other accounts:
+
+* Google accounts: to be recovered
+* Dropbox for `maxieds-hackercat@outlook.com`
+* PostImg.cc `@kevin` gallery images for `maxieds-hackercat@outlook.com`
 
 ## Stashed elsewhere
 
