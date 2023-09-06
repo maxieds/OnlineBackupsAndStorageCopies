@@ -1,0 +1,88 @@
+======== Merge Courses (DO THIS FIRST): ========
+
+1. Goto "Account" (upper left-hand-side of the main menu)
+2. Click on "Combine Courses"
+3. Follow the integrated directions
+
+======== Add a course logo for students: ========
+
+1. Click on the Math 1552 course (published or unpublished version)
+2. Scroll down the LHS link "Settings"
+3. Click on the "Course Details" tab
+4. Near the top of the page, there is a box to click to add an image 
+5. Follow the instructions to upload an image
+
+Note that ifyou create your own image, the aspect ratio Canvas uses is skewed, so 
+you may have to play with adjustments of it in your image editor (I used the GIMP). 
+An example of what the "canvas-course-logo.png" image (uploaded to the "course-artwork" 
+directory one level up) looks like in production can be viewed by selecting the image 
+"CanvasCourseLogoInProduction.png".
+
+======== Add announcements to the Canvas front page (REQUIRED BEFORE PUBLISHING) ========
+
+1. Select the Math 1552 canvas site you are editing
+2. On the LHS select the "Pages" link
+3. Click the "View All Pages" button at the top (if it is there)
+4. Click the "+Page" button to create and edit a new page
+5. *Publish* the announcements page first!
+6. Click on the three-vertical-dots icon to the RHS of that page 
+7. Select the drop-down item to add that page as the front page
+8. When you publish the course for the first time, you will have the option to use that selection
+
+======== Integrating MyMathLab (MML): ======== 
+
+1. Select the Math 1552 canvas site
+2. Click on the "Settings" link on the LHS display
+3. Select the upper "Navigation" tab
+4. At the bottom of the page, choose to enable the 
+   "MyLab and Mastering" link (make sure to click save before leaving the page)
+5. Click on the corresponding new "MyLab" link on the LHS navigation
+6. Follow the instructions to login to the Pearson site with your GA Tech email 
+   and the instructor password they emailed you recently ("Get Started" button on Canvas)
+7. To configure the course, add the following as the course ID: "grodzinsky61331" (DO NOT SHARE THIS PUBLICLY)
+8. Create the course with custom information specific to your semester. 
+   NOTE: New courses may take up to 3 hours to create. You'll receive an email confirmation when the course is ready.
+9. Configure "Grade Sync" by turning on "Automatic Grade Sync" using the radio button provided
+10. Import the homework question banks from previous semsesters by clicking on the link
+    "MyLab Math Assignment Manager". 
+    Click "Copy" next to an existing assignment to modify it. Make sure to check the box labeled 
+    "Send grades for this assignment to the Canvas gradebook" when you create the new assignment.
+11. Configure "Grade Sync" for new homework assignments in MML by clicking on the link in Canvas. 
+    Add the assignment you just created by clicking the check box next to it and clicking the 
+    button "Sync Grades Now".
+
+======== Cleaning up extraneous LHS links displayed to students: ======== 
+
+1. Select the Math 1552 canvas site
+2. Click on the "Settings" link on the LHS display
+3. Select the upper "Navigation" tab
+4. Disable all of the links at the top that you find extraneous or that clutter up 
+   the navigation when in the "Student View" mode
+5. Remember to click "Save" at the bottom of the page when you are done
+
+======== Integrating Canvas polls for live student interaction: ========
+
+Use the TurningPoint module. It requires creating a (free, no-charge) account.
+Note that an auto-import grades function is not available with the default 
+accounts, but you can export grades and a list of participants to CSV by following 
+the instructions within the TurningPoint instructor site.
+
+======== Setting up grades and making new assignments on Canvas: ========
+
+1. Navigate to "Assignments" in Canvas. 
+2. Create new groups for subcategories of assessments and participation or attendance 
+   as listed in your particular syllabus.
+3. Note that a weight can be applied to each group as it appears in the gradebook on Canvas 
+   by clicking the three-vertical-dots icon at the top of the page and selecting the "[~]Add Weights"
+   option. 
+4. Re-arrange the already imported assignments (and afterwards for new ones, e.g., sync'ed from MML) 
+   by dragging the assignment down to the appropriate group. 
+5. Modify settings and/or publish each individual assignment to see them in the gradebook.
+
+======== Accommodating students with extra assessment time for Canvas quizzes: ========
+
+1. Create the Canvas quiz and publish it (note that access to sudents is restricted beforehand 
+   by setting a start and end time).
+2. Once the quiz is published, select it. 
+3. On the RHS navigation there is a "Moderate" button. Click on it.
+4. Select the students that require extra time, and edit their settings. The UI is intuitive.
