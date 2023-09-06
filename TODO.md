@@ -5,6 +5,7 @@
 * `_videos/RPReplay*.mp4` backups to another Google Drive account
 * Backup all data from Google Photos
 * Gmail emails with attachments
+* Google Drive `Storage/` folder interesting contents
 
 ## Stashed elsewhere
 
