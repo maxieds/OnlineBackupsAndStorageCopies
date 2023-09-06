@@ -40,4 +40,5 @@
 * `GoogleDrive-maxieds/SharedFoldersGroup/ABQFraud3/SJSSFuneral/iCloud Photos from Cheryl Rauchwerk.zip` (zip file contains mp4 video -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/GTBlueJeansRecordings/*` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/gap-statistics-joint-dists/old-saddle-connections-pdfs/gap-statistics-joint-dists-summary-H1-1*.pdf` (archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds//SharedFoldersGroup/PhoneCallAboutMyGradCareer-2020.08.30-v1/untitled.mp4` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 
