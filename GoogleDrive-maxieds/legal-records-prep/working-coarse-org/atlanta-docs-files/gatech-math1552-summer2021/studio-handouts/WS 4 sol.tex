@@ -1,0 +1,54 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 2 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+ \item  Using the general form of the definite integral, $\int_{a}^b f(t)dt = \lim_{n\rightarrow \infty}\sum_{i=1}^n f(x_i^*)\Delta x$, evaluate:
+$$\int_{2}^4 (x-1)^2dx$$
+
+\textbf{Solution. }
+\begin{align*}
+ \lim_{n\rightarrow \infty}\frac{2}{n}\sum_{i=1}^n (2+\frac{2i}{n}-1)^2 &= \lim_{n\rightarrow \infty}\frac{2}{n}\sum_{i=1}^n 1+\frac{4i}{n}+\frac{4i^2}{n^2} \nonumber\\
+&=  \lim_{n\rightarrow \infty}\frac{2}{n}\sum_{i=1}^n 1 +\frac{8}{n^2}\sum_{i=1}^n i + \frac{8}{n^3}\sum_{i=1}^n i^2 = 2+4+\frac{8}{3}=\frac{26}{3}.
+\end{align*}
+
+
+
+\item Evaluate $\int_0^2 |x-1|dx$  using integral properties from class. (HINT: draw a picture, and
+use geometry!)
+
+\textbf{Solution.} Use the fact that $|x-1|$ is symmetric with respect to line $x=1$ to conclude that
+$$\int_0^2 |x-1|dx = 2\int_1^2 (x-1)dx.$$ 
+Now use Riemann sums to solve the integral. Please draw a picture.
+
+\item Suppose that $f(x)$ is an even function such that $\int_0^2 f(x)dx =5$ and $\int_0^3 f(x)dx=8$. Find the value of $\int_{-2}^3f(x)dx$.
+
+\textbf{Solution. }
+$$\int_{-2}^3f(x)dx = \int_{-2}^0f(x)dx+\int_{0}^3f(x)dx = \int_{-2}^0f(x)dx+8$$
+Since $f$ is even function, 
+$$ \int_{-2}^0f(x)dx =  \int_{0}^2f(x)dx =5$$
+So
+$$\int_{-2}^3f(x)dx =13$$
+
+\end{enumerate}
+
+\end{document}

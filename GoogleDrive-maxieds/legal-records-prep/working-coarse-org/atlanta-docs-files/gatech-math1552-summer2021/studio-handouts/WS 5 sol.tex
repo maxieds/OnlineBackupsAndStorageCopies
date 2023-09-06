@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 5 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+
+\item Evaluate the integrals:
+
+\begin{enumerate}
+\item $\int_{2}^5 \frac{3x-5}{x^3}dx$.
+
+\textbf{Solution. } $\int_2^5 (3x^{-2} - 5x^{-3}) dx = ... = \frac{-3}{8}.$
+
+\item $\int_{3}^5 \frac{dx}{x^2(x-3)}$.
+
+\textbf{Solution. } Partial fraction: $\int_3^5 \frac{ax+b}{x^2} + \frac{c}{x-3} dx = ...$
+
+\item $\int_{\pi}^{7\pi/2} \frac{\cot(x)+\sin^2(x)}{4}$.
+
+\textbf{Solution. } For $\cot(x)$ use change of variable or the table. Also $\sin^2(x) = \frac{1-\cos(2x)}{2}$. 
+
+\end{enumerate}
+
+
+\item Find $F'(3)$ where
+$$F(x) = \int_{\cos(4\pi x)}^{e^{1/x}} \frac{3x^2}{x+2} dx$$
+
+\textbf{Comment. } FTC. Please help them understand that because $\sin(12\pi)=0$, they do not need to do the computation for that term. 
+
+\item (Optional) Let $f(1/x)=f(x)$ and  $f$ be an odd function. If $\int_{1/2}^{1/4} f(x)\frac{dx}{x^2} =3$. Then compute
+$$\int_{-4}^2 (f(x)+3x^2 -5)dx$$
+
+\textbf{Solution. } $\int_{-4}^4 f(x)dx =0$. So we need to find $\int_2^4 f(x)dx$. If $u=\frac{1}{x}$ 
+$$-3 = \int_{\frac{1}{4}}^{\frac{1}{2}}f(x)\frac{dx}{x^2} = \int_{2}^{4}f(x)dx.$$
+
+The rest is straightforward. 
+
+\item a) Given the function below, evaluate $\int_{1}^9 f(x)dx$. 
+\begin{align*}
+f(x)=\begin{cases}
+x^2+4 & x<4\\
+\sqrt{x} -x & x\geq 4.
+\end{cases}
+\end{align*}
+
+b) Would you get the same answer to part (a) if you evaluated $F(9) -  F(1)$? What does
+this tell you about the FTC and continuity?
+
+\textbf{Comment.  } Please help them to understand it both by computation and seeing the diagram.
+
+\item (a) Evaluate the expressions:
+$$\int x(x+1)dx \quad \text{ and }\quad \int xdx \int (x+1)dx$$
+
+b) Looking at your answer in part (a), what, if anything, can you say in general about $\int f(x)g(x)dx$?
+
+\textbf{Comment. } No. This question is important. Please give them official comment about it. 
+
+\item For each integral below, determine if we can evaluate the integral using the method of
+u-substitution. If the answer is "yes", detect $u$.
+
+a) $\int \frac{1}{x^2}\sec(\frac{1}{x})\tan(\frac{1}{x})dx.$
+
+\textbf{Solution.} Yes. We can.  $u = \frac{1}{x}$.
+
+b) $\int x\csc^2(x)dx$.
+
+\textbf{Solution.} No. Please help them to check all the options for $u$.
+
+c) $\int e^{x^2}dx$.
+
+\textbf{Solution. } No. You can also mention that this integral is not solvable using elementary methods. 
+
+\item Determine if each statement below is true or false.
+
+\begin{enumerate}
+
+\item If $f$ is a continuous function, then the function $F(x) = \int_a ^x f(t)dt$ is an anti-derivative
+of $f$.
+
+\textbf{Solution.} True.  This is in fact  FTC.
+
+\item If $F$ is an anti-derivative of $f$, then $\int_a^b f(t)dt$ represents the slope of the secant line of
+$F(x)$ on the interval $[a, b]$.
+
+\textbf{Solution. } False. Please explain the correct notions.
+
+\item $\frac{d}{dx}\left(\int_{a}^b f(t)dt\right) = f(b)$.
+
+\textbf{Solution. } False. Please help them to understand that the LHS is zero. 
+
+\item Given that $f$ is continuous on $[a, b]$ and $F'(x) = f(x)$, then $F(b) - F(a)$ represents the
+net area bounded by the graph of $y = f(x)$, the lines $x = a$, $x = b$, and the $x$-axis.
+
+\textbf{Solution} True. This is in fact FTC.
+\end{enumerate}
+
+
+\end{enumerate}
+
+\end{document}

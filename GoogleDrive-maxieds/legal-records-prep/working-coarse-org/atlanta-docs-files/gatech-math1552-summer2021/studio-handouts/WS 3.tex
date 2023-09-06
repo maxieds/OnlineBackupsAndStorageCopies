@@ -1,0 +1,57 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 3 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+ \item   (Applying the Definite Integral ) A marketing company is trying a new campaign. The
+campaign lasts for three weeks, and during this time, the company finds that it gains
+customers as a function of time according to the formula:
+$$C(t)=7t-4t^2$$
+where $t$ is time in weeks and the number of customers is given in thousands.
+
+Using the following form of the definite integral,
+$$\int_{a}^{b}f(t)dt=\lim_{n\rightarrow \infty}\frac{b-a}{n}\sum_{i=1}^n f(a+\frac{(b-a)i}{n})$$
+calculate the average number of customers gained during the three-week campaign.
+
+Also compute the average number of customers using the form
+$$\int_{a}^{b}f(t)dt=\lim_{n\rightarrow \infty}\frac{b-a}{n}\sum_{i=1}^n f(a+\frac{(b-a)(i-1)}{n})$$
+Compare the results. What can you confirm from this comparison?
+
+
+
+\item Explain why the following property is true:
+$$\left\vert\int_{a}^{b}f(t)dt\right\vert\leq \int_{a}^b |f(t)|dt$$
+Can you find an example where the inequality is strict?
+
+
+\item Determine if each statement below is true or false.
+
+	\begin{enumerate}
+	\item We always set $x_i$ to be the right-hand endpoint of the $i$th interval.
+
+	\item $$\sum_{i=1}^n i^3=\left(\frac{n(n+1)}{2}\right)^2$$
+
+	\item If $f(x)\geq 0$ on $[a,b]$, then $\int_{a}^b f(t)dt$ represents the total area bounded by $f$, $x=a$, $x=b$ and the $x$-axis.
+	\end{enumerate}
+\end{enumerate}
+
+\end{document}

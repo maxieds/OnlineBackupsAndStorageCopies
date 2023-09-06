@@ -1,0 +1,5 @@
+Studio Handouts for Summer 2021 Credits:
+Original Sources: Math 1552 handouts repository (up two directories) and the 
+                  LaTeX handout sources from Summer 2020 by 
+                  Cvetelina Hill (cvetelina.hill@gatech.edu)
+Modified Sources: Hamed Mousavi (hmousavi6@gatech.edu)

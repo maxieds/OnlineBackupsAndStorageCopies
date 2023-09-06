@@ -1,0 +1,85 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 2 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+    \item (Applying the Riemann Sum) You are driving when all of a sudden, you see traffic
+stopped in front of you. You slam the brakes to come to a stop. While your brakes are
+applied, the velocity of the car is measured, and you obtain the following measurements:
+
+Time since applying breaks (sec) : 0 \quad 1 \quad 2 \quad 3 \quad 4 \quad 5
+
+Velocity of car (in ft/sec) :\quad \quad  \quad  88 \quad 60 \quad 40 \quad 25 \quad 10 \quad 0
+
+    \begin{enumerate}
+        \item Plot the points on a curve of velocity vs. time.
+
+        \item Using the points given, determine upper and lower bounds for the total distance traveled
+before the car came to a stop.
+
+{\bf Solution.} $U_f = 88+60+40+25+10=223$.
+
+$L_f = 60+40+25+10+0=135$.
+
+    \end{enumerate}
+
+\item Estimate the area under the graph of $f(x) = 10-x^2$ between the lines $x = -3$ and
+$x = 2$ using $n = 5$ equally spaced subintervals, by finding:
+
+	\begin{enumerate}
+	\item The upper sum, $U_f$.
+
+
+	$$U_f=f(-2)+f(-1)+f(0)+f(0)+f(1)=...$$
+
+	\item The lower sum, $L_f$.
+
+	$$L_f= f(-3)+f(-2)+f(-1)+f(1)+f(2)=...$$	
+
+	\end{enumerate}
+
+\item Determine if each statement below is true or false.
+
+	\begin{enumerate}
+	\item To find the upper sum $U_f$ of a function $f$ on $[a, b]$, after partitioning the interval into
+$n$ pieces, evaluate $f$ at the right-hand endpoint of each subinterval.
+
+	{\bf Solution. }False. Give an example. 
+
+	\item When the interval $[a, b]$ is partitioned into $n$ pieces, there are exactly $n$ endpoints.
+
+	{\bf Solution. } False. There are $n+1$ endpoints.
+% for continouse functions and more for the non continouse ones.
+
+	\item A partition of the interval $[a, b]$ does not need to be evenly spaced in order to calculate
+a Riemann Sum.
+
+	{\bf Solution. } True. But we always consider them to be evenly spaced.
+
+	\item If $f$ is positive and continuous on $[a, b]$, and $A$ is the actual area bounded by $f$, $x = a$,
+$x = b$, and the $x$-axis, then $L_f < A < U_f$.
+
+	{\bf Solution.} True. Check this. Also consider the case when $f$ is not positive.
+	\end{enumerate}
+\end{enumerate}
+
+\end{document}

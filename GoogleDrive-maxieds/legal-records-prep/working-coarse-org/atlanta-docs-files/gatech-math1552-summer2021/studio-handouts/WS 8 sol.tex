@@ -1,0 +1,88 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 8 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+
+\item Determine if each integral below can be evaluated using a method we have learned so
+far (formula, u-substitution, integration by parts, or trig identities). If so, evaluate the
+integral. If not, explain why it cannot be evaluated.
+
+
+
+\begin{enumerate}
+
+
+\item $\int \tan^4(x)dx$.
+
+\textbf{Solution. } $\frac{1}{3}\tan^3(x)-\tan(x)+x+C$. Help them to undertand why $\tan^2+1$ is important here.
+
+\item $\int \sin(x^2)dx$.
+
+\textbf{Solution. } Cannot be evaluated. Please explain that it cannot be evaluated with any elementary method (not just the ones that we discussed so far).
+
+\item $\int e^{2x}\sin(3x)dx$.
+
+\textbf{Solution. } $\frac{2}{13}e^{2x}\sin(3x)-\frac{3}{13}e^{2x}\cos(3x)+C$. I solved a similar one in lecture. But it is good to see another one. Two IBP.
+
+\item $\int \frac{x^2}{(x^2+4)^{3/2}}dx$.
+
+\textbf{Solution. }$\ln\big\vert \frac{\sqrt{x^2+4}}{2}+\frac{x}{2}\big\vert - \frac{x}{\sqrt{x^2+4}}+C$. Very important to see the effect of $x = 2\tan(\theta)$.
+
+\item $\int (x^2+1)e^{2x}dx$.
+
+\textbf{Solution. } $\frac{1}{2}(x^2+1)e^{2x} - \frac{1}{2}xe^{2x} + \frac{1}{4}e^{2x} + C.$ Needs two IBP. 
+
+\item $\int \frac{\sqrt{1-x^2}}{x^4}dx$.
+
+\textbf{Solution. } $-\frac{1}{3} \frac{(1-x^2)^{3/2}}{x^3}+C$. Trig $u-$sub with $x=\cos(\theta)$.
+
+\item $\frac{dx}{e^x \sqrt{e^{2x}-9}}dx$.
+
+\textbf{Solution. } $\frac{\sqrt{e^{2x}-9}}{9e^x}+C$. Trig $u-$sub with $e^x = 3\sec(\theta)$.
+
+\item $\int \sin^2(x)\cos^2(x)dx$.
+
+\textbf{Solution. } $\frac{x}{8}-\frac{1}{32}\sin(4x)+C$.
+
+\item $\int \frac{x+3}{(x-1)(x^2-4x+4)}dx$.
+
+\textbf{Solution. }$4\ln \left\vert\frac{x-1}{x-2}\right\vert -\frac{5}{x-2}+C$. They need to use partial fraction. 
+
+\end{enumerate}
+
+
+\item Determine if the following statements below are always true or sometimes false.
+
+\begin{enumerate}
+\item If an integral contains the term $a^2 + x^2$, The best choice is to use the substitution $x = a \sec(\theta)$. 
+
+\textbf{Comment. } False. The correct sub would be $a\tan(\theta)$. 
+
+\item If we use the trig substitution $x = \sin(\theta)$, then it is possible that $\sqrt{1-x^2}=-\cos(\theta)$.
+
+\textbf{Comment. } True. Taking square root always will ends up positive. So if we have definite integral, we need to check $\theta$ and it is possible that we need a negative sign to make $\cos$ to be positive. 
+\end{enumerate}
+
+\end{enumerate}
+
+\end{document}

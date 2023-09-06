@@ -1,0 +1,96 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 7 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+
+\item Determine if each statement below is always true or sometimes false.
+
+
+\begin{enumerate}
+\item $\int f(x)g(x)dx=\int f(x)dx\int g(x)dx$.
+
+\textbf{Comment. } Please make sure that they understand this is false, using example, etc.
+
+\item To evaluate $\int \sin^{-1}(x)dx$ by just one time integration by part, choose $u= \sin^{-1}(x)$ and $dv=dx$.
+
+\textbf{Comment. }True. 
+
+\item To evaluate $\int x\ln(x)dx$ by just one time integration by part, choose $u= x$ and $dv=\ln(x)dx$.
+
+\textbf{Comment. }False. Explain that they can evaluate this integral using two by parts if they choose $dv = \ln(x)dx$.
+
+\item  To evaluate $\int \cot(x)dx$, integrate by substitution choosing $u= \sin(x)$. 
+
+\textbf{Comment. }True. 
+
+\end{enumerate}
+
+\item evaluate the integrals.
+
+\begin{enumerate}
+\item $\int x^2 e^{x^3}$.
+
+\textbf{Solution. }$\frac{1}{3}e^{x^3}$. Use $u-$sub with $u=x^3$.
+
+\item $\int x^3 e^{x^2}dx$.
+
+\textbf{Solution. }$(\frac{x^2}{2}-1)e^{x^2}$. Help to apply $u-$sub and IBP.
+
+\item  $\int 4^{-x}dx$.
+
+\textbf{Comment. }$\frac{1}{\ln(4)}4^{-x}+C$. You can comment about $4^x = e^{x\ln(4)}$ and using $u-$sub. But they also have the table to do this integral.
+
+\item $\int x^2 4^xdx$.
+
+\textbf{Solution. } $\frac{1}{\ln(4)}x^24^{x} - \frac{2}{\ln^2(4)}x4^x + \frac{2}{\ln^3(4)}4^x+C$. Help them apply IBP twice.
+
+\end{enumerate}
+
+\item Determine if each integral below can be evaluated using a method we have learned so
+far (formula, u-substitution, integration by parts, or trig identities). If so, evaluate the
+integral. If not, explain why it cannot be evaluated.
+
+\begin{enumerate}
+
+\item $\int x^5\ln(x)dx$.
+
+\textbf{Solution. } $\frac{x^6\ln(x)}{6} - \frac{x^6}{36}+C$. Help them understand that $u=\ln(x)$ is the best choice for IBP. 
+
+\item $\int \sin^5(2x)\cos^3(2x)dx$.
+
+\textbf{Solution. }$\frac{1}{12}\sin^6(2x) - \frac{1}{16}\sin^8(2x)+C$. Convert all except one of of $\cos$ to $\sin$, i.e. $\cos^3(2x)=\cos(2x)(1-\sin^2(2x))$.  
+
+\item $\int \cos^2(3x)dx$.
+
+\textbf{Solution. }$\frac{1}{2}x + \frac{1}{12}\sin(6x)+C$. Because $\cos^2(3x) =\frac{1+\cos(6x)}{2} $.
+
+\item $\int \tan(x)\ln(\cos(x))dx$.
+
+\textbf{Solution. }$-\frac{1}{2}\left(\ln(\cos(x))\right)^2+C$. We can use $u-$sub with $u = \ln(\cos(x))$.
+\end{enumerate}
+
+
+
+\end{enumerate}
+
+\end{document}

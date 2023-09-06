@@ -1,0 +1,74 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\noindent
+%Name:\underline{~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~}
+MATH1552 Summer 2020
+\hspace{2.2cm}
+%\noindent
+Worksheet 2 Summer
+\hspace{2cm} Integral Calculus
+
+\vspace{2mm}
+%\hline
+
+
+\begin{enumerate}
+ \item   (Applying the Definite Integral ) A marketing company is trying a new campaign. The
+campaign lasts for three weeks, and during this time, the company finds that it gains
+customers as a function of time according to the formula:
+$$C(t)=10t-4t^2+5$$
+where $t$ is time in weeks and the number of customers is given in thousands.
+\begin{enumerate}
+\item Using the following form of the definite integral,
+$$\int_{a}^{b}f(t)dt=\lim_{n\rightarrow \infty}\frac{b-a}{n}\sum_{i=1}^n f(a+\frac{(b-a)i}{n})$$
+calculate the average number of customers gained during the three-week campaign.
+
+\textbf{Solution.} We consider $t$ to be number of weeks.
+\begin{align*}
+\int_{0}^{3}(10t-4t^2+5)dt&=\lim_{n\rightarrow \infty}\frac{3}{n}\sum_{i=1}^n \left(10\left(\frac{3i}{n}\right)-4\left(\frac{3i}{n}\right)^2+5\right)\nonumber\\
+&=\lim_{n\rightarrow \infty}\frac{90}{n^2}\sum_{i=1}^n i - \frac{108}{n^3}\sum_{i=1}^n i^2 +\frac{15}{n}\sum_{i=1}^n 1=\frac{90}{2}-\frac{108}{3}+15=24. 
+\end{align*}
+
+\item Also compute the average number of customers using the form
+\begin{align*}
+\int_{a}^{b}f(t)dt=\lim_{n\rightarrow \infty}\frac{b-a}{n}\sum_{i=1}^n f(a+\frac{(b-a)(i-1)}{n})
+\end{align*}
+Compare the results. What can you confirm from this comparison?
+
+\textbf{Solution. }The result will be the same, and it confirms that $x_i^*$ can be any point in the interval $[x_{i-1},x_i]$.
+\end{enumerate}
+
+\item Explain why the following property is true:
+$$\left\vert\int_{a}^{b}f(t)dt\right\vert\leq \int_{a}^b |f(t)|dt$$
+Can you find an example where the inequality is strict?
+
+
+\textbf{Solution. }The LHS is the net area, while the RHS is the total area. Please draw a picture and explain it. No need for proof.
+
+\item Determine if each statement below is true or false.
+
+	\begin{enumerate}
+	\item We always set $x_i^*$ to be the right-hand endpoint of the $i$th interval.
+
+\textbf{Solution.} False. $x_i^*$ can be any point in the interval $[x_{i-1},x_i]$.
+
+	\item $$\sum_{i=1}^n i^3=\left(\frac{n(n+1)}{2}\right)^2$$
+
+\textbf{Solution. }True. Please help them to prove it using induction.
+
+	\item If $f(x)\geq 0$ on $[a,b]$, then $\int_{a}^b f(t)dt$ represents the total area bounded by $f$, $x=a$, $x=b$ and the $x$-axis.
+
+\textbf{Solution. }True. Please help them understand the necessity of condition $f\geq 0$. 
+	\end{enumerate}
+\end{enumerate}
+
+\end{document}
