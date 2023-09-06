@@ -1,0 +1,11 @@
+Author: Maxie Dion Schmidt (Summer 2021)
+
+The artwork was adapted from various freely available sources of 
+clipart and images available on Google Images. The final 
+renditions of the headers I used to customize the title slides 
+each week that are found in this directory were created using 
+the GIMP (a.k.a., the open source Photoshop).
+
+Please reuse them if you like the artwork I created. 
+Otherwise, if posting these images elsewhere, assume a 
+Creative Commons (CC) open source license for the composite images.
