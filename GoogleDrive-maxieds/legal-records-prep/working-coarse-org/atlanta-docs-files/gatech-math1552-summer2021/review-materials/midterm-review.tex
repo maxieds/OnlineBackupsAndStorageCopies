@@ -1,0 +1,861 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\vskip 1in
+\begin{center}
+     {\LARGE{\bf Math 1552: Integral Calculus \\[0.2ex] 
+                Review Problems for the Midterm Exam \\[1ex] 
+                Summer 2021
+     }}
+\end{center} 
+     
+     \bigskip 
+     \noindent
+     \emph{\textbf{***NOTE FROM THE INSTRUCTORS: ***} \\ 
+           While the list of sections above does 
+           not include every integration technique, please note that students are expected 
+           to also understand how to integrate with u-substitutions, by parts, and using 
+           trig identities, as these techniques may be needed in order to evaluate 
+           integrals from the above listed sections.  You will find some review problems 
+           from previous sections incorporated in the problems below.}
+
+\vskip 0.2in
+
+\bigskip\hrule\bigskip
+
+\section{Review for Sections: 4.8, 5.1-5.6, 8.2-8.3} 
+
+\subsection*{Formula Recap}
+
+\noindent 1. Complete each of the following formulas.
+
+\noindent (a) The general Riemann Sum is found using the formula:
+\vskip 1 cm
+\noindent (b) Some helpful summation formulas are:
+$$\sum_{i=1}^n c =$$
+$$\sum_{i=1}^n i = $$
+$$\sum_{i=1}^n i^2 = $$
+\medskip
+\noindent (c) Properties of the definite integral:
+$$\int_a^a f(x) dx = $$
+$$\int_b^a f(x) dx = $$
+$$\int_a^b c f(x) dx = $$
+\medskip
+\noindent (d) State the Fundamental Theorem of Calculus:
+\vskip 2 cm
+\noindent (e) Using the FTC:
+$${{d}\over{dx}} \left [ \int_{a(x)}^{b(x)} f(t) dt \right ] = $$
+\vskip 2 cm
+\noindent (f) If $F$ is an antiderivative of $f$, that means:
+\vskip 1 cm
+\noindent (g) If $F$ is an antiderivative of $f$, then:
+$$\int f(g(x)) g^{\prime}(x) dx = $$
+\medskip
+$$\int_a^b f(g(x)) g^{\prime}(x) dx = $$
+\medskip
+\noindent (h) To find the area between two curves, use the following 
+steps:
+\vskip 2.5 cm
+\noindent (h) Evaluate an integral using {\it integration by 
+parts\/} if:
+\vskip 1 cm
+\noindent To choose the value of $u$, use the rule:
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+\bigskip
+\noindent (i) To evaluate integrals with powers or products of trig 
+functions, use the following trig identities to try to obtain a 
+$u$-substitution: 
+\vskip 4 cm
+\noindent 2. Fill in the integration formulas below:
+
+$$\int x^n dx, \quad (n \neq -1) =$$
+$$\int \sin (ax) dx = $$
+$$\int \cos (ax) dx = $$
+$$\int \sec^2 (ax) dx = $$
+$$\int \sec (ax) \tan (ax) dx = $$
+$$\int \csc (ax) \cot (ax) dx = $$
+$$\int \csc^2 (ax) dx = $$
+$$\int {{1}\over{1+(ax)^2}} dx = $$
+$$\int {{1}\over{\sqrt{1-(ax)^2}}} dx = $$
+$$\int {{1}\over{x}} dx = $$
+$$\int e^{ax} dx = $$
+$$\int b^{ax} dx = $$
+$$\int \tan x dx = $$
+$$\int \sec x dx = $$
+$$\int \csc x dx = $$
+$$\int \cot x dx = $$
+\vfil\eject
+
+\subsection*{Problems Similar to the Studio Worksheets}
+
+\noindent 1. True or False?
+
+\noindent (a) If $F$ and $G$ are both antiderivatives of $f$, then $F=G$.
+
+\noindent (b) The antiderivative of $\sec^2 (3x)$ is ${{1}\over{3}} \tan 
+(3x)$.
+
+\noindent (c) The indefinite integral of a function $f$ is the collection of 
+all antiderivatives of $f$.
+
+\noindent (d) We know how to find the antiderivative of $\cos(x^2)$, and it is 
+$\sin (x^2)$.
+
+\noindent (e) To find the upper sum $U_f$ of a function $f$ on $[a,b]$, 
+after partitioning the interval into $n$ pieces, evaluate $f$ at the right-hand 
+endpoint of each subinterval.
+
+\noindent (f) When the interval $[a,b]$ is partitioned into $n$ pieces, there are 
+exactly $n$ endpoints.
+
+\noindent (g) A partition of the interval $[a,b]$ does not need to be evenly spaced 
+in order to calculate a Riemann Sum.
+
+\noindent (h) If $f$ is positive and continuous on $[a,b]$, and $A$ is the 
+actual area bounded by $f$, $x=a$, $x=b$, and the $x$-axis, then $L_f < A < 
+U_f$.
+
+\noindent (i) We always set $x_i^*$ to be the right-hand endpoint of the $i^{th}$ 
+interval.
+
+\noindent (j) $\sum_{i=1}^{n} i^2 = \left ( {{n(n+1)}\over{2}} \right )^2.$
+
+\noindent (k) If $f(x) \ge 0$ on $[a,b]$, then $\int_a^b f(x) \; dx$ represents the 
+total area bounded by $f$, $x=a$, $x=b$, and the $x$-axis.
+
+\noindent (l) If $f$ is a continuous function, then the function $F(x) = \int_a^x 
+f(t) dt$ is an anti-derivative of $f$.
+
+\noindent (m) If $F$ is an anti-derivative of $f$, then $\int_a^b f(x) dx$ 
+represents the slope of the secant line of F(x) on the interval $[a,b]$.
+
+\noindent (n) ${{d}\over{dx}} \left [ \int_a^b f(t) dt \right ] = f(x)$.
+
+\noindent (o) Given that $f$ is continuous on $[a,b]$ and $F^{\prime}(x) = f(x)$, 
+then $F(b)-F(a)$ represents the 
+net area bounded by the graph of $y=f(x)$, the lines $x=a$, $x=b$, and the 
+$x$-axis.
+
+\noindent (p) $\int f(x) g(x) \; dx = \left ( \int f(x) \; dx \right ) \cdot \left 
+( \int g(x) \; dx \right )$
+
+\noindent (q) To evaluate $\int \sin^{-1} (x) dx$ by parts, choose $u=\sin^{-1} 
+(x)$ and $dv = dx$.
+
+\noindent (r) To evaluate $\int x \ln (x) \; dx$ by parts, choose $u=x$ and $dv = 
+\ln (x) \; dx$.
+
+\noindent (s) To evaluate $\int \cot(x) \; dx$, integrate by substitution choosing 
+$u=\sin (x)$.
+
+\vskip 1in
+
+\noindent 2. Evaluate the following indefinite integrals.
+
+\noindent (a) $\int \left ( \sqrt{x} - {{1}\over{x}} \right )^2 dx$
+
+\noindent (b) $\int \left [ 4^{-2x} + e^{-5x}  \right ] dx$
+
+\noindent (c)  $\int \left ( {{e^{\sqrt{2}} +  
+x^{\sqrt{2}}}\over{\sqrt{x}}} \right ) dx$
+
+\noindent (d) $\int \left ( {{2}\over{3x}} - 
+{{1}\over{\sqrt{4-x^2}}} \right ) dx$
+
+\bigskip
+\noindent 3. A particle travels with a velocity given by $v(t) = 
+-{{1}\over{3}} t^2 + 4t +2$, where position is measured in meters and time in 
+seconds.  
+ 
+\noindent (a) Find the acceleration of the particle when $t=1$ second.
+
+\noindent (b) If the initial position is 4 m, find the position of the 
+particle at $t=1$ second.
+
+\bigskip
+\noindent 4.  ({\it Applying the Riemann Sum\/})
+You are driving when all of a sudden, you see traffic stopped in front of 
+you.  You slam the brakes to come to a stop.  While your brakes are 
+applied, the velocity of the car is measured, and you obtain the 
+following measurements:
+\medskip
+Time since applying breaks (sec) \hskip 0.2 cm 0 \hskip 0.4 cm 1 \hskip 
+0.4 cm 2 \hskip 0.4 cm 3 \hskip 0.4 cm 4 \hskip 0.4 cm 5
+
+Velocity of car (in ft/sec) \hskip 1.2 cm 88 \hskip 0.2 cm 60 \hskip 0.2 
+cm 40 \hskip 0.2 cm 25 \hskip 0.3 cm 10 \hskip 0.35 cm 0
+
+\medskip
+\noindent (a) Plot the points on a curve of velocity vs. time.
+
+\noindent (b) Using the points given, determine upper and lower bounds 
+for the total distance traveled before the car came to a stop.
+
+\bigskip
+\noindent 5.  Estimate the area under the graph of $f(x) = 10 - x^2
+$ between the lines $x=-3$ and $x=2$ using $n=5$ equally spaced
+subintervals, by finding:
+
+\noindent (a) the upper sum, $U_f$.
+
+\noindent (b) the lower sum, $L_f$.
+
+\medskip
+\noindent 6.  ({\it Applying the Definite Integral\/})
+A marketing company is trying a new campaign.  The campaign lasts for 
+three weeks, and during this time, the company finds that it gains 
+customers as a function of time according to the formula:
+$$C(t) = 5t - t^2,$$
+where $t$ is time in weeks and the number of customers is given in 
+thousands.
+
+\noindent Using the general form of the definite integral,
+$$\int_a^b f(x) dx = \lim_{n \to \infty} {{b-a}\over{n}} \sum_{i=1}^{n} 
+f(x_i^*),$$
+calculate the {\bf average} number of customers gained during the 
+three-week campaign.
+
+\medskip
+\noindent 7.  Explain why the following property is true:
+$$|\int_a^b f(x) dx | \leq \int_a^b |f(x)| dx.$$
+Can you find an example where the inequality is strict?
+\medskip
+\noindent 8.  Using the general form of the definite integral,
+$\int_a^b f(x) dx = \lim_{n \to \infty} \sum_{i=1}^{n} 
+f(x_i^*) \Delta x$, evaluate:
+$$\int_2^4 (x-1)^2 dx.$$
+\medskip
+\noindent 9.  Evaluate $\int_{0}^{2} |x-1| dx$ using integral properties 
+from class.  (HINT: draw a picture, and use geometry!)
+
+\medskip
+\noindent 10.  Suppose that $f(x)$ is an even function such 
+that $\int_0^2 f(x)dx = 5$ and
+$\int_0^3 f(x)dx = 8$. Find the value of $\int_{-2}^3 f(x)dx$.
+\medskip
+\noindent 11.  Evaluate the integrals:
+
+\noindent (a) $\int_{1}^{2} {{3x-5}\over{x^3}} dx$.
+
+\noindent (b) $\int_2^5 (2-x)(x-5) dx$.
+
+\noindent (c) $\int_{\pi}^{{{7 \pi}\over{2}}} {{1 + \cos(2t)}\over{2}} dt$.
+
+\bigskip
+\noindent 12.  Find $F^{\prime}(2)$ for the function
+$$F(x) = \int_{{8}\over{x}}^{x^2} \left ( {{t}\over{1 - \sqrt{t}}} 
+\right ) dt.$$
+\bigskip
+\noindent 13.  (a) Given the function $f$ below, evaluate $\int_1^9 f(x) dx$.
+$$f(x) = \left \{ \begin{matrix} x^2 + 4, & x < 4 \cr \sqrt{x} - x, & x \ge 4 \end{matrix} \right\}.$$ 
+
+\noindent (b) Would you get the same answer to part (a) if you evaluated 
+$F(9)-F(1)$?  What does this tell you about the FTC and continuity?
+
+\bigskip
+\noindent 14.  (a) Evaluate the expressions:
+$$\int_0^1 x(1+x) \; dx, \quad \left ( \int_0^1 x \; dx \cdot \int_0^1 
+(1+x) \; dx 
+\right )$$
+
+\noindent (b) Looking at your answer in part (a), what, if anything, can 
+you say in general about $\int (f(x) \cdot g(x)) dx$?
+
+\bigskip
+\noindent 15.  For each integral below, determine if we can evaluate the 
+integral using the method of $u$-substitution.  If the answer is "yes", 
+evaluate the integral.
+
+\noindent (a) $\int {{1}\over{x^2}} \sec \left ( {{1}\over{x}} \right ) 
+\tan \left ( {{1}\over{x}} \right ) dx$
+
+\noindent (b) $\int x \csc^2 (x) dx$
+
+\noindent (c) $\int {{\sin 3x - \cos 3x}\over{\sin 3x + \cos 3x}} dx$
+
+\noindent (d) $\int \tan (x^2) dx $
+
+\bigskip
+\noindent 16.  Evaluate the following integrals using the method of 
+substitution.
+
+\noindent (a) $\int {{1}\over{\ln(x^x)}} dx$
+
+\noindent (b) $\int {{e^{2x}}\over{\sqrt{4-3e^{2x}}}} dx$
+
+\noindent (c) $\int {{dx}\over{\sqrt{4 - (x+3)^2}}}$
+
+\noindent 17.  Suppose that $y=f(x)$ and $y=g(x)$ are both continuous 
+functions on the interval $[a,b]$.  Determine if each statement below is always 
+true or sometimes false.
+
+\noindent (a) Suppose that $f(c) > g(c)$ for some number $c \in (a,b)$.  Then the 
+area bounded by $f$, $g$, $x=a$, and $x=b$ can be found by evaluating the integral 
+$\int_a^b (f(x) - g(x) ) \; dx$. 
+
+\noindent (b) If $\int_a^b (f(x) - g(x)) \; dx$ evaluates to -5, then the area 
+bounded by $f$, $g$, $x=a$, and $x=b$ is 5.
+
+\noindent (c) If $f(x) > g(x)$ for every $x \in [a,b]$, then
+$\int_a^b |f(x) - g(x) | \; dx = \int_a^b (f(x) - g(x)) \; dx$.
+
+\noindent 18.  Find the area bounded by the region
+between the curves $f(x)=x^3+2x^2$ and 
+$g(x)=x^2+2x$.
+
+\medskip
+\noindent 19.  Find the area bounded by the region enclosed by the three 
+curves $y=x^3$, $y=-x$, and $y=-1$.
+
+\medskip
+\noindent 20.  Find the area bounded by the curves $y=\cos x$
+and $y=\sin(2x)$ on the interval $\left [ 0, {{\pi}\over{2}} \right ]$.
+
+\medskip
+\noindent 21.  Find the area of the triangle with vertices at the points 
+(0,1), (3,4), and (4,2).  USE CALCULUS.
+
+\medskip
+\noindent 22.  For each function below: (i) determine which method to use to 
+evaluate the function (formula, u-substitution, or integration by parts, 
+and (ii) evaluate the integral.
+
+\medskip
+\noindent (a) $\int_1^e {{\sqrt{\ln x}}\over{x}} \; dx$
+
+\noindent (b) $\int (\ln x)^2 \; dx$
+
+\noindent (c) $\int x^2 e^{x^3} \; dx$
+
+\noindent (d)  $\int x^3 e^{x^2} \; dx$
+
+\noindent (e) $\int 4^{-x} \; dx$
+
+\noindent (f)  $\int x^2 \cdot 4^x \; dx$
+
+\bigskip
+\noindent 23. Determine if each integral below can be evaluated using a method we 
+have 
+learned so far (formula, u-substitution, integration by parts, or trig identities).  
+If so, evaluate the integral.  If not, explain why it cannot be evaluated.
+
+\medskip
+\noindent (a)  $\int x^5 \ln (x) \; dx$
+
+\noindent (b)  $\int \sin^5(2x) \cos^3 (2x) \; dx$
+
+\noindent (c)  $\int \cos^2 (3x) \; dx$
+
+\noindent (d)  $\int \tan (x) \ln [\cos (x)] \; dx$
+
+\noindent (e)  $\int \sin \left (x^2 \right ) \; dx$
+
+\noindent (f)  $\int \tan^4(x) dx$
+
+\noindent (g)  $\int e^{2x} \sin(3x) dx$
+
+\vskip 1in
+
+\subsection*{Additional Midterm Review Problems}
+
+\noindent 24.  True or false?
+
+\noindent (a) When evaluating a {\bf definite} integral using $u$-subsitution, 
+different choices of $u$ may lead to different final answers.
+
+\noindent (b) Integration by Parts is a Product Rule in integral form.
+
+\noindent (c) The goal of integration by parts is to go from an integral $\int 
+f'(x) g'(x) dx$ that we can't evaluate to an integral $\int f(x) g(x) 
+dx$ that we can evaluate.
+
+\noindent (d) Definite integrals can not be evaluated by Integration by Parts.
+
+\noindent (e) If $f$ is a continuous, increasing function, then the right-hand 
+Riemann sum method always overestimates the definite integral.
+
+\noindent (f)  Let $f$ be a continuous function and $av(f)$ be the 
+average of $f$. Then $av(f) \cdot (b-a) =\int_{a}^{b} f(x)dx$.
+
+\noindent (g) When finding the area between the curves $y=x^3-x$ 
+and $y=x^2+x$ it suffices to find the value of the definite integral $\int_{-1}^2 
+\left [ (x^3 - x) - (x^2+x) \right ] \; dx$, and then take the absolute value of 
+this value to get the right answer.
+
+\noindent (h) To find the area between the curves $y=x^3-x$ and 
+$y=x^2+x$ , first set the equations equal and solve to find the intersection points 
+$x=-1$ and $x=2$,  plug in a test-point into the equations or graph the curves to 
+determine {\bf top} and {\bf bot}, and then evaluate $\int_{-1}^2 
+({\bf top}) - ({\bf bot}) \; dx$.
+
+\noindent (i) If $\int_0^1 f(x) \; dx = 9$ and $f(x) \ge 0$, then 
+$\int_0^1 \sqrt{f(x)} \; dx = 3$.
+
+\bigskip 
+\noindent 25.  Evaluate the following integrals.
+
+\noindent (a) $\int_{0}^{{{\pi}\over{4}}} \sec ^2 (t) e^{1+\tan (t)} \; dt$
+
+\noindent (b) $\int \sin^3(x)\cos^3(x) \; dx$
+
+\noindent (c) $\int {{1}\over{\sqrt{4-9w^2}}} \; dw$
+
+\noindent (d) $\int x \sin (x) \cos (x) \; dx$
+
+\noindent (e) $\int \sec^4(x) \; dx$
+
+\noindent (f) $\int \ln (x+1) \; dx$
+
+\noindent (g) $\int \left(1+\sqrt{x}\right)^{12} dx$ (HINT: Do not expand out the integrand.)
+
+\bigskip
+\noindent 26. Suppose: $f(1)=2, f(4)=7, f'(1)=5, f'(4)=3$ and $f''(x)$ is 
+continuous. Find the value of:
+$$\int _1^4 x f''(x) \; dx.$$
+\bigskip
+\noindent 27.   Consider the following limit
+$$\lim_{n\to\infty} \sum_{i=1}^{n} \cos \left (\pi\cdot 
+{{i}\over{n}} \right )\cdot{{\pi}\over{2n}}.$$
+
+\noindent (a) Express the limit as a definite integral.
+
+\noindent (b)  Compute the definite integral from part (a).
+
+\bigskip
+\noindent 28.  Let $f(x) = 3x+4$.
+
+\noindent (a) Estimate the area of the region between the graph of $f$, the lines 
+$x=-1$ and $x=2$,  and the 
+$x$-axis using a upper sum with three rectangles of equal width.
+
+\noindent (b) Find the actual area in part (a) by taking the limit of a general 
+Riemann Sum
+using $n$ equally spaced subintervals, and taking $x^{*}_i$ as the right-hand 
+endpoint of each interval.
+
+\bigskip
+\noindent 29. Find the area bounded by the curves $y=\cos^2(x)$ and $y=-\sin^2(x)$, 
+and the 
+lines $x=0$ and $x=\pi$. (Hint: draw a picture in GeoGebra - an online 
+graphing tool.)
+
+\bigskip
+\noindent 30. Find the area bounded by the curves $y=-x^2+6x$ and $y=x^2-2x-24$. 
+(Hint: sketch the curves or make a sign chart.)
+
+\bigskip
+\noindent 31. Find $F^{\prime}(4)$ if $$F(x) = 
+\int_{{x^2}\over{4}}^{x^2} \ln (\sqrt{t}) \; dt.$$
+
+\bigskip
+\noindent 32. What value of $b > -1$ maximizes the integral:
+$$\int_{-1}^b x^2(7-x) dx?$$
+
+\bigskip
+\noindent 33.  Find a number $c$ so that $f(c)$ is equal to the average 
+value of the function $f(x) = 1 + x$ on the interval $[-1,3]$.  
+Graphically, what does that mean?
+
+\vskip 1in
+
+\subsection*{Answers to Selected Problems}
+
+\noindent 1.  (b), (c), (g), (k), (l), (o), (q), (s) are true
+
+\noindent 2.  (a) ${{1}\over{2}} x^2 - 4 \sqrt{x} - {{1}\over{x}} + C$
+
+\noindent (b) $-{{1}\over{2 \ln 4}} 4^{-2x} -{{1}\over{5}} e^{-5x} + C$
+
+\noindent (c)  $2 e^{\sqrt{2}} \sqrt{x} + {{1}\over{\sqrt{2}+1/2}} 
+x^{\sqrt{2}+1/2} + C$
+
+\noindent (d) ${{2}\over{3}} \ln |x| - \sin^{-1} \left ( {{x}\over{2}} 
+\right ) + C$
+
+\noindent 3.  (a) ${{10}\over{3}}$ $m/s^2$, (b) $7 {{8}\over{9}}$ m
+
+\noindent 4. (b) Upper:  223 ft, Lower: 135 ft
+
+\noindent 5. (a) 44 (b) 31
+
+\noindent 6.  4,500 customers
+
+\noindent 7.  Consider the difference between NET and TOTAL area.
+
+\noindent 8.  ${{26}\over{3}}$ 
+
+\noindent 9.  1 
+
+\noindent 10. 13
+
+\noindent 11. (a) $-{{3}\over{8}}$;  (b) ${{9}\over{2}}$;  (c) ${{5 \pi}\over{4}}$
+
+\noindent 12. -24
+
+\noindent 13. (a) ${{79}\over{6}}$; (b) you cannot use the FTC as stated when $f$ 
+is discontinuous somewhere on the interval $[a,b]$
+
+\noindent 14.  (a) ${{5}\over{6}}$ and ${{3}\over{4}}$; no general rule
+
+\noindent 15.  (a) $- \sec \left ( {{1}\over{x}} \right ) + C$, (c) 
+$-{{1}\over{3}} \ln |\sin 3x + \cos 3x| + C$
+
+\noindent 16.  (a) $\ln |\ln x| + C$, (b) $-{{1}\over{3}} \sqrt{4-3e^{2x}} 
++ C$, (c) $\sin^{-1} \left ( {{x+3}\over{2}} \right ) + C$
+
+\noindent 17. (c) is true 
+
+\noindent 18. ${{37}\over{12}}$ 
+
+\noindent 19. ${{5}\over{4}}$ 
+
+\noindent 20. ${{1}\over{2}}$ 
+
+\noindent 21. 5. 4.5
+
+\noindent 22. (a) ${{2}\over{3}}$
+
+\noindent (b) $x (\ln x)^2 - 2x \ln x + 2x + C$ 
+
+\noindent (c) ${{1}\over{3}} e^{x^3} + C$
+
+\noindent (d) ${{x^2 e^{x^2}}\over{2}} - {{e^{x^2}}\over{2}} + C$
+
+\noindent (e) $-{{1}\over{\ln 4}} 4^{-x} + C$
+
+\noindent (f) ${{1}\over{\ln 4}} x^2 \cdot 4^x - {{2}\over{(\ln 
+4)^2}} x \cdot 4^x + {{2}\over{(\ln 4)^3}} 4^x + C$
+
+\noindent 23. (a) ${{x^6 \ln x}\over{6}} - {{x^6}\over{36}} + C$
+
+\noindent (b) ${{1}\over{12}} \sin^6 (2x) -  {{1}\over{16}} \sin^8 (2x) + C$
+
+\noindent (c) ${{1}\over{2}} x + {{1}\over{12}} \sin (6x) + C$
+
+\noindent (d) $-{{1}\over{2}} (\ln [\cos(x)])^2 + C$
+
+\noindent (e) Cannot be evaluated
+
+\noindent (f) ${{1}\over{3}} \tan^3 (x) - \tan (x) + x + C$
+
+\noindent (g) ${{2}\over{13}} e^{2x} \sin(3x) - {{3}\over{13}} e^{2x} \cos(3x) +
+C$
+
+\noindent 24.  (e), (f) are true
+
+\noindent 25.  (a)  $e^2-e$
+
+\noindent (b)  ${{1}\over{6}}\cos^6(x)-{{1}\over{4}}\cos^4(x)+C$
+
+\noindent (c)  ${{1}\over{3}} \arcsin \left ( {{3w}\over{2}} \right ) +C$
+
+\noindent (d)  ${{x}\over{2}} \sin^2 x - {{1}\over{4}}x + {{1}\over{8}}\sin 2x +C$
+
+\noindent (e)  $\tan(x)+{{\tan^3(x)}\over{3}}+C$
+
+\noindent (f) $(x+1) \ln (x+1) - (x+1) + C$
+
+\noindent (g) $\frac{1}{7}(1+\sqrt{x})^{14} - \frac{2}{13}(1+\sqrt{x})^{13} + C$
+
+\noindent 26.  2
+
+\noindent 27.  (a) $\int_{0}^{{\pi}\over{2}} \cos(2x) dx$, (b) 0
+
+\noindent 28.  (a) 21, (b) 16.5
+
+\noindent 29.  $\pi$
+
+\noindent 30.  ${{512}\over{3}}$ or approximately $170.67$
+
+\noindent 31.  $14 \ln 2$
+
+\noindent 32.  $b=7$
+
+\noindent 33.  $c=1$
+
+\section{Review for Sections: 4.5, 8.4-8.5, 8.8}
+
+\subsection*{Content Recap}
+
+\noindent (a) To 
+apply L'Hopital's rule, the limit must have 
+the indeterminate form 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ or $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent (b) An integral $\int_a^b f(x) dx$ is {\it improper\/} if at 
+least one of the 
+limits of integration is \hfil\break $\_\_\_\_\_\_\_\_\_\_\_\_\_$, or if 
+there is a
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ on the interval 
+$[a,b]$.
+
+\bigskip
+\noindent (c) If we would evaluate an integral using {\it trig 
+substitution\/}, the 
+integral should contain an expression of one of these forms:
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$, $\_\_\_\_\_\_\_\_\_\_\_\_\_$, or 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent Write out the trig substitution you would use for each form listed 
+above.
+
+\vskip 2 cm
+\noindent (d) To use the method of {\it partial fractions\/}, we must first 
+factor the denominator completely into $\_\_\_\_\_\_\_\_\_\_\_\_\_$ or 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ terms. 
+
+\bigskip
+\noindent In the partial fraction decomposition, if the term in the 
+denominator is raised to the $k$th power, then we have 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ partial fractions. 
+
+\bigskip
+\noindent For each linear term, the numerator of the partial fraction will 
+be $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent For each irreducible quadratic term, the numerator will be 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\subsection*{Studio Worksheet Type Problems}
+
+\noindent 2.  Determine if the following statements below are always true 
+or sometimes false.
+
+\noindent (a) If an integral contains the term $a^2+x^2$, we should use 
+the substitution $x=a \sec \theta$.
+
+\smallskip
+\noindent (b) The expression $\tan \left ( \sin^{-1} (x) \right )$ cannot 
+be simplified.
+
+\smallskip
+\noindent (c) When using a trig substitution with a term of the form 
+$a^2-x^2$, we could use either $x=a \sin \theta$ or $x= a 
+\cos \theta$ and obtain equivalent answers (that may differ only by a 
+constant).
+
+\smallskip
+\noindent (d) If we use the trig substitution $x = \sin \theta$, then 
+it is possible that $\sqrt{1-x^2} = -\cos \theta$. 
+
+\smallskip
+\noindent (e) The partial fraction decomposition of ${{x}\over{(x+3)^2}}$ 
+is ${{A}\over{x+3}} + {{B}\over{(x+3)^2}}$.
+
+\smallskip
+\noindent (f) $\int {{dx}\over{(x+3)^2}} = \ln (x+3)^2 + C.$
+
+\smallskip
+\noindent (g) The integral $\int {{x}\over{x^2-9}} dx$ could be best 
+evaluated using the method of partial fractions.
+
+\smallskip
+\noindent (h) The integral $\int {{dx}\over{x (x^4+1)}}$ cannot be 
+evaluated using the method of partial fractions. 
+
+\smallskip
+\noindent (i) $\lim_{x \to \infty} xe^x$ has the indeterminate form 
+$\infty^{\infty}$.
+
+\smallskip
+\noindent (j) $\lim_{x \to 0^+} (\cos x)^{{1}\over{x}}$ has the indeterminate 
+form $1^{\infty}$.
+
+\smallskip
+\noindent (k) $\lim_{x \to \infty} \left ( 1 + {{1}\over{x}} \right )^{2x} = 
+2e$.
+
+\smallskip
+\noindent (l) When evaluating a limit using L'Hopital's rule, we first need to 
+find $\left ( {{f}\over{g}} \right )^{\prime}$. 
+
+\smallskip
+\noindent (m) If $f$ has a vertical asymptote at $x=a$, then $\int_a^b f(x) dx 
+= \lim_{c \to a^+} \int_c^b f(x) dx$.
+
+\smallskip
+\noindent (n) $\int_{-1}^1 {{1}\over{x}} dx = 0.$
+
+\smallskip
+\noindent (o) Saying that an improper integral converges means that the 
+integral must evaluate to a finite number.
+
+\smallskip
+\noindent (p) Indefinite integrals can be improper.
+
+\bigskip
+\noindent 3. Evaluate the following integrals using any method we have 
+learned so far: \hfil\break
+$u$-substitutions, integration by parts, integrating trig functions,
+trigonometric substitutions, or partial fractions.
+
+\noindent (a) $\int {{x^2}\over{(x^2+4)^{3/2}}} dx$
+
+\noindent (b)  $\int (x^2+1) e^{2x} dx$
+
+\noindent (c) $\int {{\sqrt{1-x^2}}\over{x^4}} dx$
+
+\noindent (d)  $\int {{dx}\over{e^x \sqrt{e^{2x} - 9}}}$
+
+\noindent (e)  $\int \sin^2(x) \cos^2(x) dx$
+
+\noindent (f) $\int {{x+3}\over{(x-1)(x^2-4x+4)}} dx$
+
+\noindent (g) $\int x^5 \ln (x) dx$
+
+\noindent (h) $\int {{x+4}\over{x^3+x}} dx$
+
+\noindent (i) $\int \sqrt{25-x^2} dx$
+
+\noindent (j) $\int {{x-1}\over{(x+1)^3}} dx$
+
+\noindent (k) $\int {{x+2}\over{x+1}} dx$
+
+\noindent (l) $\int {{x+1}\over{x^2(x-1)}} dx$
+
+\medskip
+\noindent 4.  Evaluate the following limits using L'Hopital's Rule.
+
+\noindent (a) $\lim_{x \to 0^+} [x (\ln(x))^2]$
+
+\noindent (b) $\lim_{x \to \infty} (x + e^x)^{2/x}$
+
+\noindent (c) $\lim_{x \to {{\pi}\over{2}}} \left [ {{\ln (\sin x)}\over{(\pi - 
+2x)^2}} \right ]$
+
+\bigskip
+\noindent 5.  Evaluate the improper integrals if they converge, or show 
+that the integral diverges.
+
+\noindent (a) $\int_0^3 {{x}\over{(x^2-1)^{2/3}}} dx$
+
+\noindent (b) $\int_0^{\infty} x^2 e^{-2x}dx$
+
+\noindent (c) $\int_1^4 {{dx}\over{x^2-5x+6}}$
+
+\subsection*{Additional Midterm Review Problems}
+
+\noindent 10. Determine if each statement below is always true or sometimes 
+false.
+
+\noindent (a) $\lim_{x\to 2} {{x-2}\over{x^2+x-6}}$ is of an 
+indeterminate form.
+
+\smallskip
+\noindent (b) $\lim_{x\to \infty} \left ( 1-{{1}\over{x}} \right )^x=e$
+
+\smallskip
+\noindent (c) The integral $\int x^3 \sqrt{1-x^2} \; dx$ can be evaluated by 
+trigonometric substitution by setting $x=\sin x$.
+
+\smallskip
+\noindent (d) $\sin(\cos^{-1}(x)) = \tan (x)$.
+
+\smallskip
+\noindent (e) For the rational expression ${{x}\over{(x+10)(x-10)^2}}$ , the 
+partial fraction decomposition is of the form ${{A}\over{x+10}} + 
+{{B}\over{(x-10)^2}}$.
+
+\smallskip
+\noindent (f) For the rational expression ${{2x+3}\over{x^2 (x+2)^2}}$, the 
+partial fraction decomposition is of the form 
+${{A}\over{x^2}}+{{B}\over{x+2}}+{{C}\over{(x+2)^2}}$.
+
+\smallskip
+\noindent (m) The integral $\int_{-1}^1 {{1}\over{x^2}} \; dx$ can be evaluated 
+using the Fundamental Theorem of Calculus.
+
+\noindent 11.  Evaluate each integral using any method we have learned.
+
+\noindent (a) $\int {{2x+1}\over{x^2-7x+12}} \; dx$
+
+\noindent (b) $\int {{8 \; dx}\over{x^2 \sqrt{4-x^2}}}$
+
+\noindent (c) $\int {{8 \; dx}\over{(4x^2+1)^2}}$
+
+\noindent (d) $\int {{1}\over{(x+1)(x^2+1)}}\; dx$
+
+\bigskip
+\noindent 12.  Use L'Hopital's rule to evaluate the following limits.
+
+\noindent (a) $\lim_{x\to\infty}(\ln x)^{{1}\over{x^2+1}}$
+
+\noindent (b) $\lim_{x\to 0^+}(\ln x)^x$
+
+\noindent (c) $\lim_{x \to 0} \left [ {{1}\over{x}} - \cot x 
+\right ]$
+
+\noindent (d) $\lim_{x \to \infty} \left [ \cos \left ( {{1}\over{x}} \right ) 
+\right ]^x$
+
+\medskip
+\noindent 13.  Find values of $a$ and $b$ so that
+$$\lim_{x \to 0} {{\cos (ax) - b}\over{2x^2}} = -4.$$
+
+\subsection*{Answers to Selected Questions} 
+
+\noindent 2.  (c), (e), (h), (j), (m), (o), (s), (u), (w), (x), (y) are true
+
+\noindent 3. (a) $\ln | {{\sqrt{x^2+4}}\over{2}} + {{x}\over{2}} | - 
+{{x}\over{\sqrt{x^2+4}}} + C$
+\hskip 0.2 cm
+(b) ${{1}\over{2}} (x^2+1) e^{2x} - {{1}\over{2}}
+x e^{2x} + {{1}\over{4}} e^{2x} + C$
+
+\smallskip
+\noindent (c) $-{{1}\over{3}} \cdot {{(1-x^2)^{3/2}}\over{x^3}} + C$
+\hskip 0.1 cm (d) ${{\sqrt{e^{2x}-9}}\over{9e^x}} + C$
+\hskip 0.1 cm
+(e) ${{x}\over{8}} - {{1}\over{32}} \sin(4x) + C$
+
+\noindent (f)  $4 \ln \left | {{x-1}\over{x-2}} \right | - 
+{{5}\over{x-2}} + 
+C$ (partial fractions)
+
+\smallskip
+\noindent (g) ${{x^6 \ln x}\over{6}} - {{x^6}\over{36}} + C$ (by parts)
+
+\smallskip
+\noindent (h)  $4 \ln |x| - 2 \ln (x^2+1) + \tan^{-1} (x) + C$ (partial 
+fractions)
+
+\noindent (i) ${{25}\over{2}} \sin^{-1} \left ( {{x}\over{5}} \right ) + 
+{{x \sqrt{25-x^2}}\over{2}} + C$ (trig sub)
+
+\noindent (j)  $-{{1}\over{x+1}} + {{1}\over{(x+1)^2}} + C$ \hskip 0.5 cm
+(k)  $x + \ln|x+1| + C$ 
+
+\noindent (l)  $-2 \ln|x| + {{1}\over{x}} + 2 \ln|x-1| + C$
+
+\noindent 4. (a) 0, (b) $e^2$, (c) $-{{1}\over{8}}$ 
+
+\noindent 5. (a) ${{9}\over{2}}$, (b) ${{1}\over{4}}$, (c) diverges
+
+\noindent 10.  (a), (c), (i), (j), (l) are true
+
+\noindent 11. (a) $-7 \ln|x-3|+9\ln |x-4|+C$,  (b) ${{-2\sqrt{4-x^2}}\over{x}}+ 
+C$ 
+
+\noindent (c) $2 \tan ^{-1}(2x)+{{4x}\over{4x^2+1}}+C$, (d) 
+${{1}\over{2}}\ln|x+1|+{{1}\over{2}}\arctan x-{{1}\over{4}}\ln|x^2+1|+C$
+
+\noindent 12. (a) 1, (b) 1, (c) 0, (d) 1
+
+\noindent 13.  $a = \pm 4$, $b=1$
+
+\end{document}
+
+
+
+

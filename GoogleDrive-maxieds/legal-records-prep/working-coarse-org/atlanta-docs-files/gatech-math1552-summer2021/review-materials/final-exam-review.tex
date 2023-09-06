@@ -1,0 +1,1790 @@
+\documentclass[12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{amsthm}
+\usepackage{fullpage}
+
+\usepackage[total={7in, 10in},tmargin=0.75in,headsep=8pt]{geometry}
+
+\setlength{\parskip}{1em}
+\pagestyle{empty}
+
+\begin{document}
+
+\vskip 1in
+\begin{center}
+     {\LARGE{\bf Math 1552: Integral Calculus \\[0.2ex] 
+                Review Problems for the Final Exam \\[1ex] 
+                Summer 2021
+     }}
+\end{center} 
+     
+     \bigskip 
+     \noindent
+     \emph{\textbf{***PLEASE NOTE: ***} \\ 
+           In preparing for the final exam, you should review the 
+           following problems from our past study guides, and the additional 
+           problems on volumes listed below.
+           You will also find some review problems 
+           from previous sections incorporated in the problems below. 
+           While the list of sections above does 
+           not include every integration technique, please note that students are expected 
+           to also understand all of the techniques we have seen in the class, and how to 
+           combine them in a single problem. This means, for example, that you may have to 
+           apply a substitution followed by another method in an integration problem, or apply 
+           L'Hopital's rule to evaluate an improper integral, as we have seen examples of 
+           throughout the course.
+     }
+
+
+\vskip 0.2in
+
+\bigskip\hrule\bigskip
+
+\section{Review of Sections 8.4--8.5, 4.5, 8.8, 10.1--10.2}
+
+\subsection*{Content Recap}
+
+\noindent (a) To 
+apply L'Hopital's rule, the limit must have 
+the indeterminate form 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ or $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent (b) An integral $\int_a^b f(x) dx$ is {\it improper\/} if at 
+least one of the 
+limits of integration is \hfil\break $\_\_\_\_\_\_\_\_\_\_\_\_\_$, or if 
+there is a
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ on the interval 
+$[a,b]$.
+
+\bigskip
+\noindent (c) If we would evaluate an integral using {\it trig 
+substitution\/}, the 
+integral should contain an expression of one of these forms:
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$, $\_\_\_\_\_\_\_\_\_\_\_\_\_$, or 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent Write out the trig substitution you would use for each form listed 
+above.
+
+\vskip 2 cm
+\noindent (d) To use the method of {\it partial fractions\/}, we must first 
+factor the denominator completely into $\_\_\_\_\_\_\_\_\_\_\_\_\_$ or 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ terms. 
+
+\bigskip
+\noindent In the partial fraction decomposition, if the term in the 
+denominator is raised to the $k$th power, then we have 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ partial fractions. 
+
+\bigskip
+\noindent For each linear term, the numerator of the partial fraction will 
+be $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent For each irreducible quadratic term, the numerator will be 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent (e) Define the least upper bound and greatest lower bound of a 
+sequence.
+
+\vskip 2 cm
+\noindent (f) What does it mean for a sequence to be monotonic?
+
+\vskip 2 cm
+\noindent (g) A sequence {\bf converges} if $\_\_\_\_\_\_\_\_\_\_\_\_\_$ and 
+{\bf diverges} if $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\bigskip
+\noindent (h) If a sequence is $\_\_\_\_\_\_\_\_\_\_\_\_\_$ and 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$, then it converges.
+
+\bigskip
+\noindent (i) A geometric series has the general form 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.  \hfil\break
+The series converges when 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ and diverges when 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\medskip
+\noindent (j) The harmonic series  has the general 
+form $\_\_\_\_\_\_\_\_\_\_\_\_\_$, and it always $\_\_\_\_\_\_\_\_\_\_\_\_\_$!
+
+\medskip 
+\noindent (k) To find the sum of a telescoping series, we should first break it 
+into  $\_\_\_\_\_\_\_\_\_\_\_\_\_$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$. 
+
+\bigskip
+\noindent (l) The series $\sum a_n$ diverges if the limit is NOT equal to 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\subsection*{Problems Similar to the Studio Worksheets}
+
+\noindent 2.  Determine if the following statements below are always true 
+or sometimes false.
+
+\noindent (a) If an integral contains the term $a^2+x^2$, we should use 
+the substitution $x=a \sec \theta$.
+
+\smallskip
+\noindent (b) The expression $\tan \left ( \sin^{-1} (x) \right )$ cannot 
+be simplified.
+
+\smallskip
+\noindent (c) When using a trig substitution with a term of the form 
+$a^2-x^2$, we could use either $x=a \sin \theta$ or $x= a 
+\cos \theta$ and obtain equivalent answers (that may differ only by a 
+constant).
+
+\smallskip
+\noindent (d) If we use the trig substitution $x = \sin \theta$, then 
+it is possible that $\sqrt{1-x^2} = -\cos \theta$. 
+
+\smallskip
+\noindent (e) The partial fraction decomposition of ${{x}\over{(x+3)^2}}$ 
+is ${{A}\over{x+3}} + {{B}\over{(x+3)^2}}$.
+
+\smallskip
+\noindent (f) $\int {{dx}\over{(x+3)^2}} = \ln (x+3)^2 + C.$
+
+\smallskip
+\noindent (g) The integral $\int {{x}\over{x^2-9}} dx$ could be best 
+evaluated using the method of partial fractions.
+
+\smallskip
+\noindent (h) The integral $\int {{dx}\over{x (x^4+1)}}$ cannot be 
+evaluated using the method of partial fractions. 
+
+\smallskip
+\noindent (i) $\lim_{x \to \infty} xe^x$ has the indeterminate form 
+$\infty^{\infty}$.
+
+\smallskip
+\noindent (j) $\lim_{x \to 0^+} (\cos x)^{{1}\over{x}}$ has the indeterminate 
+form $1^{\infty}$.
+
+\smallskip
+\noindent (k) $\lim_{x \to \infty} \left ( 1 + {{1}\over{x}} \right )^{2x} = 
+2e$.
+
+\smallskip
+\noindent (l) When evaluating a limit using L'Hopital's rule, we first need to 
+find $\left ( {{f}\over{g}} \right )^{\prime}$. 
+
+\smallskip
+\noindent (m) If $f$ has a vertical asymptote at $x=a$, then $\int_a^b f(x) dx 
+= \lim_{c \to a^+} \int_c^b f(x) dx$.
+
+\smallskip
+\noindent (n) $\int_{-1}^1 {{1}\over{x}} dx = 0.$
+
+\smallskip
+\noindent (o) Saying that an improper integral converges means that the 
+integral must evaluate to a finite number.
+
+\smallskip
+\noindent (p) Indefinite integrals can be improper.
+
+\smallskip
+\noindent (q) If $\{a_n\}$ is bounded, then it converges.
+
+\smallskip
+\noindent (r) If $\{a_n\}$ converges, then it is monotonic.
+
+\smallskip
+\noindent (s) An unbounded sequence diverges.
+
+\smallskip
+\noindent (t) If $\{a_n\}$ diverges, then $\lim_{n \to \infty} a_n = \infty$.
+
+\smallskip
+\noindent (u) The sequence $\{ {{1}\over{n}} \}$ converges to 0.
+
+\smallskip
+\noindent (v) If $\lim_{n \to \infty} a_n =0$, then the series $\sum a_n$ 
+converges.
+
+\smallskip
+\noindent (w) If $\lim_{n \to \infty} a_n =0$, then the sequence $\{a_n\}$ 
+converges.
+
+\smallskip
+\noindent (x) The series $\sum_{n=0}^{\infty} {{1}\over{n+1}}$ diverges.
+
+\smallskip
+\noindent (y) The sum of two divergent series also diverges.
+
+\smallskip
+\noindent (z) The series $\sum_{n=1}^{\infty} r^n$ converges to 
+${{1}\over{1-r}}$ if $|r|<1$.
+
+\bigskip
+\noindent 3. Evaluate the following integrals using any method we have 
+learned so far: \hfil\break
+$u$-substitutions, integration by parts, integrating trig functions,
+trigonometric substitutions, or partial fractions.
+
+\noindent (a) $\int {{x^2}\over{(x^2+4)^{3/2}}} dx$
+
+\noindent (b)  $\int (x^2+1) e^{2x} dx$
+
+\noindent (c) $\int {{\sqrt{1-x^2}}\over{x^4}} dx$
+
+\noindent (d)  $\int {{dx}\over{e^x \sqrt{e^{2x} - 9}}}$
+
+\noindent (e)  $\int \sin^2(x) \cos^2(x) dx$
+
+\noindent (f) $\int {{x+3}\over{(x-1)(x^2-4x+4)}} dx$
+
+\noindent (g) $\int x^5 \ln (x) dx$
+
+\noindent (h) $\int {{x+4}\over{x^3+x}} dx$
+
+\noindent (i) $\int \sqrt{25-x^2} dx$
+
+\noindent (j) $\int {{x-1}\over{(x+1)^3}} dx$
+
+\noindent (k) $\int {{x+2}\over{x+1}} dx$
+
+\noindent (l) $\int {{x+1}\over{x^2(x-1)}} dx$
+
+\medskip
+\noindent 4.  Evaluate the following limits using L'Hopital's Rule.
+
+\noindent (a) $\lim_{x \to 0^+} [x (\ln(x))^2]$
+
+\noindent (b) $\lim_{x \to \infty} (x + e^x)^{2/x}$
+
+\noindent (c) $\lim_{x \to {{\pi}\over{2}}} \left [ {{\ln (\sin x)}\over{(\pi - 
+2x)^2}} \right ]$
+
+\bigskip
+\noindent 5.  Evaluate the improper integrals if they converge, or show 
+that the integral diverges.
+
+\noindent (a) $\int_0^3 {{x}\over{(x^2-1)^{2/3}}} dx$
+
+\noindent (b) $\int_0^{\infty} x^2 e^{-2x}dx$
+
+\noindent (c) $\int_1^4 {{dx}\over{x^2-5x+6}}$
+
+\medskip
+\noindent 6.  For each sequence below, find the l.u.b. and g.l.b., and 
+determine if the sequence is monotonic.
+
+\noindent (a) $\{ \sin (n \pi) \}$
+
+\noindent (b) $\left \{ (-1)^{n+1} {{1}\over{5^n}} \right \}$
+
+\noindent (c) $\left \{ {{n+1}\over{n}} \right \}$
+
+\medskip
+\noindent 7.  Determine whether or not each sequence converges.  If so, find 
+the limit.
+
+\noindent (a) $\left \{ {{2n^2}\over{\sqrt{9n^4+1}}} \right \}$ 
+
+\noindent (b) $\left \{ \left ( 1 - {{1}\over{8n}} \right )^n \right \}$ 
+
+\noindent (c) $\left \{ {{n!}\over{e^n}} \right \}$
+
+\noindent (d) $\left \{ \left ( {{n}\over{n+5}} \right )^n \right \}$
+
+\medskip
+\noindent 8.  Use series to write the repeating decimal 0.31313131... as a 
+rational number.
+
+\medskip
+\noindent 9. Find the sum of each convergent series below, or explain why 
+the series diverges.
+
+\noindent (a) $\sum_{k=7}^{\infty} {{1}\over{(k-3)(k+1)}}$ 
+
+\smallskip
+\noindent (b) $\sum_{k=0}^{\infty} (-1)^k$
+
+\smallskip
+\noindent (c) $\sum_{k=2}^{\infty} {{2^k + 1}\over{3^{k+1}}}$
+
+\smallskip
+\noindent (d) $\sum_{k=1}^{\infty} {{5k^2+8}\over{7k^2+6k+1}}$
+
+\smallskip
+\noindent (e) $\sum_{n=0}^{\infty} \left ( {{2}\over{3^n}} + {{(-1)^n}\over{6^n}} 
+\right )$
+
+\subsection*{Additional Review Problems for These Sections}
+
+\noindent 10. Determine if each statement below is always true or sometimes 
+false.
+
+\noindent (a) $\lim_{x\to 2} {{x-2}\over{x^2+x-6}}$ is of an 
+indeterminate form.
+
+\smallskip
+\noindent (b) $\lim_{x\to \infty} \left ( 1-{{1}\over{x}} \right )^x=e$
+
+\smallskip
+\noindent (c) The integral $\int x^3 \sqrt{1-x^2} \; dx$ can be evaluated by 
+trigonometric substitution by setting $x=\sin x$.
+
+\smallskip
+\noindent (d) $\sin(\cos^{-1}(x)) = \tan (x)$.
+
+\smallskip
+\noindent (e) For the rational expression ${{x}\over{(x+10)(x-10)^2}}$ , the 
+partial fraction decomposition is of the form ${{A}\over{x+10}} + 
+{{B}\over{(x-10)^2}}$.
+
+\smallskip
+\noindent (f) For the rational expression ${{2x+3}\over{x^2 (x+2)^2}}$, the 
+partial fraction decomposition is of the form 
+${{A}\over{x^2}}+{{B}\over{x+2}}+{{C}\over{(x+2)^2}}$.
+
+\smallskip
+\noindent (g) If a sequence $\{a_n\}$ converges to a finite number $L$, then 
+either the least upper bound or the greatest lower bound for $\{a_n\}$ is equal 
+to $L$. 
+
+\smallskip
+\noindent (h) If a sequence $\{a_n\}$ has both an upper bound and a lower 
+bound, then $\{a_n\}$ converges.
+
+\smallskip
+\noindent (i) If a sequence $\{a_n\}$ does not have an upper bound, then 
+$\{a_n\}$ diverges.
+
+\smallskip
+\noindent (j) The sum of two convergent geometric series is also convergent.
+
+\smallskip
+\noindent (k) The difference of two divergent series is also divergent.
+
+\smallskip
+\noindent (l) If $\sum a_n$ converges, then $\lim_{n \to \infty} a_n = 0$.
+
+\smallskip
+\noindent (m) The integral $\int_{-1}^1 {{1}\over{x^2}} \; dx$ can be evaluated 
+using the Fundamental Theorem of Calculus.
+
+\smallskip
+\noindent (n) The integral $\int_1^{\infty} {{1}\over{x^p}} \; dx$ 
+converges when $p\geq 1$. 
+
+\bigskip
+\noindent 11.  Evaluate each integral using any method we have learned.
+
+\noindent (a) $\int {{2x+1}\over{x^2-7x+12}} \; dx$
+
+\noindent (b) $\int {{8 \; dx}\over{x^2 \sqrt{4-x^2}}}$
+
+\noindent (c) $\int {{8 \; dx}\over{(4x^2+1)^2}}$
+
+\noindent (d) $\int {{1}\over{(x+1)(x^2+1)}}\; dx$
+\bigskip
+\noindent 12.  Use L'Hopital's rule to evaluate the following limits.
+
+\noindent (a) $\lim_{x\to\infty}(\ln x)^{{1}\over{x^2+1}}$
+
+\noindent (b) $\lim_{x\to 0^+}(\ln x)^x$
+
+\noindent (c) $\lim_{x \to 0} \left [ {{1}\over{x}} - \cot x 
+\right ]$
+
+\noindent (d) $\lim_{x \to \infty} \left [ \cos \left ( {{1}\over{x}} \right ) 
+\right ]^x$
+
+\medskip
+\noindent 13.  Find values of $a$ and $b$ so that
+$$\lim_{x \to 0} {{\cos (ax) - b}\over{2x^2}} = -4.$$
+
+\medskip
+\noindent 14.  Determine whether the sequences converge or diverge. Find the 
+limit of each convergent sequence.
+
+\noindent (a) $\left\{ \left (1-{{1}\over{n^2}} \right )^n\right\} $
+
+\noindent (b) $\left\{ (10n)^{{1}\over{n}} \right\}$
+
+\noindent (c) $\left\{ {{2n+(-1)^n}\over{4+3n}} \right\}$
+
+\medskip
+\noindent 15.  Find a formula for the $n$th term of the sequence. Then, 
+determine whether the sequences converge or diverge. Find the limit of each 
+convergent sequence.
+
+\noindent (a) $\left\{ 1, -1, 1, -1 ,1,-1, \ldots\right\} $
+
+\noindent (b) $\left\{ \sqrt{5} - \sqrt{4},\sqrt{6} - \sqrt{5},\sqrt{7} - 
+\sqrt{6},\sqrt{8} - \sqrt{7},\sqrt{9} - \sqrt{8},\sqrt{10} - 
+\sqrt{9},\ldots\right\}$
+
+\noindent (c) $\left\{ 
+\sin\left({{\sqrt{2}}\over{5}}\right),\sin\left({{\sqrt{3}}\over{10}}\right),
+\sin\left({{\sqrt{4}}\over{17}}\right),\sin\left({{\sqrt{5}}\over{26}}\right),
+\sin\left({{\sqrt{6}}\over{37}}\right),\sin\left({{\sqrt{7}}\over{50}}\right),\ldots 
+\right\}$
+
+\medskip
+\noindent 16.  Determine if each integral below converges or diverges, and evaluate 
+the convergent integrals.
+
+\noindent (a) $\int_1^{\infty} {{\ln (x)}\over{x^2}} \; dx$
+
+\noindent (b) $\int_7^{\infty} {{dx}\over{x^2-x}}$
+
+\noindent (c) $\int_6^{\infty} {{3t^2}\over{\sqrt{t^3-8}}} \; dt$
+
+\noindent (d) $\int_2^6 {{3t^2}\over{\sqrt{t^3-8}}} \; dt$
+
+\noindent (e) $\int_2^{\infty} {{3t^2}\over{\sqrt{t^3-8}}} \; dt$
+
+\medskip
+\noindent 17.  Determine if each infinite series converges or diverges.  If it 
+converges, find the sum.
+
+\noindent (a) $\sum_{n=0}^{\infty} e^{-3n}$
+
+\smallskip
+\noindent (b) $\sum_{n=1}^{\infty} {{4^n + 5^n}\over{9^{n-1}}}$
+
+\smallskip
+\noindent (c) $\sum_{n=0}^{\infty} \ln \left ( {{n+5}\over{n+6}} \right )$
+
+\smallskip
+\noindent (d) $\sum_{n=0}^{\infty} \cos (5 \pi n)$
+
+\smallskip
+\noindent (e) $\sum_{n=1}^{\infty} \left ( {{1}\over{\sqrt{n+3}}} - 
+{{1}\over{\sqrt{n+5}}} \right )$
+
+\subsection*{Answers}
+
+\noindent 2.  (c), (e), (h), (j), (m), (o), (s), (u), (w), (x), (y) are true
+
+\noindent 3. (a) $\ln | {{\sqrt{x^2+4}}\over{2}} + {{x}\over{2}} | - 
+{{x}\over{\sqrt{x^2+4}}} + C$
+\hskip 0.2 cm
+(b) ${{1}\over{2}} (x^2+1) e^{2x} - {{1}\over{2}}
+x e^{2x} + {{1}\over{4}} e^{2x} + C$
+
+\smallskip
+\noindent (c) $-{{1}\over{3}} \cdot {{(1-x^2)^{3/2}}\over{x^3}} + C$
+\hskip 0.1 cm (d) ${{\sqrt{e^{2x}-9}}\over{9e^x}} + C$
+\hskip 0.1 cm
+(e) ${{x}\over{8}} - {{1}\over{32}} \sin(4x) + C$
+
+\noindent (f)  $4 \ln \left | {{x-1}\over{x-2}} \right | - 
+{{5}\over{x-2}} + 
+C$ (partial fractions)
+
+\smallskip
+\noindent (g) ${{x^6 \ln x}\over{6}} - {{x^6}\over{36}} + C$ (by parts)
+
+\smallskip
+\noindent (h)  $4 \ln |x| - 2 \ln (x^2+1) + \tan^{-1} (x) + C$ (partial 
+fractions)
+
+\noindent (i) ${{25}\over{2}} \sin^{-1} \left ( {{x}\over{5}} \right ) + 
+{{x \sqrt{25-x^2}}\over{2}} + C$ (trig sub)
+
+\noindent (j)  $-{{1}\over{x+1}} + {{1}\over{(x+1)^2}} + C$ \hskip 0.5 cm
+(k)  $x + \ln|x+1| + C$ 
+
+\noindent (l)  $-2 \ln|x| + {{1}\over{x}} + 2 \ln|x-1| + C$
+
+\noindent 4. (a) 0, (b) $e^2$, (c) $-{{1}\over{8}}$ 
+
+\noindent 5. (a) ${{9}\over{2}}$, (b) ${{1}\over{4}}$, (c) diverges
+
+\noindent 6.  (a) l.u.b.=g.l.b.=0 \hskip 0.2 cm (b) l.u.b.=${{1}\over{5}}$ and 
+g.l.b.=$-{{1}\over{25}}$ \hfil\break
+(c) l.u.b.=2 and g.l.b.=1
+
+\noindent 7.  (a) ${{2}\over{3}}$ \hskip 0.2 cm (b) $e^{-1/8}$ \hskip 0.2 cm 
+(c) diverges \hskip 0.2 cm (d) ${{1}\over{e^5}}$
+
+\noindent 8.  ${{31}\over{99}}$
+
+\noindent 9.  (a) $\approx 0.1899$ \hskip 0.2 cm (b) diverges \hskip 0.2 cm
+(c) ${{1}\over{2}}$ \hskip 0.2 cm
+(d) diverges \hskip 0.2 cm (e) $3 {{6}\over{7}}$
+
+\noindent 10.  (a), (c), (i), (j), (l) are true
+
+\noindent 11. (a) $-7 \ln|x-3|+9\ln |x-4|+C$,  (b) ${{-2\sqrt{4-x^2}}\over{x}}+ 
+C$ 
+
+\noindent (c) $2 \tan ^{-1}(2x)+{{4x}\over{4x^2+1}}+C$, (d) 
+${{1}\over{2}}\ln|x+1|+{{1}\over{2}}\arctan x-{{1}\over{4}}\ln|x^2+1|+C$
+
+\noindent 12. (a) 1, (b) 1, (c) 0, (d) 1
+
+\noindent 13.  $a = \pm 4$, $b=1$
+
+\noindent 14.  (a) 1, (b) 1, (c) ${{2}\over{3}}$
+
+\noindent 15.  (a) $\left\{ (-1)^{n+1} \right\} $ and diverges, (b) 
+$\left\{ \sqrt{n+4}-\sqrt{n+3} \right\}$ and converges to $0$
+
+\noindent (c) $\left\{ \sin\left({{\sqrt{n+1}}\over{1+(n+1)^2}}\right) 
+\right\}$ and converges to $0$. 
+
+\noindent 16.  (a) 1; (b) $\ln \left ( {{7}\over{6}} \right )$; (c) 
+diverges; (d) $8\sqrt{13}$; (e) diverges
+
+\noindent 17. (a) ${{e^3}\over{e^3-1}}$, (b) ${{369}\over{20}}$, (c) diverges, (d) 
+diverges, (e) ${{1}\over{2}} + {{1}\over{\sqrt{5}}}$
+
+\section{Review of Sections 10.3--10.9}
+
+\subsection*{Content Recap}
+
+\noindent 1.  Terminology review: complete the following statements.
+
+\noindent (a) A geometric series has the general form 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.  \hfil\break
+The series converges when 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ and diverges when 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\medskip
+\noindent (b) A p-series has the general form
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.  The series converges when
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ and diverges when
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.  To show these results, we can use the
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ test.
+
+\medskip
+\noindent (c) The harmonic series has the form $\_\_\_\_\_\_\_\_\_\_\_\_\_$, and it $\_\_\_\_\_\_\_\_\_\_\_\_\_$. 
+
+\medskip
+\noindent (d) If you want to show a series converges, compare it to a 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ series that also converges.  If you want to 
+show a series diverges, compare it to a $\_\_\_\_\_\_\_\_\_\_\_\_\_$ 
+series that also diverges.
+
+\medskip
+\noindent (e) If the direct comparison test does not have the correct 
+inequality, you can instead use the $\_\_\_\_\_\_\_\_\_\_\_\_\_$ 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ test.  In this test, if the limit is a 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ number (not equal to 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$), then both series converge or both 
+series diverge.
+
+\medskip
+\noindent (f)  In the ratio and root tests, the series will 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ if the limit is less than 1 and 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ if the limit is greater than 1.  If the limit 
+equals 1, then the test is $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\medskip
+\noindent (g) If $\sum_k a_k$ is an alternating series, then it converges $\_\_\_\_\_\_\_\_\_\_\_\_\_$ if $\sum_k |a_k|$ 
+converges.  It converges $\_\_\_\_\_\_\_\_\_\_\_\_\_$ if $\sum_k |a_k|$ diverges and (i) the limit of the terms is 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$ and (ii) the sequence of terms is $\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\medskip
+\noindent (h) If an alternating series converges, we can estimate the sum 
+by adding the first $n$ terms.  Stopping after $n$ terms will give us an 
+error at most equal to the magnitute of the $\_\_\_\_\_\_\_\_\_\_\_\_\_$ 
+term in the sequence.
+
+\medskip
+\noindent (i) If $\lim_{n \to \infty} a_n = 0$, then what, if anything, do 
+we know about 
+the series $\sum_n a_n$?  $\_\_\_\_\_\_\_\_\_\_\_\_\_$
+
+\medskip
+\noindent (j) A power series has the general form: 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.  To find the radius of convergence $R$, use 
+either the  $\_\_\_\_\_\_\_\_\_\_\_\_\_$ or $\_\_\_\_\_\_\_\_\_\_\_\_\_$ 
+test.  The series converges $\_\_\_\_\_\_\_\_\_\_\_\_\_$ when $|x-c|<R$.  
+To find the interval of convergence, don't forget to check the 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$. 
+
+\medskip
+\noindent (k) A Taylor polynomial has the general form: 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.  The Taylor polynomial is the 
+$n^{th}$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ of the Taylor series with general form: 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\medskip 
+\noindent (l) The Taylor remainder theorem says that $|R_n| \le 
+{{M}\over{(n+1)!}} |x-a|^{n+1}$, where $M$ represents 
+the maximum value of the $\_\_\_\_\_\_\_\_\_\_\_\_\_$ derivative of $f$ on the interval between $x$ and $a$.  The 
+remainder term decreases when $n$ $\_\_\_\_\_\_\_\_\_\_\_\_\_$ or when $x$ is $\_\_\_\_\_\_\_\_\_\_\_\_\_$ to $a$.
+
+\medskip
+\noindent (m) A MacLaurin Series is a Taylor series centered at 
+$\_\_\_\_\_\_\_\_\_\_\_\_\_$.
+
+\medskip 
+\noindent (n) Complete the formulas for the common MacLaurin series.
+$$e^x = \sum_{k=0}^{\infty}$$
+$$\ln (1+x) = \sum_{k=0}^{\infty}$$
+$$\sin (x) =  \sum_{k=0}^{\infty}$$
+$$\cos (x) = \sum_{k=0}^{\infty}$$
+$${{1}\over{1-x}} = \sum_{k=0}^{\infty}$$
+
+\medskip
+\noindent (o) Fill in the formulas for the derivatives and 
+anti-derivatives of a power series.
+$${{d}\over{dx}} \left [ \sum_{k=0}^{\infty} a_k x^k \right ]= $$
+$$\int_0^x \left [ \sum_{k=0}^{\infty} a_k t^k \right ] \; dt = $$
+
+\subsection*{Problems Similar to the Studio Worksheets}
+
+\noindent 2.  Determine if each of the following statements is always true or sometimes false.
+
+\noindent (a) $\sum_{k=1}^{\infty} {{1}\over{\sqrt{k^3+1}}}$ is a 
+$p$-series with $p={{3}\over{2}}$.
+
+\noindent (b) $\sum_{k=2}^{\infty} {{1}\over{k (\ln k)^p}}$ converges when 
+$p > 1$.
+
+\noindent (c) To show a series $\sum_k a_k$ converges by the Basic 
+Comparison Test, we should find a smaller series $\sum_k b_k$ that also 
+converges. 
+
+\noindent (d) A limit of 0 or $\infty$ from the Limit Comparison Test may 
+not give us a conclusive answer as to whether our series converges or 
+diverges. 
+
+\noindent (e) To determine whether $\sum_{k=3}^{\infty} 
+{{k}\over{k^3-10}}$ converges or diverges, use the Basic Comparison 
+Test with $\sum_{k=3}^{\infty} {{1}\over{k^2}}$.
+
+\noindent (f) If $\lim_{n \to \infty} {{a_n}\over{a_{n+1}}}< 1$, then the 
+series $\sum_k a_k$ converges.
+
+\noindent (g) We should use the root test if all of the terms are raised 
+to 
+the $k^{th}$ power.
+
+\noindent (h) We can use the root test to show that the $p$-series $\sum_k 
+{{1}\over{\sqrt{k}}}$ diverges.
+
+\noindent (i) The ratio test would be inconclusive for the series $\sum_k 
+{{k}\over{k^3+1}}$.
+
+\noindent (j) $(2k)!=2k!$
+
+\noindent (k) If an alternating series converges absolutely, then it also 
+converges conditionally.
+
+\noindent (l) If $\sum_k |a_k|$ converges, then the alternating series 
+$\sum_k a_k$ also converges.
+
+\noindent (m) If $\sum_k a_k$ is an alternating series and $\{ |a_k| \}$ 
+is a decreasing sequence, then $\sum_k a_k$ 
+converges.
+
+\noindent (n) If $\sum_k a_k$ is an alternating series and $\sum_k |a_k|$ 
+diverges, then $\sum_k a_k$ cannot converge 
+absolutely.
+
+\noindent (o) If $\sum_k a_k$ is an alternating series and $\lim_{k \to 
+\infty} |a_k| \neq 0$, then $\sum_k a_k$ diverges.
+
+\bigskip
+\noindent 3. Determine whether the following series converge or 
+diverge.  Justify your answers using any of the tests we have 
+discussed in class.  Make sure that you (1) name the test and 
+state the conditions needed for the test you are using, (2) show work for 
+the test that requires some math, and (3) state a conclusion that 
+explains why the test shows convergence or divergence.
+
+\noindent (a)  $\sum_{k=1}^{\infty} {{e^k}\over{4+e^{2k}}}$
+
+\smallskip
+\noindent (b) $\sum_{k=1}^{\infty} \left ( 1 - {{3}\over{k}} \right )^k$
+
+\smallskip
+\noindent (c)  $\sum_{k=1}^{\infty} k \tan \left ( {{1}\over{k}} \right 
+)$
+
+\smallskip
+\noindent (d) $\sum_{k=2}^{\infty} {{1}\over{k (\ln k)^3}}$
+
+\smallskip
+\noindent (e) $\sum_{k=1}^{\infty} {{3^{2k}}\over{8^k - 3}}$
+
+\smallskip
+\noindent (f) $\sum_{k=1}^{\infty} {{k+2}\over{\sqrt{k^5 + 4}}}$
+
+\smallskip
+\noindent (g) $\sum_{k=1}^{\infty} {{k+3}\over{\sqrt{k^2+1}}}$
+
+\smallskip
+\noindent (h) ${{1}\over{1 \cdot 3}} + {{1}\over{3 \cdot 5}} + 
+{{1}\over{5 \cdot 7}} + ...$
+
+\smallskip
+\noindent (i) $\sum_{k=1}^{\infty} {{\ln k}\over{k^4}}$
+
+\smallskip
+\noindent (j) $\sum_{k=1}^{\infty} {{(2k)^k}\over{k!}}$
+
+\smallskip
+\noindent (k) $\sum_{k=1}^{\infty} \left ( {{k}\over{k+1}} \right 
+)^{2k^2}$
+
+\smallskip
+\noindent (l) $\sum_{n=1}^{\infty} {{1 \cdot 3 \cdot 5 \cdot ... \cdot 
+(2n-1)}\over{4^n 2^n n!}}$
+
+\medskip
+\noindent 4.   Suppose $r > 0$.  Find the values of $r$, if any, 
+for which $\sum_{k=1}^{\infty} {{r^k}\over{k^r}}$ converges.
+
+\medskip
+\noindent 5.  Determine whether the following alternating series
+converge absolutely, converge conditionally, or diverge.  Justify your
+answers using the tests we discussed in class.
+
+\noindent (a)  $\sum_{k=2}^{\infty} (-1)^{k+1} 
+{{3k}\over{\sqrt{k^3+4}}}$
+
+\smallskip
+\noindent (b)  $\sum_{k=2}^{\infty} (-1)^k {{k}\over{k^4-1}}$
+
+\smallskip
+\noindent (c)  $\sum_{k=0}^{\infty} (-1)^{k} {{k}\over{5^k+2^k}}$
+
+\smallskip
+\noindent (d)  $\sum_{k=2}^{\infty} (-1)^k {{1}\over{k \ln k \sqrt{\ln 
+\ln k}}}$
+
+\medskip
+\noindent 6.  Find the radius and interval of convergence of the following 
+power series:
+
+\noindent (a)  $\sum_{k=2}^{\infty} \left ( {{k}\over{k-1}} \right ) 
+{{(x+2)^k}\over{2^k}}$
+\smallskip
+\noindent (b) $\sum_{n=1}^{\infty} {{(3x+2)^n}\over{\sqrt{n}}}$
+
+\medskip
+\noindent 7.  Find a power series representation for the 
+function $f(x)={{x}\over{4+x^4}}$.  For what values of $x$ does the series 
+converge?
+
+\medskip
+\noindent 8.  Find the third degree Taylor polynomial of the function
+$f(x)=\tan^{-1}(x)$ in powers of $x-1$.
+
+\medskip
+\noindent 9.  Use a Taylor polynomial to estimate the value of $\sqrt{e}$ 
+with an error of at most 0.01.  HINT: Choose $a=0$ and use the fact that 
+$e<3$.
+
+\medskip
+\noindent 10.  For what values of $x$ can we replace $\cos x$ with $1 - 
+{{x^2}\over{2!}} + {{x^4}\over{4!}}$ within an error range of no more 
+that 0.001? 
+
+\medskip
+\noindent 11.  Use the MacLaurin series for $f(x)={{1}\over{1-x}}$ 
+to find a power series representation of the function 
+$$g(x)={{x}\over{(1-x)^3}}.$$
+HINT: You will need to differentiate.
+
+\medskip
+\noindent 12.  Find $f^{(7)}(0)$ for the function $f(x)=x \sin (x^2)$.
+
+\medskip
+\noindent 13.  Find a power series (i.e., MacLaurin series) representation 
+for the following functions.
+When is your series valid? \hfil\break
+\noindent (a)  $f(x)={{3x}\over{2+4x}}$ 
+
+\medskip
+\noindent (b)  $g(x)=xe^{-x}$ 
+
+\medskip
+\noindent 14.  Find a MacLaurin series for the function $f(x) = \tan^{-1} 
+x$.
+
+\medskip
+\noindent 15.  Find the sum of the series:
+$${{\pi}\over{2}} - {{\pi^3}\over{8 \cdot 3!}} + {{\pi^5}\over{32 \cdot 
+5!}}
++ ... + (-1)^n {{\pi^{2n+1}}\over{2^{2n+1} (2n+1)!}} + ...$$
+
+\medskip
+\noindent 16.  Use a MacLaurin series to estimate $\int_0^1 e^{-x^2} dx$
+within an error of no more than 0.01.
+
+\subsection*{Additional Review Problems on These Sections}
+
+\noindent 17.  Let $\{a_n\}$ and $\{b_n\}$ be a sequences of non-negative 
+terms.  Are the following statements {\it always} true or sometimes false?
+
+\noindent (a) If $\lim_{n \to \infty} {a_n}=L$, then the series $\sum_n a_n 
+= L$.
+
+\noindent (b) If $\lim_{n \to \infty} a_n = 0$, then $\{a_n\}$ converges 
+to 0.
+
+\noindent (c) If $\lim_{n \to \infty} a_n = 0$, then $\sum_n a_n$ 
+converges.
+
+\noindent (d) If $\sum_n a_n$ converges, then $\lim_{n \to \infty} a_n = 
+0$.
+
+\noindent (e) If $\sum_n a_n$ diverges, then $\lim_{n \to \infty} a_n \neq 
+0$.
+
+\noindent (f) If $\lim_{n \to \infty} a_n \neq 0$, then $\sum_n a_n$ 
+diverges.
+
+\noindent (g) If $\lim_{n \to \infty} a_n \neq 0$, then $\{a_n\}$ 
+diverges.
+
+\noindent (h) If $\int_1^{\infty} f(x) dx = L$, where $0 < L < \infty$, 
+then $\sum_n f(n) = L$.
+
+\noindent (i) If $\sum_n b_n$ converges and $a_n > b_n$ for all $n \ge 1$, 
+then $\sum_n a_n$ also converges.
+
+\noindent (j) If $\sum_n b_n$ diverges and $a_n > b_n$ for all $n \ge 1$,
+then $\sum_n a_n$ also diverges.
+
+\noindent (k) If $\lim_{n \to \infty} {{a_n}\over{b_n}} = 0$ and $\sum_n 
+b_n$ diverges, then $\sum_n a_n$ also diverges. 
+
+\medskip
+\noindent 18.  Determine if each statement below is always true or 
+sometimes false.
+
+\noindent (a) If $p>1$ the alternating $p$-series $\sum_{n=1}^{\infty} 
+{{(-1)^{n-1}}\over{n^p}}$ converges conditionally. 
+
+\noindent (b) The alternating harmonic series $\sum_{n=1}^{\infty} 
+(-1)^{n+1} {{1}\over{n}}$ is conditionally convergent.
+
+\noindent (c) If $\sum_{n=1}^\infty a_n$ is a convergent series 
+of nonnegative numbers, then $\sum_{n=1}^\infty {{a_n}\over{n}}$ 
+also converges.
+
+\noindent (d) If $\sum_{n=1}^{\infty} a_n$ is a convergent series of nonnegative numbers, 
+then $\sum_{n=1}^{\infty} \sin(a_n)$ also converges.
+
+\noindent (e) The series $\sum_{n=2}^{\infty} {{1}\over{n(\ln n)^p}}$ 
+converges for any $p>1$.
+
+\noindent (f) The series $\sum_{n=2}^{\infty} {{1}\over{n(\ln n)^p}}$ 
+diverges for any $p\leq 1$.
+
+\noindent (g) Let $\{a_n\}$ be a positive sequence and $L = 
+\lim_{n\to \infty} {{a_{n+1}}\over{a_n}}$ be a finite number.
+If a series $\sum_{n=1}^{\infty} a_n$ converges, then $L < 1$.
+
+\noindent (h) Let $\{a_n\}$ be a positive sequence and $L = 
+\lim_{n\to \infty}\left(a_n\right)^{{1}\over{n}}$ be a finite number.
+If a series $\sum_{n=1}^{\infty} a_n$ diverges, then $L \geq 
+1$.
+
+\noindent (i) If the radius of convergence of a power series is $0$, then 
+the power series diverges everywhere.
+
+\noindent (j) If a power series $\sum_{n=0}^\infty a_nx^n$ converges in 
+$(-1,1)$, then its radius of convergence is $1$.
+
+\noindent (k) Every Taylor series is a power series.
+
+\noindent (l) The fifth degree Taylor polynomial for $\cos (x)$ about 
+$x=0$ is $1 - {{x^2}\over{2}} + {{x^4}\over{4!}}$.
+
+\noindent (m) For any Taylor polynomial, the error in the approximation is 
+no more than the magnitude of the $(n+1)^{st}$ term.
+
+\medskip
+\noindent 19.  Let  $f(x) = \int_0^x t \sin(t^3) dt$.  Use a MacLaurin 
+series to find $f^{(11)}(0)$.
+
+\noindent 20.  (a) Estimate $\cos \left ( {{\pi}\over{12}} \right )$ using 
+a fourth-degree Taylor polynomial.
+
+\smallskip
+\noindent (b) Find a MacLaurin series for the function $g(x)=\int_0^x 
+{{\sin(t/2)}\over{2t}} dt$.
+
+\medskip
+\noindent 21.  Determine if the alternating series converges absolutely or 
+converges conditionally.  Justify your answer fully by: (1) name the test 
+and
+state the conditions needed for the test you are using, (2) show work for
+the test that requires some math, and (3) state a conclusion that
+explains why the test shows convergence or divergence.
+
+\noindent (a) $\sum_{n=1}^{\infty} (-1)^n {{1}\over{\sqrt{n}}}$
+
+\medskip
+\noindent (b) $\sum_{n=1}^{\infty} (-5)^{-n}$
+
+\medskip
+\noindent 22. Determine whether the given series converges or diverges. 
+Make sure that you (1) name the test and state the conditions needed for 
+the test you are using,
+(2) show work for the test that requires some math, and (3) state a 
+conclusion 
+that explains why the test shows convergence or divergence.
+
+\noindent (a) $\sum_{n=2}^\infty {{n+1}\over{\sqrt{n^3-2}}}$
+
+\medskip
+\noindent (b) $\sum_{n=1}^\infty \ln\left(1+{{1}\over{n^2}}\right)$
+(Hint: Limit Comparison with $\sum_{n=1}^\infty {{1}\over{n^2}}$.)
+
+\medskip
+\noindent (c) $\sum_{n=3}^{\infty} {{10}\over {n\, \ln n\, \ln(\ln n)}}$
+
+\medskip
+\noindent (d) $\sum_{n=1}^{\infty} ne^{-n}$
+
+\medskip
+\noindent (e) $\sum_{n=1}^{\infty} {{n!(n+1)!}\over{(3n)!}}$
+
+\medskip
+\noindent (f) $\sum_{n=1}^{\infty}\left( {{\sin n}\over{1+n}}\right)^n$
+
+\medskip
+\noindent (g) $\sum_{n=1}^{\infty} {{2^{n+1}}\over{2\cdot 3^{n-1}}}$
+
+\medskip
+\noindent (h) $\sum_{n=1}^{\infty} \left( 1-{{1}\over{n}}\right)^{n^{2}}$
+
+\medskip
+\noindent 23.  Find the radius and interval of convergence of each power 
+series below.
+
+\noindent (a) $\sum_{n=1}^\infty {{(-1)^n(2x-4)^n}\over{n^2}}$
+
+\medskip
+\noindent (b) $\sum_{n=1}^\infty \left (1-{{1}\over{n}} \right )^{n}x^n$
+
+\subsection*{Answers}
+
+\noindent 2. (b), (d), (g), (i), (l), (n), and (o) are true
+
+\noindent 3. (a), (d), (f), (h), (i), (k), and (l) converge
+
+\noindent 4. converges 
+when $0 < r < 1$
+
+\noindent 5. (a) and (d) converge conditionally, (b) and (c) converge 
+absolutely
+
+\noindent 6.  (a) $R=2$, $I.C. = (-4,0)$, (b) $R={{1}\over{3}}$, $
+I.C. = \left [ -1, -{{1}\over{3}} \right )$
+
+\noindent 7.  $\sum_{k=0}^{\infty} {{(-1)^kx^{4k+1}}\over{4^{k+1}}}$, $|x| < 4^{1/4}$
+
+\noindent 8. ${{\pi}\over{4}} + {{1}\over{2}} (x-1) - {{1}\over{4}} 
+(x-1)^2 + {{1}\over{12}} (x-1)^3$
+
+\noindent 9. 1.6458 
+
+\noindent 10. $x \in (-0.9467, 0.9467)$
+
+\noindent 11.  ${{1}\over{2}}\sum_{k=2}^{\infty} k(k-1)x^{k-1}$
+
+\noindent 12.  -840
+
+\noindent 13. (a) $3 \sum_{k=0}^{\infty} (-1)^k 2^{k-1} x^{k+1}$, $|x| <
+{{1}\over{2}}$ \hskip 1 cm (b) $\sum_{k=0}^{\infty} {{(-1)^k 
+x^{k+1}}\over{k!}}$, $x \in \Re$
+
+
+\noindent 14. $\sum_{k=0}^{\infty} (-1)^k \cdot {{x^{2k+1}}\over{2k+1}}$,
+$|x| < 1$ 
+
+\noindent 15. 1 
+
+\noindent 16. $\approx 0.743$
+
+\noindent 17.  Statements (b), (d), (f), and (j) are true.
+
+\noindent 18.  (b), (c), (d), (e), (f), (h), (k), and (l) are true
+
+\noindent 19.  $-{{10!}\over{6}}$
+
+\noindent 20.  (a) 0.966, (b) $\sum_{k=0}^{\infty} (-1)^k {{x^{2k+1}}\over
+{2^{2k+2}(2k+1)!(2k+1)}}$
+
+\noindent 21.  (a) converges conditionally; (b) converges absolutely
+
+\noindent 22. (b), (d), (e), (f), (g), and (h) converge
+
+\noindent 23.  (a) $R={{1}\over{2}}$, $I.C.=\left [ {{3}\over{2}}, 
+{{5}\over{2}} \right ]$; (b) $R=1$, $I.C. = (-1,1)$
+
+\section{Review of Volumes of Revolution: Sections 6.1--6.2}
+
+\subsection*{Additional Practice Problems on Volumes}
+
+\noindent 1.  Find the volume of the solid generated by 
+revolving the
+region bounded by the curve $y=\sin(x)$, the $x$-axis, and the 
+lines $x=0$,
+$x=\pi/2$ about the $y$-axis.
+
+\medskip
+\noindent 2.  Find the volume of the solid generated when the 
+region bounded by the curves $y=4-x^2$ and $y=2-x$ is 
+revolved about the $x$-axis.
+
+\medskip
+\noindent 3.  Find the volume of the solid generated when the 
+region bounded by the curves $y=x^2-4$ and $y=2x-x^2$ is 
+revolved about the line (a) $y=-4$ and (b) $x=2$.
+
+\medskip
+\noindent 4.  Use the method of cylindrical shells to find the 
+volume of the 
+solid generated when the region bounded 
+by the curve $y=\sqrt{x}$, the $x$-axis, and the line $x=9$ is 
+revolved about the $x$-axis. 
+
+\subsection*{Answers to Additional Problems on Volumes}
+
+\noindent 1.  $2 \pi$ 
+
+\medskip
+\noindent 2.  ${{108 \pi}\over{5}}$ cubic units
+
+\medskip
+\noindent 3.  (a) $45 \pi$ cubic units,
+(b) $27 \pi$ cubic units
+
+\medskip
+\noindent 4.  ${{81 \pi}\over{2}}$ cubic units
+
+\section{Problems From a Previous Final Exam Study Packet}
+
+\subsection*{The Problem Set}
+
+\begin{enumerate}
+
+\item
+ Sum the series
+$$\sum_{k=2}^{\infty} {\frac{4^{2k} - 1}{17^{k-1}}}.$$
+\medskip
+
+\item
+Find the sum of the series
+$$\sum_{k=1}^{\infty} {\frac{1}{(2k-1)(2k+3)}}.$$
+\medskip
+
+\item
+Determine whether the following series converge or diverge.  Justify your answers using the tests we discussed in class.
+\begin{enumerate}
+  \item $\sum_{k=1}^{\infty} {\frac{e^k}{(1+4e^k)^{3.2}}}$ 
+\medskip
+  \item $\sum_{k=2}^{\infty} \left ( {\frac{k-5}{k}} \right 
+)^{k^2}$
+\medskip
+  \item $\sum_{k=1}^{\infty} {\frac{k^2 \cdot 2^{k+1}}{k!}}$
+\medskip
+   \item $\sum_{k=1}^{\infty} {\frac{1}{1 + 2 + 3 + ... + k}}$
+ \medskip
+\end{enumerate}
+  
+\item
+Find the third degree Taylor polynomial of the function
+$f(x)=\tan^{-1}(x)$ in powers of $x-1$.
+\medskip
+
+\item
+Use a Taylor polynomial to estimate the value of $\sqrt{e}$ 
+with an error of at most 0.01.  HINT: Choose $a=0$ and use the fact that 
+$e<3$.
+
+\item 
+Use the MacLaurin series for $f(x)={\frac{1}{1-x}}$ to find a power series representation of the function 
+$$g(x)={\frac{x}{(1-x)^3}}.$$
+HINT: You will need to differentiate.
+\medskip
+
+\item 
+Find the radius and interval of convergence of the power 
+series
+$$\sum_{k=1}^{\infty} {\frac{5^k}{\sqrt{k}}} (3-2x)^k.$$
+\vfil\eject
+
+\item
+Determine whether each of the alternating series below 
+converge absolutely, converge conditionally, or diverge.  Use the 
+convergence tests from class to justify your answer. 
+\begin{enumerate}
+\item $$\sum_{k=1}^{\infty} (-1)^{k+1} {\frac{\ln k}{k^4}}$$
+\medskip
+\item $$\sum_{k=2}^{\infty} (-1)^k {\frac{4k^2}{k^3+1}}$$
+\medskip
+\end{enumerate}
+
+\item 
+Does the alternating series $\sum_{k=1}^{\infty} 
+{\frac{(-1)^k}{k + \sqrt{k}}}$ converge absolutely, converge 
+conditionally, or diverge?
+\medskip
+
+\item 
+Evaluate each integral below using any of the methods we have 
+learned.
+\begin{enumerate}
+\item $\int {\frac{\sin^3 x}{\cos x}} dx$
+\medskip
+\item $\int {\frac{x}{\sqrt{x^2+2x-3}}} dx$
+\medskip
+\item $\int {\frac{\cos x}{4+ \sin^2 x}} dx$
+\medskip
+\item $\int {\frac{1}{x (x^2+x+1)}} dx$
+\medskip
+\end{enumerate}
+
+\item Evaluate the improper integral if it converges, or show 
+that the integral diverges.
+$$\int_0^3 {\frac{x}{(x^2-1)^{2/3}}} dx$$
+\medskip
+
+\item 
+Does the integral
+$$\int_0^{\infty} {\frac{dx}{e^x + e^{-x}}}$$
+converge or diverge?  (HINT: Use the Integral Comparison Test.)
+\medskip
+
+\item 
+Find the area bounded between the curves
+$y=2 \cos x$ and $y=\sin (2x)$ on the interval $[-\pi,\pi]$.
+\vfil\eject
+
+\item 
+Evaluate the integrals:
+
+\begin{enumerate}
+
+\item $\int \left ( \sqrt{x} - {\frac{1}{x^2}} \right )^2 dx$
+\medskip
+
+\item $\int {\frac{\log_3 x^4}{x}} dx$
+\medskip
+
+\item $\int {\frac{\sec (e^{-4x})}{e^{4x}}} dx$
+\medskip
+
+\item $\int_1^e {\frac{\sqrt{\ln x}}{x}} dx$
+\medskip
+
+\item $\int {\frac{x^2}{(ax^3+b)^2}}dx$
+\medskip
+
+\item $\int_{-5}^{0} \left ( x \sqrt{4-x} \right ) dx$
+\medskip
+
+\end{enumerate}
+
+
+\item 
+Find the general solution to the equation:
+$$(y \ln x) y^{\prime} = {\frac{y^2+1}{x}}.$$
+\medskip
+
+\item 
+Evaluate the following integrals.
+\begin{enumerate}
+\item $\int x^5 \ln (x) dx$
+\medskip
+\item $\int x^3 e^{x^2} dx$
+\medskip
+\item $\int (\ln x)^2 dx$
+\medskip
+\end{enumerate}
+
+\item 
+Evaluate the following integrals.
+\begin{enumerate}
+\item $\int x \tan^{-1} (x) dx$
+\medskip
+\item $\int {\frac{\cos^3 (x)}{\sin x}} dx$
+\medskip
+\item $\int \sqrt{9-x^2} dx$
+\medskip
+\end{enumerate}
+
+\item 
+ Find the area of the region bounded by the curves $y=5x+1$
+and $y=x^2+3x-2$.
+\medskip
+
+\item 
+Find the volume of the solid generated by revolving the
+region bounded by the curve $y=\sin(x)$, the $x$-axis, and the lines $x=0$,
+$x=\pi/2$ about the $y$-axis.
+\medskip
+
+\item 
+Let  $f(x) = \int_0^x t \sin(t^3) dt$.  Use a MacLaurin 
+series to find $f^{(11)}(0)$.
+\medskip
+
+\item 
+Evaluate $\int \left ( e^{-5x} + {\frac{1}{1+4x^2}} 
+\right ) dx.$
+\medskip
+
+\item 
+Find the sum of the series:
+$$1 - {\frac{\pi^2}{9 \cdot 2!}} + {\frac{\pi^4}{81 \cdot 4!}} + ... +
+(-1)^n {\frac{\pi^{2n}}{3^{2n} (2n)!}} + ...$$
+\medskip
+
+\item 
+Evaluate the integrals:
+\begin{enumerate}
+\item $\int {\frac{x^2}{\sqrt{4-x^6}}} dx$
+\medskip
+\item $\int_0^2 x |2x-1| dx$ 
+\medskip
+\end{enumerate}
+
+\item 
+Find $F^{\prime}(2)$ for the function
+$$F(x) = \int_{\frac{8}{x}}^{x^2} \left ( {\frac{t}{1 - \sqrt{t}}} 
+\right ) dt.$$
+\medskip
+
+\item 
+Find the area bounded by the curves $f(x)=x^3+2x^2$ and 
+$g(x)=x^2+2x$.
+\medskip
+
+\item 
+Evaluate the integrals:
+\begin{enumerate}
+\item $\int {\frac{1}{x^2}} \sec \left ( {\frac{1}{x}} \right ) \tan 
+\left ( {\frac{1}{x}} \right ) dx$
+\medskip
+
+\item $\int {\frac{1}{\ln(x^x)}} dx$
+\medskip
+
+\end{enumerate}
+
+\item 
+Evaluate the following integrals: 
+\begin{enumerate}
+\item $\int {\frac{e^{2x}}{\sqrt{4-3e^{2x}}}} dx$
+\medskip
+
+\item $\int_{-3}^{-2} {\frac{dx}{\sqrt{4 - (x+3)^2}}}$
+\medskip
+
+\end{enumerate}
+
+\item 
+Solve the initial value problem:
+$$y^{\prime} = x \sqrt{ {\frac{1-y^2}{1-x^2}} }, \quad y(0)=0.$$
+\medskip
+
+\item 
+Evaluate the following integrals.
+\medskip
+\begin{enumerate}
+\item $\int \sin^5(2x) \cos^3 (2x) dx$
+\medskip
+\item $\int \tan^4(x) dx$ 
+\medskip
+\item $\int e^{2x} \sin(3x) dx$
+\medskip
+\item $\int {\frac{x^2}{(x^2+4)^{3/2}}} dx$ 
+\medskip
+\item $\int {\frac{\sqrt{1-x^2}}{x^4}} dx$
+\medskip
+\item $\int {\frac{x}{(4-x^2)^{3/2}}} dx$ 
+\medskip
+\item $\int {\frac{dx}{e^x \sqrt{e^{2x} - 9}}}$
+\medskip
+\end{enumerate}
+
+\item 
+Evaluate the following integrals.
+\medskip
+\begin{enumerate}
+\item $\int {\frac{x+3}{(x-1)(x^2-4x+4)}} dx$
+\medskip
+\item $\int {\frac{x+4}{x^3+x}} dx$ 
+\medskip
+\end{enumerate}
+
+\item 
+Evaluate each of the following integrals.
+\medskip
+\begin{enumerate}
+\item $\int {\frac{x+2}{x+1}} dx$
+\medskip
+\item  $\int \sqrt{25-x^2} dx$
+\medskip
+\item  $\int \tan^{3}(x) \sec^{4}(x) dx$
+\medskip
+\item  $\int x \tan^{-1}(x) dx$
+\medskip
+\item $\int {\frac{dx}{x \sqrt{1+x^2}}}$
+\medskip
+\item $\int {\frac{x+1}{x^2(x-1)}} dx$ 
+\medskip
+\item $\int {\frac{x+1}{x^2-4x+8}} dx$
+\medskip
+\end{enumerate}
+
+\item  Evaluate the improper integrals if they converge, or show 
+that the integral diverges.
+\begin{enumerate}
+\item $\int_1^3 {\frac{1}{(x^2-1)^{3/2}}} dx$
+\medskip
+\item $\int_0^{\infty} x^2 e^{-2x}dx$ 
+\medskip
+\end{enumerate}
+
+\item  For what values of $p$ does the integral
+$\int_4^{\infty} {\frac{dx}{x (\ln x)^p}}$ converge?
+\medskip
+
+\item Find the area bounded by the curve 
+$y={\frac{1}{x^2+9}}$, the $x$-axis, and $x \ge 0$.
+\medskip
+
+\item Use series to write the repeating decimal 0.31313131... as a 
+rational number.
+\medskip
+
+\item Find the sum of each convergent series below, or explain why 
+the series diverges.
+
+$$\sum_{k=7}^{\infty} {\frac{1}{(k-3)(k+1)}}, \quad
+\sum_{k=0}^{\infty} (-1)^k, \quad
+\sum_{k=2}^{\infty} {\frac{2^k + 1}{3^{k+1}}}$$
+\medskip
+
+\item Determine if each series below converges or diverges.  JUSTIFY 
+YOUR ANSWER FULLY using either the nth term divergence test or the integral 
+test. 
+
+\begin{enumerate}
+\item $$\sum_{k=1}^{\infty} {\frac{e^k}{4+e^{2k}}}$$
+\medskip
+\item $$\sum_{k=1}^{\infty} {\frac{5k^2+8}{7k^2+6k+1}}$$
+\medskip
+\end{enumerate}
+
+\item Determine whether the following series converge or 
+diverge.  Justify your answers using the tests we discussed in class.
+
+\begin{enumerate}
+\item  $\sum_{k=1}^{\infty} {\frac{3^{2k}}{8^k - 3}}$
+\medskip
+\item $\sum_{k=1}^{\infty} {\frac{k+2}{\sqrt{k^5 + 4}}}$
+\medskip
+\item $\sum_{k=2}^{\infty} {\frac{1}{k (\ln k)^3}}$
+\end{enumerate}
+\medskip
+\item 
+Determine whether the following series converge or diverge.  Justify your answers using the tests we discussed in class.
+
+\begin{enumerate}
+\item  $\sum_{k=1}^{\infty} {\frac{(2k)^k}{k!}}$
+\medskip
+\item $\sum_{k=1}^{\infty} \left ( {\frac{k}{k+1}} \right )^{2k^2}$
+\medskip
+\item $\sum_{k=1}^{\infty} k \tan \left ( {\frac{1}{k}} \right )$
+\medskip
+\item ${\frac{1}{1 \cdot 3}} + {{1}\over{3 \cdot 5}} + 
+{\frac{1}{5 \cdot 7}} + ...$
+\medskip 
+\end{enumerate}
+
+\item Determine whether the following series converge or 
+diverge.  Justify your answers using the tests we discussed in class.
+
+\begin{enumerate}
+\item  $\sum_{n=2}^{\infty} {\frac{1}{n \sqrt{n^2-1}}}$
+\medskip
+\item $\sum_{n=1}^{\infty} {\frac{1 \cdot 3 \cdot 5 \cdot ... \cdot 
+(2n-1)}{4^n 2^n n!}}$
+\medskip
+\end{enumerate}
+
+\item Suppose $r > 0$.  Find the values of $r$, if any, 
+for which $\sum_{k=1}^{\infty} {\frac{r^k}{k^r}}$ converges.
+\medskip
+
+\item Determine whether the following alternating series
+converge absolutely, converge conditionally, or diverge.  Justify your
+answers using the tests we discussed in class.
+
+\begin{enumerate}
+\item  $\sum_{k=2}^{\infty} (-1)^{k+1} {\frac{3k}{\sqrt{k^3+4}}}$
+\medskip
+\item $\sum_{k=2}^{\infty} (-1)^k {\frac{k}{k^4-1}}$
+\medskip
+\item  $\sum_{k=0}^{\infty} (-1)^{k} {\frac{k}{5^k+2^k}}$
+\medskip
+\item $\sum_{k=2}^{\infty} (-1)^k {\frac{1}{k \ln k \sqrt{\ln \ln k}}}$ 
+\medskip 
+\end{enumerate}
+
+\item Find the radius and interval of convergence of the power 
+series $f(x) = \sum_{k=1}^{\infty} {\frac{2^k}{k+1}} (x-3)^k$.
+\medskip
+
+\item For what values of $x$ can we replace $\cos x$ with $1 - 
+{\frac{x^2}{2!}} + {\frac{x^4}{4!}}$ within an error range of no more 
+that 0.001?
+\medskip
+
+\item  Find $f^{(7)}(0)$ for the function $f(x)=x \sin (x^2)$.
+\medskip
+
+\item Use a MacLaurin series to estimate $\int_0^1 e^{-x^2} dx$ 
+within an error of no more than 0.01.
+\medskip
+
+\item  Find the volume of the solid generated when the region 
+bounded by the curves $y=4-x^2$ and $y=2-x$ is 
+revolved about the $x$-axis.
+\medskip
+
+
+\item Find the volume of the solid generated when the region 
+bounded by the curves $y=x^2-4$ and $y=2x-x^2$ is 
+revolved about the line $y=-4$.
+\medskip
+
+\item Find the volume of the solid generated when the region 
+bounded by the curves $y=x^2-4$ and $y=2x-x^2$ is 
+revolved about the line $x=2$.
+\medskip
+
+\item Use the method of cylindrical shells to find the volume of the 
+solid generated when the region bounded 
+by the curve $y=\sqrt{x}$, the $x$-axis, and the line $x=9$ is revolved 
+about the $x$-axis. 
+\medskip
+
+\item Find a power series representation for the following
+functions. When is your series valid?
+
+\begin{enumerate}
+\item  $f(x)={\frac{3x}{2+4x}}$ \smallskip
+\item $g(x)=\int_0^x {\frac{\sin(t/2)}{2t}} dt$ \smallskip
+\item  $h(x)=\tan^{-1}(x)$
+\medskip 
+\end{enumerate}
+
+\item 
+
+\begin{enumerate}
+\item  Estimate $\cos 15^{\circ}$ using a fourth-degree Taylor
+polynomial.
+\medskip
+\item Estimate $\int_0^1 e^{-2x^2} dx$ within an error of 0.01.
+\medskip 
+\end{enumerate}
+
+\end{enumerate}
+
+\subsection*{Answers}
+
+\noindent 1.  $255 {\frac{15}{16}}$
+\medskip
+
+\noindent 2.  ${\frac{1}{3}}$
+\medskip
+
+\noindent 3. \\
+(a) Converges by the integral test \hfil\break
+(b) Converges by the root test \hfil\break
+(c) Converges by the ratio test \hfil\break
+(d) Converges by the basic comparison test, or using telescoping series
+\medskip
+
+\noindent 4.  $P_3(x) = {\frac{\pi}{4}} + {\frac{1}{2}} (x-1) - 
+{\frac{1}{4}} (x-1)^2 + {\frac{1}{12}} (x-1)^3$
+\medskip
+
+\noindent 5.  $\sqrt{e} \approx f(0.5) = 1 + 0.5 + {\frac{(0.5)^2}{2}} + 
+{\frac{(0.5)^3}{6}} = 1.6458.$
+\medskip
+
+\noindent 6.  ${\frac{1}{2}} \sum_{k=2}^{\infty} k(k-1)x^{k-1}$, $|x| < 1$
+\medskip
+
+\noindent 7.  $R={\frac{1}{10}}$, IC=$\left ( {\frac{7}{5}}, 
+{\frac{8}{5}} \right ]$
+\medskip
+
+\noindent 8. \\
+(a) Converges absolutely by the basic comparison test \hfil\break 
+(b) Converges conditionally by the limit comparison and alternating series tests
+\medskip
+
+\noindent 9. converges conditionally  
+\medskip
+
+\noindent 10.\\
+(a) $- \ln |\cos x | + {\frac{1}{2}} \cos^2 x + C$ \hfil\break
+(b) $\sqrt{x^2+2x-3} - \ln | {\frac{x+1+\sqrt{x^2+2x-3}}{2}} | + C$
+\hfil\break
+(c) ${\frac{1}{2}} \tan^{-1} \left ( {\frac{\sin x}{2}} \right ) + C$
+\hfil\break
+(d) $\ln |x| - {\frac{1}{2}} \ln (x^2+x+1) - {\frac{\sqrt{3}}{3}} \tan^{-1}
+\left ( {\frac{2x+1}{\sqrt{3}}} \right ) + C$
+\medskip
+
+\noindent 11.  Converges to ${\frac{9}{2}}$
+\medskip
+
+\noindent 12. Converges (compare to $\int_0^{\infty} {\frac{1}{e^x}} dx$)
+\medskip
+
+\noindent 13.  8 
+\medskip
+
+\noindent 14.\\
+
+\noindent (a) $\frac{1}{2} x^2 + {\frac{4}{\sqrt{x}}} - {\frac{1}{3x^3}} + C$\\
+
+\noindent (b) $\frac{2}{\ln 3} (\ln x)^2 + C$\\
+
+\noindent (c) $-\frac{1}{4} \ln | \sec (e^{-4x}) + \tan (e^{-4x}) | + C$\\
+
+\noindent (d) $\frac{2}{3}$\\
+
+\noindent (e) $-\frac{1}{3a(ax^3+b)} + C$\\
+
+\noindent (f)$-{\frac{506}{15}}$
+\medskip
+
+\noindent 15.  $y^2 = k(\ln x)^2 -1$, where  $k = e^{2C}$
+\medskip
+
+\noindent 16.\\
+(a) ${\frac{x^6 \ln x}{6}} - {\frac{x^6}{36}} + C$
+
+\noindent (b)  ${\frac{x^2 e^{x^2}}{2}} - {\frac{e^{x^2}}{2}} + C$  
+
+\noindent (c)  $x (\ln x)^2 - 2x \ln x + 2x + C$
+\medskip
+
+\noindent 17.\\
+(a) ${\frac{x^2 \tan^{-1} x}{2}} - {\frac{x}{2}} + {\frac{\tan^{-1} 
+x}{2}} + C$
+\medskip
+
+\noindent (b) $\ln | \sin x| - {\frac{1}{2}} \sin^2 x + C$
+\medskip
+
+\noindent (c) ${\frac{9}{2}} \sin^{-1} \left ( {\frac{x}{3}} \right ) + {\frac{x 
+\sqrt{9-x^2}}{2}} + C$
+\medskip
+
+\noindent 18.  ${\frac{32}{3}}$ 
+\medskip
+
+\noindent 19.  $2 \pi$ 
+\medskip
+
+\noindent 20.  $-{\frac{10!}{6}}$
+\medskip
+
+\noindent 21.  $-{\frac{1}{5}} e^{-5x} + {\frac{1}{2}} \tan^{-1} (2x) + C$
+\medskip
+
+\noindent 22.  ${\frac{1}{2}}$
+\medskip
+
+\noindent 23.\\  (a) ${\frac{1}{3}} \sin^{-1} \left ({\frac{x^3}{2}} 
+\right) + C$
+\medskip
+
+\noindent (b) ${\frac{41}{12}}$ 
+\medskip
+
+\noindent 24.  -24
+\medskip
+
+\noindent 25.  ${\frac{37}{12}}$
+\medskip
+
+\noindent 26.  $- \sec \left ( {\frac{1}{x}} \right ) + C$, $\ln |\ln x| + C$
+\medskip
+
+\noindent 27.  $-{\frac{1}{3}} \sqrt{4-3e^{2x}}$, ${\frac{\pi}{6}}$
+\medskip
+
+\noindent 28. $y = \sin ( -\sqrt{1-x^2} + 1)$
+\medskip
+
+\noindent 29.\\
+(a) ${\frac{1}{12}} \sin^6 (2x) -  {\frac{1}{16}} \sin^8 
+(2x) + C$
+\medskip
+
+\noindent (b) ${\frac{1}{3}} \tan^3 (x) - \tan (x) + x + C$
+\medskip
+
+\noindent (c) ${\frac{2}{13}} e^{2x} \sin(3x) - {\frac{3}{13}} e^{2x} 
+\cos(3x) + C$
+\medskip 
+
+\noindent (d) $\ln | {\frac{\sqrt{x^2+4}}{2}} + {\frac{x}{2}} | - 
+{\frac{x}{\sqrt{x^2+4}}} + C$
+\medskip
+
+\noindent (e) $-{\frac{1}{3}} \cdot {\frac{(1-x^2)^{3/2}}{x^3}} + C$
+\medskip
+
+\noindent (f) ${\frac{1}{\sqrt{4-x^2}}} + C$
+\medskip
+
+\noindent (g) ${\frac{\sqrt{e^{2x}-9}}{9e^x}} + C$
+\medskip
+
+\noindent 30.\\
+(a) $4 \ln \left | {\frac{x-1}{x-2}} \right | - {\frac{5}{x-2}} + 
+C$
+\medskip
+
+\noindent (b) $4 \ln |x| - 2 \ln (x^2+1) + \tan^{-1} (x) + C$
+\medskip
+
+\noindent 31.\\
+(a) $x + \ln|x+1| + C$ 
+\medskip
+
+\noindent (b)  ${\frac{25}{2}} \sin^{-1} \left ( {\frac{x}{5}} \right ) + 
+{\frac{x \sqrt{25-x^2}}{2}} + C$
+\medskip
+
+\noindent (c)  ${\frac{1}{4}} \tan^4(x) + {\frac{1}{6}} \tan^6 (x) + C$ 
+\medskip
+
+\noindent (d)  ${\frac{x^2}{2}} \tan^{-1}(x) - {\frac{x}{2}} + {\frac{1}{2}} 
+\tan^{-1}(x) + C$
+\medskip
+
+\noindent (e)  $- \ln \left | {\frac{\sqrt{1+x^2}}{x}} + {\frac{1}{x}} 
+\right | + C$
+\medskip
+
+\noindent (f)  $-2 \ln|x| + {\frac{1}{x}} + 2 \ln|x-1| + C$ 
+\medskip
+
+\noindent (g)  ${\frac{1}{2}} \ln |x^2-4x+8| + {\frac{3}{2}} \tan^{-1} \left 
+( {\frac{x-2}{2}} \right ) + C$
+\medskip
+
+\noindent 32. (a) diverges, (b) converges to ${\frac{1}{4}}$
+\medskip
+
+\noindent 33.  converges when $p>1$
+\medskip
+
+\noindent 34.  ${\frac{\pi}{6}}$ units$^2$
+\medskip
+
+\noindent 35.  ${\frac{31}{99}}$
+\medskip
+
+\noindent 36.  (a) $\approx 0.1899$, (b) diverges (look at the sequence of 
+partial sums), (c) ${\frac{1}{2}}$
+\medskip
+
+\noindent 37.  (a) converges by the integral test, (b) diverges by the nth term 
+test
+\medskip
+
+\noindent 38.  (a) diverges by basic comparison, (b) converges by basic 
+comparison, (c) converges by the integral test
+\medskip
+
+\noindent 39.  (a) diverges by the ratio test, (b) converges by the root test, 
+(c) diverges by the nth term test, (d) converges by limit comparison (or, you can 
+show it is telescoping)
+\medskip
+
+\noindent 40.  (a) converges by limit comparison, (b) converges by ratio test
+\medskip
+
+\noindent 41.  converges when $0<r<1$
+\medskip
+
+\noindent 42.  (a) converges conditionally, (b) converges absolutely, (c) 
+converges absolutely, (d) converges conditionally
+\medskip
+
+\noindent 43.  $\left [ {\frac{5}{2}}, {\frac{7}{2}} \right )$
+\medskip
+
+\noindent 44.  $x \in (-0.9467, 0.9467)$
+\medskip
+
+\noindent 45.  -840
+\medskip
+
+\noindent 46.  $\approx 0.743$
+\medskip
+
+\noindent 47.  ${\frac{108 \pi}{5}}$ cubic units
+\medskip
+
+\noindent 48.  $45 \pi$ cubic units
+\medskip
+
+\noindent 49.  $27 \pi$ cubic units
+\medskip
+
+\noindent 50.  ${\frac{81 \pi}{2}}$ cubic units
+\medskip
+
+\noindent 51.\\
+(a) $3 \sum_{k=0}^{\infty} (-1)^k2^{k-1}x^{k+1}$, valid
+for $|x|<{\frac{1}{2}}$ \hfil\break
+(b) $\sum_{k=0}^{\infty} (-1)^k {\frac{x^{2k+1}}
+{2^{2k+2}(2k+1)!(2k+1)}}$, valid for $x \neq 0$ \hfil\break
+(c) $\sum_{k=0}^{\infty}
+(-1)^k {\frac{x^{2k+1}}{2k+1}} + C$, valid for $|x|<1$ 
+\medskip
+
+\noindent 52.  (a) 0.966; (b) approximately 0.6165 (stop at $k=5$)
+
+\section{A Few Extra Practice Problems that May Appear on the Final Exam -- KNOW THESE}
+
+\begin{enumerate}
+
+\item Evaluate the following improper integral: 
+      \[
+      I = \int_{e^2}^{\infty} \frac{\ln(\ln(x))}{x (\ln x)^{m+1}} dx, m > 0. 
+      \]
+\item Evaluate the following indefinite integral: 
+      \[
+      I = \int \frac{dx}{1+e^x}. 
+      \]
+\item Evaluate the next limit 
+      \[
+      L = \lim_{\alpha \rightarrow 0^{+}} \left( 
+          \frac{1-e^{-\alpha v}}{\alpha}\right)^x, 
+          \alpha > 0, v > 0. 
+      \]
+      HINT: Consider the Taylor series expansion of the exponential function. 
+
+\end{enumerate}
+
+\end{document}
+
