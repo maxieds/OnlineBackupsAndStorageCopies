@@ -17,6 +17,9 @@
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs/*` (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/_video/*.mp4` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/math-docs-misc/tilings/pchistplots-n13n14-compr-nq8-2up-comp.pdf` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/math-docs-misc/tilings/pchistplots-n13n14-sqrtcomps-nq8-4up-landscape.pdf` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/math-docs-misc/tilings/tilings-data-writeup-2015.11.04-v1.pdf` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 
 ## Omitted files lists (initial uploads)
 
