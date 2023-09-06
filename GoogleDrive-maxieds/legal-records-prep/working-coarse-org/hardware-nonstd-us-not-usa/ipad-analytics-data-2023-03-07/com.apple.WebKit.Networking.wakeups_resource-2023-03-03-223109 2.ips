@@ -1,0 +1,810 @@
+{"app_name":"com.apple.WebKit.Networking","timestamp":"2023-03-03 22:31:09.00 -0600","app_version":"8614","slice_uuid":"68118191-B101-3E13-95F8-531EF19A6616","build_version":"8614.4.6.0.6","bundleID":"com.apple.WebKit.Networking","duration_ms":"225794","share_with_app_devs":0,"is_first_party":0,"bug_type":"142","os_version":"iPhone OS 16.3.1 (20D67)","roots_installed":0,"incident_id":"C59C0F66-2A59-4ADC-BE9E-77D9CFACC835","name":"com.apple.WebKit.Networking"}
+Date/Time:        2023-03-03 22:27:21.422 -0600
+End time:         2023-03-03 22:31:07.216 -0600
+OS Version:       iPhone OS 16.3.1 (Build 20D67)
+Architecture:     arm64e
+Report Version:   40
+Incident Identifier: C59C0F66-2A59-4ADC-BE9E-77D9CFACC835
+
+Data Source:      Microstackshots
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Shared Cache:     5BDA308D-F9F8-3C49-9BEF-D13833EC38C2 slid base address 0x1e3d1c000, slide 0x63d1c000
+
+Command:          com.apple.WebKit.Networking
+Path:             /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.Networking.xpc/com.apple.WebKit.Networking
+Identifier:       com.apple.WebKit.Networking
+Version:          8614 (8614.4.6.0.6)
+Resource Coalition ID: 434
+Architecture:     arm64
+PID:              312
+
+Event:            wakeups
+Action taken:     none
+Wakeups:          45001 wakeups over the last 226 seconds (199 wakeups per second average), exceeding limit of 150 wakeups per second over 300 seconds
+Wakeups limit:    45000
+Limit duration:   300s
+Wakeups caused:   45001
+Wakeups duration: 226s
+Duration:         225.79s
+Duration Sampled: 215.30s
+Steps:            87
+
+Hardware model:   iPad12,1
+Active cpus:      6
+HW page size:     16384
+VM page size:     16384
+
+OS Cryptex File Extents: 29
+
+Heaviest stack for the target process:
+  4  ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+  4  ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+  2  ??? (JavaScriptCore + 1011772) [0x1a24cb03c]
+  2  ??? (libsystem_kernel.dylib + 5756) [0x1cbf6767c]
+
+
+Powerstats for:   com.apple.WebKit.Networking [312]
+UUID:             68118191-B101-3E13-95F8-531EF19A6616
+Path:             /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.Networking.xpc/com.apple.WebKit.Networking
+Identifier:       com.apple.WebKit.Networking
+Version:          8614 (8614.4.6.0.6)
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Resource Coalition ID: 434
+Architecture:     arm64
+Footprint:        54.45 MB
+Pageins:          6 pages
+Start time:       2023-03-03 22:27:36.075 -0600
+End time:         2023-03-03 22:31:07.060 -0600
+Num samples:      12 (14%)
+Primary state:    6 samples Frontmost App, Non-Suppressed, User mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 12 samples Active
+Power Source:     12 samples on Battery, 0 samples on AC
+  4   ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+    4   ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+      2   ??? (JavaScriptCore + 1011772) [0x1a24cb03c]
+        2   ??? (libsystem_kernel.dylib + 5756) [0x1cbf6767c]
+          2   <Kernel mode>
+      2   ??? (JavaScriptCore + 1011044) [0x1a24cad64]
+        1   ??? (JavaScriptCore + 1101608) [0x1a24e0f28]
+        1   ??? (JavaScriptCore + 1100600) [0x1a24e0b38]
+          1   ??? (JavaScriptCore + 1102596) [0x1a24e1304]
+  4   ??? (dyld + 88416) [0x1ad668960]
+    4   ??? (WebKit + 2258716) [0x1a190b71c]
+      4   ??? (libxpc.dylib + 116384) [0x1dc6686a0]
+        4   ??? (libxpc.dylib + 107432) [0x1dc6663a8]
+          4   ??? (Foundation + 270056) [0x189123ee8]
+            4   ??? (Foundation + 270420) [0x189124054]
+              4   ??? (CoreFoundation + 528048) [0x18ed7ceb0]
+                3   ??? (CoreFoundation + 507808) [0x18ed77fa0]
+                  3   ??? (CoreFoundation + 189768) [0x18ed2a548]
+                    3   ??? (CoreFoundation + 567720) [0x18ed869a8]
+                      3   ??? (CoreFoundation + 844588) [0x18edca32c]
+                        2   ??? (WebCore + 28352876) [0x1a0b4016c]
+                          1   ??? (WebKit + 3046144) [0x1a19cbb00]
+                          1   ??? (WebCore + 28187944) [0x1a0b17d28]
+                            1   ??? (WebKit + 2931252) [0x1a19afa34]
+                              1   ??? (WebKit + 3061504) [0x1a19cf700]
+                                1   ??? (WebKit + 4285292) [0x1a1afa36c]
+                                  1   ??? (JavaScriptCore + 731720) [0x1a2486a48]
+                                    1   ??? (JavaScriptCore + 817856) [0x1a249bac0]
+                                      1   ??? (JavaScriptCore + 1058376) [0x1a24d6648]
+                        1   ??? (JavaScriptCore + 51788) [0x1a23e0a4c]
+                1   ??? (CoreFoundation + 507948) [0x18ed7802c]
+                  1   ??? (CoreFoundation + 632520) [0x18ed966c8]
+                    1   ??? (libdispatch.dylib + 74820) [0x19632b444]
+                      1   ??? (libdispatch.dylib + 75764) [0x19632b7f4]
+                        1   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                          1   ??? (libsystem_malloc.dylib + 5228) [0x19d1eb46c]
+  3   ??? (libsystem_pthread.dylib + 2968) [0x1dc608b98]
+    3   ??? (libsystem_pthread.dylib + 3576) [0x1dc608df8]
+      3   ??? (libdispatch.dylib + 93712) [0x19632fe10]
+        2   ??? (libdispatch.dylib + 54436) [0x1963264a4]
+          1   ??? (libdispatch.dylib + 109144) [0x196333a58]
+            1   ??? (libdispatch.dylib + 29720) [0x196320418]
+              1   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                1   ??? (Network + 11782172) [0x18fc1e81c]
+                  1   ??? (Network + 11785744) [0x18fc1f610]
+                    1   ??? (Network + 11795172) [0x18fc21ae4]
+                      1   ??? (Network + 2428740) [0x18f332f44]
+                        1   ??? (Network + 2431248) [0x18f333910]
+                          1   ??? (Network + 2434672) [0x18f334670]
+                            1   ??? (Network + 2438308) [0x18f3354a4]
+                              1   ??? (libquic.dylib + 675508) [0x1f0664eb4]
+                                1   ??? (libquic.dylib + 676064) [0x1f06650e0]
+                                  1   ??? (Network + 2579320) [0x18f357b78]
+                                    1   ??? (libquic.dylib + 644964) [0x1f065d764]
+                                      1   ??? (libquic.dylib + 313000) [0x1f060c6a8]
+                                        1   ??? (libquic.dylib + 310972) [0x1f060bebc]
+                                          1   ??? (libquic.dylib + 92796) [0x1f05d6a7c]
+                                            1   ??? (libquic.dylib + 158452) [0x1f05e6af4]
+                                              1   ??? (libquic.dylib + 163916) [0x1f05e804c]
+                                                1   ??? (libquic.dylib + 310848) [0x1f060be40]
+                                                  1   ??? (libquic.dylib + 481588) [0x1f0635934]
+                                                    1   <Effective Thread QoS Default, Requested Thread QoS Default>
+          1   ??? (libdispatch.dylib + 49600) [0x1963251c0]
+            1   ??? (libdispatch.dylib + 46656) [0x196324640]
+              1   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                1   ??? (libdispatch.dylib + 78100) [0x19632c114]
+                  1   ??? (CFNetwork + 1022620) [0x18ff89a9c]
+                    1   ??? (CFNetwork + 708124) [0x18ff3ce1c]
+                      1   ??? (CFNetwork + 708544) [0x18ff3cfc0]
+                        1   ??? (CFNetwork + 1257388) [0x18ffc2fac]
+                          1   ??? (CFNetwork + 1254520) [0x18ffc2478]
+                            1   ??? (CFNetwork + 1254856) [0x18ffc25c8]
+                              1   ??? (CFNetwork + 1595348) [0x1900157d4]
+                                1   ??? (CFNetwork + 1567572) [0x19000eb54]
+                                  1   ??? (CFNetwork + 1573172) [0x190010134]
+                                    1   ??? (CFNetwork + 418756) [0x18fef63c4]
+                                      1   ??? (CFNetwork + 1803024) [0x190048310]
+                                        1   ??? (libdispatch.dylib + 156844) [0x19633f4ac]
+                                          1   ??? (libsystem_kernel.dylib + 4864) [0x1cbf67300]
+                                            1   <Effective Thread QoS Default, Requested Thread QoS Default>
+        1   ??? (libdispatch.dylib + 54800) [0x196326610]
+          1   ??? (libdispatch.dylib + 157944) [0x19633f8f8]
+            1   ??? (libdispatch.dylib + 158268) [0x19633fa3c]
+              1   ??? (libsystem_kernel.dylib + 4864) [0x1cbf67300]
+                1   <Kernel mode>
+  1   ??? (libsystem_pthread.dylib + 2960) [0x1dc608b90]
+    1   <Kernel mode>
+
+  Binary Images:
+           0x102a88000 -                ???  com.apple.WebKit.Networking 8614 (8614.4.6.0.6) <68118191-B101-3E13-95F8-531EF19A6616>  /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.Networking.xpc/com.apple.WebKit.Networking
+           0x1890e2000 -        0x189a2bfff  Foundation                                      <E5F615C7-CC5E-3656-8600-41C767812A35>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x18ecfc000 -        0x18f0e1fff  CoreFoundation                                  <42CCFC7B-FF32-3D25-8F01-CCB2AD843A8B>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x18f0e2000 -        0x18fe8ffff  Network                                         <66645D9C-4336-3A4D-8060-866F18C64BD2>  /System/Library/Frameworks/Network.framework/Network
+           0x18fe90000 -        0x190259fff  CFNetwork                                       <7F3313C9-1435-3333-8C82-DC961429D0B3>  /System/Library/Frameworks/CFNetwork.framework/CFNetwork
+           0x196319000 -        0x19635ffff  libdispatch.dylib                               <DED4D0A5-1420-32AE-83A6-C31D938A1C9A>  /usr/lib/system/libdispatch.dylib
+           0x19d1ea000 -        0x19d20dffb  libsystem_malloc.dylib                          <81CE80B1-67CE-333C-9A2D-A1AF0A729172>  /usr/lib/system/libsystem_malloc.dylib
+           0x19f036000 -        0x1a16e3fff  WebCore                                         <BF44A3F4-85D4-38C8-BF26-197F06ADE273>  /System/Library/PrivateFrameworks/WebCore.framework/WebCore
+           0x1a16e4000 -        0x1a231cfff  WebKit                                          <387873D6-A744-3097-B6A4-EB0CD4213D12>  /System/Library/Frameworks/WebKit.framework/WebKit
+           0x1a23d4000 -        0x1a3892fff  JavaScriptCore                                  <400BEBF5-2E9D-30CC-A5DC-EB81436379DE>  /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+           0x1ad653000 -        0x1ad6d6093  dyld                                            <4B042F28-0D14-30EC-A1DE-3DBB10866AD7>  /usr/lib/dyld
+           0x1cbf66000 -        0x1cbf9dfeb  libsystem_kernel.dylib                          <C76E6BED-4635-30C6-8F19-FB829BBE1AE1>  /usr/lib/system/libsystem_kernel.dylib
+           0x1dc608000 -        0x1dc613fff  libsystem_pthread.dylib                         <45AC734E-6649-3EE2-A096-3FD66441AB78>  /usr/lib/system/libsystem_pthread.dylib
+           0x1dc64c000 -        0x1dc68cfff  libxpc.dylib                                    <AB6DBB4E-D383-3C91-9C2B-3EE44590C928>  /usr/lib/system/libxpc.dylib
+           0x1f05c0000 -        0x1f068ffff  libquic.dylib                                   <E1161B85-6E51-30F8-AD5B-3998CCA6CD9B>  /usr/lib/libquic.dylib
+
+
+Powerstats for:   mediaserverd
+UUID:             2FA37712-E253-3391-82E5-DC6569CC8AAD
+Path:             /usr/sbin/mediaserverd
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Resource Coalition ID: 15
+Architecture:     arm64
+Start time:       2023-03-03 22:27:39.991 -0600
+End time:         2023-03-03 22:31:06.052 -0600
+Num samples:      17 (20%)
+Primary state:    9 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Unspecified, Requested Thread QoS Unspecified, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 17 samples Active
+Power Source:     17 samples on Battery, 0 samples on AC
+  15  ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+    15  ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+      8   ??? (CoreMedia + 409392) [0x199f74f30]
+        6   ??? (MediaToolbox + 258688) [0x19dd03280]
+          6   ??? (MediaToolbox + 282152) [0x19dd08e28]
+            6   ??? (VideoToolbox + 364768) [0x19d92e0e0]
+              6   ??? (VideoToolbox + 27196) [0x19d8dba3c]
+                5   ??? (AVD.videodecoder + 162212) [0x1fce909a4]
+                  4   ??? (AVD.videodecoder + 10056) [0x1fce6b748]
+                    4   ??? (AVD.videodecoder + 12736) [0x1fce6c1c0]
+                      4   ??? (IOKit + 13544) [0x196ca64e8]
+                        4   ??? (IOKit + 13792) [0x196ca65e0]
+                          4   ??? (IOKit + 16956) [0x196ca723c]
+                            4   ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                              2   <Kernel mode>
+                  1   ??? (AVD.videodecoder + 9120) [0x1fce6b3a0]
+                    1   ??? (AVD.videodecoder + 183116) [0x1fce95b4c]
+                      1   ??? (AVD.videodecoder + 18400) [0x1fce6d7e0]
+                        1   ??? (CoreVideo + 103128) [0x1aaf282d8]
+                          1   ??? (CoreVideo + 6208) [0x1aaf10840]
+                            1   ??? (CoreVideo + 127400) [0x1aaf2e1a8]
+                              1   ??? (CoreVideo + 113788) [0x1aaf2ac7c]
+                                1   ??? (CoreVideo + 110912) [0x1aaf2a140]
+                                  1   ??? (CoreFoundation + 612456) [0x18ed91868]
+                                    1   ??? (CoreFoundation + 54928) [0x18ed09690]
+                                      1   ??? (CoreFoundation + 549836) [0x18ed823cc]
+                                        1   ??? (libobjc.A.dylib + 10124) [0x187efa78c]
+                                          1   ??? (libsystem_malloc.dylib + 25488) [0x19d1f0390]
+                                            1   ??? (libsystem_malloc.dylib + 12756) [0x19d1ed1d4]
+                                              1   ??? (libsystem_malloc.dylib + 9984) [0x19d1ec700]
+                1   ??? (AVD.videodecoder + 159824) [0x1fce90050]
+                  1   ??? (AVD.videodecoder + 10056) [0x1fce6b748]
+                    1   ??? (AVD.videodecoder + 12736) [0x1fce6c1c0]
+                      1   ??? (IOKit + 13544) [0x196ca64e8]
+                        1   ??? (IOKit + 13792) [0x196ca65e0]
+                          1   ??? (IOKit + 16956) [0x196ca723c]
+                            1   ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                              1   <Kernel mode>
+        2   ??? (MediaToolbox + 3079664) [0x19dfb3df0]
+          2   ??? (CoreFoundation + 93216) [0x18ed12c20]
+            1   ??? (MediaToolbox + 3080048) [0x19dfb3f70]
+              1   ??? (CoreMedia + 137248) [0x199f32820]
+                1   ??? (CoreFoundation + 172408) [0x18ed26178]
+                  1   ??? (CoreFoundation + 309688) [0x18ed479b8]
+                    1   ??? (CoreFoundation + 792308) [0x18edbd6f4]
+                      1   ??? (CoreFoundation + 910404) [0x18edda444]
+                        1   ??? (CoreFoundation + 226288) [0x18ed333f0]
+                          1   ??? (CoreMedia + 136344) [0x199f32498]
+                            1   ??? (libdispatch.dylib + 156844) [0x19633f4ac]
+                              1   ??? (libsystem_kernel.dylib + 4864) [0x1cbf67300]
+                                1   <Kernel mode>
+            1   ??? (MediaToolbox + 3079880) [0x19dfb3ec8]
+              1   ??? (MediaToolbox + 3080480) [0x19dfb4120]
+                1   ??? (QuartzCore + 527028) [0x19041fab4]
+                  1   ??? (QuartzCore + 565572) [0x190429144]
+                    1   ??? (MediaToolbox + 3088604) [0x19dfb60dc]
+                      1   ??? (CoreFoundation + 518628) [0x18ed7a9e4]
+                        1   ??? (CoreVideo + 8516) [0x1aaf11144]
+                          1   ??? (CoreVideo + 106296) [0x1aaf28f38]
+                            1   ??? (CoreFoundation + 409816) [0x18ed600d8]
+                              1   ??? (CoreFoundation + 477816) [0x18ed70a78]
+      3   ??? (CoreAudio + 710408) [0x1b91a7708]
+        3   ??? (CoreAudio + 3891260) [0x1b94b003c]
+          3   ??? (CoreAudio + 3851480) [0x1b94a64d8]
+            3   ??? (CoreAudio + 3580152) [0x1b94640f8]
+              3   ??? (<88E52172-E930-39C7-88D6-5C682B33A6EC> + 19080) [0x103e3ca88]
+                2   ??? (<88E52172-E930-39C7-88D6-5C682B33A6EC> + 12160) [0x103e3af80]
+                  2   ??? (<88E52172-E930-39C7-88D6-5C682B33A6EC> + 22240) [0x103e3d6e0]
+                    2   ??? (<88E52172-E930-39C7-88D6-5C682B33A6EC> + 391784) [0x103e97a68]
+                      2   ??? (libAudioDSP.dylib + 7226408) [0x1b9dc8428]
+                        2   ??? (libAudioDSP.dylib + 4424868) [0x1b9b1c4a4]
+                          2   ??? (AudioToolboxCore + 2239244) [0x19a269b0c]
+                            2   ??? (AudioToolboxCore + 14244) [0x19a04a7a4]
+                              2   ??? (AudioToolboxCore + 18688) [0x19a04b900]
+                                2   ??? (AudioToolboxCore + 18392) [0x19a04b7d8]
+                                  2   ??? (AudioToolboxCore + 112468) [0x19a062754]
+                                    2   ??? (AudioToolboxCore + 104108) [0x19a0606ac]
+                                      2   ??? (libAudioDSP.dylib + 7224020) [0x1b9dc7ad4]
+                                        1   ??? (libAudioDSP.dylib + 4828964) [0x1b9b7ef24]
+                                          1   ??? (libAudioDSP.dylib + 2540204) [0x1b99502ac]
+                                            1   ??? (libAudioDSP.dylib + 2295060) [0x1b9914514]
+                                              1   ??? (libAudioDSP.dylib + 2325260) [0x1b991bb0c]
+                                                1   ??? (libAudioDSP.dylib + 2326296) [0x1b991bf18]
+                                                  1   ??? (libvDSP.dylib + 26264) [0x1dce1f698]
+                                                    1   ??? (libvDSP.dylib + 12208) [0x1dce1bfb0]
+                                                      1   ??? (libvDSP.dylib + 40464) [0x1dce22e10]
+                                        1   ??? (libAudioDSP.dylib + 2541508) [0x1b99507c4]
+                                          1   ??? (libAudioDSP.dylib + 2540204) [0x1b99502ac]
+                                            1   ??? (libAudioDSP.dylib + 2295060) [0x1b9914514]
+                                              1   ??? (libAudioDSP.dylib + 2232676) [0x1b9905164]
+                                                1   ??? (libAudioDSP.dylib + 2166516) [0x1b98f4ef4]
+                                                  1   ??? (libvDSP.dylib + 26264) [0x1dce1f698]
+                                                    1   ??? (libvDSP.dylib + 11880) [0x1dce1be68]
+                1   ??? (<88E52172-E930-39C7-88D6-5C682B33A6EC> + 11412) [0x103e3ac94]
+                  1   ??? (<88E52172-E930-39C7-88D6-5C682B33A6EC> + 16020) [0x103e3be94]
+                    1   ??? (AudioToolbox + 42556) [0x1a983163c]
+                      1   ??? (AudioToolbox + 46528) [0x1a98325c0]
+                        1   ??? (AudioToolbox + 79236) [0x1a983a584]
+                          1   ??? (AudioToolbox + 80636) [0x1a983aafc]
+                            1   ??? (libEmbeddedSystemAUs.dylib + 15628) [0x1f60d1d0c]
+                              1   ??? (libEmbeddedSystemAUs.dylib + 5792) [0x1f60cf6a0]
+                                1   ??? (libEmbeddedSystemAUs.dylib + 28988) [0x1f60d513c]
+                                  1   ??? (libEmbeddedSystemAUs.dylib + 18680) [0x1f60d28f8]
+                                    1   ??? (libEmbeddedSystemAUs.dylib + 107788) [0x1f60e850c]
+                                      1   ??? (libEmbeddedSystemAUs.dylib + 117808) [0x1f60eac30]
+                                        1   ??? (AudioToolbox + 644244) [0x1a98c4494]
+                                          1   ??? (AudioToolbox + 626400) [0x1a98bfee0]
+                                            1   ??? (AudioToolbox + 80636) [0x1a983aafc]
+                                              1   ??? (libEmbeddedSystemAUs.dylib + 15628) [0x1f60d1d0c]
+                                                1   ??? (libEmbeddedSystemAUs.dylib + 5792) [0x1f60cf6a0]
+                                                  1   ??? (libEmbeddedSystemAUs.dylib + 570028) [0x1f61592ac]
+                                                    1   ??? (libEmbeddedSystemAUs.dylib + 209204) [0x1f6101134]
+                                                      1   ??? (libEmbeddedSystemAUs.dylib + 207404) [0x1f6100a2c]
+                                                        1   ??? (libvDSP.dylib + 65652) [0x1dce29074]
+      2   ??? (libdispatch.dylib + 88060) [0x19632e7fc]
+        2   ??? (libdispatch.dylib + 88684) [0x19632ea6c]
+          2   ??? (libdispatch.dylib + 49600) [0x1963251c0]
+            1   ??? (libdispatch.dylib + 46924) [0x19632474c]
+            1   ??? (libdispatch.dylib + 46656) [0x196324640]
+              1   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                1   ??? (MediaToolbox + 777540) [0x19dd81d44]
+                  1   ??? (MediaToolbox + 778820) [0x19dd82244]
+                    1   ??? (MediaToolbox + 706632) [0x19dd70848]
+                      1   ??? (MediaToolbox + 6092368) [0x19e293650]
+                        1   ??? (MediaToolbox + 282828) [0x19dd090cc]
+                          1   ??? (MediaToolbox + 283232) [0x19dd09260]
+                            1   ??? (QuartzCore + 896396) [0x190479d8c]
+      1   ??? (CoreAudio + 709988) [0x1b91a7564]
+        1   ??? (caulk + 86964) [0x1eddbd3b4]
+          1   ??? (libsystem_kernel.dylib + 10064) [0x1cbf68750]
+            1   <Kernel mode>
+      1   ??? (CoreAudio + 709520) [0x1b91a7390]
+        1   ??? (CoreAudio + 3884752) [0x1b94ae6d0]
+          1   ??? (CoreAudio + 11208) [0x1b90fcbc8]
+            1   ??? (libsystem_kernel.dylib + 5756) [0x1cbf6767c]
+              1   <Kernel mode>
+  2   ??? (libsystem_pthread.dylib + 2968) [0x1dc608b98]
+    2   ??? (libsystem_pthread.dylib + 3576) [0x1dc608df8]
+      2   ??? (libdispatch.dylib + 93712) [0x19632fe10]
+        2   ??? (libdispatch.dylib + 49548) [0x19632518c]
+          2   ??? (libdispatch.dylib + 46360) [0x196324518]
+            2   ??? (libdispatch.dylib + 109144) [0x196333a58]
+              2   ??? (libdispatch.dylib + 29720) [0x196320418]
+                2   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                  1   ??? (MediaToolbox + 159408) [0x19dceaeb0]
+                    1   ??? (MediaToolbox + 648132) [0x19dd623c4]
+                      1   ??? (MediaToolbox + 160760) [0x19dceb3f8]
+                        1   ??? (MediaToolbox + 650464) [0x19dd62ce0]
+                          1   ??? (MediaToolbox + 2970992) [0x19df99570]
+                            1   ??? (MediaToolbox + 2971304) [0x19df996a8]
+                              1   ??? (CoreMedia + 75788) [0x199f2380c]
+                                1   ??? (CoreMedia + 1124684) [0x19a02394c]
+                                  1   ??? (CoreMedia + 827448) [0x199fdb038]
+                                    1   ??? (CoreMedia + 7068) [0x199f12b9c]
+                                      1   ??? (libsystem_malloc.dylib + 25488) [0x19d1f0390]
+                                        1   ??? (libsystem_malloc.dylib + 12756) [0x19d1ed1d4]
+                                          1   <Effective Thread QoS Default, Requested Thread QoS Default>
+                  1   ??? (libdispatch.dylib + 139812) [0x19633b224]
+                    1   ??? (libsystem_kernel.dylib + 4844) [0x1cbf672ec]
+                      1   ??? (libsystem_kernel.dylib + 80988) [0x1cbf79c5c]
+                        1   ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                          1   <Kernel mode, Effective Thread QoS Default, Requested Thread QoS Default>
+
+  Binary Images:
+           0x102a34000 -                ???  mediaserverd               <2FA37712-E253-3391-82E5-DC6569CC8AAD>  /usr/sbin/mediaserverd
+           0x103e38000 -                ???  ???                        <88E52172-E930-39C7-88D6-5C682B33A6EC>
+           0x187ef8000 -        0x187f3be1f  libobjc.A.dylib            <C1140B65-65C7-3A26-BD12-7BC730320EA0>  /usr/lib/libobjc.A.dylib
+           0x18ecfc000 -        0x18f0e1fff  CoreFoundation             <42CCFC7B-FF32-3D25-8F01-CCB2AD843A8B>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x19039f000 -        0x1906fdfff  QuartzCore                 <3F8EDDC2-623F-301F-BA1D-12976C8A60E9>  /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+           0x196319000 -        0x19635ffff  libdispatch.dylib          <DED4D0A5-1420-32AE-83A6-C31D938A1C9A>  /usr/lib/system/libdispatch.dylib
+           0x196ca3000 -        0x196d5ffff  IOKit                      <F2827C58-6EC3-3FD8-B5A9-4A826C09872F>  /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+           0x199f11000 -        0x19a046fff  CoreMedia                  <C1E625B3-4744-3B5C-8780-A6E3F98DF647>  /System/Library/Frameworks/CoreMedia.framework/CoreMedia
+           0x19a047000 -        0x19a2f7fff  AudioToolboxCore           <6FB8EAE2-60F1-3DFF-B385-2FD714057E4F>  /System/Library/PrivateFrameworks/AudioToolboxCore.framework/AudioToolboxCore
+           0x19d1ea000 -        0x19d20dffb  libsystem_malloc.dylib     <81CE80B1-67CE-333C-9A2D-A1AF0A729172>  /usr/lib/system/libsystem_malloc.dylib
+           0x19d8d5000 -        0x19dcc3fff  VideoToolbox               <A7A91D1C-DE15-3457-BBEE-412EFCA9E224>  /System/Library/Frameworks/VideoToolbox.framework/VideoToolbox
+           0x19dcc4000 -        0x19e560fff  MediaToolbox               <E3851714-8B18-399D-8F8D-0202FC191E9B>  /System/Library/Frameworks/MediaToolbox.framework/MediaToolbox
+           0x1a9827000 -        0x1a9ac9fff  AudioToolbox               <7DACFA7A-2982-3315-8E65-929B201BDEBC>  /System/Library/Frameworks/AudioToolbox.framework/AudioToolbox
+           0x1aaf0f000 -        0x1aaf54fff  CoreVideo                  <BAB270A1-07E8-3B91-8DB0-451C8737F985>  /System/Library/Frameworks/CoreVideo.framework/CoreVideo
+           0x1b90fa000 -        0x1b96e3fff  CoreAudio                  <3418C9F2-8823-3543-9875-89D03B2138F5>  /System/Library/Frameworks/CoreAudio.framework/CoreAudio
+           0x1b96e4000 -        0x1b9f92fff  libAudioDSP.dylib          <380CA0EC-28E8-3127-BEC5-4837AA683671>  /System/Library/Frameworks/AudioToolbox.framework/libAudioDSP.dylib
+           0x1cbf66000 -        0x1cbf9dfeb  libsystem_kernel.dylib     <C76E6BED-4635-30C6-8F19-FB829BBE1AE1>  /usr/lib/system/libsystem_kernel.dylib
+           0x1dc608000 -        0x1dc613fff  libsystem_pthread.dylib    <45AC734E-6649-3EE2-A096-3FD66441AB78>  /usr/lib/system/libsystem_pthread.dylib
+           0x1dce19000 -        0x1dcf03ffb  libvDSP.dylib              <41096534-D0EC-339B-A1BC-F8B56CBB01F0>  /System/Library/Frameworks/Accelerate.framework/Frameworks/vecLib.framework/libvDSP.dylib
+           0x1edda8000 -        0x1eddd1fff  caulk                      <809ED9E4-7CE2-34D2-A9BB-C1EEDAE6EF60>  /System/Library/PrivateFrameworks/caulk.framework/caulk
+           0x1f60ce000 -        0x1f61d9ff3  libEmbeddedSystemAUs.dylib <3DB53254-D6E0-3D1C-8E1D-F23876334630>  /System/Library/Frameworks/AudioToolbox.framework/libEmbeddedSystemAUs.dylib
+           0x1fce69000 -        0x1fcea1ff7  AVD.videodecoder           <292B3D19-93FD-3127-9527-1A0370E71076>  /System/Library/VideoDecoders/AVD.videodecoder
+
+
+Powerstats for:   com.apple.WebKit.WebContent
+UUID:             0BBD81B5-3F42-3D0E-BC0E-4392580E0414
+Path:             /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.WebContent.xpc/com.apple.WebKit.WebContent
+Identifier:       com.apple.WebKit.WebContent
+Version:          8614 (8614.4.6.0.6)
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Resource Coalition ID: 434
+Architecture:     arm64
+Start time:       2023-03-03 22:28:38.133 -0600
+End time:         2023-03-03 22:31:05.052 -0600
+Num samples:      15 (17%)
+Primary state:    10 samples Frontmost App, Non-Suppressed, User mode, Effective Thread QoS User Interactive, Requested Thread QoS User Interactive, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 15 samples Active
+Power Source:     15 samples on Battery, 0 samples on AC
+  10  ??? (dyld + 88416) [0x1ad668960]
+    10  ??? (WebKit + 2258716) [0x1a190b71c]
+      10  ??? (libxpc.dylib + 116384) [0x1dc6686a0]
+        10  ??? (libxpc.dylib + 107432) [0x1dc6663a8]
+          10  ??? (Foundation + 270056) [0x189123ee8]
+            10  ??? (Foundation + 270420) [0x189124054]
+              10  ??? (CoreFoundation + 528048) [0x18ed7ceb0]
+                7   ??? (CoreFoundation + 507808) [0x18ed77fa0]
+                  6   ??? (CoreFoundation + 189768) [0x18ed2a548]
+                    6   ??? (CoreFoundation + 567720) [0x18ed869a8]
+                      6   ??? (CoreFoundation + 844588) [0x18edca32c]
+                        6   ??? (WebCore + 28352876) [0x1a0b4016c]
+                          6   ??? (WebCore + 28187944) [0x1a0b17d28]
+                            2   ??? (WebKit + 1169616) [0x1a18018d0]
+                              2   ??? (WebKit + 5873800) [0x1a1c7e088]
+                                2   ??? (WebCore + 27774384) [0x1a0ab2db0]
+                                  2   ??? (WebCore + 20112960) [0x1a0364640]
+                                    1   ??? (WebCore + 28928496) [0x1a0bcc9f0]
+                                      1   ??? (WebCore + 28924492) [0x1a0bcba4c]
+                                    1   ??? (WebCore + 28927520) [0x1a0bcc620]
+                                      1   ??? (WebCore + 28922396) [0x1a0bcb21c]
+                            2   ??? (WebKit + 1168884) [0x1a18015f4]
+                              2   ??? (WebCore + 27249928) [0x1a0a32d08]
+                                2   ??? (WebCore + 26802596) [0x1a09c59a4]
+                                  2   ??? (WebCore + 19002700) [0x1a025554c]
+                                    2   ??? (WebCore + 18999008) [0x1a02546e0]
+                                      1   ??? (WebCore + 32114220) [0x1a0ed662c]
+                                        1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                          1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                            1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                              1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                  1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                    1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                      1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                        1   ??? (WebCore + 32125064) [0x1a0ed9088]
+                                                          1   ??? (WebCore + 31732112) [0x1a0e79190]
+                                      1   ??? (WebCore + 32113636) [0x1a0ed63e4]
+                                        1   ??? (WebCore + 32135816) [0x1a0edba88]
+                                          1   ??? (WebCore + 32135816) [0x1a0edba88]
+                                            1   ??? (WebCore + 32135816) [0x1a0edba88]
+                                              1   ??? (WebCore + 32135816) [0x1a0edba88]
+                                                1   ??? (WebCore + 32135816) [0x1a0edba88]
+                                                  1   ??? (WebCore + 32135816) [0x1a0edba88]
+                                                    1   ??? (WebCore + 32130128) [0x1a0eda450]
+                                                      1   ??? (WebCore + 32015640) [0x1a0ebe518]
+                                                        1   ??? (WebCore + 31934160) [0x1a0eaa6d0]
+                            1   ??? (WebKit + 1169520) [0x1a1801870]
+                              1   ??? (WebKit + 5870332) [0x1a1c7d2fc]
+                                1   ??? (WebKit + 9686920) [0x1a2020f88]
+                                  1   ??? (WebKit + 9686920) [0x1a2020f88]
+                                    1   ??? (WebKit + 9686920) [0x1a2020f88]
+                                      1   ??? (WebKit + 9686920) [0x1a2020f88]
+                                        1   ??? (WebKit + 9686652) [0x1a2020e7c]
+                                          1   ??? (WebKit + 2260692) [0x1a190bed4]
+                                            1   ??? (WebKit + 8637860) [0x1a1f20da4]
+                            1   ??? (WebCore + 20706852) [0x1a03f5624]
+                              1   ??? (WebCore + 21550680) [0x1a04c3658]
+                                1   ??? (WebCore + 21548332) [0x1a04c2d2c]
+                                  1   ??? (libicucore.A.dylib + 256416) [0x19791c9a0]
+                                    1   ??? (libicucore.A.dylib + 281880) [0x197922d18]
+                                      1   ??? (libicucore.A.dylib + 281452) [0x197922b6c]
+                                        1   ??? (libicucore.A.dylib + 262848) [0x19791e2c0]
+                  1   ??? (CoreFoundation + 189696) [0x18ed2a500]
+                    1   ??? (libsystem_platform.dylib + 2976) [0x1dc572ba0]
+                1   ??? (libsystem_pthread.dylib + 12416) [0x1dc60b080]
+                1   ??? (CoreFoundation + 507036) [0x18ed77c9c]
+                1   ??? (CoreFoundation + 506748) [0x18ed77b7c]
+                  1   ??? (CoreFoundation + 418240) [0x18ed621c0]
+                    1   ??? (CoreFoundation + 926460) [0x18edde2fc]
+                      1   ??? (CoreFoundation + 876324) [0x18edd1f24]
+                        1   ??? (JavaScriptCore + 339432) [0x1a2426de8]
+                          1   ??? (JavaScriptCore + 336048) [0x1a24260b0]
+                            1   ??? (WebKit + 4305000) [0x1a1aff068]
+                              1   ??? (WebKit + 4293468) [0x1a1afc35c]
+                                1   ??? (WebKit + 7692256) [0x1a1e39fe0]
+                                  1   ??? (WebKit + 4324392) [0x1a1b03c28]
+                                    1   ??? (WebKit + 10304108) [0x1a20b7a6c]
+                                      1   ??? (WebKit + 10133428) [0x1a208dfb4]
+                                        1   ??? (WebCore + 26877784) [0x1a09d7f58]
+                                          1   ??? (WebCore + 19426668) [0x1a02bcd6c]
+                                            1   ??? (WebCore + 19727220) [0x1a0306374]
+                                              1   ??? (WebCore + 20649616) [0x1a03e7690]
+                                                1   ??? (WebCore + 20658868) [0x1a03e9ab4]
+                                                  1   ??? (WebCore + 21396192) [0x1a049dae0]
+                                                    1   ??? (WebCore + 21396900) [0x1a049dda4]
+                                                      1   ??? (WebCore + 21408140) [0x1a04a098c]
+                                                        1   ??? (WebCore + 20697428) [0x1a03f3154]
+                                                          1   ??? (WebCore + 20706568) [0x1a03f5508]
+                                                            1   ??? (WebCore + 21440008) [0x1a04a8608]
+                                                              1   ??? (WebCore + 21435388) [0x1a04a73fc]
+                                                                1   ??? (WebCore + 18980568) [0x1a024fed8]
+                                                                  1   ??? (WebCore + 27099096) [0x1a0a0dfd8]
+                                                                    1   ??? (WebCore + 27100732) [0x1a0a0e63c]
+                                                                      1   ??? (WebCore + 26992948) [0x1a09f4134]
+                                                                        1   ??? (WebCore + 32114220) [0x1a0ed662c]
+                                                                          1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                                            1   ??? (WebCore + 32126212) [0x1a0ed9504]
+                                                                              1   ??? (WebCore + 32125984) [0x1a0ed9420]
+                                                                                1   ??? (WebCore + 32146116) [0x1a0ede2c4]
+                                                                                  1   ??? (WebCore + 32158072) [0x1a0ee1178]
+                                                                                    1   ??? (WebCore + 32181024) [0x1a0ee6b20]
+                                                                                      1   ??? (WebCore + 31935932) [0x1a0eaadbc]
+                                                                                        1   ??? (WebCore + 31936020) [0x1a0eaae14]
+                                                                                          1   ??? (WebCore + 31934240) [0x1a0eaa720]
+                                                                                            1   ??? (WebCore + 31899828) [0x1a0ea20b4]
+  3   ??? (libsystem_pthread.dylib + 2960) [0x1dc608b90]
+    3   <Kernel mode, Effective Thread QoS Default, Requested Thread QoS Default>
+  2   ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+    2   ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+      2   ??? (JavaScriptCore + 1011044) [0x1a24cad64]
+        2   ??? (JavaScriptCore + 1101684) [0x1a24e0f74]
+          2   <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+
+  Binary Images:
+           0x100754000 -                ???  com.apple.WebKit.WebContent 8614 (8614.4.6.0.6) <0BBD81B5-3F42-3D0E-BC0E-4392580E0414>  /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.WebContent.xpc/com.apple.WebKit.WebContent
+           0x1890e2000 -        0x189a2bfff  Foundation                                      <E5F615C7-CC5E-3656-8600-41C767812A35>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x18ecfc000 -        0x18f0e1fff  CoreFoundation                                  <42CCFC7B-FF32-3D25-8F01-CCB2AD843A8B>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x1978de000 -        0x197b8efff  libicucore.A.dylib                              <C882A5DF-3EB5-3D78-9A14-1CD9466EBF02>  /usr/lib/libicucore.A.dylib
+           0x19f036000 -        0x1a16e3fff  WebCore                                         <BF44A3F4-85D4-38C8-BF26-197F06ADE273>  /System/Library/PrivateFrameworks/WebCore.framework/WebCore
+           0x1a16e4000 -        0x1a231cfff  WebKit                                          <387873D6-A744-3097-B6A4-EB0CD4213D12>  /System/Library/Frameworks/WebKit.framework/WebKit
+           0x1a23d4000 -        0x1a3892fff  JavaScriptCore                                  <400BEBF5-2E9D-30CC-A5DC-EB81436379DE>  /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+           0x1ad653000 -        0x1ad6d6093  dyld                                            <4B042F28-0D14-30EC-A1DE-3DBB10866AD7>  /usr/lib/dyld
+           0x1dc572000 -        0x1dc578ff3  libsystem_platform.dylib                        <669859C4-4449-3639-9597-479B5C013750>  /usr/lib/system/libsystem_platform.dylib
+           0x1dc608000 -        0x1dc613fff  libsystem_pthread.dylib                         <45AC734E-6649-3EE2-A096-3FD66441AB78>  /usr/lib/system/libsystem_pthread.dylib
+           0x1dc64c000 -        0x1dc68cfff  libxpc.dylib                                    <AB6DBB4E-D383-3C91-9C2B-3EE44590C928>  /usr/lib/system/libxpc.dylib
+
+
+Powerstats for:   backboardd
+UUID:             C3FACACE-A7D4-3483-88C9-513BB34CE422
+Path:             /usr/libexec/backboardd
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Resource Coalition ID: 73
+Architecture:     arm64
+Start time:       2023-03-03 22:27:31.761 -0600
+End time:         2023-03-03 22:31:05.456 -0600
+Num samples:      13 (15%)
+Primary state:    7 samples Non-Frontmost App, Non-Suppressed, User mode, Effective Thread QoS Unspecified, Requested Thread QoS Unspecified, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 13 samples Active
+Power Source:     13 samples on Battery, 0 samples on AC
+  9   ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+    9   ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+      9   ??? (QuartzCore + 2729148) [0x1906394bc]
+        9   ??? (QuartzCore + 2692332) [0x1906304ec]
+          9   ??? (CoreFoundation + 806100) [0x18edc0cd4]
+            9   ??? (CoreFoundation + 528048) [0x18ed7ceb0]
+              5   ??? (CoreFoundation + 508176) [0x18ed78110]
+                4   ??? (CoreFoundation + 633048) [0x18ed968d8]
+                  4   ??? (CoreFoundation + 625872) [0x18ed94cd0]
+                    3   ??? (CoreFoundation + 505844) [0x18ed777f4]
+                      2   ??? (QuartzCore + 239352) [0x1903d96f8]
+                        2   ??? (QuartzCore + 234796) [0x1903d852c]
+                          1   ??? (QuartzCore + 261284) [0x1903deca4]
+                            1   ??? (QuartzCore + 361464) [0x1903f73f8]
+                              1   ??? (IOMobileFramebuffer + 7464) [0x1b8d11d28]
+                                1   ??? (IOKit + 13544) [0x196ca64e8]
+                                  1   ??? (IOKit + 13732) [0x196ca65a4]
+                                    1   ??? (IOKit + 16956) [0x196ca723c]
+                                      1   ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                          1   ??? (QuartzCore + 258224) [0x1903de0b0]
+                            1   ??? (QuartzCore + 1770048) [0x19054f240]
+                              1   ??? (QuartzCore + 267004) [0x1903e02fc]
+                      1   ??? (libsystem_pthread.dylib + 8812) [0x1dc60a26c]
+                    1   ??? (CoreFoundation + 505744) [0x18ed77790]
+                1   ??? (libsystem_pthread.dylib + 2984) [0x1dc608ba8]
+              4   ??? (CoreFoundation + 507144) [0x18ed77d08]
+                3   ??? (CoreFoundation + 502468) [0x18ed76ac4]
+                  3   ??? (libsystem_kernel.dylib + 4844) [0x1cbf672ec]
+                    3   ??? (libsystem_kernel.dylib + 80988) [0x1cbf79c5c]
+                      3   ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                        3   <Kernel mode>
+                1   ??? (libdispatch.dylib + 175980) [0x196343f6c]
+  3   ??? (libsystem_pthread.dylib + 2968) [0x1dc608b98]
+    2   ??? (libsystem_pthread.dylib + 3576) [0x1dc608df8]
+      2   ??? (libdispatch.dylib + 93712) [0x19632fe10]
+        1   ??? (libdispatch.dylib + 54436) [0x1963264a4]
+          1   ??? (libdispatch.dylib + 49600) [0x1963251c0]
+            1   ??? (libdispatch.dylib + 46656) [0x196324640]
+              1   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                1   ??? (libdispatch.dylib + 9312) [0x19631b460]
+                  1   ??? (QuartzCore + 471024) [0x190411ff0]
+                    1   ??? (AGXMetalA13 + 3911768) [0x214c6d058]
+                      1   ??? (AGXMetalA13 + 3995448) [0x214c81738]
+                        1   ??? (IOGPU + 6752) [0x1f6a8fa60]
+                          1   ??? (IOGPU + 6956) [0x1f6a8fb2c]
+                            1   ??? (CoreFoundation + 518628) [0x18ed7a9e4]
+                              1   ??? (IOGPU + 27704) [0x1f6a94c38]
+                                1   ??? (IOKit + 13732) [0x196ca65a4]
+                                  1   ??? (IOKit + 16956) [0x196ca723c]
+                                    1   ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+        1   ??? (libdispatch.dylib + 49548) [0x19632518c]
+          1   ??? (libdispatch.dylib + 46656) [0x196324640]
+            1   ??? (libdispatch.dylib + 16264) [0x19631cf88]
+              1   ??? (libdispatch.dylib + 9312) [0x19631b460]
+                1   ??? (backboardd + 400104) [0x1046e9ae8]
+                  1   ??? (libobjc.A.dylib + 43796) [0x187f02b14]
+                    1   ??? (libobjc.A.dylib + 50608) [0x187f045b0]
+                      1   ??? (libobjc.A.dylib + 27476) [0x187efeb54]
+                        1   ??? (libobjc.A.dylib + 23204) [0x187efdaa4]
+                          1   <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+    1   ??? (libsystem_pthread.dylib + 3632) [0x1dc608e30]
+      1   ??? (libdispatch.dylib + 91716) [0x19632f644]
+        1   ??? (libdispatch.dylib + 150656) [0x19633dc80]
+          1   ??? (libdispatch.dylib + 156844) [0x19633f4ac]
+            1   ??? (libsystem_kernel.dylib + 4864) [0x1cbf67300]
+              1   <Kernel mode>
+  1   ??? (libsystem_pthread.dylib + 2960) [0x1dc608b90]
+    1   <Kernel mode>
+
+  Binary Images:
+           0x104688000 -                ???  backboardd              <C3FACACE-A7D4-3483-88C9-513BB34CE422>  /usr/libexec/backboardd
+           0x187ef8000 -        0x187f3be1f  libobjc.A.dylib         <C1140B65-65C7-3A26-BD12-7BC730320EA0>  /usr/lib/libobjc.A.dylib
+           0x18ecfc000 -        0x18f0e1fff  CoreFoundation          <42CCFC7B-FF32-3D25-8F01-CCB2AD843A8B>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x19039f000 -        0x1906fdfff  QuartzCore              <3F8EDDC2-623F-301F-BA1D-12976C8A60E9>  /System/Library/Frameworks/QuartzCore.framework/QuartzCore
+           0x196319000 -        0x19635ffff  libdispatch.dylib       <DED4D0A5-1420-32AE-83A6-C31D938A1C9A>  /usr/lib/system/libdispatch.dylib
+           0x196ca3000 -        0x196d5ffff  IOKit                   <F2827C58-6EC3-3FD8-B5A9-4A826C09872F>  /System/Library/Frameworks/IOKit.framework/Versions/A/IOKit
+           0x1b8d10000 -        0x1b8d1dfff  IOMobileFramebuffer     <AE7A6C9E-B4FC-34AC-BC01-A937782994ED>  /System/Library/PrivateFrameworks/IOMobileFramebuffer.framework/IOMobileFramebuffer
+           0x1cbf66000 -        0x1cbf9dfeb  libsystem_kernel.dylib  <C76E6BED-4635-30C6-8F19-FB829BBE1AE1>  /usr/lib/system/libsystem_kernel.dylib
+           0x1dc608000 -        0x1dc613fff  libsystem_pthread.dylib <45AC734E-6649-3EE2-A096-3FD66441AB78>  /usr/lib/system/libsystem_pthread.dylib
+           0x1f6a8e000 -        0x1f6ac3fff  IOGPU                   <02649166-8067-384C-820F-CE1C5EA0709E>  /System/Library/PrivateFrameworks/IOGPU.framework/IOGPU
+           0x2148b2000 -        0x214cd2fff  AGXMetalA13             <92906F2D-FF49-3C8D-AFB4-5FA45A88F761>  /System/Library/Extensions/AGXMetalA13.bundle/AGXMetalA13
+
+
+Powerstats for:   MobileSafari
+UUID:             D7798B61-C90E-37FA-B74C-8FEF725C1431
+Path:             /Applications/MobileSafari.app/MobileSafari
+Identifier:       com.apple.mobilesafari
+Version:          16.3 (8614.4.6.0.6)
+Is First Party:   Yes
+Beta Identifier:  E4F02DE1-F980-45B5-BDD4-8216D9117159
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Resource Coalition ID: 434
+Architecture:     arm64
+Start time:       2023-03-03 22:29:55.419 -0600
+End time:         2023-03-03 22:31:04.070 -0600
+Num samples:      8 (9%)
+Primary state:    3 samples Frontmost App, Non-Suppressed, Kernel mode, Effective Thread QoS User Interactive, Requested Thread QoS User Interactive, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 8 samples Active
+Power Source:     8 samples on Battery, 0 samples on AC
+  5  ??? (dyld + 88416) [0x1ad668960]
+    5  ??? (MobileSafariUI + 671520) [0x1d5e90f20]
+      5  ??? (UIKitCore + 3805900) [0x1912722cc]
+        5  ??? (UIKitCore + 3806824) [0x191272668]
+          5  ??? (GraphicsServices + 4968) [0x1c86c4368]
+            5  ??? (CoreFoundation + 528048) [0x18ed7ceb0]
+              2  ??? (CoreFoundation + 507144) [0x18ed77d08]
+                2  ??? (CoreFoundation + 502468) [0x18ed76ac4]
+                  2  ??? (libsystem_kernel.dylib + 4844) [0x1cbf672ec]
+                    2  ??? (libsystem_kernel.dylib + 80988) [0x1cbf79c5c]
+                      2  ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+              2  ??? (CoreFoundation + 506748) [0x18ed77b7c]
+                2  ??? (CoreFoundation + 418240) [0x18ed621c0]
+                  2  ??? (CoreFoundation + 926460) [0x18edde2fc]
+                    2  ??? (CoreFoundation + 876324) [0x18edd1f24]
+                      1  ??? (JavaScriptCore + 339432) [0x1a2426de8]
+                        1  ??? (JavaScriptCore + 336048) [0x1a24260b0]
+                          1  ??? (WebKit + 4300536) [0x1a1afdef8]
+                            1  ??? (WebKit + 4279188) [0x1a1af8b94]
+                              1  ??? (WebKit + 4293732) [0x1a1afc464]
+                                1  ??? (WebKit + 6725296) [0x1a1d4deb0]
+                                  1  ??? (WebKit + 4324764) [0x1a1b03d9c]
+                                    1  ??? (WebKit + 10534336) [0x1a20efdc0]
+                                      1  ??? (WebKit + 5438576) [0x1a1c13c70]
+                                        1  ??? (WebKit + 11272280) [0x1a21a4058]
+                                          1  ??? (UIKitCore + 12224076) [0x191a7964c]
+                                            1  ??? (UIKitCore + 13935816) [0x191c1b4c8]
+                                              1  ??? (UIKitCore + 13936096) [0x191c1b5e0]
+                                                1  ??? (UIKitCore + 13993812) [0x191c29754]
+                                                  1  ??? (UIKitCore + 13994408) [0x191c299a8]
+                                                    1  ??? (CoreFoundation + 151820) [0x18ed2110c]
+                                                      1  ??? (CoreFoundation + 54928) [0x18ed09690]
+                                                        1  ??? [0x194800a90]
+                                                          1  <User mode>
+                      1  ??? (UIKitCore + 13239516) [0x191b714dc]
+                        1  ??? (UIKitCore + 13243152) [0x191b72310]
+                          1  ??? (UIKitCore + 6628784) [0x1915235b0]
+                            1  ??? (UIKitCore + 14284832) [0x191c70820]
+                              1  ??? (UIKitCore + 1318400) [0x191012e00]
+                                1  ??? (UIKitCore + 1019412) [0x190fc9e14]
+                                  1  ??? (UIKitCore + 4495396) [0x19131a824]
+                                    1  ??? (UIKitCore + 14290412) [0x191c71dec]
+                                      1  ??? (UIKit + 743772) [0x21448895c]
+                                        1  ??? (UIKitCore + 14036160) [0x191c33cc0]
+                                          1  ??? (UIKitCore + 14035324) [0x191c3397c]
+                                            1  ??? (UIKitCore + 15405724) [0x191d8229c]
+                                              1  ??? (UIKitCore + 925100) [0x190fb2dac]
+                                                1  ??? (UIKitCore + 15405984) [0x191d823a0]
+                                                  1  ??? (UIKitCore + 14035492) [0x191c33a24]
+                                                    1  ??? (UIKitCore + 14035916) [0x191c33bcc]
+                                                      1  ??? (UIKitCore + 1828164) [0x19108f544]
+                                                        1  ??? (UIKitCore + 1840568) [0x1910925b8]
+                                                          1  ??? (UIKitCore + 1829004) [0x19108f88c]
+                                                            1  ??? (CoreFoundation + 153508) [0x18ed217a4]
+                                                              1  ??? (CoreFoundation + 41808) [0x18ed06350]
+                                                                1  ??? (UIKitCore + 1827980) [0x19108f48c]
+                                                                  1  ??? (UIKitCore + 1828164) [0x19108f544]
+                                                                    1  ??? (UIKitCore + 1835020) [0x19109100c]
+                                                                      1  ??? (UIKitCore + 1829004) [0x19108f88c]
+                                                                        1  ??? (CoreFoundation + 153508) [0x18ed217a4]
+                                                                          1  ??? (CoreFoundation + 41808) [0x18ed06350]
+                                                                            1  ??? (UIKitCore + 1827980) [0x19108f48c]
+                                                                              1  ??? (UIKitCore + 1828164) [0x19108f544]
+                                                                                1  ??? (UIKitCore + 1834628) [0x191090e84]
+                                                                                  1  ??? (UIKitCore + 10983544) [0x19194a878]
+                                                                                    1  ??? (UIKitCore + 12055312) [0x191a50310]
+                                                                                      1  ??? (UIKitCore + 1828468) [0x19108f674]
+                                                                                        1  ??? (UIKitCore + 12055688) [0x191a50488]
+                                                                                          1  ??? (UIKitCore + 12055580) [0x191a5041c]
+                                                                                            1  ??? (UIKitCore + 12318308) [0x191a90664]
+                                                                                              1  ??? (UIKitCore + 11537244) [0x1919d1b5c]
+                                                                                                1  ??? (UIKitCore + 11536740) [0x1919d1964]
+                                                                                                  1  ??? (UIKitCore + 3084012) [0x1911c1eec]
+                                                                                                    1  ??? (UIKitCore + 2219148) [0x1910eec8c]
+                                                                                                      1  ??? (UIKitCore + 2121052) [0x1910d6d5c]
+                                                                                                        1  ??? (UIKitCore + 2121276) [0x1910d6e3c]
+                                                                                                          1  ??? (UIKitCore + 12423692) [0x191aaa20c]
+                                                                                                            1  ??? (UIKitCore + 2121828) [0x1910d7064]
+                                                                                                              1  ??? (UIKitCore + 9335096) [0x1917b8138]
+                                                                                                                1  ??? (UIKitCore + 926080) [0x190fb3180]
+                                                                                                                  1  ??? (UIKitCore + 926320) [0x190fb3270]
+                                                                                                                    1  ??? (CoreFoundation + 9376) [0x18ecfe4a0]
+                                                                                                                      1  ??? (libobjc.A.dylib + 7208) [0x187ef9c28]
+                                                                                                                        1  <User mode>
+              1  ??? (CoreFoundation + 507948) [0x18ed7802c]
+                1  ??? (CoreFoundation + 632520) [0x18ed966c8]
+                  1  ??? (libdispatch.dylib + 74820) [0x19632b444]
+                    1  ??? (libdispatch.dylib + 75992) [0x19632b8d8]
+                      1  ??? (libdispatch.dylib + 72000) [0x19632a940]
+                        1  ??? (libdispatch.dylib + 231888) [0x1963519d0]
+                          1  ??? (libsystem_kernel.dylib + 4844) [0x1cbf672ec]
+                            1  ??? (libsystem_kernel.dylib + 80988) [0x1cbf79c5c]
+                              1  ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+  1  ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+    1  ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+      1  ??? (JavaScriptCore + 1011772) [0x1a24cb03c]
+        1  ??? (libsystem_kernel.dylib + 5756) [0x1cbf6767c]
+          1  <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+  1  ??? (libsystem_pthread.dylib + 2968) [0x1dc608b98]
+    1  ??? (libsystem_pthread.dylib + 3576) [0x1dc608df8]
+      1  ??? (libdispatch.dylib + 93712) [0x19632fe10]
+        1  ??? (libdispatch.dylib + 49548) [0x19632518c]
+          1  ??? (libdispatch.dylib + 46360) [0x196324518]
+            1  ??? (libdispatch.dylib + 109144) [0x196333a58]
+              1  ??? (libdispatch.dylib + 29720) [0x196320418]
+                1  ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                  1  ??? (WebKit + 1789316) [0x1a1898d84]
+                    1  ??? (libsystem_kernel.dylib + 4844) [0x1cbf672ec]
+                      1  ??? (libsystem_kernel.dylib + 80988) [0x1cbf79c5c]
+                        1  ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                          1  <User mode, Effective Thread QoS Default, Requested Thread QoS Default>
+  1  ??? (libsystem_pthread.dylib + 2960) [0x1dc608b90]
+    1  <Effective Thread QoS Background, Requested Thread QoS Background>
+
+  Binary Images:
+           0x1028cc000 -                ???  com.apple.mobilesafari 16.3 (8614.4.6.0.6) <D7798B61-C90E-37FA-B74C-8FEF725C1431>  /Applications/MobileSafari.app/MobileSafari
+           0x187ef8000 -        0x187f3be1f  libobjc.A.dylib                            <C1140B65-65C7-3A26-BD12-7BC730320EA0>  /usr/lib/libobjc.A.dylib
+           0x18ecfc000 -        0x18f0e1fff  CoreFoundation                             <42CCFC7B-FF32-3D25-8F01-CCB2AD843A8B>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x190ed1000 -        0x1926c4fff  UIKitCore                                  <CF21AD9C-EFBF-3961-A7C0-54BD30CEFEA9>  /System/Library/PrivateFrameworks/UIKitCore.framework/UIKitCore
+           0x196319000 -        0x19635ffff  libdispatch.dylib                          <DED4D0A5-1420-32AE-83A6-C31D938A1C9A>  /usr/lib/system/libdispatch.dylib
+           0x1a16e4000 -        0x1a231cfff  WebKit                                     <387873D6-A744-3097-B6A4-EB0CD4213D12>  /System/Library/Frameworks/WebKit.framework/WebKit
+           0x1a23d4000 -        0x1a3892fff  JavaScriptCore                             <400BEBF5-2E9D-30CC-A5DC-EB81436379DE>  /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+           0x1ad653000 -        0x1ad6d6093  dyld                                       <4B042F28-0D14-30EC-A1DE-3DBB10866AD7>  /usr/lib/dyld
+           0x1c86c3000 -        0x1c86cbfff  GraphicsServices                           <85419099-269B-336D-86B4-0D52D0FF6923>  /System/Library/PrivateFrameworks/GraphicsServices.framework/GraphicsServices
+           0x1cbf66000 -        0x1cbf9dfeb  libsystem_kernel.dylib                     <C76E6BED-4635-30C6-8F19-FB829BBE1AE1>  /usr/lib/system/libsystem_kernel.dylib
+           0x1d5ded000 -        0x1d607ffff  MobileSafariUI                             <740AC41E-4EB8-325A-8B9C-D30636B3F680>  /System/Library/PrivateFrameworks/MobileSafariUI.framework/MobileSafariUI
+           0x1dc608000 -        0x1dc613fff  libsystem_pthread.dylib                    <45AC734E-6649-3EE2-A096-3FD66441AB78>  /usr/lib/system/libsystem_pthread.dylib
+           0x2143d3000 -        0x2144f8fff  UIKit                                      <2FB1F859-1BC4-30B2-B751-1BC0A9B31400>  /System/Library/AccessibilityBundles/UIKit.axbundle/UIKit
+
+
+Powerstats for:   com.apple.WebKit.GPU
+UUID:             D012D170-BB11-3B52-B537-E336F18D55E4
+Path:             /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.GPU.xpc/com.apple.WebKit.GPU
+Identifier:       com.apple.WebKit.GPU
+Version:          8614 (8614.4.6.0.6)
+Shared Cache:     202665E3-D47C-3270-A725-558C7C6EA550 slid base address 0x187e48000, slide 0x7e48000
+Resource Coalition ID: 434
+Architecture:     arm64
+Start time:       2023-03-03 22:27:41.292 -0600
+End time:         2023-03-03 22:30:44.909 -0600
+Num samples:      5 (6%)
+Primary state:    2 samples Frontmost App, Non-Suppressed, User mode, Effective Thread QoS User Interactive, Requested Thread QoS User Interactive, Override Thread QoS Unspecified
+User Activity:    0 samples Idle, 5 samples Active
+Power Source:     5 samples on Battery, 0 samples on AC
+  2  ??? (libsystem_pthread.dylib + 2980) [0x1dc608ba4]
+    2  ??? (libsystem_pthread.dylib + 5836) [0x1dc6096cc]
+      2  ??? (JavaScriptCore + 1011044) [0x1a24cad64]
+        1  ??? (JavaScriptCore + 1101716) [0x1a24e0f94]
+          1  ??? (JavaScriptCore + 1104824) [0x1a24e1bb8]
+            1  ??? (libsystem_kernel.dylib + 55688) [0x1cbf73988]
+              1  ??? (libsystem_kernel.dylib + 3496) [0x1cbf66da8]
+                1  <Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+        1  ??? (JavaScriptCore + 1101640) [0x1a24e0f48]
+          1  <Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+  2  ??? (dyld + 88416) [0x1ad668960]
+    2  ??? (WebKit + 2258716) [0x1a190b71c]
+      2  ??? (libxpc.dylib + 116384) [0x1dc6686a0]
+        2  ??? (libxpc.dylib + 107432) [0x1dc6663a8]
+          2  ??? (Foundation + 270056) [0x189123ee8]
+            2  ??? (Foundation + 270420) [0x189124054]
+              2  ??? (CoreFoundation + 528048) [0x18ed7ceb0]
+                1  ??? (CoreFoundation + 507948) [0x18ed7802c]
+                  1  ??? (CoreFoundation + 632520) [0x18ed966c8]
+                    1  ??? (libdispatch.dylib + 74820) [0x19632b444]
+                      1  ??? (libdispatch.dylib + 75764) [0x19632b7f4]
+                        1  ??? (libdispatch.dylib + 16264) [0x19631cf88]
+                          1  ??? (libdispatch.dylib + 9312) [0x19631b460]
+                            1  ??? (AVFCore + 876212) [0x19e636eb4]
+                              1  ??? (WebCore + 1728664) [0x19f1dc098]
+                                1  ??? (WebCore + 28963524) [0x1a0bd52c4]
+                                  1  ??? (WebCore + 1739576) [0x19f1deb38]
+                                    1  ??? (WebCore + 11532524) [0x19fb358ec]
+                1  ??? (CoreFoundation + 507576) [0x18ed77eb8]
+                  1  ??? (libsystem_kernel.dylib + 3220) [0x1cbf66c94]
+  1  ??? (libsystem_pthread.dylib + 2960) [0x1dc608b90]
+    1  <Kernel mode, Effective Thread QoS User Initiated, Requested Thread QoS User Initiated>
+
+  Binary Images:
+           0x1049d0000 -                ???  com.apple.WebKit.GPU 8614 (8614.4.6.0.6) <D012D170-BB11-3B52-B537-E336F18D55E4>  /private/preboot/Cryptexes/OS/System/Library/Frameworks/WebKit.framework/XPCServices/com.apple.WebKit.GPU.xpc/com.apple.WebKit.GPU
+           0x1890e2000 -        0x189a2bfff  Foundation                               <E5F615C7-CC5E-3656-8600-41C767812A35>  /System/Library/Frameworks/Foundation.framework/Foundation
+           0x18ecfc000 -        0x18f0e1fff  CoreFoundation                           <42CCFC7B-FF32-3D25-8F01-CCB2AD843A8B>  /System/Library/Frameworks/CoreFoundation.framework/CoreFoundation
+           0x196319000 -        0x19635ffff  libdispatch.dylib                        <DED4D0A5-1420-32AE-83A6-C31D938A1C9A>  /usr/lib/system/libdispatch.dylib
+           0x19e561000 -        0x19e780fff  AVFCore                                  <CDA1EDFE-DA7A-3633-9473-5F7273C5BB01>  /System/Library/PrivateFrameworks/AVFCore.framework/AVFCore
+           0x19f036000 -        0x1a16e3fff  WebCore                                  <BF44A3F4-85D4-38C8-BF26-197F06ADE273>  /System/Library/PrivateFrameworks/WebCore.framework/WebCore
+           0x1a16e4000 -        0x1a231cfff  WebKit                                   <387873D6-A744-3097-B6A4-EB0CD4213D12>  /System/Library/Frameworks/WebKit.framework/WebKit
+           0x1a23d4000 -        0x1a3892fff  JavaScriptCore                           <400BEBF5-2E9D-30CC-A5DC-EB81436379DE>  /System/Library/Frameworks/JavaScriptCore.framework/JavaScriptCore
+           0x1ad653000 -        0x1ad6d6093  dyld                                     <4B042F28-0D14-30EC-A1DE-3DBB10866AD7>  /usr/lib/dyld
+           0x1cbf66000 -        0x1cbf9dfeb  libsystem_kernel.dylib                   <C76E6BED-4635-30C6-8F19-FB829BBE1AE1>  /usr/lib/system/libsystem_kernel.dylib
+           0x1dc608000 -        0x1dc613fff  libsystem_pthread.dylib                  <45AC734E-6649-3EE2-A096-3FD66441AB78>  /usr/lib/system/libsystem_pthread.dylib
+           0x1dc64c000 -        0x1dc68cfff  libxpc.dylib                             <AB6DBB4E-D383-3C91-9C2B-3EE44590C928>  /usr/lib/system/libxpc.dylib
