@@ -1,0 +1,807 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\PassOptionsToPackage{prologue}{xcolor}
+%\documentclass[notes,usenames,svgnames,dvipsnames,11pt]{beamer}
+\documentclass[usenames,svgnames,dvipsnames,11pt]{beamer}
+
+\usepackage{amsthm,amsmath,amssymb,amscd}
+\usepackage{geometry}
+\usepackage{longtable}
+
+%\usepackage{CustomColors}
+
+\definecolor{indiagreen}{rgb}{0.07,0.53,0.03}
+\definecolor{GATechBlue}{rgb}{0.0,0.18823529411764706,0.3411764705882353}%{003057}
+\definecolor{GATechGold}{rgb}{0.7019607843137254,0.6392156862745098,0.4117647058823529}%{B3A369​}
+\definecolor{GATechBuzzGold}{rgb}{0.9176470588235294,0.6666666666666666,0.0}%{EAAA00}
+\definecolor{SlideBGLight}{rgb}{0.902,0.918,0.933}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+
+\setbeamercolor*{structure}{bg=GATechBlue,fg=GATechGold}
+
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=structure.fg}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=GATechGold!85!black}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=GATechGold!70!black}
+\setbeamercolor*{palette quaternary}{fg=white,bg=GATechGold!65!white}
+
+\setbeamercolor{background canvas}{bg=SlideBGLight}
+
+\setbeamercolor{frametitle}{bg=GATechBlue,fg=GATechBuzzGold}
+\setbeamercolor*{titlelike}{bg=GATechBlue,fg=GATechBuzzGold}
+
+\defbeamertemplate{itemize item}{bulletpoint}{\usebeamerfont*{itemize item enumitem}\raise1.05pt\hbox{\color{GATechGold!70!black}{$\blacktriangleright$}}}
+\setbeamertemplate{items}[bulletpoint]
+
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+
+\setbeamercolor{bibliography item}{parent=palette primary}
+\setbeamercolor{bibliography entry author}{fg=GATechBlue}
+\setbeamercolor{bibliography entry title}{fg=GATechBlue}
+\setbeamercolor{bibliography entry note}{fg=GATechBlue}
+
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{fancyvrb}
+\usepackage{inconsolata}
+
+\newcommand{\Iverson}[1]{\ensuremath{\left[#1\right]_{\delta}}} 
+
+\DeclareMathOperator{\DGF}{DGF} 
+\DeclareMathOperator{\ds}{ds} 
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\sq}{sq}
+
+\newcommand{\ceiling}[1]{\ensuremath{\left\lceil #1 \right\rceil}} 
+\newcommand{\ImportantMarker}{%\textcolor{GATechGold}{$\mathbf{\Leftarrow}$}\ 
+                              \textcolor{GATechGold}{\textbf{[!! \underline{IMPORTANT} !!]}}}
+
+\newcommand{\Floor}[2]{\ensuremath{\left\lfloor \frac{#1}{#2} \right\rfloor}}
+\newcommand{\Ceiling}[2]{\ensuremath{\left\lceil \frac{#1}{#2} \right\rceil}}                              
+
+\newcommand{\gkpSI}[2]{\ensuremath{\genfrac{\lbrack}{\rbrack}{0pt}{}{#1}{#2}}} 
+\newcommand{\gkpSII}[2]{\ensuremath{\genfrac{\lbrace}{\rbrace}{0pt}{}{#1}{#2}}}
+
+\newcommand{\TitleBoxed}[1]{
+     \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+          \usebeamerfont{title}#1\par%
+     \end{beamercolorbox}
+}
+
+%\setbeamertemplate{note page}[plain]
+\setbeamerfont{note page}{family*=pplx,size=\footnotesize} % Palatino for notes
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Sandia 2022 -- Embedded DESFire]{
+     A recent open source embedded implementation of 
+     the DESFire specification designed for on-the-fly logging with 
+     NFC based systems
+} 
+
+\author{Maxie Dion Schmidt} % Your name
+\institute[] 
+{
+%Georgia Institute of Technology \\ 
+%School of Mathematics \\ % Your institution for the title page
+%Atlanta, GA 30318, USA \\ 
+%\smallskip
+\texttt{maxieds@gmail.com} \\ 
+\url{http://people.math.gatech.edu/~mschmidt34} \\ 
+\url{https://github.com/maxieds}
+}
+\date[Spring 2022]{Sandia National Labs \\ Technical Presentation \\ Spring 2022} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame} 
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+\section{Introduction} 
+
+\begin{frame}
+\frametitle{High-level overview -- NFC}
+\begin{itemize} 
+
+\item Near Field Communication (NFC) protocol over short-distance RFID @ 13.56MHz
+      (wirless communication over a proximity of typically less than 10 centimeters)
+\item NFC enables contactless data exchanges between passive tags (PICC) and active hosts (PCD)
+\item Common in applications like physical authentication with door readers, university ID cards, 
+      bus passes, to exchange credentials 
+      renting bikes or motorized scooters, and to charge limited credit transactions to vending machines 
+      and other virtual payment kiosks
+\item Often encountered tag types include: MIFARE Classic, MIFARE Ultralight, NTAG and others over 
+      standardized ISO protocols and wrapped instruction sets
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{High-level overview -- DESFire tags and Chameleon Mini}
+
+\begin{itemize} 
+
+\item DESFire type cards provide modern cryptographic algorithms and 
+      have a more sophisticated feature set than other common NFC tags
+\item The Chameleon Mini (RevG) devices are used for pentesting and in 
+      security applications as tag emulators and NFC data loggers
+\item DESFire emulation support for the Chameleon Mini has been a frequently requested, 
+      however complicated to deliver, feature for years
+\item The first testing releases came together in the Fall of 2020 
+\item More enhancements and improvements are made over the Spring of 2022 through funding of the project 
+      at GA Tech
+
+\end{itemize} 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{High-level overview -- Project big picture and takeaways}
+
+\begin{itemize} 
+
+\item \textbf{Significance:} First of its kind functional embedded proof-of-concept 
+      DESFire stack that is freely available as 
+      OSS to researchers, security experts and end users alike
+\item \textbf{Limitations:} Small R\&D budget for testing and lack of standardized default 
+      data transfer modes to ensure interoperability amongst door readers in applications 
+\item \textbf{Key Challenges:} Proprietary specs (lack of documentation) 
+      and tight memory restrictions working on an 
+      embedded platform 
+
+\end{itemize} 
+
+\end{frame}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{Outline of topics}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Presentation outline -- Topics}
+\begin{itemize} 
+
+\item Origins of the project -- How I got involved developing software for NFC devices 
+\item The Chameleon Mini device hardware profile and embedded software features
+\item Overview of key features of the proprietary DESFire command set 
+\item Key features and challenges in writing the embedded DESFire implmentation (with examples)
+
+\end{itemize} 
+
+\end{frame}
+
+\section{Origins of the project}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{Origins of the project}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Origins of the project}
+
+\begin{itemize}
+
+\item I moved to GA Tech in 2017 as a Ph.D. student in the School of Math
+\item Shortly after arriving on campus I was issued a student ID with an integrated DESFire EV1 tag
+\item This was also around the time I had purchased my first developer grade NFC-enabled Android phone
+\item I decided that I wanted the physical authentication to doors on campus to work not only with the 
+      standard issue university ID card but also with my phone
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Origins of the project -- Initial exploration}
+
+\begin{center}
+\includegraphics[width=\textwidth]{presentation-images/AndroidHCEBuzzcardAppForAtpiQMobileDoorReaders.jpeg}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Origins of the project -- Enter the Chameleon Mini}
+
+\begin{itemize}
+
+\item Exploration with Android OS application development and limitations of low-level NFC data exchange 
+      transparency on the stock MotoDroid led me to seek external hardware to help reverse engineer the 
+      bytes I would need to exchange from phone to door reader, and vice versa
+\item Reading online led me to purchase a Chameleon Mini (RevG) device 
+
+\end{itemize}
+
+\bigskip
+\minipage{0.38\textwidth}
+\begin{center}
+$\vcenter{\hbox{\includegraphics[width=\textwidth]{presentation-images/ChameleonMiniPhotoSchoolIDCardSmall.png}}}$
+\end{center}
+\endminipage\hfil
+\minipage{0.56\textwidth}
+\begin{center}
+$\vcenter{\hbox{\includegraphics[width=\textwidth]{presentation-images/ChameleonLogsExample.png}}}$
+\end{center}
+\endminipage
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Origins of the project -- Chameleon Mini Live Debugger}
+
+\begin{itemize}
+
+\item Viewing the logging output and seeing that it could be printed over a serial USB terminal in realtime 
+      made me start on another long-term OSS project 
+\item The Chameleon Mini Live Debugger (CMLD) is an Android OS application that 
+      facilitates controlling the Chameleon Mini devices and 
+      features a window for viewing the live logging data it generates 
+\item It has grown and been restyled and refactored over the years (since 2017)
+\item The most recent experimental features in the CMLD include a hybrid built-in scripting language to 
+      control and interface to the Chameleon Mini
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Origins of the project -- Early prototype of the CMLD}
+
+\minipage{0.35\textwidth}
+\begin{center}
+\includegraphics[height=0.76\textheight]{presentation-images/CMLDInitialLoggerWindowPrototype.png}
+\end{center}
+\endminipage
+\minipage{0.65\textwidth}
+\begin{center}
+$\vcenter{\hbox{\includegraphics[width=\textwidth]{presentation-images/AndroidStudioCMLDExample.png}}}$
+\end{center}
+\endminipage
+
+\end{frame}
+
+\section{Chameleon Mini Hardware}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{The Chameleon Mini device}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{The Chameleon Mini device profile -- Hardware}
+
+\begin{itemize} 
+
+\item On-board integration of a modern AVR chip (\texttt{ATxmega128A4U}) 
+\item Memory: 128Kb of FLASH, 8Kb of SRAM, and 2Kb of EEPROM spaces and 
+      support for faster FRAM-based memory access
+\item Accelerated hardware support for AES and DES cryptographic engines
+\item Embedded firmware and flashable bootloader support to memory map the integrated RF hardware on the PCB
+\item Serial data transfer over wired micro-USB 
+
+\end{itemize} 
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{The Chameleon Mini device profile -- Software}
+
+\begin{itemize} 
+
+\item Embedded OSS firmware and bootloader sources in C and ASM compiled with \texttt{avr-gcc} that are 
+      flashed to the device over USB 
+\item Convenient serial terminal that has a human-readable command set for easy on-the-fly configuration of 
+      emulated tags 
+\item Ability to act as a PICC, PCD or bidirectional NFC packet sniffer 
+      depending on the active configuration set in one of the eight 
+      8Kb sized partitions of the onboard (FRAM) memory 
+\item Logging of time-stamped communication details and status events to internal FRAM memory or 
+      LIVE mode printed to the serial USB 
+
+\end{itemize} 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Chameleon Mini Firmware Organization}
+
+\begin{center}
+\includegraphics[width=\textwidth]{presentation-images/ChameleonMiniFirmwareBlockDiagram}
+\end{center}
+
+\end{frame}
+
+\section{DESFire NFC Tags} 
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{DESFire tags}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Key Features}
+
+\begin{itemize}
+\item Multiple nested and semi-interoperable generations of DESFire tags: 
+      Legacy Mifare DESFire, EV1, EV2, EV3 and Light variants 
+\item Larger scale integrated memory storage sizes than most contactless NFC tags 
+      (usually 2Kb, 4Kb or 8Kb if not larger these days) 
+\item Standard use of modern cryptographic algorithms for 
+      secure data exchange (legacy DES/3DES/AES-128/AES-256)
+\item Data messages optionally padded with crytographically hashed bytes to ensure data 
+      integrity over the physical interface using $2$-byte CRC checksums or $4$-byte MAC'ed trailers
+\item Implementations are complicated by proprietary handling of most DESFire tag specs by the 
+      manufacturers 
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Filesystem: Organization and internal storage types}
+
+\begin{itemize}
+\item Files grouped by allocations of the physical IC memory into 
+      top-level subdirectories called applications indexed by unique 
+      application identifier (AID)
+\item \textbf{Native file types:} Standard data files (type $0$), backup data files (type $1$), 
+      value files (type $2$), linear record files (type $3$), and cyclic record files (type $4$)
+\item Each file has $2$-bytes of associated access rights to indicate one of 
+      read/write/read and write/change.
+\item Access permissions on the files provide more secure protections for storage of secret binary key data 
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Commands and native instruction support}
+
+\begin{itemize}
+\item Formatting of raw data to communicate instructions is performed by sending 
+      unpadded native commands or by communicating ISO standardized wrapped APDU messages
+\item Think of APDU messages as an ``assembly language`` for NFC exchanges 
+\end{itemize}
+\medskip 
+\hrule
+\medskip
+
+     \scriptsize
+     \textbf{\large{PCD-to-PICC wrapped APDU data exchange format:}}
+     \begin{center}
+     \begin{tabular}{|c|c|c|c|c|l|c|} 
+     \hline
+     \textbf{CLA} & \textbf{INS} & $\mathbf{P_1}$ & $\mathbf{P_2}$ & $\mathbf{L_c}$ & 
+     \textbf{Data Bytes} & $\mathbf{L_e}$ \\ 
+     \hline
+     \texttt{0x90} & command code & \texttt{0x00} & \texttt{0x00} & variable length of data & 
+     command data & \texttt{0x00} \\ 
+     \hline
+     \end{tabular}
+     \end{center}
+     \bigskip 
+     \textbf{\large{PICC-to-PCD format:}}
+     \begin{center}
+     \begin{tabular}{|l|c|c|} 
+     \hline 
+     \textbf{Data Bytes} & \textbf{SW1} & \textbf{SW2 (Status)} \\ 
+     \hline 
+     DESFire command response data & 
+     \texttt{0x91} & \texttt{0xYY} \\ 
+     \hline 
+     \end{tabular} 
+     \end{center} 
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Supported command codes -- Some examples}
+
+     \scriptsize
+     \begin{longtable}{|l|c|p{0.575\linewidth}|} 
+     \hline 
+     \textbf{Command Long Name} & \textbf{INS} & \textbf{Description} \\ 
+     \hline 
+     \texttt{AUTHENTICATE} & \texttt{0x0A} & Legacy mode authentication \\ 
+     \texttt{AUTHENTICATE\_ISO} & \texttt{0x1A} & ISO authentication with 3DES \\ 
+     \texttt{AUTHENTICATE\_AES} & \texttt{0xAA} & Standard AES authentication \\ 
+     \texttt{CHANGE\_KEY\_SETTINGS} & \texttt{0x54} & Modify PICC master key properties \\ 
+     \texttt{SET\_CONFIGURATION} & \texttt{0x5C} & Used to configure DESFire card or application specific attributes \\ 
+     \texttt{CHANGE\_KEY} & \texttt{0xC4} & Changes the key data stored on the PICC \\ 
+     \texttt{GET\_KEY\_VERSION} & \texttt{0x64} & Returns the active key version stored on the PICC \\ 
+     \texttt{CREATE\_APPLICATION} & \texttt{0xCA} & Creates new applications by unique AID \\ 
+     \texttt{DELETE\_APPLICATION} & \texttt{0xDA} & Non-restorable deletion operation \\ 
+     \texttt{GET\_APPLICATION\_IDS} & \texttt{0x6A} & Returns a list of all AID codes stored on the PICC \\ 
+     \texttt{FREE\_MEMORY} & \texttt{0x6E} & Returns the total free memory on the tag in bytes \\ 
+     \texttt{GET\_DF\_NAMES} & \texttt{0x6D} & Obtain the ISO7816-4 DF names associated with the tag \\ 
+     \texttt{GET\_KEY\_SETTINGS} & \texttt{0x45} & Get permissions data and format for PICC and application master keys \\ 
+     \texttt{SELECT\_APPLICATION} & \texttt{0x5A} & Select a specific application by AID for further access \\ 
+     \hline     
+     \end{longtable}
+
+\hrule\medskip
+\noindent\it\scriptsize 
+A more complete listing of supported commands is found in the source code; 
+alternately, the data sheets linked in the bibliography archived by 
+incidentally lucky NFC researchers give command syntax and argument details 
+precisely.
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Data exchanges with the Chameleon DESFire configuration}
+
+\begin{Verbatim}[numbers=left,fontsize=\scriptsize,frame=single]
+>>> Select Application By AID:
+    -> 90 5a 00 00 03 00 00 00 | 00 
+    <- 91 00 
+>>> Start AES Authenticate:
+    -> 90 aa 00 00 01 00 00 
+    <- 54 b8 9e fe 19 9b c6 a5 | fd 8f 00 be c1 23 99 c0 | 91 af 
+    -> 90 af 00 00 10 df a0 79 | 13 59 ac 4c 75 5f 81 69 | 
+       bc 9c 3e c6 7e 00 
+    <- a9 e2 79 42 11 63 9c 14 | 07 b3 02 2f 2e 4b 2e c5 | 91 00 
+>>> Get AID List From Device:
+    -> 90 6a 00 00 00 00 
+    <- 77 88 99 01 00 34 91 00 
+>>> CreateApplication command:
+    -> 90 ca 00 00 05 77 88 99 | 0f 03 00 
+    <- 91 de 
+>>> Get AID List From Device:
+    -> 90 6a 00 00 00 00 
+    <- 77 88 99 01 00 34 91 00 
+\end{Verbatim}
+
+\medskip\hrule\medskip
+\noindent\it\scriptsize 
+More complete examples of data exchanges using these commands are found in the 
+\texttt{LibNFC} testing code within the 
+Chameleon mini main firmware on the \textit{GitHub/emsec/ChameleonMini} repository 
+(in the \texttt{Software/DESFireLibNFCTesting} directory). 
+
+\end{frame}
+
+\section{OSS Embedded DESFire}
+
+\begin{frame}
+\TitleBoxed{
+     \huge{\centerline{An Embedded Open Source DESFire}}
+     \huge{\centerline{Stack for the Chameleon Mini}}
+}
+\note[item]{No notes: Title slide only}
+\end{frame}
+
+\begin{frame}
+\frametitle{Extensions of the firmware sources to support DESFire tags}
+
+\begin{itemize}
+\item New native AES support using hardware acceleration support
+\item Extensions of prior work to add hardware based DES and 3DES support to the firmware 
+\item Minor changes to the codec layer of the firmware to support DESFire tags 
+\item Enhancements and bug fixes to the \texttt{LIVE} logging functionality of the 
+      Chameleon RevG devices 
+\item New default customized extension of the Chameleon terminal commands to 
+      enhance DESFire configuration support for users (see next slide)
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Terminal configuration of DESFire emulation support}
+
+\minipage{0.4\textwidth}
+\begin{Verbatim}[fontsize=\scriptsize]
+> CONFIG=MF_DESFIRE
+> DF_SETHDR=ATS 0675F7B102
+> UID=2377000B99BF98
+
+---------------------------------
+
+DF_SETHDR=ATS xxxxxxxxxx
+DF_SETHDR=HardwareVersion xxxx
+DF_SETHDR=SoftwareVersion xxxx
+DF_SETHDR=BatchNumber xxxxxxxxxx
+DF_SETHDR=ProductionDate xxxx
+\end{Verbatim}
+\endminipage
+\minipage{0.3\textwidth}
+\begin{center}
+\includegraphics[height=0.78\textheight]{presentation-images/CMLDDESFireLoggerWindow.png}
+\end{center}
+\endminipage
+\minipage{0.3\textwidth}
+\begin{center}
+\includegraphics[height=0.78\textheight]{presentation-images/CMLDEDESFireSpecificCmdButtonInterface.png}
+\end{center}
+\endminipage
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{DESFire emulation support -- Anti-collision loop}
+
+\begin{center}
+\minipage{0.7\textwidth}
+\begin{Verbatim}[fontsize=\scriptsize]
+     NFC reader: SCM Micro / SCL3711-NFC&RW opened
+
+     Sent bits:     26 (7 bits)
+     Received bits: 03  44  
+     Sent bits:     93  20  
+     Received bits: 88  23  77  00  dc  
+     Sent bits:     93  70  88  23  77  00  dc  4b  b3  
+     Received bits: 04  
+     Sent bits:     95  20  
+     Received bits: 0b  99  bf  98  b5  
+     Sent bits:     95  70  0b  99  bf  98  b5  2f  24  
+     Received bits: 20  
+     Sent bits:     e0  50  bc  a5  
+     Received bits: 75  77  81  02  80  
+     Sent bits:     50  00  57  cd  
+
+     Found tag with
+     UID: 2377000b99bf98
+     ATQA: 4403
+     SAK: 20
+     ATS: 75  77  81  02  80
+\end{Verbatim}
+\endminipage
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Terminal screenshot of the DESFire source code}
+
+\begin{center}
+\includegraphics[width=0.9\textwidth]{presentation-images/DESFireSourceCode-TerminalScreenshot-Example.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{ISO authentication with the PM3 (Support added in 2022)}
+
+\begin{center}
+\includegraphics[height=0.88\textheight]{presentation-images/DESFire-PM3-ISOAuthentication.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Challenges with the implementation during development}
+
+\begin{itemize}
+\item Approximately six to eight months of active development were required to complete the inital stages of the project 
+\item Forced by local embedded system 
+      constraints to carefully optimize and organize our use of 
+      the embedded AVR memory to resolve 
+      insufficient memory type exceptions 
+\item The speedup in computations for AES and 3DES operations 
+      provides an order of magnitude improvement 
+      compared to existing OSS libraries for AVR chips 
+\item A complicated nested, quasi-linked pointer based structure was required to efficiently store the 
+      filesystem entries and tag accounting metadata 
+\end{itemize}
+
+\end{frame}
+
+\section{Credits and Concluding Discussion}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{Concluding Remarks}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Summary and accomplishments}
+
+\begin{itemize} 
+
+\item Chameleon DESFire configuration can exchange data with most external 
+      USB NFC readers, LibNFC and is compatible with PM3 devices
+\item Back-of-the-envelope estimate is that DESFire support on the Chameleon Mini is by far the 
+      most requested single feature from users \\ 
+      \begin{itemize}
+      \item \textbf{GitHub/emsec/ChameleonMini watchers:} 129
+      \item \textbf{GitHub/emsec/ChameleonMini stars:} 1344
+      \item \textbf{GitHub/emsec/ChameleonMini forks:} 342
+      \end{itemize}
+\item Users of the official CMLD applications on Google Play Store peaked at 
+      $\approx 500$ (free version) and $\approx 50$ (paid version) internationally -- 
+      Not too shabby considering 
+      that the KAOS devices are priced at $\approx 110$ USD 
+      (historically higher at $\approx 165+$ USD when the RevG was state-of-the-art hardware)
+      \begin{itemize}
+      \item \textbf{GitHub/maxieds/ChameleonMiniLiveDebugger stars:} 76
+      \item \textbf{GitHub/maxieds/ChameleonMiniLiveDebugger forks:} 15
+      \end{itemize}
+
+\end{itemize} 
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Funding sources and support for the project}
+
+\begin{itemize} 
+
+\item Initial sources for the DESFire Chameleon firmware are due to 
+      Dmitry Janushkevich (\textbf{@devzzo}) (2017)
+\item Professor Josephine Yu in the School of Math at GA Tech in the US
+\item Georgia Tech for supporting me as a RA in the Spring of 2022 through the university's 
+      COVID-19 relief funding 
+\item The original Kasper and Oswald (KAOS) developers of the Chameleon Mini hardware and software 
+\item David Oswald from the University of Birmingham in the UK
+
+\end{itemize} 
+
+\end{frame}
+
+\section{Bibliography} 
+
+\begin{frame}[t,allowframebreaks] 
+\frametitle{References} 
+
+\footnotesize 
+\begin{thebibliography}{10}
+
+\bibitem{ANDROID-HCE-DESFIRE} 
+Android HCE DESFire: A software implementation of Desfire in an Android app. 
+\url{https://github.com/jekkos/android-hce-desfire}
+
+\bibitem{EMSEC-CMINI-FIRMWARE} 
+Chameleon Mini Firmware (authoritative sources). 
+\url{https://github.com/emsec/ChameleonMini}
+%\url{https://github.com/emsec/ChameleonMini/pull/287}
+
+\bibitem{ISOIEC-STANDARDS}
+ISO/IEC 14443, 15693 and 7816 Standards. 
+Identification Cards - Contactless Integrated Circuit Cards. 
+\url{www.iso.org}
+
+\bibitem{KAOS-CHAMELEON}
+Kasper T., von Maurich I., Oswald D., Paar C. (2011) 
+Chameleon: A Versatile Emulator for Contactless Smartcards. In: Rhee KH., Nyang D. (eds) 
+Information Security and Cryptology - ICISC 2010. ICISC 2010.
+Lecture Notes in Computer Science, vol 6829. Springer, Berlin, Heidelberg. 
+\url{https://doi.org/10.1007/978-3-642-24209-0_13} 
+
+\bibitem{KAOS-CHAMELEON-SHORT-SLIDES}
+Kasper, T. and Oswald, D. Presentation slides on the history of the Chameleon Mini devices. 
+\url{https://raw.github.com/wiki/emsec/ChameleonMini/Images/160110_ChameleonMini_history_smaller.pdf}
+
+\bibitem{LIBFREEFARE} 
+LibFreeFare: A convenience API for NFC cards manipulations on top of LibNFC. 
+\url{https://github.com/nfc-tools/libfreefare}
+
+\bibitem{LIBNFC}
+LibNFC: A platform independent NFC library. 
+\url{https://github.com/nfc-tools/libnfc}
+
+\bibitem{MICROCHIP-ATXMEGA128A4U}
+Microchip. ATxmega1284U Data Sheet. 
+\url{https://ww1.microchip.com/downloads/en/DeviceDoc/ATxmega128-64-32-16A4U-DataSheet-DS40002166A.pdf} 
+
+\bibitem{NXP-MFDESFIRE-DATASHEET-2008}
+NXP Semiconductors. MIFARE DESFire Functional specification. 
+Publicly available MF3ICD81 datasheet (2008). 
+\url{https://tinyurl.com/kwweanp9}
+
+\bibitem{PHILIPSCO-MFDESFIRE-DATASHEET-2004}
+Philips Semicondictors. 
+Mifare DESFire: Contactless multi-application IC with DES and 3DES security. 
+Publicly available MF3-IC-D40 datasheet (2004). 
+\url{https://tinyurl.com/5era3dx2}
+
+\bibitem{PROXMARK3}
+Proxmark III. A Radio Frequency IDentification Tool. 
+\url{http://www.proxmark.org}
+
+\bibitem{CMINIFW-DESFIRE-DEVSOURCES}
+Schmidt, M. D. 
+Chameleon Mini DESFire Stack (development sources). 
+\url{https://github.com/maxieds/ChameleonMiniDESFireStack}
+
+\bibitem{MDS-CMLD} 
+Schmidt, M. D. 
+Chameleon Mini Live Debugger. 
+\url{https://github.com/maxieds/ChameleonMiniLiveDebugger}
+
+\end{thebibliography}
+
+\end{frame} 
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 

@@ -1,0 +1,110 @@
+\documentclass[reqno,11pt]{article} 
+
+\usepackage{amsmath,amsthm,amssymb,amscd}
+\usepackage{url}
+\usepackage{dsfont}
+\usepackage{mathabx}
+
+\usepackage{listings}
+\lstset{
+basicstyle=\small\ttfamily,
+columns=flexible,
+breaklines=true,
+extendedchars=true,
+literate={•}{$\bullet$}1 {▄}{$\blacksquare$}1 {□}{$\square$}1
+}
+
+\usepackage{url}
+\usepackage{graphicx}
+
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{definition}{Definition}[section]
+\newtheorem{lemma}{Lemma}[section]
+\newtheorem{prop}{Proposition}[section]
+\newtheorem{conj}{Conjecture}[section]
+\newtheorem{claim}{Claim}[section]
+\newtheorem{procedure}{Procedure}[section]
+
+\theoremstyle{remark}
+\newtheorem{problem}{Problem Statement}[section]
+\newtheorem{example}{Example}[section]
+
+
+\usepackage[top=0.5in,bottom=0.65in,left=0.75in,right=0.75in]{geometry} 
+\usepackage[square,sort,comma,numbers]{natbib}
+
+\DeclareMathOperator{\Int}{int}
+
+\newcommand{\PP}[1]{\ensuremath{\mathbb{P}\left(#1\right)}} 
+\newcommand{\Iverson}[1]{\ensuremath{\left[#1\right]_{\delta}}}
+\newcommand{\Floor}[2]{\ensuremath{\left\lfloor \frac{#1}{#2} \right\rfloor}}
+
+\title{A recent open source embedded implementation of 
+       the DESFire specification designed for on-the-fly logging with 
+       NFC based systems}
+\author{Maxie Dion Schmidt} 
+\date{\today}
+
+\setlength{\parskip}{0.35em}
+\setlength{\parindent}{0in}
+
+\usepackage{tocloft}
+\setlength{\cftsecindent}{0.25em}
+\renewcommand{\numberline}[1]{#1~}
+\newcommand{\xmark}{\ensuremath{\mathcal{X}}}
+
+\UseRawInputEncoding
+
+\begin{document}
+
+\maketitle 
+\medskip\hrule\medskip 
+
+\begin{abstract}
+\noindent
+Near Field Communication (NFC) is a protocol that offers short-distance wireless 
+communication within a proximity of typically less than 10 centimeters. 
+Embedded NFC tags are common in applications like physical authentication with door readers, university ID cards, 
+bus passes, to exchange credentials 
+renting bikes or motorized scooters, and to charge limited credit transactions to vending machines 
+and other virtual payment kiosks. 
+The Chameleon Mini is a portable device that interfaces with the NFC protocol over RFID. 
+This device is designed to facilitate on-the-fly logging of data exchanges between 
+contactless cards and 
+tag readers operating over NFC in the high-frequency 13.56MHz band. It is an indispensible tool 
+for researchers, reverse engineers and system penetration testers who 
+perform security analysis over the protocol.
+The Chameleon Mini also supports emulation of many contactless card types over NFC that 
+are enabled by contributions to its open source embedded firmware. 
+
+The ability to interface and log low-level exchanges with the popular Mifare DESFire tag type 
+namufactured by Phillips and NXP on the Chameleon Mini is a useful feature to RFID 
+researchers that has been missing from the firmware for many years. 
+In 2020, we set out to offer a fully functional open source implementation 
+to that adds a frequently requested interface to the Chameleon Mini RevG firmware 
+that supports the complex and proprietary DESFire tag command set. 
+In this technical presentation, we describe the technologies utilized, applications of this work, 
+and describe the challenges of the low-level implementation of the embedded software. 
+Updates to this software project are supported by university COVID-19 relief funding 
+at Georgia Tech over the Spring of 2022.
+
+\bigskip\noindent
+\textbf{Keywords:} 
+{\it 
+Near field communication, NFC technology, Chameleon Mini, 
+contactless smartcards, open source software, DESFire command set, 
+RFID cryptographic protocols, embedded systems firmware, reverse engineering.
+}
+
+%\bigskip\noindent
+%\textbf{A few relevant favorite quotes on software from the conference proceedings article:} \\
+%``\emph{That brings me to the most important piece of advice that I can give to all of you: 
+%      if you've got a good idea, and it's a contribution, I want you to go ahead and DO IT. 
+%	It is much easier to apologize than it is to get permission.}'' -- Grace Hopper \\[0.25cm] 
+%``\emph{I think a lot of the basis of the open source movement comes from 
+%	procrastinating students.}'' -- Andrew Tridgell \\[0.25cm] 
+%``\emph{Life would be much easier if I had the source code.}'' -- Anonymous 
+
+\end{abstract}
+
+\end{document}

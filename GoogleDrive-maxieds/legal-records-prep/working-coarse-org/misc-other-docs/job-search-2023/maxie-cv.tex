@@ -1,0 +1,536 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,letterpaper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% modern themes
+\moderncvstyle{banking}                            % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{black}                                % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+%\DeclareUnicodeCharacter{1F310}{\globeWithMeridians}
+%\protected\def\globeWithMeridians{🌐}
+
+%\usepackage{newunicodechar}
+%\usepackage{graphicx}
+%\newunicodechar{🌐}{\includegraphics{globe-with-meridians-1f310.svg}}
+
+\usepackage{amsmath,amsthm,amssymb,amscd}
+
+\usepackage{textcomp}  % Required for encoding \textbigcircle
+\usepackage{scalerel}  % Required for emoji \scalerel
+
+\def\🌐{\scalerel*{\includegraphics{earth-globe-americas-1f30e.png}}{\textrm{\textbigcircle}}}
+
+\def\OneFFourCFour{\scalerel*{\includegraphics{paper-1F4C4.png}}{\textrm{$\qed$}}}
+
+% adjust the page margins
+\usepackage[top=0.4in,bottom=0.75in,left=0.4in,right=0.44in]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+\usepackage{import}
+
+\newcommand\colorhref[3][cyan]{\href{#2}{\small\color{#1}#3}}
+
+% personal data
+\name{Maxie D.}{Schmidt}
+\title{Curriculum Vitae}                               % optional, remove / comment the line if not wanted
+%\address{4015 Landfall Drive, Pensacola, FL 32507, USA}{}{}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{(636) 751-4916}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{01234 123456}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}         STEM supportive and educational software             % optional, remove / comment the line if not wanted
+\email{maxieds@gmail.com\ |\ mschmidt34@gatech.edu}                               % optional, remove / comment the line if not wanted
+%\email{mschmidt34@gatech.edu}
+\homepage{http://people.math.gatech.edu/\textasciitilde mschmidt34/}                         % optional, remove / comment the line if not wanted
+%\extrainfo{Professional references available upon request}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+
+\usepackage{amsmath,amssymb,amscd,mathabx}
+\newcommand{\CVEntrySmallTitle}[3]{\cventry{#1}{\ \ \ $\drsh$\ \ \small{#2}}{$\blacktriangleright$\ \parbox{0.95\linewidth}{\small{#3}}}{}{}{}}
+
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+\makecvtitle
+
+\vspace{-0.5in} 
+
+%\section{Statement of Purpose} 
+%\section{Research Interests}
+%
+%{\small 
+%My research interests are primarily in combinatorial and analytic number theory with an emphasis on 
+%integer sequences, generating function methods, continued fractions, software development, and experimental mathematics. 
+%I am always open to exploring challenging and interesting new problems in mathematics and software engineering. 
+%}
+
+\section{Education and Teaching Experience} 
+
+\begin{itemize}
+     \setlength{\itemsep}{1.5mm} 
+
+\item[] \cventry{2017--2022}{School of Mathematics}{Georgia Institute of Technology}{Ph.D.}{}{}
+     {\small 
+        Approximately 3 years as a 
+        research assistant and professional software engineer 
+        for the Georgia Tech Discrete Mathematics and Molecular Biology group. 
+        Graduate work experience includes instructor of record for \emph{Integral Calculus} (Math 1552) 
+        in the summer of 2021, the first departmental head TA for Math 1552 in Fall 2018, and four semesters 
+        as a teaching assistant. 
+     } 
+
+\item[] \cventry{2012--2014}{Master of Science in Computer Science}{University of Illinois at Urbana-Champaign}{M.S.}{}{}
+     {\small 
+        NSF GRFP National Honorable Mention in both 
+        2013 and 2014. Awarded the Diffenbaugh Graduate Fellowship in 2012. 
+        Graduate work experience includes four semesters as a teaching assistant for 
+        \emph{Discrete Structures} (CS173). 
+     } 
+
+\item[] \cventry{2004--2012}{B.S. in Liberal Arts and Science for Math and B.S. in Engineering for Computer Science}{University of Illinois at Urbana-Champaign}{B.S.}{}{}
+     {\small 
+        Awarded the Barry M. Goldwater Scholarship in 2010. 
+        Institutional honors of Cum Laude with departmental honors of Highest Distinction for both 
+        degree preparations.  
+     } 
+
+\item[] \cventry{2002--2004}{Associate of Science from the Missouri Academy of Science, Mathematics and Computing}{Northwest Missouri State University}{A.S.}{}{} 
+
+\end{itemize}
+
+\vspace{-0.15in} 
+\section{Employment and Professional Activities} 
+
+\begin{itemize} 
+     \setlength{\itemsep}{1mm} 
+
+\item[] \cventry{}{RA Position Title of ``Code Goddess'' and Group Software Engineer}{Mathematical Biology Group Research Assistant}{{\normalfont 2018--2022}}{}{}
+     {\small 
+        Continued work with Christine Heitsch's 
+        \textit{Georgia Tech Discrete Mathematics and Molecular Biology} 
+        research group. Recent work with the group and their growing list of 
+        software contributions includes updating, growing, and debugging the 
+        existing mathematical visualization code for the \textit{RNAStructViz} 
+        application. 
+     }  
+     
+\item[] \cventry{}{Paid C and C++, Java, and Android OS Library Development}{Freelance Software Work}{{\normalfont 2018--2019}}{}{}
+     {\small 
+        Freelance software experience involved writing 
+        cryptographic routines and customizing the 
+        Chameleon Mini RevG firmware source in C and C++ for custom private 
+        commercial NFC applications based in the EU.
+     }  
+
+\item[] \cventry{}{Research Assistant with the University of Washington in Seattle}{Computational Consultant, Programmer and Online Instructor}{{\normalfont 2016--2017}}{}{}
+     {\small 
+        Computational data consultant work, programming, and webserver administration for 
+        tiling, geometry, and graph-theoretic projects with the University of Washington in Seattle. 
+        Served as an online instructor to teach a junior-level honors mathematics course focused on 
+        graphical visualization and exploration of tilings of the plane in Python with an emphasis on 
+        software methodology. 
+     }  
+
+\item[] \cventry{}{Mathematica and General Purpose Programming Consultant}{Illinois Geometry Lab Programming Consultant}{{\normalfont 2013--2014}}{}{}
+     {\small 
+        Involvement within the \emph{Illinois Geometry Lab} (IGL) 
+        at the University of Illinois at Urbana-Champaign 
+        with projects focusing on mathematical visualization and community engagement. 
+     }   
+
+\end{itemize} 
+
+\section{Peer-Reviewed Publications}
+
+\begin{itemize}
+\setlength{\itemsep}{0.75mm} 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-10}
+Merca, M. and Schmidt, M.~D. \emph{A partition identity related to Stanley's theorem}. 
+Amer. Math. Monthly 125 {\bfseries 10}: 929--933 (2018). 
+\url{https://doi.org/10.1080/00029890.2018.1521232}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-16}
+Merca, M. and Schmidt, M.~D. \emph{Factorization theorems for generalized Lambert series and applications}. 
+Ramanujan J. {\bfseries 51}: 391--419 (2020). 
+\url{https://doi.org/10.1007/s11139-018-0095-7}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-12}
+Merca, M. and Schmidt, M.~D. \emph{Generating special arithmetic functions by Lambert series factorizations}. 
+Contrib. Discrete Math. 14 {\bfseries (1)}: 31--45 (2019). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-9}
+Merca, M. and Schmidt, M.~D. \emph{The partition function $p(n)$ in terms of the classical M\"{o}bius function}. 
+Ramanujan J. {\bfseries 49}: 87--96 (2019). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-18}
+Mousavi, H. and Schmidt, M.~D. \emph{Factorization theorems for relatively prime divisor sums, 
+                                     GCD sums and generalized Ramanujan sums}. 
+Ramanujan J. {\bfseries 54}: 309--341 (2021). 
+\url{http://doi.org/10.1007/s11139-020-00323-5} 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-2}
+Schmidt, M.~D. \emph{A computer algebra package for polynomial sequence recognition}. 
+Illinois IDEALS (2014). 
+\url{https://www.ideals.illinois.edu/handle/2142/49378}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-17}
+Schmidt, M.~D. \emph{A short note on integral transformations and 
+                     conversion formulas for sequence generating functions}. 
+Axioms Special Issue on Mathematical Analysis and Applications II 8 {\bfseries 2}, 62 (2019). 
+\url{https://doi.org/10.3390/axioms8020062} 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-13}
+Schmidt, M.~D. \emph{Combinatorial identities for generalized Stirling numbers 
+                     expanding $f$-factorial functions and the $f$-harmonic numbers}. 
+J. Integer Seq. 21 {\bfseries 18.2.7} (2018). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-19}
+Schmidt, M.~D. \emph{Combinatorial sums and identities involving generalized divisor functions with bounded divisors}. 
+Integers 20 {\bfseries A85} (2020). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-6}
+Schmidt, M.~D. \emph{Continued fractions and $q$-series generating functions for the 
+                     generalized sum-of-divisors functions}. 
+J. Number Theory 180: 579--605 (2017). 
+\url{https://doi.org/10.1016/j.jnt.2017.05.023}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-8}
+Schmidt, M.~D. \emph{Continued Fractions for Square Series Generating Functions}. 
+Ramanujan J. {\bfseries 46}: 795--820 (2018). 
+\url{https://doi.org/10.1007/s11139-017-9971-9}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-5}
+Schmidt, M.~D. \emph{Generating function transformations related to 
+                     polylogarithm functions and the $k$-order harmonic numbers}. 
+Online J. Anal. Comb. 12 {\bfseries 2} (2017). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-20}
+Schmidt, M.~D. \emph{Exact formulas for the generalized sum-of-divisors functions}. 
+Integers 21 {\bfseries A19} (2021). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-1}
+Schmidt, M.~D. \emph{Generalized $j$-factorial functions, polynomials, and applications}. 
+J. Integer Seq. 13 {\bfseries 10.6.7}  (2010). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-11}
+Schmidt, M.~D. \emph{Jacobi-type continued fractions and congruences for 
+                     binomial coefficients modulo integers $h \geq 2$}. 
+Integers 18 {\bfseries A46} (2018). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-3}
+Schmidt, M.~D. \emph{Jacobi-type continued fractions for the ordinary generating functions of 
+                     generalized factorial functions}. 
+J. Integer Seq. 20 {\bfseries 17.3.4} (2017). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-14}
+Schmidt, M.~D. \emph{New congruences and finite difference equations for generalized factorial functions}. 
+Integers 18 {\bfseries A78} (2018). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-7}
+Schmidt, M.~D. \emph{New recurrence relations and matrix equations for 
+                     arithmetic functions generated by Lambert series}. 
+Acta Arith. 181 (2017): 355-367. 
+\url{http://doi.org/10.4064/aa170217-4-8} 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-21}
+Schmidt, M.~D., Kirkpatrick, A., and Heitch, C. \emph{RNAStructViz: graphical base pairing analysis}. 
+Bioinformatics {\bfseries 197} (2021). 
+\url{https://doi.org/10.1101/2021.01.20.427505}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-4}
+Schmidt, M.~D. \emph{Square series generating function transformations}. 
+J. Inequal. Spec. Funct. 8 {\bfseries 2} (2017). 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-NO-15}
+Schmidt, M.~D. \emph{Zeta series generating function transformations related to 
+                     generalized Stirling numbers and partial sums of the Hurwitz zeta function}. 
+Online J. Anal. Comb. 13 {\bfseries 158}. (2018). 
+
+\end{itemize} 
+
+\section{Manuscripts}
+
+\begin{itemize}
+\setlength{\itemsep}{0.75mm} 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-MANU-LSERIES} 
+Schmidt, M.~D. \emph{A catalog of interesting and useful Lambert series identities}. 
+Preprint (2020). 
+\url{https://arxiv.org/abs/2004.02976} 
+
+\item[$\blacktriangleright$]
+Schmidt, M.~D. \emph{A computer algebra package for polynomial sequence recognition}. 
+Preprint (2016). 
+\url{https://arxiv.org/abs/1609.07301}
+
+\item[$\blacktriangleright$]
+Schmidt, M.~D. \emph{A recent open source embedded implementation of the DESFire specification 
+                     designed for on-the-fly logging with NFC based systems}. Preprint (2021).
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-MANU-FACTTHMS-EXOTIC} 
+Schmidt, M.~D. \emph{Factorization theorems for Hadamard products and 
+                     higher-order derivatives of Lambert series generating functions}. 
+Preprint (2017). 
+\url{https://arxiv.org/abs/1712.00608} 
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-MANU-JNT2021} 
+Schmidt, M.~D. \emph{New characterizations of partial sums of the M\"{o}bius function}. 
+Preprint (2021). 
+\url{https://arxiv.org/abs/2102.05842}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-MANU-MERCA-FACTORPAIRS} 
+Merca, M. and Schmidt, M.~D. \emph{New factor pairs for factorizations of Lambert series generating functions}. 
+Preprint (2017). 
+\url{https://arxiv.org/abs/1706.02359}
+
+\item[$\blacktriangleright$]
+%\bibitem{MDS-MANU-PCGAPDISTS-TILINGS} 
+Schmidt, M.~D. \emph{Pair correlation and gap distributions for substitution tilings and 
+                     generalized Ulam sets in the plane}. 
+Preprint (2017). 
+\url{https://arxiv.org/abs/1707.05509}
+
+\end{itemize}
+
+\section{Conference Presentations and Talks} 
+
+\begin{itemize}
+     \setlength{\itemsep}{0.75mm} 
+
+     \item[] \CVEntrySmallTitle{2022}{Special session: Early career number theory research with combinatorics, modular forms, and basic hypergeometric series}{AMS Joint Mathematical Meetings Invited Speaker} 
+     \item[] \CVEntrySmallTitle{2021}{Defining canonically best factorization theorems for the generating functions of special convolution type sums}{Georgia Tech Algebra Seminar Talk}
+     \item[] \CVEntrySmallTitle{2019}{Computational Aspects of Factorization Theorems for Generating Special Sums}{AMS Fall Southeastern Sectional Meeting Invited Speaker} 
+     \item[] \CVEntrySmallTitle{2018}{Recent Work on Jacobi-Type Continued Fractions}{Integers Conference 2018} 
+     \item[] \CVEntrySmallTitle{2018}{New Connections Between Partitions and Multiplicative Functions}{George Andrews 80th Birthday Conference} 
+     \item[] \CVEntrySmallTitle{2017}{Partition Identities Related to Stanley's Theorem}{Undergraduate Mathematics Seminar Talk at Georgia Tech}
+     \item[] \CVEntrySmallTitle{2017}{Partition Identities Related to Stanley's Theorem}{Association of Women in Mathematics Sponsored Talk at Georgia Tech} 
+     \item[] \CVEntrySmallTitle{2017}{Tilings and work with the SageMath platform}{Georgia Tech AMS Club Seminar} 
+     \item[] \CVEntrySmallTitle{2012}{Generalized j-Factorial Functions, Polynomials, and Applications}{Young Mathematicians Conference at OSU} 
+     
+\end{itemize}
+
+\vspace{-0.15in} 
+\section{Software Experience and Interests} 
+
+\begin{itemize} 
+
+\item[] 
+     \textbf{Programming Skills and Systems Experience} 
+     {\small 
+        \begin{itemize} 
+        
+        \item[$\blacktriangleright$]
+        Software experience in languages including C and C++, Python, 
+        microcontroller and ATMega firmware programming, Java, 
+        Mathematica, Sage, and LaTeX. 
+        Development on Linux and Mac OSX including package installation via \textit{Homebrew}. 
+        Experience with PHP, MySQL, and WordPress. 
+
+        \item[$\blacktriangleright$] 
+        Administration and systems programming for a variety of Linux and Unix-like platforms 
+        including desktop maintenence, server administration, and building custom home routers 
+        using \emph{OpenBSD}.
+        
+        \end{itemize} 
+     } 
+
+\item[] 
+     \textbf{STEM Support and Open Source Educational Software} 
+     {\small 
+        \begin{itemize} 
+        
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{GTFold Python}}: 
+                  Python bindings and library to modernize and extend for the historical set of \emph{GTFold} 
+                  command line utilities for use with Python. It is a scientific computing project to facilitate 
+                  experimentation with RNA structures in computational biology. 
+                  The source code will be released publicly on GitHub in late 2021. 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Mathematical Unix Fortune Mod}}: 
+                  A math-related add-on package providing terminal-based text in the form of 
+                  Unix fortune cookie wisdom and a custom \emph{Concrete Math} book style 
+                  upper case $\Sigma$ summation 
+                  text graphic. \\ 
+                  \🌐 \url{https://github.com/maxieds/math-fortune-mod} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Mertens Function Manuscript Computational Supplement}}: 
+                  Facilitates computations with the Mertens function in both \emph{SageMath} and 
+                  \emph{Mathematica}. \\ 
+                  \url{https://arxiv.org/abs/2102.05842} \\ 
+                  \🌐 \url{https://github.com/maxieds/MertensFunctionComputations}
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{OptiKey ``Big Hacker'' Keyboard Extensions}}: 
+                  Open source code and documentation that makes typing programming languages on-screen for users 
+                  with disabilities more accessible. These ``big hacker'' encoded 
+                  keyboards are designed to simplify on-screen entry 
+                  of programming languages, a task which otherwise requires scrolling through multiple cell-phone-type 
+                  keyboard screens to enter a single line of code or even 
+                  language statement literals in C++, Perl or Python. \\ 
+                  \🌐 \url{https://github.com/OptiKey/OptiKey/wiki/Creating-and-Using-Dynamic-Keyboards} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Partitions Into Parts Package}}: 
+                  An extendable and expository Mathematica demo 
+                  package for computing the number of partitions of a positive integer $n$ 
+                  into parts of the form $pt+a$ for $p$ prime and $0 \leq a < p$. \\ 
+                  \🌐 \url{https://github.com/maxieds/PartitionsIntoParts} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Prairie Learn LMS Contributor}}: 
+                  Prairie Learn is a LMS that is a viable option to replace \textit{Canvas} at many 
+                  universities that is actively developed at UBC and UIUC and is used on a 
+                  private server form at UC Berkeley. 
+                  I have so far contributed code to enable custom function names, symbolic constants, 
+                  custom-defined operator symbols, and documentation available 
+                  for use with \texttt{sympy} Python library parsing of internal 
+                  \texttt{pl-symbolic-input} elements. This pull request enables crucial 
+                  parsing for questions in calculus, mathematics and physics by enabling custom function names and 
+                  symbolic constants like 
+                  \texttt{ln}, \texttt{sec}, \texttt{atanh}, and \texttt{zeta} among others. \\ 
+                  \🌐 \url{https://github.com/PrairieLearn/PrairieLearn} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{RNAStructViz}}: 
+                  A cross-platform GUI-based application to visualize and compare RNA secondary structures. \\ 
+                  \🌐 \url{https://github.com/gtDMMB/RNAStructViz/wiki} 
+
+            \item[$\blacktriangleright$] 
+                 \emph{\textbf{Sage and Mathematica Special Sequence Formula Guess Packages}}: 
+                  UIUC MS thesis software in both Mathematica (original) and Sage (extended). It is designed to 
+                  guess formulas for special input sequences. \\ 
+                  \🌐 \url{https://arxiv.org/abs/1609.07301} \\ 
+                  \🌐 \url{https://github.com/maxieds/GuessPolynomialSequences} \\ 
+                  \🌐 \url{https://github.com/maxieds/sage-guess} 
+             
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{WXML Tilings Python Library}}: 
+                  I was offered an unforgettable opportunity by Jayadev Athreya over 2016--2017 to take part in 
+                  mentoring advanced undergraduates in mathematics by teaching a self-created topics course remotely 
+                  with the University of Washington. The course outline focused on getting students hands-on 
+                  experience with experimental mathematics methodology, gap distibutions and spatial statistics and 
+                  visualizing substitition tilings of the plane in the Python programming language. \\ 
+                  \🌐 \url{https://github.com/maxieds/WXMLTilingsHOWTO/wiki} 
+
+        \end{itemize}
+     } 
+
+\item[] 
+     \textbf{Other Open Source Software} \\ 
+     {\small 
+        A list of my current open source software projects is found on my GitHub page at 
+        \url{https://github.com/maxieds}. 
+        Extensive recent experience developing Android 
+        applications and libraries focusing on NFC, USB interfacing to the Chameleon Mini 
+        penetration testing device, audio and video recording, and 
+        NFC tag recognition libraries. 
+        \begin{itemize} 
+       
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Android File Picker Light Library}}: 
+                  A file and directory chooser widget library for Android OS that focuses on presenting an easy to 
+                  configure lightweight UI. Designed from the top down to work with newer Android 10 and 11 
+                  (API 29+) platforms in the future. \\ 
+                  \🌐 \url{https://github.com/maxieds/AndroidFilePickerLight}
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Chameleon Mini Crypto Mod Firmware Extension}}: 
+                  A modification of the stock Chameleon Mini firmware sources to enable 
+                  cryptographically secure and integrity checked binary data uploads onto the device. \\ 
+                  \🌐 \url{https://github.com/maxieds/ChameleonCryptoModFirmware} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Chameleon Mini Live Debugger (CMLD)}}: 
+                  The application is a portable interactive NFC debugging and logging tool for 
+                  Android OS phones that interfaces to the Chameleon Mini RevG hardware over USB. \\ 
+                  \🌐 \url{https://github.com/maxieds/ChameleonMiniLiveDebugger/wiki} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{DESFire Emulation Support for the Chameleon Mini}}: 
+                  The Chameleon Mini is a hardware tool for NFC debugging, card emulation, security testing, 
+                  reconnaissance, and general purpose low-level data logging for contactless RFID cards. 
+                  My contributions enable embedded emulation support for the common proprietary 
+                  Mifare DESFire type NFC tags for use within the ChameleonMini (RevG) firmware. \\ 
+                  \🌐 \url{https://github.com/emsec/ChameleonMini} \\ 
+                  \🌐 \url{https://github.com/maxieds/ChameleonMiniDESFireStack} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Homebrew Live Streamer}}: 
+                  A customizable, roll-your-own solution for live A/V recording to an Android phone device. 
+                  It is also used 
+                  with live media streaming to Facebook and YouTube for a transparent, open source non-proprietary 
+                  application to perform the media streaming. 
+                  The application was written to covertly record a private memento of a 
+                  special three hour Smashing Pumpkins concert in Atlanta from 2018. \\ 
+                  \🌐 \url{https://github.com/maxieds/HomeBrewLiveStreamer/wiki} 
+
+             \item[$\blacktriangleright$] 
+                  \emph{\textbf{Mifare Classic Tool Library}}: 
+                  A Java and Android OS library wrapper around the functionality of the 
+                  \emph{Mifare Classic Tool} application for Android phones. \\ 
+                  \🌐 \url{https://github.com/maxieds/MifareClassicToolLibrary} \\ 
+                  %\🌐 \url{https://github.com/maxieds/MCTLibraryDemo} \\ 
+                  \🌐 \url{https://github.com/maxieds/ChameleonMiniUSBInterface} 
+                  %\🌐 \url{https://github.com/maxieds/BreadCoSampleApp} 
+
+ 
+                     
+        \end{itemize}
+     } 
+     
+\end{itemize} 
+
+\end{document}

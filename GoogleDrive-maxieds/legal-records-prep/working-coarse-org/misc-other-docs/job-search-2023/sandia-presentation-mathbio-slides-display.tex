@@ -1,0 +1,726 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+\PassOptionsToPackage{prologue}{xcolor}
+%\documentclass[notes,usenames,svgnames,dvipsnames,11pt]{beamer}
+\documentclass[usenames,svgnames,dvipsnames,11pt]{beamer}
+
+\usepackage{amsthm,amsmath,amssymb,amscd}
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{listings}
+
+%\usepackage{CustomColors}
+
+\definecolor{indiagreen}{rgb}{0.07,0.53,0.03}
+\definecolor{GATechBlue}{rgb}{0.0,0.18823529411764706,0.3411764705882353}%{003057}
+\definecolor{GATechGold}{rgb}{0.7019607843137254,0.6392156862745098,0.4117647058823529}%{B3A369​}
+\definecolor{GATechBuzzGold}{rgb}{0.9176470588235294,0.6666666666666666,0.0}%{EAAA00}
+\definecolor{SlideBGLight}{rgb}{0.902,0.918,0.933}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+
+\setbeamercolor*{structure}{bg=GATechBlue,fg=GATechGold}
+
+\setbeamercolor*{palette primary}{use=structure,fg=white,bg=structure.fg}
+\setbeamercolor*{palette secondary}{use=structure,fg=white,bg=GATechGold!85!black}
+\setbeamercolor*{palette tertiary}{use=structure,fg=white,bg=GATechGold!70!black}
+\setbeamercolor*{palette quaternary}{fg=white,bg=GATechGold!65!white}
+
+\setbeamercolor{background canvas}{bg=SlideBGLight}
+
+\setbeamercolor{frametitle}{bg=GATechBlue,fg=GATechBuzzGold}
+\setbeamercolor*{titlelike}{bg=GATechBlue,fg=GATechBuzzGold}
+
+\defbeamertemplate{itemize item}{bulletpoint}{\usebeamerfont*{itemize item enumitem}\raise1.05pt\hbox{\color{GATechGold!70!black}{$\blacktriangleright$}}}
+\setbeamertemplate{items}[bulletpoint]
+
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+
+\setbeamercolor{bibliography item}{parent=palette primary}
+\setbeamercolor{bibliography entry author}{fg=GATechBlue}
+\setbeamercolor{bibliography entry title}{fg=GATechBlue}
+\setbeamercolor{bibliography entry note}{fg=GATechBlue}
+
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{fancyvrb}
+\usepackage{inconsolata}
+
+\newcommand{\Iverson}[1]{\ensuremath{\left[#1\right]_{\delta}}} 
+
+\DeclareMathOperator{\DGF}{DGF} 
+\DeclareMathOperator{\ds}{ds} 
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\sq}{sq}
+
+\newcommand{\ceiling}[1]{\ensuremath{\left\lceil #1 \right\rceil}} 
+\newcommand{\ImportantMarker}{%\textcolor{GATechGold}{$\mathbf{\Leftarrow}$}\ 
+                              \textcolor{GATechGold}{\textbf{[!! \underline{IMPORTANT} !!]}}}
+
+\newcommand{\Floor}[2]{\ensuremath{\left\lfloor \frac{#1}{#2} \right\rfloor}}
+\newcommand{\Ceiling}[2]{\ensuremath{\left\lceil \frac{#1}{#2} \right\rceil}}                              
+
+\newcommand{\gkpSI}[2]{\ensuremath{\genfrac{\lbrack}{\rbrack}{0pt}{}{#1}{#2}}} 
+\newcommand{\gkpSII}[2]{\ensuremath{\genfrac{\lbrace}{\rbrace}{0pt}{}{#1}{#2}}}
+
+\newcommand{\TitleBoxed}[1]{
+     \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+          \usebeamerfont{title}#1\par%
+     \end{beamercolorbox}
+}
+
+%\setbeamertemplate{note page}[plain]
+\setbeamerfont{note page}{family*=pplx,size=\footnotesize} % Palatino for notes
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Sandia 2022 -- MathBio Software]{
+     Software work in mathematical biology at Georgia Tech
+} 
+
+\author{Maxie Dion Schmidt} % Your name
+\institute[] 
+{
+%Georgia Institute of Technology \\ 
+%School of Mathematics \\ % Your institution for the title page
+%Atlanta, GA 30318, USA \\ 
+%\smallskip
+\texttt{maxieds@gmail.com} \\ 
+\url{http://people.math.gatech.edu/~mschmidt34} \\ 
+\url{https://github.com/maxieds}
+}
+\date[Spring 2022]{Sandia National Labs \\ Technical Presentation \\ Spring 2022} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame} 
+
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+\section{Introduction} 
+
+\begin{frame}
+\frametitle{Introduction -- Applications of RNA research}
+\begin{itemize} 
+
+\item RNA molecules are utilized in cancer research and therapy 
+\item mRNA vaccines are newly available to the public but have been studied for decades
+\item Allowed for rapid development of a COVID-19 vaccine
+\item RNA may eventually play a central role in medical applications 
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{What is mathematical biology?}
+\begin{itemize} 
+
+\item Mathematical biology (MathBio) uses mathematical models as 
+      theoretical abstractions of the natural structure of living organisms 
+\item Software engineering RA in the 
+      \emph{Georgia Tech Discrete Mathematics and Molecular Biology} group (gtDMMB)
+
+\end{itemize}
+
+\end{frame}
+
+\section{RNA basics}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{RNA basics}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{RNA basics}
+\begin{itemize} 
+
+\item RNA is a single-stranded molecule similar to DNA 
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[height=0.8\textheight]{presentation-images/RNAStructVisualization-FivePrimeThreePrime.png} \\ 
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{RNA secondary structures}
+\begin{itemize} 
+
+\item RNA base sequence and can have more than one 
+      2D or 3D structure 
+\item Obtaining the 1D structure for organisms is easy via modern technology
+\item Understanding 3D molecular conformations is still comparatively hard 
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[height=0.56\textheight]{presentation-images/YeastCerivisiae3DViz.png} \\ 
+\textbf{(Yeast 3D structure)}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Arc diagrams -- Discussion example -- S.~Cerevisiae (yeast)}
+
+\noindent
+{\small\tt 
+GGUUGCGGCCAUAUCUACCAGAAAGCACCGUUUCCCGUCCGAUCAACUGUGUUAAGCUGGUAGA \\[0.05cm]
+{\color{red}(((((((((}....{\color{orange}((((((((}...{\color{yellow!75!black}((((}.{\color{green}(((}{\color{blue}((}......{\color{blue}))}..{\color{green})))}.{\color{yellow!75!black}))))}....{\color{orange}))))))))} \\[0.1cm]
+GCCUGACCGAGUAGUGUAUGGGUGACCAUACGCGAAACUCAGGUGCUGCAAUCU \\[0.05cm]
+.....{\color{orange}(((((((}.{\color{yellow!75!black}((((((((}....{\color{yellow!75!black}))))))))}...{\color{orange}))))}.{\color{orange})))}{\color{red})))))))))}.
+}
+
+\bigskip
+
+\begin{minipage}{0.4\textwidth}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{presentation-images/SCerevisiae-PhotoRealistic-MicroscopicImages.jpg} \\ 
+\textbf{(Actual microscopic views)}
+\end{center}
+\end{minipage}\hfil
+\begin{minipage}{0.58\textwidth}
+\begin{center}
+\includegraphics[height=0.44\textheight]{presentation-images/SCerevisiae-SecondaryStructure-RadialView.png} \\ 
+\textbf{(Radial view of 2D MFE structure)} 
+\end{center}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{RNA secondary structures}
+\begin{itemize} 
+
+\item Understanding the 2D secondary structures (base pairings) 
+      remains a crucial component of ribonomics research
+\item RNA folding prediction programs generate 2D structures given the 1D base sequence  
+\item Terminology: MFE and thermodynamic equilibrium
+
+\end{itemize}
+
+\end{frame}
+
+\section{GTFoldPython -- GTFP}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{GTFoldPython software project}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{GTFold -- Overview I}
+
+\begin{itemize} 
+
+\item Accurate and efficient RNA secondary structure prediction is an important 
+      open problem in computational molecular biology 
+\item GTFold is the first implementation of RNA secondary structure prediction by thermodynamic
+	optimization for \textbf{modern multi-core computers}
+\item The speedup is useful to researchers working with very long 
+      RNA sequences, such as RNA viral genomes in recent applications
+
+\end{itemize}
+
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{presentation-images/GTFold-RunningTimesChart-ByBigThreeProgs.png} \\ 
+\end{center}
+\end{minipage}\hfil
+\begin{minipage}{0.5\textwidth}
+\begin{center}
+\includegraphics[width=0.8\textwidth]{presentation-images/GTFold-RunningTimesChart-ByThreads.png} \\ 
+\end{center}
+\end{minipage}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{GTFold -- Overview II}
+
+\begin{itemize} 
+
+\item Original GTFold produced command line only utilities 
+\item Motivated by the need for a Python interface to get the same GTFold data 
+\item Started work in the Fall of 2019 writing Python3 bindings for GTFold 
+\item Hardest part of development work? Requirements for highly robust custom 
+      cross platform build scripts 
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{GTFoldPython -- Introduction}
+
+\begin{itemize} 
+
+\item GTFoldPython (GTFP): Python3 bindings based around the 
+      original GTFold sources written in C++
+\item Backend uses the Python3 C API 
+\item Frontend interface is a wrapper library that uses 
+      \texttt{CTypes} to call the C API functions
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[height=0.5\textheight]{presentation-images/GTFoldPython-InterfaceStructure.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[t,fragile]
+\frametitle{GTFoldPython -- Example -- Find MFE and MFE structure}
+
+\small\noindent
+\textbf{External Python3 script source:}
+\begin{lstlisting}[language=Python,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+import sys, os
+from GTFoldPythonImportAll import *
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[t,fragile]
+\frametitle{GTFoldPython -- Example -- Find MFE and MFE structure}
+
+\small\noindent
+\textbf{External Python3 script source:}
+\begin{lstlisting}[language=Python,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+import sys, os
+from GTFoldPythonImportAll import *
+
+GTFP.Init()
+GTFP.Config(quiet = False, debugging = False, verbose = False, stdmsgout = "stderr")
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[t,fragile]
+\frametitle{GTFoldPython -- Example -- Find MFE and MFE structure}
+
+\small\noindent
+\textbf{External Python3 script source:}
+\begin{lstlisting}[language=Python,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+import sys, os
+from GTFoldPythonImportAll import *
+
+GTFP.Init()
+GTFP.Config(quiet = False, debugging = False, verbose = False, stdmsgout = "stderr")
+
+baseSeqFPCons = "GCAUUGGAGAUGGCAUUCCUCCAUUAACAAACCGCUGCGCCCGUAGCAGCUGAUGAUGCCUACAGA"
+consListFP = GTFPUtils.ReadFPConstraintsFromFile("../Testing/TestData/tRNA/yeast.fa.cons")
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[t,fragile]
+\frametitle{GTFoldPython -- Example -- Find MFE and MFE structure}
+
+\small\noindent
+\textbf{External Python3 script source:}
+\begin{lstlisting}[language=Python,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+import sys, os
+from GTFoldPythonImportAll import *
+
+GTFP.Init()
+GTFP.Config(quiet = False, debugging = False, verbose = False, stdmsgout = "stderr")
+
+baseSeqFPCons = "GCAUUGGAGAUGGCAUUCCUCCAUUAACAAACCGCUGCGCCCGUAGCAGCUGAUGAUGCCUACAGA"
+consListFP = GTFPUtils.ReadFPConstraintsFromFile("../Testing/TestData/tRNA/yeast.fa.cons")
+
+(mfe, mfeDOTStruct) = GTFP.GetMFEStructure(baseSeqFPCons, consListFP)
+print("MFE %1.3f => MFE DOT STRUCT\n \"%s\"\n\n" % (mfe, mfeDOTStruct))
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[t,fragile]
+\frametitle{GTFoldPython -- Example -- Find MFE and MFE structure}
+
+\small\noindent
+\textbf{External Python3 script source:}
+\begin{lstlisting}[language=Python,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+import sys, os
+from GTFoldPythonImportAll import *
+
+GTFP.Init()
+GTFP.Config(quiet = False, debugging = False, verbose = False, stdmsgout = "stderr")
+
+baseSeqFPCons = "GCAUUGGAGAUGGCAUUCCUCCAUUAACAAACCGCUGCGCCCGUAGCAGCUGAUGAUGCCUACAGA"
+consListFP = GTFPUtils.ReadFPConstraintsFromFile("../Testing/TestData/tRNA/yeast.fa.cons")
+
+(mfe, mfeDOTStruct) = GTFP.GetMFEStructure(baseSeqFPCons, consListFP)
+print("MFE %1.3f => MFE DOT STRUCT\n \"%s\"\n\n" % (mfe, mfeDOTStruct))
+\end{lstlisting}
+
+\medskip\hrule\medskip
+
+\small\noindent
+\textbf{Terminal output printed upon invoking the script above:}
+\begin{lstlisting}[language=bash,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+MFE -17.200 => MFE DOT STRUCT 
+"(((((((((.........))))...........(((((.......)))))....)))))......."
+\end{lstlisting}
+
+\end{frame}
+
+\section{RNAStructViz}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{The RNAStructViz application}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{RNAStructViz: Graphical base pairing analysis}
+\begin{itemize} 
+
+\item RNAStructViz was a project developed by 
+	Professor Christine Heitsch and Dr.~S.~Cheney (SE, Google)
+\item First project with the gtDMMB group (Summer of 2018):
+	\begin{itemize}
+	\item Modernize the C++ source
+        \item Add support for enhanced graphics using the \texttt{cairo} library
+	\item Re-write the dated build scripts 
+	\item Improve and support the project in the long term 
+	\end{itemize}
+\item Key features of RNAStructViz: 
+	\begin{itemize}
+	\item Visualization of RNA secondary structures via arc diagrams
+	\item Comparison of the common (distinctive) pairs between 
+	      multiple structures at the same time 
+	\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{RNAStructViz Screenshot -- Loading sample structures I}
+
+\begin{center}
+\includegraphics[height=0.85\textheight]{presentation-images/RNAStructViz-LoadingSampleStructures-v1.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{RNAStructViz Screenshot -- Loading sample structures II}
+
+\begin{center}
+\includegraphics[height=0.85\textheight]{presentation-images/RNAStructViz-LoadingSampleStructures-v2.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{RNAStructViz Screenshot -- Arc diagram window}
+
+\begin{center}
+\includegraphics[height=0.88\textheight]{presentation-images/RNAStructViz-ArcDiagramWindow-OneStructure-v1.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Arc diagram window -- Discussion}
+
+\begin{itemize} 
+
+\item The bases from position \texttt{\#1} to \texttt{\#LengthOfBaseSequenceString} at 
+      equidistant spacings around a circle 
+\item The sequentially numbered base pairs are ordered around the circle counter-clockwise 
+      starting from the bottom 
+\item An arc connecting paired bases is drawn within the circle 
+
+\end{itemize}
+
+\begin{center}
+\includegraphics[height=0.63\textheight]{presentation-images/RNAStructViz-ArcDiagramWindow-OneStructure-v1.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Arc diagram window -- Zoom select}
+
+\begin{center}
+\includegraphics[height=0.87\textheight]{presentation-images/RNAStructViz-ArcDiagramWindow-OneStructure-v2_Zooming.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Arc diagram zoom -- Radial layout visualization}
+
+\begin{center}
+\includegraphics[height=0.87\textheight]{presentation-images/RNAStructViz-RadialLayout-Example.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Arc diagram zoom -- CT segment visualization}
+
+\begin{center}
+\includegraphics[height=0.87\textheight]{presentation-images/RNAStructViz-CTViewer-Example.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{Arc diagram window -- Comparing multiple structures}
+
+\begin{center}
+\includegraphics[height=0.87\textheight]{presentation-images/RNAStructViz-ArcDiagramWindow-ThreeStructures.png}
+\end{center}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{RNAStructViz Screenshot -- Statistics window}
+
+\begin{center}
+\includegraphics[width=\textwidth]{presentation-images/RNAStructViz-StatsWindow-v1.png}
+\end{center}
+
+\end{frame}
+
+\section{Conclusions}
+
+\begin{frame}
+\TitleBoxed{
+     \Huge{\centerline{Wrapping up}}
+}
+\end{frame}
+
+\begin{frame}
+\frametitle{Summary of accomplishments with gtDMMB software I}
+\begin{itemize} 
+
+\item Success modernizing and enhancing the source code for 
+      these projects in computational and mathematical biology 
+\item Success in modernizing and extending build scripts to support installation on MacOS, 
+      Linux and Unix-based systems 
+\item A few of the software projects we worked on:
+	\begin{itemize}
+	\item RNAStructViz 
+	\item GTFold (CMake for MacOS and Linux)
+	\item GTFoldPython
+	\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Summary of accomplishments with gtDMMB software II}
+\begin{itemize} 
+
+\item Application note re-introducing our new work on RNAStructViz 
+      published in \emph{Bioinformatics} in 2021
+\item Sister RNA labs that helped with testing and/or use our software include: 
+	\begin{itemize}
+	\item Computational RNA Genomics Lab at University of California Davis
+	\item Laederach Lab at the University of North Carolina at Chapel Hill
+	\item Mathews Lab at the University of Rochester
+	\end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Concluding remarks} 
+
+     \Huge{\centerline{The End}}\smallskip
+     \Large{\centerline{Questions?}}\smallskip
+     \Large{\centerline{Comments?}}\smallskip
+     \Large{\centerline{Feedback?}}\bigskip
+     \Huge{\centerline{Thank you for your time!}} 
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{GTFoldPython -- Comparison -- Python C API code}
+
+\begin{lstlisting}[language=C,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+PyObject * GetMFEStructure(const char *baseSeq, ConsListCType_t consList, int consLength) {
+     /* Error checking omitted ... */
+     MFEStructRuntimeArgs_t rtArgs;
+     InitMFEStructRuntimeArgs(&rtArgs);
+     rtArgs.baseSeq = baseSeq;
+     SetRTArgsSequenceLength(rtArgs, strlen(baseSeq));
+     if(ParseGetMFEStructureArgs(consList, consLength, &rtArgs) != GTFPYTHON_ERRNO_OK) {
+          FreeMFEStructRuntimeArgs(&rtArgs);
+	  return ReturnPythonNone();
+     }
+     if(InitGTFoldMFEStructureData(&rtArgs) != GTFPYTHON_ERRNO_OK) {
+          FreeMFEStructRuntimeArgs(&rtArgs);
+	  return ReturnPythonNone();
+     }
+     double mfe = ComputeMFEStructure(&rtArgs);
+     if(GetLastErrorCode() != GTFPYTHON_ERRNO_OK) {
+          return ReturnPythonNone();
+     }
+     if(WRITEAUXFILES) {
+          ConfigureOutputFileSettings();
+          save_ct_file(outputFile, baseSeq, mfe);
+     }
+     char *dbMFEStruct = ComputeDOTStructureResult(rtArgs.numBases);
+     PyObject *mfeTupleRes = PrepareMFETupleResult(mfe, dbMFEStruct);
+     Free(dbMFEStruct);
+     FreeMFEStructRuntimeArgs(&rtArgs);
+     FreeGTFoldMFEStructureData(rtArgs.numBases);
+     if(mfeTupleRes == NULL) {
+          return ReturnPythonNone();
+     }
+     return mfeTupleRes;
+}
+\end{lstlisting}
+
+\end{frame}
+
+\begin{frame}[fragile]
+\frametitle{GTFoldPython -- Comparison -- Wrapper library code}
+
+\begin{lstlisting}[language=Python,basicstyle=\tiny\ttfamily,keywordstyle=\bfseries\color{green!40!black},
+                   commentstyle=\itshape\color{purple!40!black},identifierstyle=\color{blue!63!green},
+                   stringstyle=\color{orange},frame=none,keepspaces=true,numbers=left,xleftmargin=0.28cm]
+    ## Library initialization code: 
+    if GTFPConfig.PLATFORM_DARWIN:
+        GTFoldPython._libGTFoldHandle = ctypes.cdll.LoadLibrary("GTFoldPython.dylib")
+    else:
+        GTFoldPython._libGTFoldHandle = ctypes.PyDLL("GTFoldPython.so", 
+	                                mode=ctypes.RTLD_GLOBAL, use_errno=True)
+    @staticmethod
+    def _WrapCTypesFunction(funcname, restype=None, argtypes=None):
+        return GTFoldPython._libGTFoldHandle.__getattr__(funcname)
+        
+    @staticmethod
+    def GetMFEStructure(baseSeq, consList = []):
+        """Get the MFE and MFE structure (in DOTBracket structure notation)
+        :param baseSeq: A string of valid bases (ATGU/X) 
+        :param consList: A list of constraints on the MFE structure
+        :return: A tuple (MFE as double, MFE structure as string in DOTBracket notation)
+        :rtype: tuple
+        """
+        GTFoldPython._ConstructLibGTFold()
+        resType = ctypes.py_object
+        argTypes = [ GTFPTypes.CStringType, 
+	             GTFPTypes.FPConstraintsListType(consList), 
+		     ctypes.c_int ]
+        libGTFoldFunc = GTFoldPython._WrapCTypesFunction("GetMFEStructure", resType, argTypes)
+        (mfe, mfeStruct) = libGTFoldFunc(GTFPTypes.CString(baseSeq), 
+	                                 GTFPTypes.FPConstraintsList(consList), 
+                                         len(consList))
+        return (float(mfe), str(mfeStruct))
+\end{lstlisting}
+
+\end{frame}
+
+\end{document} 
