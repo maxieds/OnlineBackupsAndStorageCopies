@@ -7,6 +7,7 @@
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math1552-summer2021.zip` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs/*` (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/_video/*.mp4` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 
 ## Omitted files lists (initial uploads)
 
