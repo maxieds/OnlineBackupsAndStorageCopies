@@ -1,6 +1,12 @@
 # TODO: Title formatting
 
-## TODO: Stashed elsewhere
+## TODO: Working list of tasks
+
+* `_videos/RPReplay*.mp4` backups to another Google Drive account
+* Backup all data from Google Photos
+* Gmail emails with attachments
+
+## Stashed elsewhere
 
 * `GoogleDrive-maxieds/droid-phone-rootkits/etc.tgz` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/droid-phone-rootkits/tar.tgz` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
@@ -40,5 +46,7 @@
 * `GoogleDrive-maxieds/SharedFoldersGroup/ABQFraud3/SJSSFuneral/iCloud Photos from Cheryl Rauchwerk.zip` (zip file contains mp4 video -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/GTBlueJeansRecordings/*` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/gap-statistics-joint-dists/old-saddle-connections-pdfs/gap-statistics-joint-dists-summary-H1-1*.pdf` (archived at maxieds85v6@GoogleDrive)
-* `GoogleDrive-maxieds//SharedFoldersGroup/PhoneCallAboutMyGradCareer-2020.08.30-v1/untitled.mp4` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/SharedFoldersGroup/PhoneCallAboutMyGradCareer-2020.08.30-v1/untitled.mp4` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/Takeout-2023-03-24-v1-darkweb-ipad` (LFS restrictions)
+* `GoogleDrive-maxieds/Takeout-2023-03-25-darkweb-ipad` (LFS restrictions)
 
