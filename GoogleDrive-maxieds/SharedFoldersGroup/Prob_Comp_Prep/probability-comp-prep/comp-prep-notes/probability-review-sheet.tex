@@ -1,0 +1,272 @@
+\documentclass[12pt,reqno]{article}
+
+\usepackage[usenames]{color}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage{amscd}
+
+%\usepackage[colorlinks=true,
+%linkcolor=webgreen,
+%filecolor=webbrown,
+%citecolor=webgreen]{hyperref}
+%\definecolor{webgreen}{rgb}{0,.5,0}
+%\definecolor{webbrown}{rgb}{.6,0,0}
+
+\usepackage{color}
+\usepackage{fullpage}
+\usepackage{float}
+
+%\usepackage{psfig}
+\usepackage{graphics,amsmath,amssymb}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{latexsym,pifont,fontawesome}
+\usepackage{epsf}
+
+\usepackage[a4paper, total={7.5in, 10.65in}]{geometry}
+\setlength{\parindent}{0cm}
+\setlength{\parskip}{0.1cm} 
+
+\newcommand{\mathsmaller}[1]{#1}
+
+\newcommand{\citep}{\cite}
+\newcommand{\cf}[0]{cf.\ } 
+\renewcommand{\emph}[1]{\textit{#1}} 
+
+\theoremstyle{plain}
+\newtheorem{theorem}{Theorem}[section]
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{cor}[theorem]{Corollary}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{claim}[theorem]{Claim}
+
+\theoremstyle{definition}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{example}[theorem]{Example}
+\newtheorem{exercise}[theorem]{Exercise}
+\newtheorem{problem}[theorem]{Problem Statement}
+%\theoremstyle{remark}
+\newtheorem{remark}[theorem]{Remark}
+
+\newcommand{\gkpSI}[2]{\ensuremath{\genfrac{\lbrack}{\rbrack}{0pt}{}{#1}{#2}}} 
+\newcommand{\gkpSII}[2]{\ensuremath{\genfrac{\lbrace}{\rbrace}{0pt}{}{#1}{#2}}}
+\newcommand{\Iverson}[1]{\ensuremath{\left[#1\right]_{\delta}}} 
+\newcommand{\PP}[1]{\ensuremath{\mathbb{P}\left(#1\right)}} 
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=0.65in}
+
+\usepackage{upgreek,graphicx}
+\renewcommand{\chi}{\scalebox{1.25}{$\upchi$}} 
+%\renewcommand{\chi}{\scalebox{1.25}{$\textchi$}} 
+
+%\include{fancysection.sty} 
+\usepackage{tikz, blindtext}
+\usepackage[utf8]{inputenc}
+\usepackage[compact]{titlesec}
+
+\newenvironment{vplace}[1][1]
+  {\par\vspace*{\stretch{#1}}}
+  {\vspace*{\stretch{1}}\par}
+
+%\usepackage[misc]{ifsym} 
+\usepackage{epsdice}
+
+\errorcontextlines 10000
+
+\usepackage{intcalc,skak}
+
+\newcommand{\CounterModN}[2]{\value{\intcalcMod{\the#1}{#2}}}
+\newcommand{\CounterDiff}[2]{\value{\intcalcSub{\the#1}{#2}}}
+
+\newcommand{\fillchar}[1]{
+     \leavevmode\xleaders\hbox{#1}\hfill\kern0pt
+}
+
+\allowdisplaybreaks
+
+\title{Probability Exam Fill-In Review Sheet}
+\author{Maxie D. Schmidt} 
+\date{Revised: \today}
+
+\begin{document}
+
+\vskip -0.45in
+\noindent 
+\rule{\textwidth}{0.1cm} 
+
+\begin{center} 
+{\normalfont\sffamily\Large\bf Probability Exam Review Sheet} \\[0.25cm]  
+{\normalfont\sffamily\large Revised: \today}
+\end{center}
+
+\noindent 
+\rule{\textwidth}{0.1cm} 
+
+\section{Sets and sigma algebras}
+
+\begin{itemize} 
+
+\item \begin{align*} & \limsup_{n \rightarrow \infty} A_n =&  \\ & \phantom{\limsup_{n \rightarrow \infty} A_n} =& \end{align*} 
+\item Three defining properties of a $\sigma$-algebra:
+      \begin{itemize} 
+      \item[(i)]
+      \item[(ii)] 
+      \item[(iii)] 
+      \end{itemize} 
+\item For $A \subset B$, we have that $\PP{B \setminus A} = \hspace{3in}$, \\ 
+      since $\PP{B} = \hspace{3in}$. 
+\item Fatou's lemma for probabilities: 
+
+\end{itemize} 
+
+\section{Independence and characterizations} 
+
+\begin{itemize} 
+
+\item Independence characterization: $\PP{A \cap B} = \hspace{3in}$. 
+\item Independence proof: $\PP{A^{C} \cap B} = \PP{B \setminus A} = \PP{B} - \PP{A \cap B} = ...$. 
+\item Kolmogorov's $0-1$ Law: 
+      \begin{itemize} 
+      \item[(i)] 
+      \item[(ii)] 
+      \end{itemize} 
+\item The Borel-Cantelli lemma: 
+      \begin{itemize} 
+      \item[(i)] 
+      \item[(ii)] 
+      \end{itemize} 
+\item If $X_1,\ldots,X_n$ are pairwise orthogonal, then \\ 
+      $\operatorname{Var}(a_1X_1+\cdots+a_nX_n) = \hspace{3in}$. 
+      
+\end{itemize} 
+
+\section{Common distributions and their properties} 
+
+\begin{itemize} 
+
+\item If $X \sim \operatorname{Bernoulli}(p)$, then $E[X] = \hspace{1in}$ \\ and 
+      $\operatorname{Var}[X] = \hspace{1in}$. 
+\item If $X_i \sim \operatorname{Bernoulli}(p)$, then $E[X_1+\cdots+X_n] = \hspace{1in}$ \\ and 
+      $\operatorname{Var}[X_1+\cdots+X_n] = \hspace{1in}$. 
+\item If $X \sim \operatorname{Binomial}(n, p)$, then $E[X] = \hspace{1in}$ \\ and 
+      $\operatorname{Var}[X] = \hspace{1in}$. 
+\item If $X \sim \operatorname{Poisson}(\lambda)$, then $E[X] = \hspace{1in}$ \\ and 
+      $\operatorname{Var}[X] = E[X^2] - E[X]^2 = \hspace{1in}$. 
+\item If $X_i \sim N(\mu_i, \sigma_i^2)$, then $Y := \sum_{i=1}^n X_i \sim \hspace{3in}$. 
+\item If $X_1 \sim N(0, 1)$, then $Z_n := X_1+\cdots+X_n$ has the same distribution as 
+
+\end{itemize} 
+
+\section{Expectation and uniform integrability} 
+
+\begin{itemize} 
+
+\item If $X := \chi_{A}$, then $E[X] = \hspace{3in}$. 
+\item Fatou's lemma for expectation: 
+\item DCT for expectation: 
+\item Markov's inequality (and its proof): \\ 
+\item Chebyshev's inequality: \\ 
+\item Jensen's inequality for expectation: \\ 
+\item The generalized Chebyshev inequality: \\ 
+\item $(X_i)_{i \in \mathcal{I}}$ is a \emph{uniformly integrable} sequence if \\ 
+
+\end{itemize} 
+
+\section{Characteristic functions of a random variable} 
+
+\begin{itemize} 
+
+\item The characteristic function of a random variable $X$ is defined as 
+      $\phi_X(t) = \hspace{2.5in}$, \\ which is also given by the Fourier transformation 
+      integral $\phi_X(t) = \hspace{3.5in}$. 
+\item The characteristic function $\phi_X(t)$ is a \underline{\hspace{2in}} 
+      continuous function of $t$. 
+\item If $Y := aX+b$ for $a,b \in \mathbb{R}$, then $\phi_Y(t) = \hspace{3in}$. 
+\item If two random variables have the same characteristic function, then they have the \\ 
+      \underline{\hspace{4in}}. 
+\item If $X \sim N(0, 1)$ and $Y \sim N(\mu, \sigma^2)$, then $Y$ has the same distribution as 
+      \hspace{2.5in}, \\ and $\phi_Y(t) = \hspace{3in}$. 
+\item If the characteristic functions of $X_n$ converge pointwise to that of $X$, then 
+\item If $X,Y$ are independent, then $\phi_{X+Y}(t) = \hspace{3in}$. 
+\item If $E[|X|^k] < \infty$, then $\phi_X(t)$ has $k$ continuous derivatives, and for all 
+      $0 \leq j \leq k$, \\ $\phi^{(j)}(0) = \hspace{3in}$. 
+
+\end{itemize} 
+
+\section{Modes of convergence} 
+
+\begin{itemize} 
+
+\item Definition of convergence everywhere (pointwise): \\ 
+\item Definition of almost sure convergence: \\ 
+\item $X_n \xrightarrow{a.s} X$ $\iff$ \\ 
+      An important corollary of this is that: \\ 
+\item Convergence in probability definition: \\ 
+\item Definition of convergence in the mean ($L^p$ convergence): \\ 
+\item Definition of weak convergence (convergence in distribution): \\ 
+\item Flowchart of implications (convergence hierarchy): \\ \vspace{1.5in} 
+\item Proof that almost everywhere convergence implies convergence of a subsequence: \\ 
+\item H\"older's inequality: \\ 
+\item Cauchy-Schwarz inequality: \\ 
+\item Dual (conjugate) exponents: \\ 
+
+\end{itemize} 
+
+\section{Laws of large numbers and the central limit theorem} 
+
+\begin{itemize} 
+
+\item State the WLLN: \\ 
+\item If $(X_i)$ are independent, $E[X_i] = 0$, and $\sup_{i \geq 1} E[X_i^{2k}] < \infty$, then 
+      $S_n \xrightarrow{\mathbb{P},L^{2k}, a.s} 0$. Moreover, we can show that \\ 
+      $\PP{|\bar{S}_n| \geq \varepsilon} \leq \hspace{3in}$. 
+\item State the SLLN: \\ 
+\item Real analysis fact: If $\sum_{n \geq 1} \frac{x_n}{n} < \infty$, then 
+\item State Kolmogorov's convergence by variance criterions: \\ 
+\item State the CLT: \\ 
+
+\end{itemize} 
+
+\section{Large deviations and concentration inequalities} 
+
+\begin{itemize} 
+
+\item \emph{Large deviations}: If $X_1,\ldots,X_n$ are iid with mean $\mu = 0$ and 
+      $E[e^{\alpha|X_1|}] < \infty$ for some $\alpha > 0$, then \\ 
+      $\PP{|S_n| > \varepsilon} \leq \hspace{3.5in}$, \\ 
+      where the \emph{rate function} \\ 
+      $I(\varepsilon) := \hspace{3in}$. 
+\item \emph{Concentration inequality}: If $X_1,\cdots,X_n$ are iid such that $a \leq X_i \leq b$ 
+      for all $i$, then \\ 
+      $\PP{|\bar{S}_n-\mu| > \varepsilon} \leq \hspace{3in}$. 
+\item Important derivation using Cauchy-Schwarz: \\ 
+      $\left(\frac{1}{\sqrt{n}} \sum_{i=1}^n a_i\right)^2 \leq \hspace{4in}$. 
+
+\end{itemize} 
+
+\section{Generalized normal distributions} 
+
+\begin{itemize} 
+
+\item $E[Z^n] = \hspace{4in}$. 
+\item We write that $X := (X_1,\ldots,X_d) \sim N(\mu, C)$ with mean $\mu \in \mathbb{R}^d$ and 
+      (symmetric) covariance matrix $C$ if \\ 
+      $f_X(x_1,\ldots,x_d) = \hspace{3.5in}$. 
+\item $X \sim N(\mu, C)$ $\iff$ $X = \hspace{2in}$ \\ 
+      for $Z = (Z_1,\ldots,Z_d)$, $Z_i$ iid, and $Z_1 \sim N(0, 1)$. 
+\item If $X \sim N(\mu, C)$, and $A$ is a linear map, then \\ 
+      $Y := AX \sim \hspace{3.5in}$. 
+\item If $X_i \sim N(\mu_i, C_i)$, then \\ $\sum_{i=1}^n a_iX_i \sim \hspace{3in}$. 
+
+\end{itemize} 
+
+\section{Misc} 
+
+\begin{itemize} 
+
+\item $E[X] = \lim_{\lambda \rightarrow 0} \hspace{3in}$. 
+
+\end{itemize} 
+
+\end{document} 

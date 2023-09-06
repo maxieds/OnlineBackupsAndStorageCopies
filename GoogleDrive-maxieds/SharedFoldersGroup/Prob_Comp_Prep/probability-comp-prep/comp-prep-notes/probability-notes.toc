@@ -1,0 +1,53 @@
+\contentsline {section}{\numberline {1}Sigma algebras and sets}{3}
+\contentsline {subsection}{\numberline {1.1}Set theory}{3}
+\contentsline {subsection}{\numberline {1.2}Sigma algebras and sigma fields}{4}
+\contentsline {section}{\numberline {2}Probabilities}{6}
+\contentsline {subsection}{\numberline {2.1}Definitions and basic properties}{6}
+\contentsline {subsection}{\numberline {2.2}Distribution functions (on $\mathbb {R}$ and $\mathbb {R}^n$)}{7}
+\contentsline {subsection}{\numberline {2.3}Integration review and properties of distribution functions}{9}
+\contentsline {subsection}{\numberline {2.4}The product construction}{9}
+\contentsline {section}{\numberline {3}Independence}{10}
+\contentsline {subsection}{\numberline {3.1}Basics and preliminaries}{10}
+\contentsline {subsection}{\numberline {3.2}Key examples and results}{11}
+\contentsline {section}{\numberline {4}Random variables}{13}
+\contentsline {subsection}{\numberline {4.1}Definitions and basic properties}{13}
+\contentsline {subsection}{\numberline {4.2}Independence}{14}
+\contentsline {subsection}{\numberline {4.3}Conditional expectation}{14}
+\contentsline {subsection}{\numberline {4.4}Common distributions}{15}
+\contentsline {subsection}{\numberline {4.5}Expectation}{17}
+\contentsline {subsection}{\numberline {4.6}Variance and covariance}{21}
+\contentsline {subsection}{\numberline {4.7}Uniform integrability}{21}
+\contentsline {subsection}{\numberline {4.8}Convergence and expectation}{22}
+\contentsline {subsection}{\numberline {4.9}Characteristic functions of a random variable}{23}
+\contentsline {subsection}{\numberline {4.10}The Levy continuity theorem}{25}
+\contentsline {section}{\numberline {5}Modes of convergence}{26}
+\contentsline {subsection}{\numberline {5.1}Definitions of convergence}{26}
+\contentsline {subsection}{\numberline {5.2}Remarks on the equivalence of studying convergence to zero}{27}
+\contentsline {subsection}{\numberline {5.3}Flowcharts of implications: convergence hieracrhchy}{28}
+\contentsline {subsection}{\numberline {5.4}Convergence theorems (analogs to real analysis)}{29}
+\contentsline {subsection}{\numberline {5.5}Properties of the modes of convergence for random variables}{30}
+\contentsline {section}{\numberline {6}Laws of large numbers}{32}
+\contentsline {subsection}{\numberline {6.1}The weak law of large numbers}{32}
+\contentsline {subsection}{\numberline {6.2}Large deviations}{33}
+\contentsline {subsection}{\numberline {6.3}The strong law of large numbers}{34}
+\contentsline {subsection}{\numberline {6.4}Concentration inequalities}{36}
+\contentsline {section}{\numberline {7}Normal distributions}{38}
+\contentsline {subsection}{\numberline {7.1}One-dimensional case}{38}
+\contentsline {subsection}{\numberline {7.2}Multidimensional normal distributions}{39}
+\contentsline {section}{\numberline {8}Central limit theorem}{41}
+\contentsline {section}{\numberline {9}Fall 2018 Probability I final exam solutions}{42}
+\contentsline {subsection}{\numberline {9.1}Problem 1}{42}
+\contentsline {subsection}{\numberline {9.2}Problem 2}{42}
+\contentsline {subsection}{\numberline {9.3}Problem 3}{43}
+\contentsline {subsection}{\numberline {9.4}Problem 4}{44}
+\contentsline {subsection}{\numberline {9.5}Problem 5}{46}
+\contentsline {subsection}{\numberline {9.6}Problem 6}{47}
+\contentsline {subsection}{\numberline {9.7}Problem 7}{47}
+\contentsline {subsection}{\numberline {9.8}Problem 8}{48}
+\contentsline {subsection}{\numberline {9.9}Problem 9}{49}
+\contentsline {subsection}{\numberline {9.10}Problem 10}{50}
+\contentsline {subsection}{\numberline {9.11}Problem 11}{51}
+\contentsline {subsection}{\numberline {9.12}Problem 12}{51}
+\contentsline {subsection}{\numberline {9.13}Problem 13}{52}
+\contentsline {subsection}{\numberline {9.14}Problem 14}{53}
+\contentsline {section}{\numberline {10}Misc key facts, results, and other reminders}{54}
