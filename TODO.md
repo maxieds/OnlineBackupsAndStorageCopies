@@ -1,12 +1,17 @@
 # TODO: Title formatting
 
+## TODO: Stashed elsewhere
+
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs/*` (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+
 ## Omitted files lists (initial uploads)
 
 * `GoogleDrive-maxieds/abq-safari-misc-uploads/VID_20220831_215236297.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/abq-safari-misc-uploads/VID_20220831_220931475(1).mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/abq-safari-misc-uploads/VID_20220831_220931475.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs` (LFS restrictions)
-* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github` all subdirectories (LFS restrictions)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/Sarah Photo Tribute.pptx` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/VID_20181003_075537.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/MotoG7Power-LenovoID-Preinstalled/.thumbdata4--1967290299` (archived at maxieds85v6@GoogleDrive)
