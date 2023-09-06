@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>ConvertHeicToJpg</key>
+	<true/>
+	<key>EnableNetworkDiscovery</key>
+	<false/>
+	<key>FESettings</key>
+	<true/>
+	<key>Language</key>
+	<string>en</string>
+	<key>MaxCacheSize</key>
+	<integer>9223372036854775807</integer>
+	<key>ShowHiddenFiles</key>
+	<true/>
+	<key>VersionUUID</key>
+	<string>C98E65D5-D1E2-476B-803F-4E1B86B36C87</string>
+</dict>
+</plist>
