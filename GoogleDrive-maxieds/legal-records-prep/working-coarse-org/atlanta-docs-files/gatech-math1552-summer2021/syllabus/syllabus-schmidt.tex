@@ -1,0 +1,985 @@
+% This syllabus template was created by:
+% Brian R. Hall
+% Assistant Professor, Champlain College
+% www.brianrhall.net
+
+% Document settings
+\documentclass[11pt]{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[pdftex]{graphicx}
+\usepackage{multirow}
+\usepackage{setspace}
+
+\usepackage{pgf,tikz}
+\usepackage{mathrsfs}
+\usetikzlibrary{arrows}
+%\usepackage{times}
+\usepackage{amssymb}
+\usepackage{amsmath}
+\usepackage{stmaryrd}
+\usepackage{amsthm}
+\usepackage{bussproofs}
+\usepackage{graphics,epsfig, subfigure}
+\usepackage{url,hyperref}
+\usepackage{srcltx}
+%\usepackage{hyperref}
+%\usepackage{charter}
+%\usepackage{ragged2e}
+\usepackage{amssymb}
+\usepackage{multicol}
+\usepackage{verbatim}
+\usepackage{tikz-3dplot}
+%\usepackage{amscd}
+
+
+%\usefonttheme[stillsansseriflarge]{serif}
+
+%\usepackage{tikz-cd}	
+%\usepackage{tikz}
+
+%% These additional packages are used within the document:
+\usepackage{ragged2e}  % `\justifying` text
+\usepackage{booktabs}  % Tables
+\usepackage{tabularx}
+\usepackage{tikz}      % Diagrams
+\usetikzlibrary{calc, shapes, backgrounds}
+\usepackage{amsmath, amssymb}
+\usepackage{url}       % `\url`s
+\usepackage{listings}  % Code listings
+\usepackage{transparent}
+\usepackage{ragged2e}
+
+\pagestyle{plain}
+\setlength\parindent{0pt}
+
+\begin{document}
+
+\definecolor{ffwwqq}{rgb}{1.,0.4,0.}
+\definecolor{ffzztt}{rgb}{1.,0.6,0.2}
+\definecolor{sqsqsq}{rgb}{0.12549019607843137,0.12549019607843137,0.12549019607843137}
+
+% Course information
+\begin{tabular}{ l l }
+  \multirow{2}{*}{\includegraphics[width=1in]{gtlogo.png}} & \LARGE Math 1552, Integral Calculus \\\\
+  & \LARGE Summer 2021 \\\\
+  %& \LARGE MWF, 11:00 am -- 12:15 pm, BlueJeans \\\\
+\end{tabular}
+\vspace{10mm}
+
+% Professor information
+%\begin{tabular}{ l }
+%  \multirow{4}{*}{
+  %\includegraphics[height=1.25in]{CvetelinaHillMath.jpg}} & 
+\begin{comment}  
+{\RaggedRight
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|l|l|l|l|l|l|}
+    \hline
+        \begin{minipage}{0.09\textwidth} Section 
+        \end{minipage} & \begin{minipage}{0.14\textwidth}Instructor/TA 
+        \end{minipage} & \begin{minipage}{0.19\textwidth}email-netid@gatech.edu
+        \end{minipage} & \begin{minipage}{0.13\textwidth}Class time 
+        \end{minipage} & \begin{minipage}{0.16\textwidth}Location 
+        \end{minipage} & \begin{minipage}{0.16\textwidth}Office hour 
+        \end{minipage}\\
+         \hline
+        \begin{minipage}{0.1\textwidth} {\bf Lecture:} A 
+        \end{minipage} & \begin{minipage}{0.16\textwidth}{\bf Instructor:} Maxie D. Schmidt 
+        \end{minipage} & \begin{minipage}{0.16\textwidth} {\tt mschmidt34} 
+        \end{minipage} & \begin{minipage}{0.16\textwidth}MWF 11:00am-12:15pm 
+        \end{minipage} & \begin{minipage}{0.16\textwidth}
+        \end{minipage} & \begin{minipage}{0.16\textwidth}TBD (two hours per week) -- Check Canvas
+        \end{minipage}\\ 
+    \end{tabular}
+    \caption{Caption}
+    \label{tab:my_label}
+\end{table}  
+}
+\end{comment}
+  
+  
+  \large {\bf Instructor:} Maxie D. Schmidt \\
+     \large {\bf Lecture:} MWF 11:00am -- 12:15pm (BlueJeans link at \url{https://bluejeans.com/316778686/8893}) \\
+     \large {\bf Email:} {\tt mschmidt34@gatech.edu} \\
+  %& \large website 
+  %\large Skiles 137 (Currently: My house) \\
+     \large {\bf Office Hours:} MW from 3-4PM, on BlueJeans video chat at 
+     \url{https://bluejeans.com/551825437}, or by appointment (email to arrange). \\
+%\end{tabular}
+
+\large {\bf Studios \& Teaching assistants}\\
+\large {\bf 1552 A01:} Biraj Dahal; TR 11:00am -- 12:15pm; Skiles 311.
+
+\hspace{2.15 cm}
+Studio link: BlueJeans chat link: \url{https://bluejeans.com/408247574/8893}; 
+
+\hspace{2.15 cm} Email: {\tt bdahal@gatech.edu}
+
+\hspace{2.15 cm}
+Office hour: TBD (check Canvas for times and virtual links to attend) \\
+
+\large {\bf 1552 A02:} Mollene Denton; TR 11:00am -- 12:15pm; Clough Commons 129.
+
+\hspace{2.15 cm}
+Studio link: BlueJeans chat link: \url{https://bluejeans.com/394268533/8893}; 
+
+\hspace{2.15 cm} Email: {\tt mollene@gatech.edu}
+
+\hspace{2.15 cm}
+Office hour: TBD (check Canvas for times and virtual links to attend) \\
+
+
+%%%%%%%%% START editing here ... 
+
+
+\vspace{5mm}
+
+ Welcome to {\bf{\color{ffwwqq} Integral Calculus}}! This is a {\bf{\color{ffwwqq}synchronous}} course designed to introduce you to the fundamental concepts of integration and infinite series. All of our students play an important role in our educational mission. We hope that you will find this to be a useful, fundamental course for your future studies. 
+ \\
+
+{\bf{Statement of intent for inclusivity}}\\
+
+As a member of the Georgia Tech community, I am committed to creating a learning environment in which all of my students feel safe and included.  Because we are individuals with varying needs, I am reliant on your feedback to achieve this goal.  To that end, I invite you to enter into dialogue with me about the things I can stop, start, and continue doing to make my classroom an environment in which every student feels valued and can engage actively in our learning community.\\
+
+{\bf Please note:} Items on the syllabus and course schedule are subject to change. Any changes to the syllabus and/or course schedule will be relayed to the students in class, via an announcement on Canvas, and via email.
+
+\tableofcontents
+
+\newpage
+\section{Course Description}
+
+\subsection{Textbook}
+Thomas, {\em Calculus: Early Transcendentals}, 14th ed.\\
+We will discuss topics in chapters 4.8, 5, 6, 8, and 10.
+
+\subsection{Required websites}
+\begin{itemize}
+    \item Course information: http://canvas.gatech.edu.
+    \item Textbook \& Homework Access: http://www.mymathlab.com. Accessible through Canvas. See Section \ref{sec:MML} for more details.
+    %\item On-line Discussions: www.piazza.com. Accessible through Canvas.
+    %\item Graded papers: www.gradescope.com. Accessible through Canvas.
+    \item Lectures, studios, and office hours: https://gatech.bluejeans.com (links accessible through Canvas).
+\end{itemize}
+
+\subsection{Course organization \& BlueJeans links}
+
+This course will consist of synchronous lectures and studios. You are required to attend all scheduled sessions at all times. Links to lectures, studios, office hours, and extra review sessions will be available in Canvas, under Pages/View All Pages. Thesynchronous lectures and videos will be recorded and posted on the Canvas course page. 
+All students are expected to attend the lectures synchronously (in realtime, as they are scheduled). 
+
+Please note that as the course this summer is listed as hybrid, we will hold at least one in person review session 
+for students to prepare for their exams (times TBD). Any review materials we distribute to students at the 
+review sessions will be made available on Canvas. \\
+
+%The Center for Academic Success will also provide our class with a PLUS (Peer Led Undergraduate Study) leader. PLUS sessions will also meet twice per week. These sessions are optional, but strongly encouraged. \\
+
+\subsection{Learning objectives}
+
+    \begin{itemize}
+    \item You will understand the geometric concept of a definite integral and learn how to approximate the integral using Riemann sums.
+    \item You will be able to evaluate indefinite and definite integrals algebraically using various integration techniques, including substitution, integration by parts, trigonometric substitution, trigonometric identities, and partial fractions.
+    \item You will apply the idea of convergence to improper integrals and infinite series. 
+    \item Given an infinite series, you will be able to analyze the function to determine if the series converges by applying an appropriate convergence test (divergence, comparison, integral, ratio or root).
+    \item You will construct Taylor series for various functions and apply them to numerical approximation problems and definite integrals.
+    \item You will understand the proper usage of mathematical notation in relation to the above topics.
+    \end{itemize}
+
+\section{Communication}
+
+    \subsection{With Instructor}
+    Feel free to call me by my first name, Maxie. I can be reached in one of the following ways:
+    \begin{itemize}
+        \item Email me at {\tt mschmidt34@gatech.edu} (most reliable way to get in contact on the weekdays). 
+              I will check messages twice daily Monday through Friday, and try my best to check them once a day 
+              on the weekends.
+        \item Send me a message through Canvas.
+        \item Drop in during office hours on 
+              Monday \& Wednesday between 3PM and 4PM. Extra office hours may be announced during the midterm 
+              and final exam weeks (check Canvas for status updates).
+    \end{itemize}
+    
+    \subsection{With TA}
+    You can reach your TA in one of the following ways.
+    \begin{itemize}
+        \item If your TA is Biraj (Math 1552 -- Section A01):
+        \begin{itemize}
+            \item Email Biraj at {\tt bdahal@gatech.edu}.
+            \item Send Biraj a message through Canvas.
+            \item Drop in during Biraj's office hours in the Mathlab (times announced on Canvas).
+        \end{itemize}
+        \item If your TA is Mollene (Math 1552 -- Section A02):
+        \begin{itemize}
+            \item Email Mollene at {\tt mollene@gatech.edu}.
+            \item Send Mollene a message through Canvas.
+            \item Drop in during Mollene's office hours in the Mathlab (times announced on Canvas). 
+        \end{itemize}
+    \end{itemize}
+    
+    
+    \subsection{Class announcements}
+    
+    You are responsible to check Canvas announcements regularly. I will be posting announcements at the beginning and end of each week. I will also use Canvas announcements to communicate any other important information.
+    
+    %\subsection{Questions}
+    %We will use Piazza for communication, such as questions on homework or classwork problems, logistics questions, and any other questions that you have as you move through the course. You are encouraged to answer each other's questions. 
+    
+\section{Course requirements and grading}
+
+Your grade will be determined based on homework, lecture attendance and participation, studio participation, 
+online quizzes, one midterm exam, and a final exam. See the details in the sections below.
+
+    \subsection{Lecture}
+    
+    Lecture attendance will be taken starting the second week of class. Within 24 hours of each lecture, you will be asked to complete a brief reflection on Canvas. This reflection will include a summary of what you learned in lecture and it will contain any questions you have based on the lecture material. A sample reflection and grading rubric will be provided on Canvas. Lectures will be recorded and videos will be posted on Canvas, under Pages/View All Pages. 
+    
+    %Classwork includes homework and class participation.  There are 135 possible points on the chart below.  The classwork average will be computed by taking the total number of points earned, and dividing by ???. (Essentially, you can miss up to 10 total points and still have a 100\% classwork average)  Averages over 100\% will be allowed, and will be the only extra credit opportunity offered to students; see also \ref{extraCredit}.
+    
+    \subsection{Studio}
+    
+    Studios will be student-centered and facilitated by the TA. The TA will not be lecturing, and the students will be expected to actively participate in each studio session. The format of studio classes will be as follows.
+    
+    You will be assigned to work in small groups during each studio session. Each group will work on solving a problem from the weekly assignment problems. It is important that all members of the group are actively involved in solving the problem and each member of the group understands how to solve the problem. Towards the end of the studio session, one person from each group will be randomly selected to present their group's problem to the class. Each student is expected to present approximately 3 times throughout the semester.  
+    
+    %Studios will be run in a partially {\em flipped} classroom environment.  This means the TAs will expect that you have attended lecture and reviewed the textbook before class. The TAs will not lecture on the course material.  Each week, you will be provided with extra practice problems that represent {\em test-like} material.\\  
+        
+    %\subsubsection{Attendance}    
+    %Beginning the second week of classes, studio attendance will be taken. 
+    
+    
+
+
+    \subsection{Homework \& MyMathLab}
+    \label{sec:MML}
+        
+    Homework will be assigned online and will consist of exercise problems on MyMathLab. You are expected to understand all homework problems for the exams and quizzes. In order to increase the effectiveness of studio, you should attempt the problems before the weekly studio sections. Exercises on MyMathLab will be due every Tuesday at 11:59 PM (except during class recesses or as announced in class).   Each assignment contains problems that count toward the grade, and extra practice problems to help you prepare for the exams.  Late homework will be accepted with a 20\% deduction per day.  Please note: the final graded homework assignment will be due on Tuesday, July 14.
+    
+        
+    \vspace{1 em}
+    
+    {\normalsize{\bf Introductions \& Survey}}\\
+    
+    The homework assignment during the first week of class will include an introduction post from you on our Canvas course page and your responses to the Start-of-Semester Survey on Canvas.
+        
+    \vspace{1 em}
+        
+    {\normalsize{\bf MyMathLab (MML)}}
+        
+    \vspace{0.5 em}
+        
+    We will be using MML for homework through a joint code for the Thomas Calculus text and the Lay Linear Algebra text. Our MML course is linked to Canvas.  Please login to your Canvas account, then go to the {\em My Lab and Mastering} tool on the left-hand menu.  From the My Lab page, you can login to, or create, your MML account to access our course.  You should not need to enter a course ID.\\
+        
+    Important notes on MML:
+        \begin{itemize}
+            \item If you already have an account on MML using this combined textbook within the past 18 months, then you do not need to purchase a new code.  Login to your account on MML, select the option to add a new course, and enter our course ID.
+            
+            \item If you already have an MML account that used either the Thomas or the Lay textbook in the past 18 months, but you were unable to add our course using the previous step, please send an email to: mylab.math.gt@gmail.com and include the following information:
+            \begin{itemize}
+                \item Your First and Last Name.
+                \item The email address used to register for MML.
+                \item Your Login ID for MML.
+            \end{itemize}
+        I will send a list of student names to the Pearson support team regarding your account status and I will request new codes.  In the meantime, you can access your course using the {\em temporary access} option when registering.  Please do not pay for a new code until you receive a reply from Pearson.
+        
+        \item If you do not have an MML account using the Thomas or Lay textbooks, or if your account is over 18 months old, you will need to purchase a new code for our course.  Please refer to the registration document, located in the {\em Resources} section on Canvas, to create your new account.
+        
+        \item When signing up for MML, it will be immensely helpful (for grading purposes) if you will set your STUDENT ID to your USERID for the GT system (i.e., your Canvas USERID, as in “gburdell3”, etc).
+        \end{itemize}
+        
+
+
+
+
+MML comes with an entire electronic version of the textbook; it is your choice if you would also like to own the textbook in print. You may purchase an MML code either from the bookstore or on-line while registering at http://www.mymathlab.com. If you prefer to own a hardcopy of the text, the bookstore offers packages of MML combined with a loose-leaf or hardcover version of the Thomas textbook that is less expensive than purchasing the text and code separately.
+
+\vspace{0.5 em}
+
+{{\bf Please note:}} GT has a special code package that includes both textbooks. This code can only be purchased through the campus bookstore or directly from Pearson. {\bf Codes purchased by other vendors will not work!} 
+Possible ISBNs for this text are: 9781323835029, 132383768X, or 9781323837689. 
+
+    \subsection{Quizzes}
+    
+    There will be five short weekly quizzes during the semester. Quizzes will be administered through Canvas during the first 10 minutes of studio. They will consist of multiple choice and short response questions. The lowest quiz grade will be dropped at the end of the semester. Quizzes will be administered online using Canvas and Honorlock synchronously at the 
+    scheduled studio times. 
+    
+        Quiz dates are as follows:
+        \begin{itemize}
+            \item Quiz 1: Thursday, May 27
+            \item Quiz 2: Thursday, June 10
+            \item Quiz 3: Thursday, July 1
+            \item Quiz 4: Tuesday, July 12
+            \item Quiz 5: Thursday, July 22
+        \end{itemize}
+
+   \subsection{Midterm  exam}
+    
+    There will be one written synchronized midterm exam on June 24. There will be a synchronous 75-minute exam. 
+    Students are expected to solve all of the problems and enter their solutions into Canvas using Honorlock within 
+    that timeframe. The format of exams is multiple choice / fill in the blank / and short form justifcations of 
+    solutions to certain problems. We will go over examples of the format to help students 
+    adequately prepare for testing in this format during the review sessions before the exam in lecture. 
+    The midterm is administered synchronously at the scheduled course time slot on the scheduled day of the exam. 
+
+     Make sure that you are familiar with these 
+    requirements, how long it will take you to scan your written solutions, and that you make efficient use 
+    of your testing time. No exceptions will be made to this policy!
+    
+    Your grade will be available a week after the exam. 
+    
+   
+       \subsection{Final exam}
+        
+        The final exam will be one written synchronized midterm exam on Friday, July 30 from 
+        11:20AM to 2:10PM. All student solutions must be uploaded into Canvas within that time window 
+        (no exceptions). The final exam is comprehensive. 
+        The exam format is the same as the midterm exam. 
+        The exam will be proctored synchronously at the scheduled time for the 
+        final exam given for this course by the university. 
+
+        Additional in person review sessions will be held (times TBD closer to the exam) the week before final exam to 
+        satisfy the hybrid component of this course. Students that are unable to attend, or who prefer to 
+        practice online-only social distancing protocols will be provided with the review materials 
+        from these sessions. Per student requests closer to the final, we may accomodate online-only learners 
+        by providing extra office hours on BlueJeans (check Canvas for status updates the last weeks of class).        
+
+        \subsection{Grading scale}
+        
+        Your class average will be computed as follows:
+        
+        \begin{table}[h!]
+        \centering
+        \begin{tabular}{|l|l|}
+        \hline
+            Lecture participation & 5\%  \\
+            \hline
+            Studio attendance & 5\%\\
+            \hline
+            Studio presentations & 10\%\\
+            \hline
+            Homework & 10\%\\
+            \hline
+             Quizzes & 20\% (lowest raw score dropped)\\ \hline
+            Midterm exam & 20\%\\
+            \hline
+            Final exam & 30\%\\
+            \hline
+        \end{tabular}
+        \end{table}
+        
+        Letter grades will be determined based on the following intervals. You are guaranteed a minimum of the following scale, however, you should not expect any deviation. 
+        \begin{itemize}
+            \item A: 90\% and higher, 
+            \item B: [80\%, 90\%),
+            \item C: [70\%, 80\%),
+            \item D: [60\%, 70\%),
+            \item  F: [0\%, 60\%). 
+        \end{itemize}
+
+
+    \subsection{Extra credit}
+    \label{extraCredit}
+    
+    Please note that lecture participation and studio attendance account for 20\% of the final average. This means that you can earn a significant portion of the grade by just coming to class and completing your homework! Considering this, there will not be any extra credit assignments for this course.
+    
+    \subsection{Rubrics}
+    The following items will be graded using a rubric: reflection posts following each lecture class, 
+    midterm exam, final exam. Rubrics can be found on the Canvas course page, under Files/Rubrics.
+    
+\section{Class policies}
+
+    \subsection{Netiquette}
+    Netiquette is the etiquette of online behavior. In all means of communication in this online course, you will need to follow the same rules of behavior as you would in a face-to-face course when communicating with the other students, teaching assistants, and instructors in the class. This means that you must show respect for others: negative personal comments are strictly prohibited. Please also respect your fellow classmates by turning off your microphone and web cam when appropriate. If it is appropriate to turn on your web cam, be sure that you are wearing appropriate clothing. During class and studio sessions you may ask questions in the chat; however, spamming the chat or posting inappropriate content will result in your displacement from the virtual session. 
+    
+    \subsection{Attendance}
+    
+    You are expected to come prepared and actively participate in every lecture and studio session. In the event of an absence, you are responsible for all missed materials, assignments, and any additional announcements or schedule changes given in class.\\
+    
+    Class disruptions of {\bf any} kind will {\bf not} be tolerated and may result in your removal from the virtual classroom and/or loss of participation points for that day. 
+
+    
+    \subsection{Regrade requests}
+    
+    If a problem on your quiz has been graded in error, you must email me within one week after the graded quiz has been returned. A regrade request should only be submitted if you have done something {\em correctly} on your quiz and it has been marked as incorrect. Problems submitted for regrades could be adjusted up or down, so please make sure to check the solutions before requesting a regrade.
+    
+    \subsection{Recordings of class sessions and required permission} 
+    Due to Covid-19 concerns and the increased use of distance learning, our class sessions may be audio visually recorded for use by enrolled students. Class recordings, lectures, and other classroom presentations presented through video conferencing and other materials posted on Canvas are for the sole purpose of educating the students enrolled in the course. Students may not record or share recordings, including screen capturing, unless the instructor states so or individual permission is obtained. Exams and tests may require students to engage the video camera, but those recordings will not be shared with or disclosed to others without consent unless legally permitted. Additional information may be found 
+    \href{https://provost.gatech.edu/academic-restart-frequently-asked-questions}{here}.
+
+    \begin{itemize}
+     \item For classes where participation is voluntary, students who participate with their camera engaged or utilize a profileimage are agreeing to have their video or image recorded.
+     \item For classes requiring class participation, if students are identifiable by their names, facial images, voices, and/ or comments, written consent must be obtained before sharing the recording with persons outside of students in the class.  
+     \end{itemize}
+
+    \subsection{Digital proctoring of graded assessments using Honorlock}
+    This course will use digital proctoring for all quizzes and exams.
+    The restrictions of online learning due to the current pandemic are not conducive 
+    to giving quizzes and examinations in Math1552 in the traditional in-person handwritten 
+    free-response type format. As instructors and TAs for this course, these restrictions have forced us to 
+    work outside of the box, so to speak, to find engaging and fair ways to administer these assignments 
+    outside of the classroom to all students simultaneously during the synchronously scheduled lecture and 
+    studio section times. 
+
+    We have thought long, hard and had many detailed 
+    discussions about how to handle the 
+    graded online assessments completed by students based on the experience we have gathered over the 
+    last few terms teaching in this new, non-traditional learning environment. Unfortunately, 
+    there is no perfect 
+    solution to this issue within the confines of the new online learning environment we are working in 
+    this summer. 
+    This semester, we will be using the Honorlock platform in conjunction with 
+    Canvas to provide and collect the five quizzes, midterm exam and final exam. 
+
+    The next listings of technology and hardware are required of all students taking this course. 
+    Please refer to these important Honorlock technical requirements:
+    \begin{itemize}
+    \item Students must have a broadband internet connection; 
+    \item Students must have a webcam and microphone; 
+    \item Students must have a secure private location to take an exam without others in the room; 
+    \item Students will be asked to provide a picture ID and take a picture of themselves via a webcam as 
+          part of the exam process; 
+    \item Honorlock is not compatible with Linux OS, Virtual Machines, tablets, or smartphones. 
+          Students that rely on these platforms may consider the option of checking out a loaned device that is 
+          compatible with Honorlock from the GA Tech library on campus or from OIT services, though we cannot 
+          guarantee the availability of non-tablet Windows OS based computer hardware 
+          for everyone that will need it throughout the semester (please check on this early -- well in 
+          advance of the first scheduled quiz);
+    \item Honorlock requires the installation of Google Chrome and the Honorlock Chrome extension. 
+    \end{itemize} 
+    If your current situation does not allow for Honorlock proctoring, please contact your instructor as 
+    soon as possible to discuss alternate proctoring arrangements. This is especially the case for any students 
+    with specialized test taking accomodations approved through the ODS office on campus.
+
+    Honorlock will proctor your exams this semester. Honorlock is an online proctoring service that allows you 
+    to take your exam from the comfort of your home. You DO NOT need to create an account, download software or 
+    schedule an appointment in advance. Honorlock is available 24/7 and all that is needed is a computer, a 
+    working webcam, and a stable Internet connection. 
+    To get started, you will need Google Chrome and to download the Honorlock Chrome Extension. 
+    You can download the extension at \url{www.honorlock.com/extension/install}. 
+    
+    When you are ready to test, log into Canvas, go to your course, and click on your exam. 
+    Clicking "Launch Proctoring" will begin the Honorlock authentication process, where you 
+    will take a picture of yourself, show your ID, and complete a scan of your room. Honorlock 
+    will be recording your exam session by webcam as well as recording your screen. Honorlock 
+    also has an integrity algorithm that can detect search-engine use, so please do not attempt 
+    to search for answers, even if it's on a secondary device.
+
+    \subsection{Makeup assessments}
+Under exceptional or emergency cases, which will be determined by the instructor of the course on a case-by-case basis, 
+we may occasionally approve students to take a make up exam. No make ups will be given for a missed first quiz 
+since we drop the lowest raw score before computing your final average in the course. 
+Any make-ups must be completed before the corresponding assignment has been graded and
+returned to other students. 
+
+In the case of unforseen events, you must notify the instructor in writing over email within 24 
+hours of missing the assessment. Please provide appropriate documentation in such cases through the dean of students 
+or another appropriate university faculty that is sufficient to justify excusing the abscence. 
+No written doctor's notes nor documentation from Stamps will be accepted by course staff in the event of illness.
+
+If you will miss a test due to a university-sponsored event or athletics, please
+provide your instructor with the official documentation in advance.    
+    If you know that you will miss an assessment based on the tentative class schedule, available in Section \ref{sec:schedule}, you must communicate with me within the first two weeks of the semester. 
+Make sure that you are familiar with the university policies for notifying us about needing to take your 
+final examination at an alternate time due to an overloaded finals schedule in your other courses 
+(e.g., notification in writing at least two weeks in advance of the last day of instruction is 
+minimally required to arrange things in this situation). 
+    
+    \subsection{Students in need of special accommodations}
+    
+    Georgia Tech complies with the regulations of the Americans with Disabilities Act of 1990 and offers accommodations to students with disabilities. If you are in need of classroom or testing accommodations, please make an appointment with the Office of Disability Services to discuss the appropriate procedures. More information is available on their website, http://disabilityservices.gatech.edu/. Please also make an appointment with me to discuss your accommodation, if necessary.
+
+    
+    \subsection{Academic Dishonesty} 
+    All students are expected to comply with the Georgia Tech Honor Code, which can be found at http://osi.gatech.edu/content/honor-code. Any evidence of cheating or other violations of the Georgia Tech Honor Code will be submitted directly to the Dean of Students. Cheating includes, but is not limited to: 
+    \begin{itemize}
+        \item Using an unapproved resources on exams. This includes using notes, textbook references, calculators, and 
+              especially surfing the web while taking an exam (midterm or final). 
+        \item Copying directly from any source, including friends, classmates, tutors, internet sources (i.e., Wolfram Alpha), or a solutions manual.
+        \item Allowing another person to copy your work.
+        \item Taking a test or quiz in someone else's name, or having someone else take a test or quiz in your name.
+        \item Asking for a regrade of a paper that has been altered from its original form.
+        \item Using someone else’s account to gain attendance or homework points for them, or asking someone else to use your account for any graded homework or attendance submission.
+    \end{itemize}
+
+\section{Campus resources}
+
+In your time at Georgia Tech, you may find yourself in need of support. Below you will find some resources to support you both as a student and as a human.  
+
+    \subsection{Academic support}
+    \begin{itemize}
+        \item Center for Academic Success http://success.gatech.edu
+        \begin{itemize}
+            \item 1-to-1 tutoring http://success.gatech.edu/1-1-tutoring
+            \item Peer-Led Undergraduate Study (PLUS) http://success.gatech.edu/tutoring/plus
+            \item Academic coaching http://success.gatech.edu/coaching
+        \end{itemize}
+%        \item Residence Life's Learning Assistance Program https://housing.gatech.edu/learning-assistance-program {\color{magenta} Is this resources still valid????}
+%        \begin{itemize}
+%            \item Drop-in tutoring for many 1000 level courses
+%        \end{itemize} 
+        \item OMED: Educational Services http://omed.gatech.edu/programs/academic-support
+        \begin{itemize}
+            \item Group study sessions and tutoring programs
+        \end{itemize}
+        \item Communication Center http://www.communicationcenter.gatech.edu
+        \begin{itemize}
+            \item Individualized help with writing and multimedia projects.
+        \end{itemize}
+        \item Academic advisors for your major http://advising.gatech.edu/
+    \end{itemize}
+    
+    \subsection{Personal support}
+    \begin{itemize}
+        \item The Office of the Dean of Students:  http://studentlife.gatech.edu/content/services; 404-894-6367.
+        \begin{itemize}
+            \item You also may request assistance at 
+           
+            https://gatech-advocate.symplicity.com/care\_report/index.php/pid383662?
+        \end{itemize}
+        \item Counseling Center:  http://counseling.gatech.edu; 404-894-2575
+        \begin{itemize}
+            \item Services include short-term individual counseling, group counseling, couples counseling, testing and assessment, referral services, and crisis intervention.  Their website also includes links to state and national resources.
+            \item Students in crisis may contact the counselor on call after hours at 404-894-2204.
+        \end{itemize}
+        \item Students’ Temporary Assistance and Resources (STAR):
+        
+        http://studentlife.gatech.edu/content/need-help.
+        \begin{itemize}
+            \item Can assist with interview clothing, food, and housing needs.
+        \end{itemize}
+        \item Stamps Health Services: https://health.gatech.edu; 404-894-1420
+        \begin{itemize}
+            \item Primary care, pharmacy, women’s health, psychiatry, immunization and allergy, health promotion, and nutrition
+        \end{itemize}
+        \item OMED: Educational Services:  http://www.omed.gatech.edu
+        \item Women’s Resource Center: http://www.womenscenter.gatech.edu; 404-385-0230
+        \item LGBTQIA Resource Center: http://lgbtqia.gatech.edu/; 404-385-2679
+        \item Veteran’s Resource Center: http://veterans.gatech.edu/; 404-385-2067
+        \item Georgia Tech Police: 404-894-2500
+    \end{itemize}
+
+
+\section{Important Dates}
+\begin{multicols}{2}
+\begin{itemize}
+    \item 17 May -- First day of classes
+    \item 27 May -- Quiz 1
+    \item 31 May -- Memorial Day (No class)
+    \item 10 June -- Quiz 2
+    \item 24 June -- Midterm exam
+    \item 01 July -- Quiz 3
+    \item 12 July -- Quiz 4 (on a Tuesday, NOT Thursday as the others are scheduled)
+    \item 22 July -- Quiz 5
+    \item 03 July -- Last day to withdraw with a grade of W
+    \item 05 July -- School Break for July $4^{th}$ holiday (No class)
+    \item 06 July -- School holiday (No class)
+    \item 26-27 July -- Final Instructional Days
+    \item 30 July -- Math 1552 final exam from 11:20AM-2:10PM
+    \item 30 July - 4 August -- Final examinations (Finals week for GA Tech students)
+\end{itemize}
+\end{multicols}
+
+\vspace{1cm}
+{\bf Note:} See next pages for tentative 12--week class schedule. 
+The schedule contains approximate references to the topics and textbook sections 
+we will cover in lectures and in the studio sections those weeks. \\ 
+Please note that roughly the last 1/3 to 1/2 of the course covers material that 
+indicates a distinct change in topics from direct integration methods to 
+sequences and infinite series topics. As many students have not seen the latter course 
+material before in prior coursework, please be aware that you may need to invoke more 
+effort later on in the course to maintain adequate preparation for the quiz and exam 
+assessments, e.g., this new material tends to be more challenging for students and it will 
+require your thoughtful time and effort to master these concepts as the semester progresses. 
+
+
+
+\newpage
+\section{Tentative course schedule}
+\label{sec:schedule}
+
+Please use this as an approximate class schedule; section coverage may change depending on the flow of the course.  Review days \& topics may be changed or cancelled.
+
+\begin{table}[ht!]
+%\normalsize % The size of the table text can be changed depending on content. Remove if desired.
+{\RaggedRight
+\begin{tabular}{ | l | l | l | l | l | l |}
+\hline
+{Week} & {Monday} & {Tuesday} & {Wednesday} & {Thursday} & {Friday} \\
+\hline
+ 1 & \begin{minipage}{0.18\textwidth}
+ {\bf May 17}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 18}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 19}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 20}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 21}\\
+\end{minipage}\\
+%\hline
+  & \begin{minipage}{0.18\textwidth}
+Intro to 1552, online learning tools and review; 
+\S 4.8 \& \S 5.1 -- Review (memo-ize formulas), area under the curve;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Intro to studios and derivative review; \\ 
+{\bf HW:} Introduce yourself, submit syllabus scavenger hunt; 
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S 5.2 \& \S 5.3 -- Area under the curve (cont'd) and the definite integral;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf HW:} Introduce yourself, survey on Canvas
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S 5.3 \& \S 5.4 -- Definite integrals (cont'd) and the Fundamental Theorem of Calculus;
+\end{minipage}\\
+\hline
+
+ 2 & \begin{minipage}{0.18\textwidth}
+{\bf May 24}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 25}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 26}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 27}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf May 28}
+\end{minipage}\\
+
+& \begin{minipage}{0.18\textwidth}
+\S 5.4 \& \S 5.5 -- FTC (cont'd) and integration by substitution;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 1 due: \S 5.1-5.4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 5.6 -- Area between curves; 
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Quiz 1: \S 4.8, \S 5.1-5.4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 8.2 -- Integration by parts;
+\end{minipage}\\
+\hline
+
+3 & \begin{minipage}{0.18\textwidth}
+{\bf May 31}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 1}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 2}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 3}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 4}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+Memorial Day -- No class!
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 2 due: \S 5.5-5.6, \S 8.2
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 8.3 -- Integration of products and powers of trig functions;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S8.2
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S8.4 -- Trigonometric substitution;
+\end{minipage}\\
+\hline
+
+4 & \begin{minipage}{0.18\textwidth}
+{\bf June 7}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 8}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 9}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 10}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 11}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+      \S 8.4 \& \S 8.5 -- Trig subs (cont'd) and partial fractions;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 3 due: \S 8.3-8.4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S 8.5 \& \S 4.5 -- Partial fractions (cont'd) and L'Hopital's rule;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Quiz 2: \S 8.3-8.4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S 4.5 \& \S8.8 -- L'Hopital's rule (cont'd) and improper integrals;
+\end{minipage}\\
+\hline
+
+5 & \begin{minipage}{0.18\textwidth}
+{\bf June 14}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 15}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 16}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 17}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 18}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+\S 8.8 -- Improper integrals (cont'd);
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 4 due: \S 8.5, 4.5
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Review of integration techniques
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Review for midterm
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Review for midterm
+\end{minipage}\\
+\hline
+
+6 & \begin{minipage}{0.18\textwidth}
+{\bf June 21}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 22}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 23}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 24}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 25}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+\S 10.1 \& \S10.2 -- Sequences and infinite series;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 5 due: \S 8.8
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 10.2 -- Infinite series (cont'd); 
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Midterm exam
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 10.3 \& \S10.4 -- The integral test and comparison tests;
+\end{minipage}\\
+\hline
+
+\end{tabular} 
+}
+\end{table}
+
+\begin{table}[ht!]
+%\normalsize % The size of the table text can be changed depending on content. Remove if desired.
+{\RaggedRight
+\begin{tabular}{ | l | l | l | l | l | l |}
+\hline
+{Week} & {Monday} & {Tuesday} & {Wednesday} & {Thursday} & {Friday} \\
+\hline
+7 & \begin{minipage}{0.18\textwidth}
+{\bf June 28}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 29}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf June 30}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 1}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 2}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+\S 10.4 -- Comparison tests (cont'd)
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 6 due: \S 10.1-10.4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 10.5 -- Ratio and root tests;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Quiz 3: \S10.1-10.4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S10.6 -- Alternating series;
+\end{minipage}\\
+\hline
+
+8 & \begin{minipage}{0.18\textwidth}
+{\bf July 5}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 6}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 7}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 8}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 9}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+No class -- Happy $4^{th}$!
+ \end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 7 due: \S 10.5-10.6;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Review convergence of series
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 10.7 -- Power series;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 10.7 (cont'd) \& \S10.8 -- Power series and intro to Taylor series;
+\end{minipage}\\
+\hline
+
+9 & \begin{minipage}{0.18\textwidth}
+{\bf July 12}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 13}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 14}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 15}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 16}\\
+\end{minipage}\\
+
+& \begin{minipage}{0.18\textwidth}
+Quiz 4
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 8 due: \S 10.7
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\S 10.8 \& \S10.9 -- More on Taylor series and Taylor polynomials;
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S 10.8 \& \S10.9 -- Ditto (cont'd)
+\end{minipage}\\
+\hline
+
+10 & \begin{minipage}{0.18\textwidth}
+{\bf July 19}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 20}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 21}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 22}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 23}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+      \S 10.8 \& \S10.9 Review (cont'd)
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+HW 9 due: \S 10.8-10.9
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S6.1 -- Volumes of revolution (cross section methods);
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Quiz 5: \S10.8-10.9
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+     \S6.2 -- Volumes (cylindrical shell methods);
+\end{minipage}\\
+\hline
+
+11 --12 & \begin{minipage}{0.18\textwidth}
+{\bf July 26}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 27}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 28}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 29}\\
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+{\bf July 30}\\
+\end{minipage}\\
+
+ & \begin{minipage}{0.18\textwidth}
+Last day of class -- Final review
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Reading day
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+\end{minipage}
+& \begin{minipage}{.18\textwidth}
+Final exam from 11:20AM-2:10PM
+\end{minipage}\\
+\hline
+
+\end{tabular}
+
+}
+\end{table}
+
+\end{document}
