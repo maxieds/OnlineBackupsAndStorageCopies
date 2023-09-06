@@ -3,6 +3,8 @@
 ## TODO: Stashed elsewhere
 
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-outlook365-email/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math-website.zip` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math1552-summer2021.zip` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs/*` (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 
