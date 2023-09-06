@@ -2,6 +2,8 @@
 
 ## TODO: Stashed elsewhere
 
+* `GoogleDrive-maxieds/droid-phone-rootkits/etc.tgz` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/droid-phone-rootkits/tar.tgz` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-outlook365-email/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math-website.zip` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math-website/clipboard-themes/*` all subdirectories (archived at maxieds85v6@GoogleDrive)
