@@ -2,9 +2,9 @@
 
 ## TODO: Working list of tasks
 
-* `_videos/RPReplay*.mp4` backups to another Google Drive account
 * Backup all data from Google Photos
 * Gmail emails with attachments
+* `legal-records-prep/working-coarse-org/_videos/RPReplay*.mp4` backups to another Google Drive account?
 * Any other Google Takeout data of interest?
 * Google Drive `Storage/` folder interesting contents
 
