@@ -1,0 +1,1256 @@
+\documentclass[11pt,reqno,a4letter]{article} 
+
+\usepackage{amsmath,amssymb,amsfonts,amscd}
+\usepackage[hidelinks]{hyperref} 
+\usepackage{url}
+\usepackage[usenames,dvipsnames]{xcolor}
+\hypersetup{
+    colorlinks,
+    linkcolor={green!63!darkgray},
+    citecolor={blue!70!white},
+    urlcolor={blue!80!white}
+}
+
+\usepackage[normalem]{ulem}
+\usepackage{graphicx} 
+\usepackage{datetime} 
+\usepackage{cancel}
+\usepackage{subcaption}
+\captionsetup{format=hang,labelfont={bf},textfont={small,it}} 
+\numberwithin{figure}{section}
+\numberwithin{table}{section}
+
+\usepackage{framed} 
+\usepackage{ulem}
+\usepackage[T1]{fontenc}
+\usepackage{pbsi}
+
+\usepackage{enumitem}
+\setlist[itemize]{leftmargin=0.65in}
+
+\usepackage{rotating,adjustbox}
+
+\usepackage{diagbox}
+\newcommand{\trianglenk}[2]{$\diagbox{#1}{#2}$}
+\newcommand{\trianglenkII}[2]{\diagbox{#1}{#2}}
+
+\let\citep\cite
+
+\newcommand{\undersetbrace}[2]{\underset{\displaystyle{#1}}{\underbrace{#2}}}
+
+\newcommand{\gkpSI}[2]{\ensuremath{\genfrac{\lbrack}{\rbrack}{0pt}{}{#1}{#2}}} 
+\newcommand{\gkpSII}[2]{\ensuremath{\genfrac{\lbrace}{\rbrace}{0pt}{}{#1}{#2}}}
+\newcommand{\cf}{\textit{cf.\ }} 
+\newcommand{\Iverson}[1]{\ensuremath{\left[#1\right]_{\delta}}} 
+\newcommand{\floor}[1]{\left\lfloor #1 \right\rfloor} 
+\newcommand{\ceiling}[1]{\left\lceil #1 \right\rceil} 
+\newcommand{\e}[1]{e\left(#1\right)} 
+\newcommand{\seqnum}[1]{\href{http://oeis.org/#1}{\color{ProcessBlue}{\underline{#1}}}}
+
+\usepackage{upgreek,dsfont,amssymb}
+\renewcommand{\chi}{\upchi}
+\newcommand{\ChiFunc}[1]{\ensuremath{\chi_{\{#1\}}}}
+\newcommand{\OneFunc}[1]{\ensuremath{\mathds{1}_{#1}}}
+
+\usepackage{ifthen}
+\newcommand{\Hn}[2]{
+     \ifthenelse{\equal{#2}{1}}{H_{#1}}{H_{#1}^{\left(#2\right)}}
+}
+
+\newcommand{\Floor}[2]{\ensuremath{\left\lfloor \frac{#1}{#2} \right\rfloor}}
+\newcommand{\Ceiling}[2]{\ensuremath{\left\lceil \frac{#1}{#2} \right\rceil}}
+
+\DeclareMathOperator{\DGF}{DGF} 
+\DeclareMathOperator{\ds}{ds} 
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\fg}{fg}
+\DeclareMathOperator{\Div}{div}
+\DeclareMathOperator{\rpp}{rpp}
+\DeclareMathOperator{\logll}{\ell\ell}
+
+\title{
+       \LARGE{
+       Characterizing the summatory functions of invertible multiplicative functions $f$ 
+       by strong additivity, $f$-partitions of the integers, and limiting Erd\H{o}s-Kac 
+       type central limit theorems
+       } 
+}
+\author{{\Large Maxie Dion Schmidt} \\ 
+        {\normalsize Georgia Institute of Technology} \\[0.025cm] 
+        {\normalsize School of Mathematics} 
+} 
+
+\date{\small\underline{Last Revised:} \today \ @\ \hhmmsstime{} \ -- \ Compiled with \LaTeX2e} 
+
+\usepackage{amsthm} 
+
+\theoremstyle{plain} 
+\newtheorem{theorem}{Theorem}
+\newtheorem{conjecture}[theorem]{Conjecture}
+\newtheorem{claim}[theorem]{Claim}
+\newtheorem{prop}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{cor}[theorem]{Corollary}
+\numberwithin{theorem}{section}
+
+\theoremstyle{definition} 
+\newtheorem{example}[theorem]{Example}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{notation}[theorem]{Notation}
+\newtheorem{question}[theorem]{Question}
+\newtheorem{discussion}[theorem]{Discussion}
+\newtheorem{facts}[theorem]{Facts}
+\newtheorem{summary}[theorem]{Summary}
+\newtheorem{heuristic}[theorem]{Heuristic}
+
+\renewcommand{\arraystretch}{1.25} 
+
+\setlength{\textheight}{9in}
+\setlength{\topmargin}{-.18in}
+\setlength{\textwidth}{7in} 
+\setlength{\evensidemargin}{-0.5in} 
+\setlength{\oddsidemargin}{-0.5in} 
+\setlength{\headsep}{8pt} 
+%\setlength{\footskip}{10pt} 
+
+%\usepackage{geometry}
+%\newgeometry{top=0.65in, bottom=16mm, left=15mm, right=15mm, heightrounded, marginparwidth=0in, marginparsep=0.15in}
+
+\usepackage{fancyhdr}
+\pagestyle{empty}
+\pagestyle{fancy}
+\fancyhead[RO,RE]{Maxie Dion Schmidt -- \today} 
+\fancyhead[LO,LE]{}
+\fancyheadoffset{0.005\textwidth} 
+
+\setlength{\parindent}{0.65cm}
+\setlength{\parskip}{0.04em} 
+
+\renewcommand{\thefootnote}{\textbf{\Alph{footnote}}}
+\makeatletter
+\@addtoreset{footnote}{section}
+\makeatother
+
+\newcommand{\SuccSim}[0]{\overset{_{\scriptsize{\blacktriangle}}}{\succsim}} 
+\newcommand{\PrecSim}[0]{\overset{_{\scriptsize{\blacktriangle}}}{\precsim}} 
+\renewcommand{\SuccSim}[0]{\ensuremath{\gg}} 
+\renewcommand{\PrecSim}[0]{\ensuremath{\ll}} 
+
+\renewcommand{\Re}{\operatorname{Re}}
+\renewcommand{\Im}{\operatorname{Im}}
+
+\usepackage{tikz}
+\usetikzlibrary{shapes,arrows}
+\usepackage{enumitem} 
+
+%\input{glossaries-bibtex/PreambleGlossaries-Mertens}
+
+\usepackage{longtable}
+\usepackage{arydshln} 
+\usepackage[symbols,nogroupskip,nomain,automake=false,nonumberlist,toc]{glossaries-extra}
+\usepackage{glossary-mcols}
+
+\allowdisplaybreaks 
+
+\begin{document} 
+
+\maketitle
+
+\begin{abstract} 
+TODO... 
+
+\bigskip 
+\noindent
+\textbf{Keywords and Phrases:} {\it TODO. } \\ 
+% 11-XX			Number theory
+%    11A25  	Arithmetic functions; related numbers; inversion formulas
+%    11Y70  	Values of arithmetic functions; tables
+%    11-04  	Software, source code, etc. for problems pertaining to number theory
+% 11Nxx		Multiplicative number theory
+%    11N05  	Distribution of primes
+%    11N37  	Asymptotic results on arithmetic functions
+%    11N56  	Rate of growth of arithmetic functions
+%    11N60  	Distribution functions associated with additive and positive multiplicative functions
+%    11N64  	Other results on the distribution of values or the characterization of arithmetic functions
+\textbf{Math Subject Classifications (MSC 2010):} {\it TODO. } 
+\end{abstract} 
+
+\newpage
+\section{Introduction} 
+\label{Section_Intro} 
+
+Suppose that $f \geq 1$ is an integer-valued multiplicative function defined such that 
+$f(1) = 1$. The inverse $f^{-1}$ of $f$ with respect to the Dirichlet convolution operator 
+$\ast$ exists and satisfies $f^{-1} \ast f = f \ast f^{-1} = \varepsilon$ where 
+$\varepsilon(n) = \delta_{n,1}$ is the multiplicative identity with respect to $\ast$. 
+The Dirichlet inverse of $f$ is computed recursively, or exactly, given the 
+following two identities for $n \geq 2$ where $f^{-1}(1) = 1 / f(1)$ 
+\cite[\S TODO]{APOSTOL-ANUMT} \cite{MOUSAVI-SCHMIDT}: 
+\begin{align*}
+f^{-1}(n) & = TODO, n \geq 2 \\ 
+f^{-1}(n) & = TODO, n \geq 1. 
+\end{align*}
+We are interested in evaluating bounds on the summatory function of $f^{-1}$ defined for any 
+integers $x \geq 1$ as 
+\[
+F^{-1}(x) := \sum_{n \leq x} f^{-1}(n). 
+\]
+We can prove that for all $n \geq 1$, $\operatorname{sgn}(f^{-1}(n)) = (-1)^{\omega(n)}$ where 
+$\omega(n) = \sum_{p|n} 1$ counts the number of primes dividing $n \geq 2$ without multiplicity 
+and with $\omega(1) = 0$. Thus the sums $F^{-1}(x)$ are signed and oscillatory \footnote{
+    TODO: Need the result for sign changes ... 
+}
+
+\begin{definition}
+For a fixed multiplicative arithmetic function $f \geq 1$, let its set of values over the 
+integers $n \geq 1$ be defined by 
+\[
+\mathcal{A}_f^{\ast} := \{f(n): n \geq 1\}.
+\]
+Let the set of all multiples of $f(n)$ be defined by 
+\[
+\mathcal{A}_f := \left(\bigcup_{k \geq 1} (\mathcal{A}_f^{\ast})^k\right) \setminus \{1\}. 
+\]
+We denote by $\chi_f$ the indicator function of $\mathcal{A}_f$. 
+Let the strongly additive function $\omega_f(n)$ be defined by 
+\[
+\omega_f(n) := \begin{cases}
+     0, & \text{if $n = 1$; } \\ 
+     \sum\limits_{\substack{d|n \\ d \in \mathcal{A}_f}} 1, & \text{if $n \geq 2$.}
+     \end{cases} 
+\]
+For $k \geq 1$ and $x \geq 2$, the summatory functions 
+\[
+\pi_{f,k}(x) := \#\{2 \leq n \leq x: \omega_f(n) = k\}.
+\]
+Similarly, we define $\Omega_f(n)$ to be the function that counts TODO. 
+The analog to the \emph{Liouville lambda function} corresponding to this 
+definition is defined by $\lambda_f(n) := (-1)^{\Omega_f(n)}$ for 
+$n \geq 1$. 
+We define the $\mathcal{A}_f$-counting function by 
+\[
+\pi_f(x) := \sum_{n \leq x} \chi_f(n). 
+\]
+\end{definition}
+
+\subsection{Applications and open questions about signed summatory functions} 
+
+Let $V(f, Y)$ denote the number of sign changes of $f$ on the interval $(0, Y]$ for 
+real $Y > 0$. 
+More precisely, we have that 
+\[
+V(f, Y) := \sup \left\{N: \exists \{x_i\}_{i=1}^N, 0<x_1<\cdots<x_N \leq Y, 
+     f(x_i) \neq 0, \operatorname{sgn}(f(x_i)) \neq \operatorname{sgn}(f(x_{i+1})), 
+     \forall 1 \leq i < N\right\}. 
+\]
+It is known that the analytic properties, poles, and zeros of the 
+Dirichlet generating function, $D_f(s)$, or DGF, of $f$ provide key insights into the 
+sign changes of these functions \cite{OSCPROPS-ARITHFUNCSI}. 
+For example, if the DGF of $f$ is analytic on some half-plane, subject to certain 
+restrictions, then Landau showed in 1905 that 
+the summatory function of $f$, $S_f(x)$, changes signs infinitely often as we let 
+$x$ tend to infinity. In particular, we 
+obtain the following theorem of P\'olya, which extends Landau's result to provide a 
+statement concerning the frequency of the sign changes of $S_f(x)$: 
+
+\begin{theorem}[P\'olya on Sign Changes of the Summatory Function of an Arithmetic Function] 
+Suppose that $S_f(x)$ is real-valued for all $x \geq x_0$, and define the function 
+$\hat{F}_f(s)$ by the Mellin transform at $-s$ as 
+\[
+\hat{F}_f(s) := \int_{x_0}^{\infty} \frac{S_f(x)}{x^{s+1}} dx. 
+\]
+Suppose that $\hat{F}_f(s)$ is analytic for all $\Re(s) > \theta$, but is not analytic 
+in any half-plane $\Re(s) > \theta - \varepsilon$ for $\varepsilon > 0$. 
+Furthermore, suppose that $\hat{F}_f(s)$ is meromorphic in some half-plane 
+$\Re(s) > \theta - c_0$ for some $c_0 > 0$. Let 
+\[
+\gamma_f := \begin{cases} 
+     \inf \{|t|: \hat{F}_f(s) \text{\ is not analytic at\ } s = \theta+\imath t\}, & \text{\rm
+     if $f$ is not analytic at $\Re(s) = \theta$; } \\ 
+     \infty, & \text{\rm otherwise.}
+     \end{cases}. 
+ \]
+ Then 
+ \[
+ \limsup_{Y \rightarrow \infty} \left\{\frac{V(S_f, Y)}{\log Y}\right\} \geq \frac{\gamma_f}{\pi}. 
+\]
+\end{theorem} 
+
+\begin{remark}[Open questions about signed summatory functions]
+TODO ... 
+\end{remark}
+
+\begin{example}[The Mertens function]
+TODO ... 
+\end{example}
+
+\begin{example}[The Liouvilla lambda function]
+We have that $\lambda(n) = |\mu(n)|^{-1}$. Hence, the summatory function 
+     $L(x) := \sum_{n \leq x} \lambda(n)$ satisfies 
+\[
+\frac{\zeta(2s)}{s \zeta(s)} = \int_1^{\infty} \frac{L(x)}{x^{s+1}} dx, \Re(s) > 1. 
+\]
+TODO ... \\ Open questions and known results ... \\ 
+\end{example}
+
+\subsection{Main new results} 
+
+Primary new theorems ... \\ 
+
+
+\subsection{Significance of the new results} 
+
+Notice by the way we have constructed $\omega_f = f \ast \chi_f$, 
+we can write the convolution for this function in terms of 
+the restricted convolutions with divisors (and input indices) 
+$n,d \in \mathcal{A}_f \cup \{1\}$. 
+That is, we have that $\omega_f = f \ast_{\mathcal{A}_f} 1$: 
+\begin{align*}
+\omega_f(n) & = \begin{cases}
+     \sum\limits_{\substack{d|n \\ d \in \mathcal{A}_f}} f(d), & n \geq 2 \wedge n \in \mathcal{A}_f; \\ 
+     0, & \mathrm{otherwise.}
+     \end{cases}
+\end{align*}
+Now suppose that $n, m \geq 1$ are such that $(n,m) = 1$. 
+If $n \notin \mathcal{A}_f$ or $m \notin \mathcal{A}_f$, then the convolution 
+above is zero. On the other hand, if both $n,m \in \mathcal{A}_f$ and these 
+two integers are relatively prime, then all of the $f$-divisors of $nm$ either 
+belong to $n$ or to $m$. Thus 
+\begin{align*} 
+\omega_f(nm) & = \sum_{\substack{d|n \\ d \in \mathcal{A}_f}} f(d) + 
+     \sum_{\substack{d|m \\ d \in \mathcal{A}_f}} f(d) = 
+     \omega_f(n) + \omega_f(m). 
+\end{align*}
+Since this relation holds for any positive integers $n,m$, it follows that
+the function $\omega_f(n)$ is \emph{strongly additive}. 
+
+Much like the canonical prime factor counting functions, $\omega(n)$ and $\Omega(n)$, 
+strong additivity is a very expressive property. We know that any 
+strongly additive function has a central limit type theorem, or 
+\emph{Erd\H{o}s-Kac theorem analog}, that describes the distribution of 
+its values $n \leq x$ as $x \rightarrow \infty$ succinctly. 
+In particular, suppose that $h(n)$ is a strongly additive arithmetic 
+function. We set the mean and variance analogs for $h$ to be respectively 
+\begin{align*}
+A_h(x) & := \sum_{p \leq x} h(p) p^{-1}, \\ 
+B_h(x) & := \sum_{p \leq x} h^2(p) p^{-1}. 
+\end{align*}
+Then there is a limiting probability measure, or equivalently a CDF 
+$\nu_h(x, z)$, such that 
+each of the following limits exists and is finite as $x \rightarrow \infty$ 
+\cite[\S 1.7]{IWANIEC-KOWALSKI}: 
+\[
+\nu_h(x, z) := \frac{1}{x} \cdot \#\left\{n \leq x: \frac{h(n) - A_h(x)}{B_h(x)} \leq z\right\}
+\]
+Given any fixed $Y > 0$, we can usually show that the convergence of the above CDF formula is 
+uniform for any $-Y \leq z \leq Y$. 
+
+The property of strong additivity actually implies more about the distribution of the 
+underlying function $h$ and partial sums of this function. Namely, let 
+\[
+E_h(x) := \sum_{p^{\alpha} \leq x} h(p^{\alpha}) p^{-\alpha}(1-p^{-1}), 
+     \quad D_h(x) := \sqrt{\sum_{p^{\alpha} \leq x} |h(p^{\alpha})|^2 p^{-\alpha}}. 
+\]
+Then the summatory functions of $h$ satisfy 
+\begin{align*} 
+\sum_{n \leq x} h(n) & = x E_h(x) + O\left(\sqrt{x} D_h(x)\right), \\ 
+\sum_{n \leq x} h^2(n) & = x E_h^2(x) + O\left(x D_h^2(x)\right). 
+\end{align*}
+Moreover, whenever $h$ is strongly additive 
+\[
+\sum_{n \leq x} |h(n) - E_h(x)|^2 \ll x D_h^2(x). 
+\]
+The reason we dwell on the special characterizations of functions like our 
+newly defined $\omega_f(n)$ through strong additivity is that the limiting 
+probability distributions of the values of this function, and composite 
+functions created by convolutions of $\omega_f(n)$ with itself, 
+lend to constructions that are not only regular, but have a very central 
+normal tendency towards the average order of the function. 
+That is to say that, if we seek to form weighted sums of functions that 
+exhibit strong additivity underpinnings (say as convolutions of additive functions), 
+we can almost always assume that the function described in this way is within a 
+small bounded additive factor of the mean of the $\omega_f$. 
+
+More to the point, the results we obtain in the next sections provide centrally 
+normal tending distributions of unsigned summands whose signed weighted values 
+comprise the summatory functions $F^{-1}(x)$ we are interested in bounding. 
+In this way, we have generalized the model construction for the Mertens function 
+summatory function corresponding to taking $f(n) \equiv 1$ outlined in the 
+reference \cite{SCHMIDT-MERTENS-2021}. Then for every invertible positive integer-valued 
+multiplicative function $f$, we have identified an associated strongly additive 
+function $\omega_f$ upon which we can build up limting probability distributions for 
+auxiliary summatory functions that characterize the sums $F^{-1}(x)$ exactly. 
+
+\newpage
+\section{Combinatorial properties of the component sequences}
+
+\subsection{Several observations and lemmas on the generalized construction} 
+
+\begin{prop}[The $f$-factor M\"obius function is $f^{-1}$ under $\mathcal{A}_f$-convolution]
+\label{prop_mufnEQfInvn_justification_v1}
+For integers $n \geq 1$, let the $f$-M\"obius function be defined such that 
+$\mu_f^2(n)$ is the indicator function of the $f$-squarefree integers: 
+\[
+\mu_f(n) := \begin{cases}
+     1, & n = 1; \\ 
+     (-1)^{\omega_f(n)}, & \omega_f(n) = \Omega_f(n) \wedge n \geq 2; \\ 
+     0, & \mathrm{otherwise.}
+     \end{cases}
+\]
+Recall that we define the $\mathcal{A}_f$-convolution operation 
+as an analog to Dirichlet convolution generated by divisors of $n$ as 
+\[
+(g \ast_{\mathcal{A}_f} h)(n) := \begin{cases}
+     \sum\limits_{\substack{d|n \\ d \in \mathcal{A}_f \cup \{1\}}} 
+          g(d) h(n/d), & n \in \mathcal{A}_f \cup \{1\}; \\ 
+     0, & \mathrm{otherwise.}
+     \end{cases}
+\]
+Clearly, an arithmetic function $h$ is invertible with respect to 
+$\ast_{\mathcal{A}_f}$ if and only if $h(1) \neq 0$. 
+We can identify a special inverse function with $\mu_f(n)$. 
+Namely, the inverse of $f$, denoted by $f^{-1}\bigr\rvert_{\mathcal{A}_f}$ to 
+distinguish notation, is unique and equal to $\mu_f(n)$ for all $n \geq 1$. 
+\end{prop}
+\begin{proof}
+To distinguish notation between the Dirichlet inverse, $f^{-1}$, of $f$ and 
+the inverse of $f$ with respect to the restricted $\mathcal{A}_f$-convolutions, 
+let $\hat{f}^{-1}(n) := f^{-1}\bigr\rvert_{\mathcal{A}_f}(n)$. 
+We use the identity that for $n \geq 2$ and $n \in \mathcal{A}_f$, 
+\[
+\chi_f(n) = \sum_{\substack{d|n \\ d \in \mathcal{A}_f \cup \{1\}}} 
+     \hat{f}^{-1}(d) \omega_f\left(\frac{n}{d}\right). 
+\]
+The characteristic function $\chi_f$ is $f$-multiplicative in so much as 
+if $n = f(m_1)^{\alpha_1} \cdots f(m_r)^{\alpha_r}$ with 
+$m_i \geq 2$ and $f(m_i) \neq f(m_j)$ for all $i \neq j$, then 
+\[
+\chi_f(n) = \prod_{i=1}^{r} \chi_f\left(f(m_i)^{\alpha_i}\right). 
+\]
+Then it suffices to evaluate this function at positive $f$-powers of the 
+form $f(m)^{\alpha}$ for some $m \geq 2$ and $\alpha \geq 1$. 
+We argue that $\operatorname{sgn}(\hat{f}^{-1}(n)) = (-1)^{\omega_f(n)}$. 
+It follows that since $\chi_f(n) = 1$, and this condition must hold for any 
+positive integers $\alpha \geq 2$, the next two equations are satisfied: 
+\begin{align*}
+\chi_f(f(m)^{\alpha}) & = \sum_{i=0}^{\alpha-1} (-1)^{\omega_f(f(m)^i)} |\hat{f}^{-1}(f(m)^i)| 
+     (\alpha+1-i) && \implies \\ & 
+     \hat{f}^{-1}(1) - \sum_{i=1}^{\alpha-1} |\hat{f}^{-1}(f(m)^i)| = 0 \wedge 
+     \sum_{i=1}^{\alpha-1} i \cdot |\hat{f}^{-1}(f(m)^i)| = 1. 
+\end{align*}
+Since $|\hat{f}| \geq 0$, this shows that necessarily we must have 
+$|\hat{f}^{-1}(f(m)^i)| = 0$ for all $2 \leq i \leq \alpha$ and 
+that $\hat{f}^{-1}(1) = \hat{f}^{-1}(f(m)) = 1$. 
+\end{proof}
+
+\begin{lemma}
+\label{lemma_Qfx_fSqFreeSummatoryFunc_v1}
+Let 
+\[
+D_f := \sum_{n \geq 1} \frac{\mu(n)}{f(n)^2} \in (0, +\infty). 
+\]
+Then we have that the number of $f$-free integers $n \leq x$ is given by 
+\[
+Q_f(x) := \sum_{n \leq x} \mu_f^2(n) = D_f x + O\left(\sqrt{x}\right). 
+\]
+\end{lemma}
+\begin{proof}
+This argument follows from a standard classical proof that provides asymptotics 
+for the number of squarefree integers $n \leq x$ \cite[\S 18.6]{HARDYWRIGHTNUMT}. 
+Fix any $x \geq 1$. We can arrange all of the positive integers $n \leq x^2$ 
+into disjoint sets $\{S_{f,d}\}_{d \geq 1}$ such that for $d \geq 1$, 
+the set $S_d$ contains just those positive integers $n$ whose largest $f$-square 
+factor is $f(d)^2$. The number of $n \leq x^2$ such that $n \in S_{f,d}$ is 
+given by $Q_f\left(\frac{x^2}{f(d)^2}\right)$. 
+Hence, we can sum over all such sets to see that 
+\[
+x^2 = \sum_{d \leq x^{1/\sigma_f}} Q_f\left(\frac{x^2}{f(d)^2}\right). 
+\]
+By routine inversion of summatory functions, we then obtain that 
+\begin{align*}
+Q_f(x) & = \sum_{d \leq \sqrt{x}} \mu(d) \Floor{x}{f(d)^2} = \sum_{d \leq \sqrt{x}} 
+     \mu(d) \left(\frac{x}{f(d)^2} + O(1)\right) \\ 
+     & = x \times \sum_{d \leq \sqrt{x}} \frac{\mu(d)}{f(d)^2} + O\left(\sqrt{x}\right) \\ 
+     & = D_f x + O\left(\frac{x}{x^{2/\sigma_f}}\right) + O(\sqrt{x}). 
+     \qedhere
+\end{align*}
+\end{proof}
+
+We will use Lemma \ref{lemma_Qfx_fSqFreeSummatoryFunc_v1} in the next sections to 
+establish a key formula for the mean, or average order expected value of 
+$g_f^{-1}(n)$ as $n \rightarrow \infty$. 
+
+\begin{lemma}[DGFs of $f$-factor related arithmetic functions]
+For $\Re(s) > \sigma_f$ and $f$ a multiplicative arithmetic function 
+such that $f(1) \neq 0$, we have that 
+\begin{align}
+\tag{A}
+\operatorname{DGF}[\chi_f + \varepsilon](s) & = \mathcal{F}_{\ast}(s) = 
+     \prod_{n \geq 2} \left(1-f(n)^{-s}\right)^{-1} = 
+     \prod_p \left( 
+     1 + \sum_{r \geq 1} \frac{1}{f(p^r)^s}\right)^{-1}, \\ 
+\tag{B}
+\operatorname{DGF}[\omega_f](s) & = \mathcal{F}(s) (\mathcal{F}_{\ast}(s) - 1), \\ 
+\tag{C}
+\operatorname{DGF}[(\omega_f+f)^{-1}](s) & = \frac{1}{\mathcal{F}(s)(1 + \mathcal{F}_{\ast}(s))}, \\ 
+\tag{D}
+\operatorname{DGF}[2^{\omega_f} \chi_f](s) & = \frac{\mathcal{F}_{\ast}(s)^2}{\mathcal{F}_{\ast}(2s)}, \\ 
+\tag{E} 
+\operatorname{DGF}[\lambda_f \chi_f](s) & = \frac{\mathcal{F}_{\ast}(2s)}{\mathcal{F}_{\ast}(s)}. 
+\end{align}
+
+\end{lemma}
+\begin{proof}
+The proof of these results follows immediately from their definitions. 
+The only subtle property is in formulating the Dirichlet generating function 
+of $\lambda_f(n)$ restricted to the set $\mathcal{A}_f \cup \{1\}$. 
+We notice by a counting argument with products that 
+\begin{align*}
+     1 + \sum_{n \in \mathcal{A}_f} \frac{2^{\omega_f(n)}}{f(n)^{s}} & = 
+     \prod_{n \geq 1} \left(1 + \frac{z f(n)^{-s}}{1-f(n)^{-s}} 
+     \right)^{-1} \Bigr\rvert_{z=2} \\ 
+     & = \prod_{n \geq 2} \left(\frac{f(n)^{s}+1}{f(n)^{s}-1}\right) 
+     = \frac{\mathcal{F}_{\ast}(s)^2}{\mathcal{F}_{\ast}(2s)}. 
+\end{align*}
+We notice that the $f$-product analogs to the typical Euler product 
+constructions over the primes leads to very similar factorizations in 
+terms of the $\mathcal{A}_f$-set generator DGF, $\mathcal{F}_{\ast}(s)$. 
+We also get an analog to the Dirichlet divisor sum identities 
+where $2^{\omega} = 1 \ast \mu^2$. Here, we obtain in analogous form that 
+\[
+2^{\omega_f} = 1 \ast_{\mathcal{A}_f} \mu_f^2, 
+\]
+where $\lambda_f = |\mu_f|^{-1}$ with respect to 
+$\mathcal{A}_f$-convolution. Following through the DGF arithmetic 
+restricted to the $f$-factorized set $\mathcal{A}_f \cup \{1\}$ 
+implies the last DGF identity. 
+\end{proof}
+
+We briefly consider the asymptotics of the summatory function 
+$L_{f}(x) := \sum_{n \leq x} \lambda_f(n)$ in the last section of the 
+article. In general, bounding these sums for large $x$ in the ordinary 
+zeta function DGF flavors is an extremely challenging problem. 
+We pose the topic of finding new asymptotic bounds for 
+$L_f(x)$ based on these new DGF identities and Mellin inversion when 
+we cover applications below in Section \ref{Section_ConclApps}. 
+
+\begin{remark}[Elementary consequences of the DGF expansions] 
+We will be brief and not dwell too much on the elementary combinatorics that 
+motivate the analytic flavored results we prove in the next section. 
+A couple of properties that are justified by the structure of the 
+DGF formulas in the last lemma are apparent, useful, and will be required 
+for reference in the next sections. 
+
+The same construction behind the proof we gave that 
+$\operatorname{sgn}((\omega+1)^{-1}(n)) = \lambda(n)$ in the reference 
+\cite{SCHMIDT-MERTENS-2021} shows easily that 
+$\operatorname{sgn}((\omega_f+f)^{-1}(n)) = \lambda_f(n)$. This argument essentially 
+boils down to an expansion by geometric series of $(\mathcal{F}_{\ast}(s)+1)^{-1}$ 
+in which the coefficient of the convolutions for the resulting DGF powers are non-zero 
+precisely when the number of $f$-factors of $n$ is the power in the expansion. 
+We also can easily see as in the references \cite{SCHMIDT-MERTENS-2021,FROBERG-1953} that 
+\[
+\frac{1}{\mathcal{F}_{\ast}(s) + 1} = \sum_{n \geq 1} C_{\Omega_f(n)}(n) n^{-s} = 
+     1 + \sum_{n \geq 2} \left(\prod_{f(n)^{\beta} ||_{\mathcal{A}_f} n} (\beta!)^{-1}\right) 
+     \times (\Omega_f(n))! n^{-s}. 
+\]
+\end{remark}
+
+\subsection{Exact formulas for $F^{-1}(x)$} 
+
+\begin{prop}
+We have that for all $n \geq 1$ 
+\[
+g_f^{-1}(n) = \begin{cases}
+     1, & \mathrm{if\ } n = 1; \\ 
+     \lambda_f(n) \times \sum\limits_{\substack{d|n \\ d \in \mathcal{A}_f \cup \{1\}}} 
+     \mu_f^2\left(\frac{n}{d}\right) C_{\Omega_f(n)}(n), & \mathrm{if\ } n \geq 2 \wedge n \in \mathcal{A}_f; \\ 
+     0, & \mathrm{otherwise.}
+     \end{cases}
+\]
+\end{prop}
+\begin{proof}
+Since we compute the inverses $(\omega_f+f)^{-1}(n)$ with respect to $f$-convolution, 
+or with $n$ and the divisors $d|n$ restricted to the set $\mathcal{A}_f \cup \{1\}$, 
+we see that $g_f^{-1}(1) = 1$, and whenever $n \geq 2$ and $n \notin \mathcal{A}_f$, 
+$g_f^{-1}(n) = 0$. 
+Suppose that $n \geq 2$ and that $n \in \mathcal{A}_f$. 
+Then by the standard recursive inversion formula for Dirichlet convolution, 
+we see that 
+\[
+(\omega_f+f)^{-1}(n) = - \sum_{\substack{d|n \\ d \in \mathcal{A}_f}} g_f^{-1}\left(\frac{n}{d}\right) 
+     (\omega_f(d) + f(d)). 
+\]
+It follows that 
+\[
+(g_f^{-1} \ast_{\mathcal{A}_f} f)(n) = -\sum_{\substack{d|n \\ d \in \mathcal{A}_f}} 
+     g_f^{-1}\left(\frac{n}{d}\right) \omega_f(d) = 
+     \lambda_f(n) C_{\Omega_f(n)}(n), 
+\]
+where the second equation above follows by recursively expanding the inverse 
+formula to a maxium depth of $\Omega_f(n)$ factors. 
+
+By the inversion result we proved in 
+Proposition \ref{prop_mufnEQfInvn_justification_v1}, 
+we have that for $n \geq 2$ such that $n \in \mathcal{A}_f$, 
+\[
+g_f^{-1}(n) = \sum_{\substack{d|n \\ d \in \mathcal{A}_f \cup \{1\}}} 
+     \mu_f\left(\frac{n}{d}\right) \lambda_f(d) C_{\Omega_f(d)}(d) = 
+     \lambda_f(n) \times \sum_{\substack{d|n \\ d \in \mathcal{A}_f \cup \{1\}}} 
+     \mu_f^2\left(\frac{n}{d}\right) C_{\Omega_f(d)}(d). 
+\]
+The last equation is justified by noting that since $\lambda_f(n)$ is completely multiplicative, 
+for any $f$-divisors $d$ of $n$, we have that $\lambda_f(n/d) \lambda_f(d) = \lambda_f(n)$. 
+The $f$-M\"obius function variant, $\mu_f(n)$ is non-zero only for $n$ which are $f$-squarefree, so 
+that whenever $\mu_f(n) \neq 0$, we have 
+$\mu_f(n) = (-1)^{\omega_f(n)} = (-1)^{\Omega_f(n)} = \lambda_f(n)$. 
+\end{proof}
+
+\begin{theorem}
+We have that for all $x \geq 1$ 
+\begin{align} 
+\tag{A}
+F^{-1}(x) & = G_f^{-1}(x) + \sum_{k=1}^{x} g_f^{-1}(k) \pi_f\left(\Floor{x}{k}\right), \\ 
+\tag{B}
+F^{-1}(x) & = G_f^{-1}(x) + \sum_{\substack{a \leq x \\ a \in \mathcal{A}_f}} 
+     G_f^{-1}\left(\Floor{x}{a}\right). 
+\end{align}
+\end{theorem}
+\begin{proof}
+To prove the first result in (A), observe that by our construction of $\omega_f$, we have 
+\begin{align*}
+\pi_f(x) + 1 & = \sum_{n \leq x} (\omega_f + f) \ast_{\mathcal{A}_f} f^{-1}(n)
+     = \sum_{\substack{n \leq x \\ n \in \mathcal{A}_f \cup \{1\}}}
+     (\omega_f+f)(n) F^{-1}\left(\Floor{x}{n}\right). 
+\end{align*}
+Then by ordinary inversion rules for summatory functions weighted by an invertible 
+arithmetic function \cite[\cf \S TODO]{APOSTOLANUMT}, we get that 
+\[
+F^{-1}(x) = \sum_{n \leq x} g_f^{-1}(n) \left[\pi_f\left(\Floor{x}{n}\right) + 1\right]. 
+\]
+To prove (B), we see that taking the backward difference of the last sum yields that 
+\[
+f^{-1}(n) - g_f^{-1}(n) = \sum_{\substack{d|n \\ d \in \mathcal{A}_f}} g_f^{-1}(d). 
+\]
+Then summing each side of the previous equation over $n \leq x$ shows that 
+\[
+F^{-1}(x) = G_f^{-1}(x) + \sum_{\substack{n \leq x \\ n \in \mathcal{A}_f}} G_f^{-1}\left( 
+     \Floor{x}{n}\right). 
+     \qedhere
+\]
+\end{proof}
+
+
+\subsection{Combinatorial identities and relations to the distribution of $f$-powers over the integers} 
+
+We have the following properties of $g_f^{-1}(n)$ over the integers $n \geq 2$ such that 
+$n \in \mathcal{A}_f$ \cite[\cf \S TODO]{SCHMIDT-MERTENS-2021}: 
+\begin{itemize}
+\item[(1)] If $n$ is $f$-squarefree, e.g., if $\mu_f^2(n) = 1$, then 
+     \[
+     |g_f^{-1}(n)| = \sum_{m=0}^{\omega_f(n)} \binom{\omega_f(n)}{m} m!. 
+     \]
+\item[(2)] If $\Omega_f(n) = k$, then 
+     \[
+     2 \leq |g_f^{-1}(n)| \leq \sum_{j=0}^{k} \binom{k}{j} j!. 
+     \]
+\item[(3)] We have symmetry in the action of the \emph{distinct exponents} of the 
+     irreducible $f$-factor powers of any $n \in \mathcal{A}_f$. That is, suppose that 
+     $n_1 = f(m_{1,1})^{\alpha_1} \cdots f(m_{1,r})^{\alpha_r}$ and 
+     $n_2 = f(m_{2,1})^{\beta_1} \cdots f(m_{2,r})^{\beta_r}$ where 
+     $f(m_{i,j}) \neq f(m_{i,k})$ for $i = 1,2$ and all $j \neq k$, and where 
+     $\alpha_i,\beta_i \geq 1$ for all $1 \leq i \leq r$. 
+     If $\{\alpha_1,\ldots,\alpha_r\} \equiv \{\beta_1,\ldots,\beta_r\}$ are equal as 
+     multisets of the $f$-factorization exponents, then 
+     $g_f^{-1}(n_1) = g_f^{-1}(n_2)$. 
+\end{itemize} 
+
+\newpage
+\section{Analytic constructions of preliminary bounds and asymptotic formulas}
+
+We now restrict ourselves to the cases where $\mathcal{F}(s)$ has a simple pole 
+with residue $A_f$ at $s := \sigma_f$ so that for some absolute constant $B_f$ we have 
+\[
+\mathcal{F}(s) = \frac{A_f s}{(s-\sigma_f)} + B_f + O\left(|s-\sigma_f|\right). 
+\]
+
+\begin{theorem}
+Suppose that $\mathcal{F}(s)$ is the DGF of $f$ which converges for 
+all $\Re(s) > \sigma_f$ where $2 > \sigma_f > 1$ is the abscissa of 
+convergence for the DGF. 
+Suppose that for any non-zero $z \in \mathbb{C}$, we have that 
+\[
+\mathcal{F}(s)^{z} = \sum_{n \geq 1} \frac{\widehat{f}_z(n)}{n^s}, 
+     \Re(s) > \sigma_f. 
+\]
+Let the summatory function $\widehat{F}_z(x) := \sum_{n \leq x} \widehat{f}_z(n)$, and 
+let $R > 0$ be any positive real number. If $x \geq 2$, then 
+\[
+     \widehat{F}_z(x) = \frac{x^{\sigma_f} A_f^z (\log x)^{z-1}}{\Gamma(z)} + 
+     O_R\left(x^{\sigma_f} (\log x)^{\Re(z) - 2}\right), 
+\]
+uniformly for $|z| \leq R$. 
+\end{theorem}
+\begin{proof}
+Let $a := \sigma_f + \frac{1}{\log x}$. Then we have that 
+\begin{equation}
+\label{eqn_HatFzx_bound_proof_v1}
+\widehat{F}_z(x) - \frac{1}{2\pi\imath} \int_{a-\imath T}^{a+\imath T} 
+     \mathcal{F}(s)^z \frac{x^s}{s} ds \ll 
+     \sum_{\frac{x}{2} < n < 2x} |\widehat{f}_z(n)| \min\left(1, \frac{x}{T|x-n|}\right) + 
+     \frac{x^a}{T} \times \sum_{n \geq 1} |\widehat{f}_z(n)| n^{-a}. 
+\end{equation}
+Without loss of generality, we assume that $R$ is integer-valued. 
+We notice that $|\widehat{f}_z(n)| \leq \widehat{f}_{|z|}(n) \leq \widehat{f}_R(n)$. 
+for all $n \geq 1$. Suppose that $\mathbb{E}[f(n)] \sim e_f(n)$. Then by the 
+hyperbola method for bounding sums of convolutions of functions and 
+induction, we can see that 
+\[
+\widehat{F}_R(x) = x \cdot P_R(e_f(x)) + O_R(x^{1-1/R}), 
+\]
+where $P_R$ is a polynomial of degree $R-1$. 
+
+Let $\mathcal{B}_{R,x} := \{n \geq 1: |n-x| \leq x / (\log x)^{2R+1}\}$. 
+The first error term in \eqref{eqn_HatFzx_bound_proof_v1} is then given by 
+\begin{align*}
+E_1(x) & = \sum_{\frac{x}{2} < n < 2x} |\widehat{f}_z(n)| \min\left(1, \frac{x}{T|x-n|}\right) \\ 
+     & \ll \sum_{n \in \mathcal{B}_{R,x}} |\widehat{f}_z(n)| + 
+     \sum_{n \notin \mathcal{B}_{R,x}} |\widehat{f}_z(n)| \min\left(1, \frac{x}{T|x-n|}\right) \\ 
+     & \ll x \cdot e_f(x)^{-(R+2)} + \frac{1}{T} \cdot e_f(x)^{2R+1} \cdot x \cdot e_f(x)^{R-1}. 
+\end{align*}
+Taking $T \gg \exp(\sqrt{e_f(x)})$ ensures that $E_1(x) \ll x \cdot e_f(x)^{-(R+2)}$. 
+
+If it happens that $z$ is a positive integer, then we can use residue calculus to extract the 
+value of the main term for the above approximation. If on the other hand (in the general case), 
+$z$ is not integer valued, then $\mathcal{F}(s)^{z}$ has a branch point at $s := \sigma_f$. 
+Thus we must construct a more intricate path around the contour to justify the main term. 
+Suppose that $z \notin \mathbb{Z}^{+}$. Set $b := 1 - c / \log T$ where $c > 0$ is small. 
+We then replace the initial contour from $a-\imath T$ to $a+\imath T$ with a path 
+consisting of the following subpaths, $\mathcal{C}_1,\mathcal{C}_2,\mathcal{C}_3$: 
+\begin{itemize}
+\item[(1)] The path $\mathcal{C}_1$ is polygonal with vertices $a-\imath T$, 
+     $b-\imath T$ and $b - \imath / \log x$; 
+\item[(2)] The path $\mathcal{C}_2$ begins with a line segment from $b-\imath / \log x$ to 
+     $\sigma_f - \imath/\log x$, then continues with the semicircle 
+     $\left\{1+e^{\imath\theta}/\log x: -\frac{\pi}{2} \leq \theta \leq \frac{\pi}{2}\right\}$, 
+     and then finally concludes with the line segment from 
+     $\sigma_f + \imath/\log x$ to $b+\imath/\log x$; 
+\item[(3)] The path $\mathcal{C}_3$ is polygonal with vertices $b+\imath/\log x$, 
+     $b + \imath T$ and $a + \imath T$. 
+\end{itemize}
+For $m = 1,2,3$, define 
+\[
+I_m(x, T) := \frac{1}{2\pi\imath} \times \int_{\mathcal{C}_m} \mathcal{F}(s)^{z} \cdot 
+     \frac{x^s}{s} ds. 
+\]
+We claim that $I_1(x, T),I_2(x,T) \ll x^{\sigma_f} \cdot e_f(x)^{-(R+2)}$ as $T \rightarrow \infty$. 
+To see this, note that $\mathcal{F}(s)^{z} \ll A_f^{-R} \times (\log x)^{-R}$ on this part of 
+the new contour. Then we compute that 
+\[
+\frac{1}{2\pi\imath} \times \int_{\mathcal{C}_1 \cup \mathcal{C}_3} 
+     \mathcal{F}(s)^s \frac{x^s}{s} ds \ll x^{\sigma_f} \cdot (\log x)^{-(R+2)}. 
+\]
+It remains to bound $I_2(x, T)$ as $T \rightarrow \infty$. On $\mathcal{C}_2$, we have 
+that 
+\[
+\frac{\mathcal{F}(s)^{z}}{s} = A_f^{z} (s-\sigma_f)^{-z}\left(1 + O_z\left(|s-\sigma_f|\right)\right). 
+\]
+Hence, we see that 
+\[
+I_2(x, T) = \frac{1}{2\pi\imath} \times \int_{\mathcal{C}_2} A_f^{z} \cdot (s-\sigma_f)^{-z} x^s ds + 
+     O\left(\int_{\mathcal{C}_2} |s-\sigma_f|^{1-\Re(z)} x^{\sigma} |ds|\right). 
+\]
+Define the next three Hankel-type contours for $\beta := c (\log x) / \log T$: 
+\begin{itemize}
+\item[(1)] Let $\mathcal{H}_1 := \{w=u-\imath: -\infty < u \leq -\beta\}$; 
+\item[(2)] The contour $\mathcal{H}_2$ starts at $-\beta-\imath$, then loops around zero, and 
+     then finally ends at the point $-\beta+\imath$; 
+\item[(3)] Let $\mathcal{H}_3 := \{w=u+\imath: -\infty < u \leq -\beta\}$. 
+\end{itemize}
+If we let $\mathcal{H} := \mathcal{H}_1 \cup \mathcal{H}_2 \cup \mathcal{H}_3$, then 
+$\mathcal{H}$ corresponds to \emph{Hankel's contour} for the reciprocal gamma function given by 
+\[
+\frac{1}{\Gamma(z)} = \frac{1}{2\pi\imath} \times \int_{\mathcal{H}} e^{v} v^{-z} dv. 
+\]
+By performing a change of variables in the form of $s = \sigma_f + w / \log x$, the main term 
+for $I_2(x, T)$ becomes 
+\[
+\frac{x^{\sigma_f} A_f^{z} (\log x)^{z-1}}{2\pi\imath} \times \int_{\mathcal{H}_2} w^{-z} e^{w} dw = 
+     \frac{x^{\sigma_f} A_f^{z} (\log x)^{z-1}}{\Gamma(z)} + 
+     O_{R}\left(x^{\sigma_f} \cdot \exp\left(-C \sqrt{\log x}\right)\right), 
+\]
+for some absolute constant $C > 0$. The main term integral for $I_2(x, T)$ over 
+$\mathcal{H}_1,\mathcal{H}_3$ are each $\ll_R \int_{\beta}^{\infty} e^{-u/2} du \ll_R e^{-\beta/2}$, 
+which are each small given our choice of the limiting $T = \exp\left(\sqrt{x}\right)$. 
+On the semicircular path in $\mathcal{C}_2$, we get that the contribution of $I_2$ is 
+bounded above by $O(x (\log x)^{\Re(z) - 2})$. Similarly, taking the same change of variables 
+$s = \sigma_f + w/\log x$, we see that the linear segments in $\mathcal{C}_2$ contribute a 
+bounded amount of 
+\[
+E_{L,\mathcal{C}_2}(x) \ll x^{\sigma_f} A_f^{z} (\log x)^{\Re(z)-2} \times \int_0^{\infty} 
+     (u^2+1)^{(R-1)/2} e^{-u} du \ll_{R} x^{\sigma_f} (\log x)^{\Re(z)-2}. 
+\]
+Thus the combined estimates provide that 
+\[
+\widehat{F}_z(x) = \frac{x^{\sigma_f} A_f^{z} (\log x)^{z-1}}{\Gamma(z)} + O_R\left( 
+     x^{\sigma_f} \cdot e_f(x)^{-(R+2)} + x^{\sigma_f} (\log x)^{\Re(z)-2}\right). \qedhere
+\]
+\end{proof}
+
+\begin{prop}
+\label{prop_Dzx_GenToFzx_lemma_formula_v1}
+Suppose that $\sum_{m \geq 1} |b_z(m)| (\log m)^{2R+1} \cdot m^{-(\sigma_f+1)}$ is 
+uniformly bounded for $|z| \leq R$. For $\Re(s) \geq \sigma_f + 1$, let 
+\[
+B(s, z) := \sum_{m \geq 1} \frac{b_z(m)}{m^s}, 
+\]
+and let the coefficients $a_z(n)$ be defined by 
+\[
+\mathcal{F}(s)^{z} \cdot B(s, z) := \sum_{n \geq 1} \frac{a_z(n)}{n^s}. 
+\]
+Let the summatory function $A_z(x) := \sum_{n \leq x} a_z(n)$. Then for any 
+$x \geq 2$ we have that 
+\[
+A_z(x) = \frac{B(\sigma_f+1, z)}{\Gamma(z)} \cdot x^{\sigma_f} A_f^z (\log x)^{z-1} + O\left( 
+     x^{\sigma_f} (\log x)^{\Re(z) - 2}\right). 
+\]
+\end{prop}
+\begin{proof}
+\end{proof}
+
+\begin{theorem}
+Suppose that $R < 1 + \sigma_f$, that 
+\[
+H_f(s, z) := \mathcal{F}(s)^{-z} \times \prod_{a \in \mathcal{A}_f} \left(1 - \frac{z}{a^s}\right)^{-1}, 
+\]
+and that $G_f(z) := H_f(2, z) / \Gamma(z+1)$. Then for all $x \geq 2$ 
+\[
+\pi_{f,k}(x) = G_f\left(\frac{k-1}{\log\log x}\right) \frac{x}{\sigma_f \cdot \log x} 
+     \frac{(\log\log x)^{k-1}}{(k-1)!} \left[ 
+     1 + O_R\left(\frac{k}{(\log\log x)^2}\right)\right], 
+\]
+uniformly for $1 \leq k \leq R \log\log x$. 
+\end{theorem}
+\begin{proof}
+We will sketch the details to this proof. A very similar proof based on a bivariate 
+DGF in $s$ indexing a formal power series in $z$ is given 
+to prove Theorem \ref{theorem_HatCkAstAsymptotics_v1} in the next section. 
+The general proof method is outlined in complete detail in the reference 
+\cite[\S 7.4]{MV}. The result follows from the method in the reference (and below) 
+by applying Proposition \ref{prop_Dzx_GenToFzx_lemma_formula_v1}, and then 
+separating the main and error term formulas resulting from an application of the 
+Cauchy integral formula to invert $A_z(x)$ for its coefficients of $z^k$. 
+\end{proof}
+
+\begin{theorem}[The distribution of the exceptional values of $\Omega_f(n)$]
+For large $x > e$, let 
+\[
+B_f(x, r) := \#\{n \leq x: \Omega_f(n) \geq r \log\log x\}. 
+\]
+If $1 \leq r \leq R < 2$ and $x > e$, then 
+\[
+B_f(x, r) \ll_R x \cdot (\log x)^{r-1-r\log r}. 
+\]
+\end{theorem}
+
+\begin{remark}[Bounding signed sums over $\pi_{f,k}(x)$]
+\begin{subequations}
+\label{eqns_LfAstx_AsymptoticTermsOfSum_v1}
+It is not difficult to show using an asymptotic formula for the 
+incomplete gamma function that \cite[\cf \S TODO]{SCHMIDT-MERTENS-2021} 
+\begin{equation}
+L_{f,\ast}(x) := \left\lvert \sum_{k \geq 1} (-1)^{k} \pi_{f,k}(x) \right\rvert \sim 
+     \left\lvert \sum_{1 \leq k \leq \log\log x} (-1)^{k} \pi_{f,k}(x) 
+     \right\rvert \asymp \frac{x}{\sqrt{2\pi} \sigma_f}{\sqrt{\log\log x}}. 
+\end{equation}
+Then it follows that 
+\begin{equation}
+\frac{1}{L_{f,\ast}^{\prime}(x)} \sim \sqrt{2\pi} \cdot \sqrt{\log\log x}, 
+     \mathrm{\ as\ } x \rightarrow \infty. 
+\end{equation}
+\end{subequations}
+A formal argument making this fact precise is concretely identified in the reference 
+\cite{SCHMIDT-MERTENS-2021}. This bound is useful in working with the 
+summatory function $\sum_{n \leq x} (-1)^{\omega_f(n)}$ because we have 
+uniform bounds on $\pi_{f,k}(x)$ for $1 \leq k \leq \log\log x$ and 
+all sufficiently large $x$. It happens that since the strongly additive function 
+$\omega_f(n)$ is so near its average order asymptotic for almost every $n$, 
+the contributions of this function to the signed summatory function 
+is negligible for $\omega_f(n) \gg \log\log x$. 
+We use the result in 
+\eqref{eqns_LfAstx_AsymptoticTermsOfSum_v1} in the proof of 
+Corollary \ref{cor_AvgOrderExpectationFormula_for_COmegafnn_v2} in the next section. 
+\end{remark}
+
+\newpage
+\section{The limiting distributions for the unsigned sequences} 
+
+\begin{prop}
+\label{prop_bivariate_DGF_signedIdent_v2}
+We have that for $\Re(s) > \sigma_f$ 
+\[
+\sum_{n \geq 1} \frac{(-1)^{\omega_f(n)} C_{\Omega_f(n)}(n) z^{\Omega_f(n)}}{n^s} = 
+     \frac{1}{1+\mathcal{F}_{\ast}(s) z}. 
+\]
+\end{prop}
+\begin{proof}
+By a prduct based expansion and combinatorial argument on its coefficients, we have that 
+\[
+\sum_{n \geq 1} \frac{(-1)^{\omega_f(n)} C_{\Omega_f(n)}(n) z^{\Omega_f(n)}}{(\Omega_f(n)!) \cdot n^s} = 
+     \prod_{n \geq 2} \left(1 - \sum_{r \geq 1} \frac{z^{\Omega_f(f(n)^r)}}{f(n)^{rs}}\right)^{-1} = 
+     \prod_{n \geq 2} \exp\left(-\frac{z}{f(n)^s}\right) = \exp\left(-z \mathcal{F}_{\ast}(s)\right). 
+\]
+Thus to obtain the result, we perform a Laplace transform with respect to $z$ to obtain that 
+\[
+\int_0^{\infty} e^{-t} \exp\left(-tz \mathcal{F}_{\ast}(s)\right) dt = 
+     \frac{1}{1+z \mathcal{F}_{\ast}(s)}, \Re(\mathcal{F}_{\ast}(s) z) > -1. 
+     \qedhere
+\]
+\end{proof}
+
+\begin{theorem}
+\label{theorem_HatCkAstAsymptotics_v1}
+We have for large $x > e$ uniformly for $1 \leq k \leq \log\log x$ that 
+\[
+\widehat{C}_{f,k,\ast}(x) := \sum_{\substack{n \leq x \\ \Omega_f(n) = k}} 
+     (-1)^{\omega_f(n)} C_{\Omega_f(n)}(n) \asymp \frac{x}{\log x} \cdot 
+     \frac{(\log\log x)^{k-1}}{(k-1)!} \left[1 + O\left(\frac{1}{\log\log x}\right)\right]. 
+\]
+\end{theorem}
+\begin{proof}
+Let the DGF $F(s, z)$ be defined for $\Re(s) \geq \sigma_f + 1$ and $|z| \leq 2$ by 
+\[
+K_f(s, z) := \frac{\mathcal{F}(s)^{-z}}{1+z \mathcal{F}_{\ast}(s)}. 
+\]
+Define the function $\widetilde{G}_f(z) := K_f(\sigma_f+1,z) / \Gamma(z+1)$. 
+We claim that uniformly for $1 \leq k \leq \log\log x$ 
+\[
+\widehat{C}_{f,k,\ast}(x) = \widetilde{G}\left(\frac{k-1}{\log\log x}\right)
+     \frac{x}{\sigma_f \cdot (\log x)} \cdot \frac{(\log\log x)^{k-1}}{(k-1)!} \left[ 
+     1 + O\left(\frac{k}{(\log\log x)^2}\right)\right]. 
+\]
+By Proposition \ref{prop_bivariate_DGF_signedIdent_v2} and 
+Proposition \ref{prop_Dzx_GenToFzx_lemma_formula_v1}, we have that 
+for $r < 2$ 
+\begin{align}
+\notag 
+\widehat{C}_{f,k,\ast}(x) & = \frac{1}{2\pi\imath} \int_{|z|=r} \frac{A_z(z^{1/\sigma_f})}{z^{k+1}} dz \\ 
+\label{eqn_proof_HatCfkAstx_CIF_formula_v1} 
+     & = \frac{\sigma_f x}{2\pi\imath \cdot (\log x)} 
+     \int_{|z|=r} \frac{\mathcal{F}(\sigma_f+1)^{-z}}{(1+\mathcal{F}_{\ast} z) \Gamma(z+1)} \cdot 
+     \left(\frac{A_f (\log x)}{\sigma_f}\right)^{z} \cdot \frac{dz}{z^k} + 
+     O\left(\frac{1}{2\pi\imath} \int_{|z|=r} \frac{x (\log x)^{\Re(z)-2}}{z^{k+1}} dz\right). 
+\end{align}
+That is, we write $\widehat{C}_{f,k,\ast}(x) := M_{f,k}(x) + O(E_{f,k}(x))$ where the two functions 
+correspond, respectively, to the main term and error term in our asymptotic formula. 
+
+Let $B_f(x) := \log\log x + A_f - \sigma_f - \mathcal{F}(\sigma)f+1)$. 
+Then we have that 
+\[
+\left(\frac{\log x}{\sigma_f x}\right) M_{f,k}(x) = \frac{1}{2\pi\imath} \int_{|z|=r} 
+     \widetilde{G}_f(z) e^{B_f(x) z} z^{-k} dz =: I_{1,k}(x) + I_{2,k}(x), 
+\]
+where we define 
+\begin{align*}
+I_{1,k}(x) & := \frac{G(r)}{2\pi\imath} \int_{|z|=r} e^{B_f(x) z} z^{-k} dz, \\ 
+I_{2,k}(x) & := \frac{1}{2\pi\imath} \int_{|z|=r} (G(z)-G(r)) e^{B_f(x) z} z^{-k} dz. 
+\end{align*}
+The main term contribution is given by the first integral, which evaluates exactly to 
+the following form for $r := \frac{k-1}{\log\log x} < 2$: 
+\[
+I_{1,k}(x) = \frac{B_f(x)^{k-1}}{(k-1)!} \sim \frac{(\log\log x)^{k-1}}{(k-1)!}, 
+     \mathrm{\ as\ } x \rightarrow \infty. 
+\]
+Integrating by parts leads us to bound the second integral as 
+\[
+I_{2,k}(x) = \frac{1}{2\pi\imath} \int_{|z|=r} (G(z)-G(r) -G^{\prime}(r)(z-r)) e^{B_f(x) z} z^{-k} dz. 
+\]
+We also have that the integrand factors in the previous equation satisfy 
+\[
+G(z)-G(r) -G^{\prime}(r)(z-r) = \int_{r}^{z} (z-w) G^{\prime\prime}(w) dw \ll 
+     |z-r|^2. 
+\]
+Hence, we can parameterize the contour for $I_{2,k}(x)$ by writing 
+$z = re^{2\pi\imath\theta}$ for $\theta \in [-1/2,1/2]$, and so 
+\[
+I_{2,k}(x) \ll r^{3-k} \times \int_{-1/2}^{1/2} (\sin \pi\theta)^2 
+     e^{(k-1)\cos(2\pi\theta)} d\theta. 
+\]
+We observe by elementary inequalities that 
+$|\sin x| \leq |x|$ and that $\cos(2\pi\theta) \leq 1 - 8\theta^2$ whenever 
+$-1/2 \leq \theta \leq 1/2$. So we continue bounding the second integral as 
+\begin{align*}
+I_{2,k}(x) & \ll r^{3-k} e^{k-1} \int_0^{\infty} \theta^2 e^{-8(k-1)\theta^2} d\theta \\ 
+     & \ll 
+     r^{3-k} e^{k-1} (k-1)^{-3/2} \ll \frac{k (\log\log x)^{k-3}}{(k-1)!}. 
+\end{align*} 
+We now need to evaluate the error terms $E_{f,k}(x)$. 
+For $k \geq 2$, we have that when $r := \frac{k-1}{\log\log x}$ 
+\begin{align*}
+|E_{f,k}(x)| & \ll x (\log x)^{r-2} r^{-k} \ll \frac{x}{(\log x)^2} \cdot 
+     \frac{e^{k-1} (\log\log x)^{k}}{(k-1)^k} \ll 
+     \frac{x (\log\log x)^{k-3}}{(\log x) (k-1)!}. 
+\end{align*}
+For $k := 1$, we also have that 
+\begin{align*}
+\left\lvert \frac{1}{2\pi\imath} \int_{|z|=r} \frac{x (\log x)^{\Re(z)-2}}{z^{k+1}} dz \right\rvert & 
+     \ll \frac{x}{(\log x)^2} \times \frac{d}{dm}\left[e^{m (\log\log x)}\right]\Bigr\rvert_{m=0} 
+     \ll \frac{x}{(\log x) (\log\log x)^2}. 
+\end{align*}
+All combined, the estimates for $I_{1,k}(x)$, $I_{2,k}(x)$ and the last error estimates 
+prove that \eqref{eqn_proof_HatCfkAstx_CIF_formula_v1} holds. 
+
+Finally, we see that for $1 \leq k \leq \log\log x$ 
+\[
+\widetilde{G}_f\left(\frac{k-1}{\log\log x}\right) \asymp \frac{1}{\Gamma(1+o(1))} \cdot 
+     \frac{\mathcal{F}(1+\sigma_f)^{\frac{1-k}{\log\log x}}}{1+\frac{k-1}{\log\log x} 
+     \mathcal{F}_{\ast}(1+\sigma_f)} \asymp 1, \mathrm{\ as\ } x \rightarrow \infty. 
+\]
+This completes the proof of the result. 
+\end{proof}
+
+\begin{cor}
+\label{cor_AvgOrderExpectationFormula_for_COmegafnn_v2} 
+We have that for large $x$ that uniformly for $1 \leq k \leq \log\log x$ 
+\[
+\widehat{C}_{f,k}(x) := 
+     \sum_{\substack{n \leq x \\ \Omega_f(n) = k}} C_{\Omega_f(n)}(n) \asymp 
+     \frac{x \cdot (\log\log x)^{k-1/2}}{(2k-1) (k-1)!}. 
+\]
+\end{cor}
+\begin{proof}
+For the summatory function $L_{f,\ast}(x)$ defined in 
+\eqref{eqns_LfAstx_AsymptoticTermsOfSum_v1}, 
+we see integrating the Abel summation formula by parts that 
+\[
+\widehat{C}_{f,k,\ast}(x) \asymp \int_e^{x} L_{f,\ast}^{\prime}(t) 
+     C_{\Omega_f(t)}(t) \Iverson{\Omega_f(t) = k} dt. 
+\]
+Now using Theorem \ref{theorem_HatCkAstAsymptotics_v1}, we have 
+\begin{align*}
+     C_{\Omega_f(x)}(x) \Iverson{\Omega_f(x) = k} & \asymp 
+     \frac{\widehat{C}_{f,k,\ast}^{\prime}(x)}{L_{f,\ast}^{\prime}(x)} \\ 
+     & \asymp \frac{(\log\log x)^{k-3/2}}{(\log x)(k-1)!} + 
+     \frac{(\log\log x)^{k-5/2}}{(\log x)^2 (k-2)!} - 
+     \frac{(\log\log x)^{k-3/2}}{(\log x)^2 (k-1)!} 
+     =: \widehat{C}_{f,k,\ast\ast}(x). 
+\end{align*} 
+We finally compute using integration by parts that 
+\begin{align*} 
+\widehat{C}_{f,k}(x) & \asymp \int \widehat{C}_{f,k,\ast\ast}(x) 
+     \asymp \frac{x \cdot (\log\log x)^{k-1/2}}{(2k-1) (k-1)!}. 
+     \qedhere
+\end{align*}
+\end{proof}
+
+\begin{lemma}
+We have that as $n \rightarrow \infty$, the average order of $C_{\Omega_f(n)}(n)$ satisfies 
+\[
+\mathbb{E}[C_{\Omega_f(n)}(n)] \asymp TODO. 
+\]
+\end{lemma}
+\begin{proof}
+\end{proof}
+
+\begin{cor}
+\label{cor_ExpectationFormulaAbsgfInvn_v2}
+We have that as $n \rightarrow \infty$, the average order of the unsigned inverse sequence 
+$|g_f^{-1}(n)|$ satisfies 
+\[
+\mathbb{E}|g_f^{-1}(n)| \asymp TODO. 
+\]
+\end{cor}
+\begin{proof}
+\end{proof}
+
+\begin{theorem}[Erd\H{o}s-Kac theorem for $C_{\Omega_f(n)}(n)$]
+\label{theorem_ErdosKacThmAnalog_COmegafnn_v1}
+Let the absolute constant 
+\[
+C_{\ast}(f) := \lim_{n \rightarrow \infty} \frac{\mathbb{E}[C_{\Omega_f(n)}(n)]}{(\log n) \sqrt{\log\log n}}. 
+\]
+For sufficiently large $x > e$, we define 
+\[
+\mu_x(f) := \log\log x - \log\left(\frac{C_{\ast}(f)}{2}\right), \quad \sigma_x(f) := \sqrt{\log\log x}. 
+\]
+Let $Y > 0$ be fixed. 
+Then for all large $x > e$, we have uniformly for $-Y \leq z \leq Y$ that 
+\[
+\frac{1}{x} \cdot \#\left\{2 \leq n \leq x: 
+     \frac{C_{\Omega_f(n)}(n) - \mu_x(f)}{\sigma_x(f)} \leq z\right\} = 
+     \Phi\left(z\right) + O\left(\frac{1}{\sqrt{\log\log x}}\right). 
+\]
+\end{theorem}
+\begin{proof}
+TODO ... 
+\end{proof}
+
+\begin{cor}[Erd\H{o}s-Kac theorem for $|g_f^{-1}(n)|$]
+Suppose that $\mu_x(f)$ and $\sigma_x(f)$ are defined for large 
+$x > e$ as in Theorem \ref{theorem_ErdosKacThmAnalog_COmegafnn_v1}. 
+Let $Y > 0$ be fixed. Then uniformly for any $-Y \leq z \leq Y$, we have that 
+\[
+\frac{1}{x} \cdot \#\left\{2 \leq n \leq x: |g_f^{-1}(n)| - 
+     D_f \mathbb{E}|g_f^{-1}(n)| \leq z\right\} = 
+     \Phi\left(D_f \cdot (z+\mu_x(f)) \sigma_x(f)\right) + 
+     o(1), \mathrm{\ as\ } x \rightarrow \infty. 
+\]
+\end{cor}
+\begin{proof}
+We claim that 
+\begin{align*} 
+|g_f^{-1}(n)| - D_f \cdot \mathbb{E}|g_f^{-1}(n)| & \sim \frac{6}{\pi^2} C_{\Omega_f(n)}(n), 
+     \text{\ as\ } n \rightarrow \infty. 
+\end{align*} 
+As in the proof of Corollary \ref{cor_ExpectationFormulaAbsgfInvn_v2}, 
+we obtain that 
+\begin{align*} 
+\frac{1}{x} \times \sum_{n \leq x} |g_f^{-1}(n)| & = 
+     D_f \cdot \left[\mathbb{E}[C_{\Omega_f(x)}(x)] + \sum_{d<x} 
+     \frac{\mathbb{E}[C_{\Omega_f(d)}(d)]}{d}\right] + O(1). 
+\end{align*} 
+Let the \emph{backwards difference operator} with respect to $x$ 
+be defined for $x \geq 2$ and any arithmetic function $f$ as 
+$\Delta_x(f(x)) := f(x) - f(x-1)$. 
+We see that for large $n$ 
+\begin{align*} 
+|g_f^{-1}(n)| & = \Delta_n(n \cdot \mathbb{E}|g_f^{-1}(n)|) 
+     \sim \Delta_n\left(\sum_{d \leq n} D_f \cdot C_{\Omega_f(d)}(d) \cdot \frac{n}{d}\right) \\ 
+     & = D_f \cdot \left[C_{\Omega_f(n)}(n) + \sum_{d < n} C_{\Omega_f(d)}(d) \frac{n}{d} - 
+     \sum_{d<n} C_{\Omega_f(d)}(d) \frac{(n-1)}{d}\right] \\ 
+     & \sim D_f \cdot C_{\Omega_f(n)}(n) + D_f \cdot \mathbb{E}|g_f^{-1}(n-1)|, 
+     \mathrm{\ as\ } n \rightarrow \infty. 
+\end{align*} 
+Since $\mathbb{E}|g_f^{-1}(n-1)| \sim \mathbb{E}|g_f^{-1}(n)|$ 
+for all sufficiently large $n$, 
+the result finally follows by a normalization of 
+Theorem \ref{theorem_ErdosKacThmAnalog_COmegafnn_v1}. 
+\end{proof}
+
+\begin{remark} 
+TODO: Remarks about the probabilities ... 
+\end{remark}
+
+
+\newpage
+\section{Applications}
+\label{Section_ConclApps}
+
+\begin{prop}
+We have the following variants of the DGFs $\mathcal{F}_{\ast}(s)$ 
+for the respective functions $f(n) \in \{\phi(n), J_k(n), \phi_m(n), \sigma_{\alpha}(n)\}$:
+\begin{align*}
+\sum_{n \geq 1} \phi(n)^{-s} & = \zeta(s) \times \prod_p \left(1-p^{-s} + (p-1)^{-s}\right)^{}, 
+     \Re(s) > 1, \\ 
+\sum_{n \geq 1} J_k(n)^{-s} & = \zeta(ks) \times \prod_p \left(1-p^{-ks} + (p^{ks}-1)^{-s}\right)^{}, 
+     \Re(ks) > 1, \\ 
+\sum_{n \geq 1} \phi_m(n)^{-s} & = \left(\frac{\zeta((m+1)s)}{m+1} + \frac{\zeta(ms)}{2} + 
+     \sum_{2 \leq j \leq m} \frac{B_j m^{\underline{j-1}}}{j!} \zeta((m+1-j)s)\right)^{} \times 
+\prod_p \left(2 - p^k\right)^{s}, \Re(s) > 1, \\ 
+     \sum_{n \geq 1} \sigma_{\alpha}(n)^{-s} & = \prod_p \left( 
+     1 + (p^{\alpha}-1)^{s} \times \sum_{r \geq 1} (p^{\alpha(r+1)}-1)^{-s} 
+     \right)^{}, \Re(\alpha s) > 1. 
+\end{align*}
+\end{prop}
+\begin{proof}
+\end{proof}
+
+\subsection{Problem type setup for Ernie to look at: } 
+
+We are given an integer-valued multiplicative function $f \geq 1$ with $f(1) = 1$ and 
+where we assume $f(n) \geq 2$ for all $n \geq 2$. 
+We form the modified zeta functions over the sets of $f(n)$ as follows: 
+\[
+\mathcal{F}_{1,\ast}(s) := 1 + \sum_{n \geq 2} f(n)^{-s}, \Re(s) > \sigma_f^{\ast}. 
+\]
+Want to look at the coefficients of the following DGFs and then compute solid 
+asymptotics for their summatory functions:
+\[
+\mathcal{F}_{\ast}(s, z) := \left[\frac{1}{2-\mathcal{F}_{1,\ast}(s)}\right]^{z} 
+     := \sum_{n \geq 1} \frac{\widehat{f}_z(n)}{n^s}. 
+\]
+Note that 
+\[
+\mathcal{F}_{\ast}(s, z) = \prod_{n \geq 2} \left(1-f(n)^{-s}\right)^{-z}. 
+\]
+The big question I have is how to use the multiplicative structure, and say a "nice enough" (Euler product 
+definitely) DGF for $\mathcal{F}(s)$, then use bounds on this DGF to derive a sane main and error 
+term bound for the sums 
+\[
+\widehat{F}_z(x) := \sum_{n \leq x} \widehat{f}_z(n). 
+\]
+Note that the analogous summatory functions of the coefficients of the DGF
+$\zeta(s)^{z}$ are known, and derived using a somewhat intricate contour argument in 
+Montgomery and Vaughan. The basic bound relies on an inductive hyperbola method, 
+and then more importantly on the known special property of the zeta function that 
+$\zeta(s) = \frac{s}{s-1}\left(1 + O(|s-1|)\right)$. 
+
+\textbf{N.b.:} This construction is not a trinket problem. It effectively provides a generalization 
+of the method I used to characterize the Mertens function with an underlying probability 
+distribution (weighted by summands of $\lambda(n)$, which makes it properly still a hard problem) 
+derived from strongly additive functions. I can do this to sum 
+$F^{-1}(x) := \sum_{n \leq x} f^{-1}(n)$ for generally positive, Dirichlet invertible $f$, and 
+then characterize these summatory functions with a limiting probability measure underneath. 
+The proof so far is inexact in so much as the method still needs the good bounds on 
+the sums $\widehat{F}_z(x)$ to proceed from formalism to an exact formula for the 
+limiting CLT-like (Erd\H{o}s-Kac analog) 
+distributions. It is nonetheless a very interesting, and definitely challenging 
+problem that I need input on. If you feel like talking even more, I can show you the work I 
+already have done and the specific strongly additive functions associated with any such 
+multiplicative $f$. 
+
+
+\newpage
+
+\begin{remark}[Remarks on constructing the $f$-generator DGFs $\mathcal{F}_{\ast}(s)$]
+Where first encountered this DGF ... \\ 
+Give the DGF $\sum_{n \geq 1} \phi(n)^{-s} = \zeta(s) \times \prod_p\left(1-p^{-s} + (p-1)^{-s}\right)$ ... \\ 
+Explain how to find this formula ... \\ 
+\end{remark}
+
+\begin{remark}[Asymptotics of the summatory function of $\lambda_f(n)$]
+TODO: Remarks ??? ... 
+\end{remark}
+
+
+\newpage
+\section{Conclusions}
+\label{Section_Conclusions} 
+
+
+\newpage
+\begin{thebibliography}{10} 
+
+\bibitem{APOSTOL-ANUMT} 
+T. M. Apostol, \textit{Introduction to analytic number theory}, Springer, 1976. 
+
+\bibitem{DIRINVFUNC-GROWTH-PROPS} 
+F. Baustian and V. Bobkov, On asymptotic behavior of Dirichlet inverse, {\em ArXiv:math.NT/1903.12445} (2019). 
+
+\bibitem{OSCPROPS-ARITHFUNCSI} 
+J. Kaczorowski and J. Pintz, Oscillatory properties of arithmetical 
+  functions I, \emph{Acta Math. Hung.} {\bf 48}, pp. 173--185, 
+  1986. 
+
+\bibitem{MULTFUNCS-INSHORTINTS} 
+K. Matom\"aki and M. Radziwitt, Multiplicative functions in 
+  short intervals, \emph{Annals of Math.}, Vol. 183, No. 3, 
+  pp. 1015--1056 (2016). 
+
+\bibitem{MOUSAVI-SCHMIDT-2019} 
+H. Mousavi and M. D. Schmidt, Factorization theorems for relatively prime 
+  divisor sums, GCD sums, and generalized {R}amanujan sums, 
+  \emph{Ramanujan J.}, to appear (2019). 
+
+\bibitem{NG-MERTENS} 
+N. Ng, The distribution of the summatory function of the M\"obius function, 
+  \emph{ArXiv:math.NT/0310381} (2008). 
+
+\bibitem{SUMMABILITY-DIRCVLS} 
+S. L. Segal, Summability by Dirichlet convolutions, 
+  \emph{Proc. Camb. Phil. Soc.} \textbf{63}, 393 (1967). 
+
+\end{thebibliography} 
+
+\end{document}
