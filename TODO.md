@@ -26,6 +26,7 @@
 * `GoogleDrive-maxieds/abq-safari-misc-uploads/VID_20220831_215236297.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/abq-safari-misc-uploads/VID_20220831_220931475(1).mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/abq-safari-misc-uploads/VID_20220831_220931475.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/droid-phone-rootkits/bt.apk` (Cannot download because virus detected)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs` (LFS restrictions)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/SharedFoldersGroup/Sarah Photo Tribute.pptx` (archived at maxieds85v6@GoogleDrive)
