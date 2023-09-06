@@ -6,6 +6,8 @@
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math-website.zip` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math-website/clipboard-themes/*` all subdirectories (archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math1552-summer2021.zip` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math1552-summer2021/maxies-annotated-lecture-slides/Math1552-Week02-Lecture15-compressed.pdf` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
+* `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/atlanta-docs-files/gatech-math1552-summer2021/maxies-annotated-lecture-slides/Math1552-Week02-Lecture15-compressed.pdf` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/_zipballs/*` (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/records-misc-unorganized/github/*` all subdirectories (some LFS restrictions -- archived at maxieds85v6@GoogleDrive)
 * `GoogleDrive-maxieds/legal-records-prep/working-coarse-org/_video/*.mp4` (LFS restrictions -- archived at maxieds85v6@GoogleDrive)
