@@ -1,0 +1,3 @@
+Lecture slides for Summer 2021 Credits:
+Original Sources: Mrs. Klara Grodzinsky's Math 1552 PowerPoint slide repository
+Modified Sources: Maxie Dion Schmidt (mschmidt34@gatech.edu)
