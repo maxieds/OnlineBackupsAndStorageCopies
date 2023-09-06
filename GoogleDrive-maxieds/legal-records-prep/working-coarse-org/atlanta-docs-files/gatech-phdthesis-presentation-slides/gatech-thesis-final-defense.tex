@@ -1,0 +1,1019 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Beamer Presentation
+% LaTeX Template
+% Version 1.0 (10/11/12)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND THEMES
+%----------------------------------------------------------------------------------------
+
+%\PassOptionsToPackage{prologue}{xcolor}
+%\PassOptionsToPackage{a4paper,12pt}{article}
+%\PassOptionsToPackage{utf8}{beamer}
+%\documentclass[notes,usenames,svgnames,dvipsnames,12pt,reqno,handout]{beamer} % 'handout' option disables the \pause commands 
+%\documentclass[notes,usenames,svgnames,dvipsnames,12pt,reqno]{beamer}
+
+\setbeamercovered{transparent}
+
+\usepackage{amsthm,amsmath,amssymb,amscd}
+\usepackage{geometry}
+\usepackage{longtable}
+\usepackage{listings}
+\usepackage{dsfont}
+
+\usepackage{ragged2e}
+\newcommand{\TitlePageSmallSkip}{\vspace*{0.18cm} \\}
+\newcommand{\TitlePageMediumSkip}{\vspace*{0.25cm} \\}
+\newcommand{\TitlePageBigSkip}{\vspace*{0.32cm} \\}
+\newcommand{\TitlePageHugeSkip}{\vspace*{0.56cm} \\}
+
+\usepackage{subcaption}
+\captionsetup{format=hang,labelfont={bf},textfont={footnotesize,it}}
+
+
+\definecolor{indiagreen}{rgb}{0.07,0.53,0.03}
+\definecolor{GATechBlue}{rgb}{0.0,0.18823529411764706,0.3411764705882353}%{003057}
+\definecolor{GATechGold}{rgb}{0.7019607843137254,0.6392156862745098,0.4117647058823529}%{B3A369​}
+\definecolor{GATechBuzzGold}{rgb}{0.9176470588235294,0.6666666666666666,0.0}%{EAAA00}
+\definecolor{SlideBGLight}{rgb}{0.902,0.918,0.933}
+
+\mode<presentation> {
+
+% The Beamer class comes with a number of default slide themes
+% which change the colors and layouts of slides. Below this is a list
+% of all the themes, uncomment each in turn to see what they look like.
+
+%\usetheme{default}
+\usetheme{AnnArbor}
+%\usetheme{Antibes}
+%\usetheme{Bergen}
+%\usetheme{Berkeley}
+%\usetheme{Berlin}
+%\usetheme{Boadilla}
+%\usetheme{CambridgeUS}
+%\usetheme{Copenhagen}
+%\usetheme{Darmstadt}
+%\usetheme{Dresden}
+%\usetheme{Frankfurt}
+%\usetheme{Goettingen}
+%\usetheme{Hannover}
+%\usetheme{Ilmenau}
+%\usetheme{JuanLesPins}
+%\usetheme{Luebeck}
+%\usetheme{Madrid}
+%\usetheme{Malmoe}
+%\usetheme{Marburg}
+%\usetheme{Montpellier}
+%\usetheme{PaloAlto}
+%\usetheme{Pittsburgh}
+%\usetheme{Rochester}
+%\usetheme{Singapore}
+%\usetheme{Szeged}
+%\usetheme{Warsaw}
+
+% As well as themes, the Beamer class has a number of color themes
+% for any slide theme. Uncomment each of these in turn to see how it
+% changes the colors of your current slide theme.
+
+%\usecolortheme{albatross}
+%\usecolortheme{beaver}
+%\usecolortheme{beetle}
+%\usecolortheme{crane}
+%\usecolortheme{dolphin}
+%\usecolortheme{dove}
+%\usecolortheme{fly}
+%\usecolortheme{lily}
+%\usecolortheme{orchid}
+%\usecolortheme{rose}
+%\usecolortheme{seagull}
+%\usecolortheme{seahorse}
+%\usecolortheme{whale}
+%\usecolortheme{wolverine}
+
+%\setbeamertemplate{footline} % To remove the footer line in all slides uncomment this line
+%\setbeamertemplate{footline}[page number] % To replace the footer line in all slides with a simple slide count uncomment this line
+
+%\setbeamertemplate{navigation symbols}{} % To remove the navigation symbols from the bottom of all slides uncomment this line
+
+\setbeamercolor*{structure}{bg=GATechBlue,fg=GATechGold}
+
+\setbeamercolor*{palette primary}{use=structure,fg=GATechBuzzGold,bg=structure.fg}
+\setbeamercolor*{palette secondary}{use=structure,fg=GATechBuzzGold,bg=GATechGold!85!black}
+\setbeamercolor*{palette tertiary}{use=structure,fg=GATechBuzzGold,bg=GATechGold!70!black}
+\setbeamercolor*{palette quaternary}{fg=white,bg=GATechGold!94!white}
+
+\setbeamercolor{background canvas}{bg=SlideBGLight}
+
+\setbeamercolor{frametitle}{bg=GATechBlue,fg=GATechBuzzGold}
+\setbeamercolor*{titlelike}{bg=GATechBlue,fg=GATechBuzzGold}
+
+\defbeamertemplate{itemize item}{bulletpoint}{\usebeamerfont*{itemize item enumitem}\raise1.05pt\hbox{\color{GATechGold!50!white}{$\blacktriangleright$}}}
+\setbeamertemplate{items}[bulletpoint]
+
+\setbeamercolor{section in toc}{fg=black}
+\setbeamercolor{subsection in toc}{fg=black}
+
+\setbeamercolor{bibliography item}{parent=palette primary}
+\setbeamercolor{bibliography entry author}{fg=GATechBlue}
+\setbeamercolor{bibliography entry title}{fg=GATechBlue}
+\setbeamercolor{bibliography entry note}{fg=GATechBlue}
+
+%% Number thee bibliography items (instead of just an emoji symbol):
+\setbeamertemplate{bibliography item}{\insertbiblabel}
+
+}
+
+\usepackage{graphicx} % Allows including images
+\usepackage{booktabs} % Allows the use of \toprule, \midrule and \bottomrule in tables
+\usepackage{fancyvrb}
+\usepackage{inconsolata}
+
+\usepackage{amsthm}
+\theoremstyle{plain} 
+%\newtheorem{theorem}{Theorem}
+%\newtheorem{conjecture}[theorem]{Conjecture}
+%\newtheorem{claim}[theorem]{Claim}
+%\newtheorem{prop}[theorem]{Proposition}
+%\newtheorem{lemma}[theorem]{Lemma}
+%\newtheorem{cor}[theorem]{Corollary}
+\numberwithin{theorem}{section}
+%\newtheorem*{theorem*}{Theorem}
+%\newtheorem*{conjecture*}{Conjecture}
+
+\theoremstyle{definition} 
+%\newtheorem{example}[theorem]{Example}
+%\newtheorem{remark}[theorem]{Remark}
+%\newtheorem{definition}[theorem]{Definition}
+%\newtheorem{notation}[theorem]{Notation}
+\newtheorem{question}[theorem]{Question}
+%\newtheorem{discussion}[theorem]{Discussion}
+%\newtheorem{facts}[theorem]{Facts}
+%\newtheorem{summary}[theorem]{Summary}
+%\newtheorem{heuristic}[theorem]{Heuristic}
+%\newtheorem{observation}[theorem]{Observation}
+%\newtheorem{ansatz}[theorem]{Ansatz}
+
+\setbeamercolor{block title example}{fg=GATechBuzzGold!84!lightgray,bg=GATechBlue}
+
+\AtBeginEnvironment{theorem}{%
+  \setbeamercolor{block title}{use=example text,bg=GATechBlue,fg=SlideBGLight!75!black text.fg!75!black}
+  \setbeamercolor{block body}{parent=normal text,use=block title example,fg=SlideBGLight title example.bg!10!bg}
+}
+
+\usepackage{enumitem}
+\setlist[itemize]{noitemsep,topsep=0pt,leftmargin=0.23in,label={\textcolor{GATechBuzzGold!42!black}{\small$\blacktriangleright$}}}
+
+\newcommand{\Iverson}[1]{\ensuremath{\left[#1\right]_{\delta}}} 
+
+\DeclareMathOperator{\DGF}{DGF} 
+\DeclareMathOperator{\ds}{ds} 
+\DeclareMathOperator{\Id}{Id}
+\DeclareMathOperator{\sq}{sq}
+
+\newcommand{\ceiling}[1]{\ensuremath{\left\lceil #1 \right\rceil}} 
+\newcommand{\ImportantMarker}{%\textcolor{GATechGold}{$\mathbf{\Leftarrow}$}\ 
+                              \textcolor{GATechGold}{\textbf{[!! \underline{IMPORTANT} !!]}}}
+
+\newcommand{\Floor}[2]{\ensuremath{\left\lfloor \frac{#1}{#2} \right\rfloor}}
+\newcommand{\Ceiling}[2]{\ensuremath{\left\lceil \frac{#1}{#2} \right\rceil}}                              
+
+\newcommand{\gkpSI}[2]{\ensuremath{\genfrac{\lbrack}{\rbrack}{0pt}{}{#1}{#2}}} 
+\newcommand{\gkpSII}[2]{\ensuremath{\genfrac{\lbrace}{\rbrace}{0pt}{}{#1}{#2}}}
+
+\newcommand{\TitleBoxed}[1]{
+     \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+          \usebeamerfont{title}#1\par%
+     \end{beamercolorbox}
+}
+
+\newcommand{\emphbold}[1]{\textcolor{GATechBuzzGold!50!darkgray}{\bf\emph#1}}
+\newcommand{\ThesisDirectoryBase}{../../ThesisDraftWorking}
+
+%\setbeamertemplate{note page}[plain]
+\setbeamerfont{note page}{family*=pplx,size=\footnotesize} % Palatino for notes
+
+%----------------------------------------------------------------------------------------
+%	TITLE PAGE
+%----------------------------------------------------------------------------------------
+
+\title[Ph.D. Final Defense]{
+     Factorization theorems and canonical representations for generating functions of special sums
+} 
+
+\author{Maxie Dion Schmidt} % Your name
+\institute[Georgia Tech] 
+{
+Georgia Institute of Technology \\ 
+School of Mathematics \\ % Your institution for the title page
+Atlanta, GA 30318, USA \\ 
+%\smallskip
+%\texttt{maxieds@gmail.com} \\ 
+%\url{http://people.math.gatech.edu/~mschmidt34} \\ 
+%\url{https://github.com/maxieds}
+}
+\date[Final Defense (Summer 2022)]{Ph.D. Thesis Final Defense \\ July 2022} % Date, can be changed to a custom date
+
+\begin{document}
+
+\begin{frame}
+\titlepage % Print the title page as the first slide
+\end{frame} 
+
+\begin{frame}[fragile]
+\frametitle{Thesis Committee}
+
+       \vspace*{-0.4cm}
+       \begin{FlushLeft}
+       \includegraphics[height=0.2\textheight]{\ThesisDirectoryBase/thesis-images/GTLogoExtended.png}
+       \end{FlushLeft}
+       \vspace*{0.15cm}
+       \begin{minipage}{0.13\textwidth}
+       
+       \end{minipage}\hfil
+       \begin{minipage}{0.31\textwidth}
+       \small Dr. Josephine Yu \\ 
+       \small School of Mathematics \\ 
+       \small \textit{Georgia Tech}
+       \end{minipage}\hfil
+       \begin{minipage}{0.56\textwidth}
+       \small Dr. Jayadev Athreya \\ 
+       \small Department of Mathematics \\ 
+       \small \textit{University of Washington}
+       \end{minipage}
+       \TitlePageSmallSkip
+       \begin{minipage}{0.13\textwidth}
+       
+       \end{minipage}\hfil
+       \begin{minipage}{0.31\textwidth}
+       \small Dr. Matthew Baker \\ 
+       \small School of Mathematics \\ 
+       \small \textit{Georgia Tech}
+       \end{minipage}\hfil
+       \begin{minipage}{0.56\textwidth}
+       \small Dr. Bruce Berndt \\ 
+       \small Department of Mathematics \\ 
+       \small \textit{University of Illinois at Urbana-Champaign}
+       \end{minipage}
+       \TitlePageSmallSkip
+       \begin{minipage}{0.13\textwidth}
+       
+       \end{minipage}\hfil
+       \begin{minipage}{0.9\textwidth}
+       \small Dr. Rafael de la Llave \\ 
+       \small School of Mathematics \\ 
+       \small \textit{Georgia Tech}
+       \end{minipage}\hfil
+
+\end{frame}
+%----------------------------------------------------------------------------------------
+%	PRESENTATION SLIDES
+%----------------------------------------------------------------------------------------
+
+%------------------------------------------------
+
+\section{Introduction} 
+
+\begin{frame}
+\frametitle{Overview of topics}
+\begin{itemize} 
+
+\item Gentle introduction to sequence generating functions (OGFs) 
+\pause\item Motivate certain ``factorized`` forms of OGFs for special sums 
+\pause\item Examples and main results from publications
+\pause\item Topics on the frontier of these research topics 
+\pause\item Questions from the committee and audience
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Generating functions are essential tools in discrete mathematics}
+\begin{itemize} 
+
+\item For a sequence, $\mathcal{F} := \{f_n\}_{n \geq 0} \subset \mathbb{C}$, we define its 
+      \emphbold{ordinary generating function} (OGF) to be 
+      \[
+      F(z) := \sum_{n \geq 0} f_n z^n.
+      \]
+\pause\item \textbf{Notation:} For $n \geq 0$, $[z^n] F(z) := f_n$ (\emphbold{coefficient extraction}) 
+\pause\item \textbf{Good concise explanation:} 
+      \emph{A generating function is a clothesline on which we hang up a sequence of numbers for display} 
+      (Wilf, \cite{GFOLOGY})
+\pause\item We can treat $F(z)$ using complex analysis or 
+      may work with it formally (e.g., disregard convergence; see \cite{REZNICK-STERN-NOTES})
+\pause\item Usually only consider integer sequences (or rational ones over $\frac{f_n}{n!}$)
+%\pause\item Other types of generic generating function definitions: EGFs or DGFs
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Focus of the thesis is on peer-reviewed publications from 2017--2021 (since enrolling at GT)}
+\begin{itemize} 
+
+\item Primary publications summarized in the thesis: 
+      \cite{AA,MDS-COMBRESTRDIVSUMS-INTEGERS,MDS-MERCA-AMM,MERCA-SCHMIDT-LSFACTTHM,MERCA-SCHMIDT-PN,MERCA-SCHMIDT-RAMJ,MOUSAVI-SCHMIDT-2019}
+\pause\item Publications focused on \emphbold{Jabobi-type continued fractions (J-fractions)}: 
+      \cite{MDS-JNT-2017,MDS-RAMJ-CFRACS,MDS-JIS-V2-2017,MDS-INTEGERS-CFRACS-V1,MDS-INTEGERS-CFRACS-V2}
+\pause\item Other related peer-reviewed publications: 
+      \cite{MDS-GFSURVEY,MDS-OJAC-V1,MDS-OJAC-V2,MDS-SQUARE-SERIES-GFTRANS,SCHMIDT-SODFORMULAS,MDS-COMBRESTRDIVSUMS-INTEGERS} 
+
+\end{itemize}
+
+\end{frame}
+
+\section{Factorization theorems for LGFs}
+
+\begin{frame}
+\frametitle{Motivating series expansions for the OGFs of special sums (LGFs)}
+\begin{itemize} 
+
+\item For arithmetic functions $f$ and $g$, we define their \emphbold{Dirichlet convolution at $n$} by 
+     \[
+	     (f \ast g)(n) = \sum_{d|n} f(d) g\left(\frac{n}{d}\right), \text{ integers } n \geq 1.
+     \]
+\pause\item A \emphbold{Lambert series generating function} (LGF) is an OGF that allows us to generate multiplicative functions 
+      expressed via divisor sums of the form $(f \ast \mathds{1})(n)$:
+      \[
+      L_f(q) := \sum_{n \geq 1} \frac{f(n) q^n}{1-q^n} = \sum_{m \geq 1} (f \ast \mathds{1})(m) q^m.
+      \]
+\pause\item OGF relation: $F(q) = L_{f \ast \mu}(q)$ (for $\mu(n)$ the \emphbold{M\"obius function}) 
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Examples: Some number theoretic function LGFs}
+
+\begin{subequations}
+\begin{align} 
+\label{eqn_WellKnown_LamberSeries_Examples} 
+\sum_{n \geq 1} \frac{\mu(n) q^n}{1-q^n} & = q \\ 
+\sum_{n \geq 1} \frac{\phi(n) q^n}{1-q^n} & = \frac{q}{(1-q)^2}, |q| < 1 \\ 
+\sum_{n \geq 1} \frac{n^{\alpha} q^n}{1-q^n} & =  
+	\sum_{m \geq 1} \sigma_{\alpha}(n) q^n, \alpha \in \mathbb{R} \\ 
+\sum_{n \geq 1} \frac{\lambda(n) q^n}{1-q^n} & = \sum_{m \geq 1} q^{m^2} \\ 
+\sum_{n \geq 1} \frac{\Lambda(n) q^n}{1-q^n} & = \sum_{m \geq 1} \log(m) q^m. 
+\end{align}
+\end{subequations}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Definitions -- Some standard notation}
+\begin{itemize} 
+
+\item \emphbold{Iverson's convention}: The symbol $\Iverson{\mathtt{cond}} \in \{0, 1\}$ 
+      is one if and only if $\mathtt{cond}$ is true (cf.~\cite{KNUTHNOTATION}) 
+\pause\item The \emphbold{greatest common divisor (GCD)}: $(n, m) \equiv \operatorname{gcd}(n, m)$
+\pause\item The \emphbold{(infinite) $q$-Pochhammer symbol}: 
+      $(a; q)_{\infty} := \prod_{m \geq 1} (1-aq^{m-1})$ 
+\pause\item The \emphbold{(Euler) partition function}: The number of (unordered) partitions of $n$ is 
+      $p(n) := [q^n] (q; q)_{\infty}^{-1}$, with $p(0) := 1$, for integers $n \geq 0$ 
+\pause\item The sequences $s_e(n, k)$ (and $s_o(n, k)$)
+      denote the the number of $k$’s in all partitions of $n$
+      into an even (and odd, respectively) number of distinct parts for integers $1 \leq k \leq n$
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Factorization theorems for LGF series}
+\begin{itemize} 
+
+\item Overlapping ideas in publications by MDS and M.~Merca: 
+      \cite{AA,MERCA-LSFACTTHM} 
+\pause\item Coauthored work over the next few years: 
+      \cite{MDS-MERCA-AMM,MERCA-SCHMIDT-LSFACTTHM,MERCA-SCHMIDT-PN,MERCA-SCHMIDT-RAMJ}
+\pause\item Key idea is to re-write the LGF series as in the following LHS expansion:
+      \[
+      \tag{\textbf{LGF-FT}}
+      \sum_{n \geq 1} \frac{f(n) q^n}{1-q^n} = \frac{1}{(q; q)_{\infty}} \times \sum_{n \geq 1} \left( 
+           \sum_{k=1}^{n} s_{n,k} f(k)\right) q^n
+      \]
+\pause\item For any $N \geq 1$, the matrices $(s_{n,k})_{1 \leq n,k \leq N}$ are lower triangular with ones on the 
+      diagonal (and hence invertible) 
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Factorization theorems for LGF series (cont'd)}
+\begin{itemize} 
+
+\item We prove: $s_{n,k} = s_o(n, k) - s_e(n, k)$
+\pause\item We prove: $s^{-1}_{n,k} = \sum\limits_{d|n} p(d-k) \mu\left(\frac{n}{d}\right)$
+\pause\item \textbf{Interpretations:} Interesting new ties between OGFs for multiplicative functions and the 
+      more additive theory of partitions
+\pause\item \textbf{Key questions to keep in mind for later:}  
+      \begin{itemize}
+      \item Why was the factor of $(q; q)_{\infty}^{-1}$ in the OGF factorization in 
+	    equation \textbf{(LGF-FT)} so natural?
+      \pause\item Collecting common denominators of the partial sums of the RHS yields this 
+	    OGF factor in the limiting case (algebraic rationale for the choice) 
+      \pause\item Is there a deeper underlying principle to explain why this factorized form should be the most natural? 
+      \end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{LGF factorization theorems -- Other results}
+\begin{itemize} 
+
+\item Let the \emphbold{(normalized) average order} of the function $f$ 
+      be defined by 
+      \[
+      \Sigma_{f}(x) := \sum_{1 \leq n \leq x} f(n), \text{ for } x \geq 1. 
+      \]
+\pause\item Let $a_f(n) := \sum\limits_{1 \leq k \leq n} s_{n,k} f(k)$ 
+      where the lower triangular $s_{n,k}$ are the same as in \textbf{(LGF-FT)}
+\pause\item \textbf{Theorem:} For all $n \geq 1$ 
+      \begin{align*}
+      \Sigma_{f \ast \mathds{1}}(n+1) & = \sum_{b = \pm 1} 
+           \sum_{k=1}^{\left\lfloor \frac{\sqrt{24n+1}-b}{6} \right\rfloor + 1} 
+	   (-1)^{k+1} \Sigma_{f \ast \mathds{1}}\left(n+1-\frac{k(3k+b)}{2}\right) \\ 
+	   & \phantom{=\sum_{b = \pm 1}\ } + 
+           \sum_{1 \leq k \leq n} a_f(k+1).
+      \end{align*}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{LGFs -- Other results (cont'd)}
+\begin{itemize} 
+
+\item \textbf{Notation:} $\sigma(n) \equiv \sigma_1(n) := \sum\limits_{d|n} d$ is the 
+       \emphbold{(ordinary) sum-of-divisors function} 
+\pause\item \textbf{Corollary:} For all $x \geq 1$ 
+      \[
+      \Sigma_{\sigma}(x+1) = \sum_{s = \pm 1} \left(\sum_{0 \leq n \leq x} 
+           \sum_{k=1}^{\left\lfloor \frac{\sqrt{24n+25}-s}{6} \right\rfloor} 
+           (-1)^{k+1} \frac{k(3k+s)}{2} p(x-n)\right) 
+      \]
+\pause\item \textbf{Compare to classical bounds:} 
+      $\Sigma_{\sigma}(x) = \frac{\pi^2x^2}{12} \times \left(1 + O\left(\frac{\log x}{x}\right)\right)$
+\pause\item \textbf{Improvement (Walfisz, 1964):} 
+      $\Sigma_{\sigma}(x) = \frac{\pi^2x^2}{12} \times \left(1 + O\left(\frac{(\log x)^{\frac{2}{3}}}{x}\right)\right)$
+
+\end{itemize}
+
+\end{frame}
+
+\section{Factorization theorems for GCD-type sums}
+
+\begin{frame}
+\frametitle{Branching out from LGFs I}
+\begin{itemize} 
+
+\pause\item \textbf{Motivation:} We find that 
+      \[
+      \Sigma_f(x) = \sum_{\substack{d|x \\ d>1}} f(d) + 
+	       \sum_{\substack{1 \leq d \leq x \\ (d,x)=1}} f(d) +  
+	       \sum_{\substack{1 < d \leq x \\ 1 < (d,x) < x}} f(d), \text{ for } x \geq 1, 
+      \]
+\pause\item The first summations are generated by LGFs as 
+      \[
+      \sum_{\substack{d|x \\ d>1}} f(d) = [q^n]L_f(q) - f(1), 
+           \text{ for any } n \geq 1. 
+      \]
+\pause\item What about the next two sum terms? 
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+
+\frametitle{Branching out from LGFs II}
+
+\begin{itemize} 
+
+\item Generalized factorization theorems for GCD-type sums in 
+      \cite{MOUSAVI-SCHMIDT-2019}
+\pause\item For integers $1 \leq k \leq x$, we define 
+      {\scriptsize
+      \begin{align} 
+      \tag{Type I Sums}
+      T_{f}(x) & = \sum_{\substack{d=1 \\ (d,x)=1}}^x f(d), \\ 
+      \tag{Type II Sums}
+      L_{f,g,k}(x) & = \sum_{d|(k,x)} f(d) g\left(\frac{x}{d}\right). 
+      \end{align}
+      }
+\pause\item The factorization theorems considered are now of the form 
+      {\tiny
+      \begin{align*}
+      T_{f}(x) & = [q^x]\left(\frac{1}{(q; q)_{\infty}} \times \sum_{n \geq 2} \sum_{k=1}^n t_{n,k} f(k) q^n + 
+           f(1) q\right), \\ 
+      g(x) & = [q^x]\left(\frac{1}{(q; q)_{\infty}} \times 
+           \sum_{n \geq 2} \sum_{k=1}^n u_{n,k}(f, w) \left(
+           \sum_{m=1}^k L_{f,g,m}(k) w^m\right) q^n\right), 
+      \end{align*}
+      }
+\pause\item Here, $w \in \mathbb{C} \setminus \{0\}$ is a non-zero indeterminate parameter inserted to force 
+      invertibility of the sequences $u_{n,k}(f, w)$ above
+
+\end{itemize}
+
+\end{frame}
+
+\section{Examples: Other special sum types}
+
+\begin{frame}
+\frametitle{Examples I: What other types of sums might we want to generate?}
+
+\scriptsize
+\begin{example}[$\mathcal{A}$-Set convolutions, ACVL]
+For each $n \geq 1$, let $A(n) \subseteq \{1 \leq d \leq n: d|n\}$ be a subset of 
+the divisors of $n$. 
+We say that $n$ is $A$-primitive if $A(n) \equiv \{1,n\}$. 
+Let the set of $A$-primitive positive integers be denoted by 
+\[
+\mathcal{A} := \left\{n \geq 1: n \text{ is $A$-primitive}\right\}. 
+\]
+Then we may consider the following invertible convolutions: 
+\begin{align*}
+S_{1,\mathcal{A}}(f, g; n) & := \sum_{\substack{d|n \\ d \in \mathcal{A}}} f(d) g\left(\frac{n}{d}\right), \\ 
+S_{2,\mathcal{A}}(f, g; n) & := \sum_{\substack{d|n \\ d,\frac{n}{d} \in \mathcal{A}}} f(d) g\left(\frac{n}{d}\right). 
+\end{align*}
+\end{example}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Examples II: What other types of sums might we want to generate?}
+
+\begin{example}[Unitary convolutions, UCVL]
+The \emph{unitary convolution} of $f$ and $g$ at integers $n \geq 1$ is defined by 
+\[
+(f \odot g)(n) := \sum_{\substack{d|n \\ \left(d, \frac{n}{d}\right)=1}} f(d) g\left(\frac{n}{d}\right). 
+\]
+\end{example}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Examples III: What other types of sums might we want to generate?}
+
+\begin{example}[$\mathcal{D}$-Kernel convolutions, DCVL]
+Suppose that $\mathcal{D}: \mathbb{Z}^{+} \times \mathbb{Z}^{+} \rightarrow \mathbb{C}$ is an 
+\emphbold{invertible} and \emphbold{lower triangular kernel function}: I.e., 
+$\mathcal{D}(n, k) = 0$ whenever $k > n$ and $\mathcal{D}(n, n) \neq 0$ for all $n \geq 1$. 
+We want to study a generalized class of $\mathcal{D}$-convolution type sums 
+of the form 
+\[
+\left(f \boxdot_{\mathcal{D}} g\right)(n) := \sum_{1 \leq k \leq n} f(k) g(n+1-k) \mathcal{D}(n, k), 
+	\text{ for integers } n \geq 1. 
+\]
+\end{example}
+
+\end{frame}
+
+\section{Generalized factorization theorems}
+
+\begin{frame}
+\frametitle{Definitions of generalized factorization theorems}
+
+\small
+\begin{itemize} 
+
+\item \textbf{Option 1:} 
+      For $n \geq 1$ and multiplier OGFs such that $\mathcal{C}(0) \neq 0$
+      \[
+      \sum_{\substack{k \in A_n \\ A_n \subseteq [1, n) \bigcup \{n\}}} f(k) := 
+		[q^n]\left(\frac{1}{\mathcal{C}(q)} \times \sum_{\substack{n \geq 1 \\ 1 \leq k \leq n}} 
+		v_{n,k}(\mathcal{A}, \mathcal{C}) f(k) q^n\right) 	
+      \]
+\pause\item \textbf{Option 2:} 
+      For $n \geq 1$, weights $\mathcal{T}_{j,j} \neq 0$ for all $j \geq 1$, and 
+      multiplier OGFs such that $\mathcal{C}(0) \neq 0$
+      \[
+      \sum_{1 \leq k \leq n} \mathcal{T}_{n,k}f(k) := 
+		[q^n]\left(\frac{1}{\mathcal{C}(q)} \times \sum_{\substack{n \geq 1 \\ 1 \leq k \leq n}} 
+		u_{n,k}(\mathcal{T}, \mathcal{C}) f(k) q^n\right) 	
+      \]
+\pause\item These generalized sum types allow us to consider (weighted) forms of the 
+      special case LGF and GCD-type OGF factorizations we have seen so far 
+      \textbf{(Explain, clarify quantifiers)}
+
+\end{itemize}
+
+\end{frame}
+
+\section{Open questions -- Canonically best factorizations}
+
+\begin{frame}
+\frametitle{A good open question to ask (LGF case)}
+\begin{itemize} 
+
+\item \textbf{Recall:} The original factorization theorem expansions for the LGF case are 
+      of the form 
+      \[
+      L_f(q) := \frac{1}{(q; q)_{\infty}} \times \sum_{n \geq 1} \left( 
+           \sum_{k=1}^{n} s_{n,k} f(k)\right) q^n. 
+      \]
+\pause\item We proved: $s_{n,k} = s_{n,k} = s_o(n, k) - s_e(n, k)$
+\pause\item We proved: $s^{-1}_{n,k} = \sum\limits_{d|n} p(d-k) \mu\left(\frac{n}{d}\right)$ 
+\pause\item The matrix entries and inverses are expressed in terms of partition theoretic functions 
+      (cf.~\cite{ANDREWS}) 
+\pause\item This gives new connections between functions in multiplicative number theory and 
+      the theory of partitions 
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Generalizing ``canonically best`` OGF factorizations (cont'd)}
+\begin{itemize} 
+
+\item The view of the OGF, $\mathcal{C}(q) := (q; q)_{\infty}$, in the LGF case being 
+      ``\emph{optimal}'' (\textit{or somehow encoding the most meaningful hidden information about this sum type}) 
+      is inherently \emphbold{qualitative}
+\pause\item How can we precisely define a corresponding \emphbold{quantitative} metric 
+      with which we can express the intuition from the special case?
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Generalizing ``canonically best`` OGF factorizations (cont'd)}
+
+\small
+\begin{itemize} 
+
+\item \textbf{Idea (first approximation):} For $1 \times N$ vectors $\vec{a} := (a_1, \ldots, a_n)$ and 
+      $\vec{b} := (b_1, \ldots, b_N)$, one standard way to evaluate how well matched 
+      these vectors are is given by the \emphbold{(normalized) correlation statistic} 
+      \[
+      \tag{\textbf{PC-STAT}}
+      \operatorname{PCorr}\left(\vec{a}, \vec{b}\right) := 
+           \frac{\frac{1}{N} \times \sum\limits_{1 \leq j \leq N} a_jb_j}{\sqrt{ 
+	   \left(\sum\limits_{1 \leq i \leq N} a_i^2\right) \left(\sum\limits_{1 \leq j \leq N} b_j^2\right)}} \in [-1, 1]
+      \]
+\pause\item \textbf{Idea (refinement):} Use the correlation statistic in \textbf{(PC-STAT)} with infinite sequences 
+      in place of the $N$-vectors; These sequences should depend on (reflect key features of) the 
+      series coefficients of $\mathcal{C}(q)^{\pm 1}$ and $\mathcal{D}(n, k)$ (or $\mathcal{D}^{-1}(n, k)$) -- 
+      \textit{Precise definitions in the thesis manuscript}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Visualizing the LGF case -- High-level procedure I}
+\begin{itemize} 
+
+\item Can we visualize the notion of an optimally correlated OGF, 
+      \[
+      \mathcal{C}(q) := 1 + \sum_{n \geq 1} c_n(\mathcal{C}) q^n \in \mathbb{Z}[[q]], 
+      \]
+      to see if taking $\mathcal{C}(q) := (q; q)_{\infty}$ is really the best? 
+      \textbf{(YES!)} 
+\pause\item \textbf{Notation:} Let the set of \emphbold{(unsigned) pentagonal numbers} be defined as 
+      follows: $\mathcal{N}_{\operatorname{Pent}} := \{G_j: j \geq 0\}$ where 
+      $$G_j := \frac{1}{2} \Ceiling{j}{2} \Ceiling{3j+1}{2} \mapsto \{0, 1, 2, 5, 7, 12, 15, 22, \ldots\}$$
+\pause\item For $1 \leq k \leq n$, let the correlation component 
+      \[
+      f_{\operatorname{LGF}}[\mathcal{C}](n, k) := 
+           \frac{\frac{1}{n} \times \Iverson{k \in \mathcal{N}_{\operatorname{Pent}}} \times 
+	   \mu^2\left(\frac{n}{k}\right) \Iverson{k|n}}{\sqrt{ 
+	   2^{\omega(n)} \times \sum_{0 \leq k \leq n} \Iverson{k \in \mathcal{N}_{\operatorname{Pent}}}}}. 
+      \]
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Visualizing the LGF case -- High-level procedure II}
+\begin{itemize} 
+
+\item Then for $N \gg 1$ (as large as possible, computationally), form the \emphbold{correlation matrix} 
+      \[
+      \overleftrightarrow{\operatorname{CorrM}}(N) := 
+		\left(f_{\operatorname{LGF}}[\mathcal{C}](n, k) \Iverson{k \leq n}\right)_{1 \leq n,k \leq N}. 
+      \]
+\pause\item Pick a clear target image (\emphbold{Tux} penguin, below), and partition its pixels into a $N \times N$ grid
+\pause\item Convolve the $N$-sized pixels with the prospective correlation matrix, 
+      $\overleftrightarrow{\operatorname{CorrM}}(N)$. 
+      We should observe the following qualitative trends:
+      \begin{itemize}
+      \item Less distortion (e.g., clearer results) indicates good (high) correlation 
+      \pause\item More distortion (e.g., blurrier results) indicates poor (low) correlation 
+      \end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Visualizing the LGF case (cont'd)}
+
+\begin{figure}[ht!]
+  
+  \vspace*{-0.075in}
+  \centering
+  \begin{subfigure}[t]{.3\linewidth}
+    \centering\includegraphics[scale=0.75,height=0.34\textheight]{\ThesisDirectoryBase/images/BGEnhanced-800px-Tux.png}
+    \caption{Original image.}
+  \end{subfigure}
+  \begin{subfigure}[t]{.3\linewidth}
+    \centering\includegraphics[scale=0.75,height=0.34\textheight]{\ThesisDirectoryBase/images/BGEnhanced-Tux-CorrelatedImage-C1.png}
+    \caption{$\mathcal{C}(q) := (q; q)_{\infty}$.}
+  \end{subfigure}
+  \begin{subfigure}[t]{.3\linewidth}
+    \centering\includegraphics[scale=0.75,height=0.34\textheight]{\ThesisDirectoryBase/images/BGEnhanced-Tux-CorrelatedImage-C2.png}
+       \caption{$\mathcal{C}(q) := (q; q)_{\infty}^{-1}$.}
+  \end{subfigure}
+  \begin{subfigure}[t]{.3\linewidth}
+    \centering\includegraphics[scale=0.75,height=0.34\textheight]{\ThesisDirectoryBase/images/BGEnhanced-Tux-CorrelatedImage-C3.png}
+    \caption{$\mathcal{C}(q) := (q^2; q^5)_{\infty}$.}
+  \end{subfigure}
+  \begin{subfigure}[t]{.3\linewidth}
+    \centering\includegraphics[scale=0.75,height=0.34\textheight]{\ThesisDirectoryBase/images/BGEnhanced-Tux-CorrelatedImage-C6.png}
+    \caption{$\mathcal{C}(q) := (1-q)^{-\frac{3}{2}}$.}
+  \end{subfigure}
+  \begin{subfigure}[t]{.3\linewidth}
+    \centering\includegraphics[scale=0.75,height=0.34\textheight]{\ThesisDirectoryBase/images/BGEnhanced-Tux-CorrelatedImage-C7.png}
+       \caption{$\mathcal{C}(q) := (1-q)^{-1}$.}
+  \end{subfigure}
+
+\end{figure}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Generalizing ``canonically best`` OGF factorizations (cont'd)}
+\begin{itemize} 
+
+\item Based on inspection, the visual \emphbold{Tux} examples for the LGF case, seem to conform to the 
+      ``\emph{ideal}`` case expactation: \\ 
+      That is, we cannot do better than to choose 
+      $\mathcal{C}(q) := (q; q)_{\infty}$ (as we had defined to be qualitatively optimal)
+\pause\item For more general convolution sum types, we seek to \emphbold{maximize} (\emphbold{minimize}) the 
+      series 
+      \[
+      \operatorname{Corr}(\mathcal{C}, \mathcal{D}) := 
+           \sum_{n \geq 1} \frac{\frac{1}{n} \times \sum\limits_{k=1}^{n} |c_k(\mathcal{C}) \mathcal{D}^{-1}(n, k)|}{ 
+           \sqrt{\left(\sum\limits_{k=1}^{n} c_k(\mathcal{C})^2\right) \left( 
+           \sum\limits_{k=1}^{n} \mathcal{D}^{-1}(n, k)^2\right)}}
+      \]
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Generalizing ``canonically best`` OGF factorizations (cont'd)}
+
+\small
+\begin{itemize} 
+
+\item How best to approach finding the optimal OGF? 
+      What if we restrict to integer coefficients with $\mathcal{C}(0) := 1$? 
+\pause\item This is an open topic; Some preliminary conjectures and discussion are given in the last 
+      section of the thesis. 
+\pause\item {\small \textbf{Historical notes on correlation statistic tactics:}} 
+      \begin{itemize}
+      \item There is literature documenting and motivating the use of statistical analysis to 
+	    study number theoretic objects  
+      \pause\item Montgomery: Pair correlation to study the non-trivial zeros of $\zeta(s)$
+      \pause\item Hejal, Rudnick, Sarnak and Odlyzko, respectively, built on HM's work to apply 
+	             statistical analysis (correlation statisitics) to $L$-functions, the 
+                  Gaussian Unitary Ensemble (GUE) and in applications to random matrix theory 
+      \pause\item See the survey in \cite{WILLIAMS-MILLER-PCORR-OVERVIEW-REF}
+      \end{itemize}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Concluding remarks} 
+
+     \Huge{\centerline{The End}}\smallskip
+     \Large{\centerline{Questions?}}\smallskip
+     \Large{\centerline{Comments?}}\smallskip
+     \Large{\centerline{Feedback?}}\bigskip
+     \Huge{\centerline{Thank you for your time!}} 
+
+\end{frame}
+
+\section{Bibliography} 
+
+\begin{frame}[t,allowframebreaks] 
+\renewcommand{\refname}{References and works cited} 
+\frametitle{\refname} 
+
+\scriptsize 
+\bibliographystyle{plain}
+\bibliography{\ThesisDirectoryBase/glossaries-bibtex/thesis-references}{}
+
+\end{frame} 
+
+\section{Extra Slides}
+
+\begin{frame}[fragile]
+\frametitle{Extra slides}
+
+\TitleBoxed{Extra slides and references}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{LGFs -- Other results (cont'd)}
+\begin{itemize} 
+
+\item The function $h^{-1}$ is called the \emphbold{Dirichlet inverse of $h$} if 
+	$h \ast h^{-1} = h^{-1} \ast h = \varepsilon$ where $\varepsilon(n) = \delta_{n,1}$ 
+	is the multiplicative identity with respect to Dirichlet convolution
+\pause\item The function $h^{-1}$ exists and is unique iff $h(1) \neq 1$. 
+\pause\item When $h^{-1}$ exists, it is computed recursively via the formula 
+      \[
+      h^{-1}(n) = \begin{cases} 
+           \frac{1}{h(1)}, & n = 1; \\ 
+           -\frac{1}{h(1)} \times 
+           \sum\limits_{\substack{d|n \\ d>1}} h(d) h^{-1}\left(\frac{n}{d}\right), & n \geq 2. 
+           \end{cases}
+      \]
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{LGFs -- Other results (cont'd)}
+
+{\tiny
+\begin{center}
+\begin{tabular}{|c|l|c|l|c|l|} \hline 
+$\mathbf{n}$ & $h^{-1}(n)$ & $\mathbf{n}$ & $h^{-1}(n)$ & $\mathbf{n}$ & $h^{-1}(n)$ \\ \hline 
+\textbf{1} & $\displaystyle\frac{1}{h(1)}$ & \textbf{4} & $-\displaystyle\frac{h(1) h(4)-h(2)^2}{h(1)^3}$ & 
+\textbf{7} & $-\displaystyle\frac{h(7)}{h(1)^2}$ \\ 
+\textbf{2} & $-\displaystyle\frac{h(2)}{h(1)^2}$ & \textbf{5} & $-\displaystyle\frac{h(5)}{h(1)^2}$ & 
+\textbf{8} & $-\displaystyle\frac{h(2)^3-2 h(1) h(4) h(2)+h(1)^2 h(8)}{h(1)^4}$ \\ 
+\textbf{3} & $-\displaystyle\frac{h(3)}{h(1)^2}$ & \textbf{6} & $-\displaystyle\frac{h(1) h(6)-2 h(2) h(3)}{h(1)^3}$ & 
+\textbf{9} & $-\displaystyle\frac{h(1) h(9)-h(3)^2}{h(1)^3}$ \\ \hline 
+\end{tabular} 
+\end{center} 
+}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{LGFs -- Other results (cont'd)}
+\begin{itemize} 
+
+\item For fixed $f,g$ and any OGF $\mathcal{C}(q)$ with $\mathcal{C}(0) \neq 0$, we define 
+      \begin{align*} 
+      \tag{i}
+      \sum_{n \geq 1} \frac{f(n) q^n}{1-q^n} & = \frac{1}{\mathcal{C}(q)} \times 
+           \sum_{n \geq 1} \left(\sum_{k=1}^n 
+           s_{n,k}[\mathcal{C}] f(k) \right) q^n, 
+      \end{align*} 
+      and let 
+      \begin{align*} 
+      \tag{ii} 
+      \sum_{n \geq 1} \frac{(f \ast g)(n) q^n}{1-q^n} & = \frac{1}{\mathcal{C}(q)} \times 
+            \sum_{n \geq 1} \left(\sum_{k=1}^n 
+            \widetilde{s}_{n,k}[\mathcal{C}](g) f(k) \right) q^n. 
+      \end{align*} 
+\pause\item We can prove: $\widetilde{s}_{n,k}[\mathcal{C}](g) = \sum\limits_{j=1}^n s_{n,kj}[\mathcal{C}] g(j)$
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{LGFs -- Other results (cont'd)}
+
+Table of the inverse matrices, $\widetilde{s}^{-1}_{n,k}[\mathcal{C}](g)$:
+{\tiny
+\begin{equation*}
+\arraycolsep=1.6pt\def\arraystretch{2.2}
+\begin{array}{|c|l|l|l|l|} \hline 
+ & \mathbf{1} & \mathbf{2} & \mathbf{3} & \mathbf{4} \\ \hline 
+\mathbf{1} & 1 & 0 & 0 & 0 \\
+\mathbf{2} & -g(2) & 1 & 0 & 0 \\
+\mathbf{3} & 1-g(3) & 1 & 1 & 0 \\
+\mathbf{4} & g(2)^2-g(4)+2 & 1-g(2) & 1 & 1 \\
+\mathbf{5} & 4-g(5) & 3 & 2 & 1 \\
+\mathbf{6} & 2 g(3) g(2)-g(2)-g(6)+5 & -g(2)-g(3)+3 & 2-g(2) & 2 \\
+\mathbf{7} & 10-g(7) & 7 & 5 & 3 \\
+\mathbf{8} & -g(2)^3+2 g(4) g(2)-2 g(2)-g(8)+12 & g(2)^2-g(2)-g(4)+9 & 6-g(2) & 4-g(2) \\
+\mathbf{9} & g(3)^2-g(3)-g(9)+20 & 14-g(3) & 10-g(3) & 7 \\
+\mathbf{10} & 2 g(5) g(2)-4 g(2)-g(10)+25 & -3 g(2)-g(5)+18 & 13-2 g(2) & 10-g(2) \\ \hline 
+\end{array}
+\end{equation*}
+}
+(Special case where $g(1) := 1$ for simplicity.)
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Factorization theorems for LGFs -- Variants I}
+\begin{itemize} 
+
+\item \textbf{Notation:} When $C(q) = (q; q)_{\infty}$ we write $s_{n,k}^{-1}[\mathcal{C}](g) \equiv s_{n,k}^{-1}(g)$ 
+\pause\item \textbf{Notation:} Let the function $p_k(n) := p(n-k)$ 
+\pause\item For $n \geq 1$, let 
+      $$f^{-1}(n) := \left(D_{n,f} + \frac{\varepsilon}{f(1)}\right)(n).$$ 
+      (The function $D_{n,f}(n)$ can be defined recursively by partial sums of multiple convolutions of $f$ with itself.) 
+      %\begin{align*}
+      %\widetilde{\operatorname{ds}}_{j,g}(n) & := \underset{\text{$j$ times}}{\underbrace{\left(g_{\pm} \ast g \ast \cdots \ast g\right)}}(n), \\ 
+      %\operatorname{ds}_{m,g}(n) & := \sum_{i=0}^{m-1} \binom{m-1}{i} (-1)^{m-1-i} \widetilde{\ds}_{i+1,g}(n), \\ 
+      %D_{n,g}(n) & := \sum_{j=1}^n \ds_{2j,g}(n). 
+      %\end{align*}
+\pause\item \textbf{Theorem:} We can prove that 
+      \begin{align*} 
+      \sum_{d|n} s_{n,k}^{-1}(g) & = p_k(n) + (p_k \ast D_{n,g})(n), 
+      \end{align*}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Factorization theorems for LGFs -- Variants II}
+\begin{itemize} 
+
+\item We also considered factorization theorems for Hadamard products:
+      \[
+      \sum_{d|n} a_{\operatorname{fg}}(d) := 
+           \underset{:=\operatorname{fg}(n)}{\underbrace{\left(\sum_{d|n} f_d\right) \times \left(\sum_{d|n} g_d\right)}}. 
+      \]
+      where 
+      \begin{align*} 
+      \sum_{n \geq 1} \frac{a_{\operatorname{fg}}(n) q^n}{1-q^n} & = \frac{1}{(q; q)_{\infty}} \times \sum_{n \geq 1} 
+           \sum_{k=1}^n h_{n,k}(f) g_k q^n, 
+      \end{align*}
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Factorization theorems for LGFs -- Variants III}
+\begin{itemize} 
+
+\item \textbf{Notation:} Let $\widetilde{f}(n) := \sum_{d|n} f_d$
+\pause\item We prove: 
+      {\small
+      \begin{align*}
+      h_{n,k}(f) & = \widetilde{f}(n) \Iverson{k|n} \\ 
+           & \phantom{=\ } + 
+	   \sum\limits_{j=1}^{\left\lfloor \frac{\sqrt{24(n-k)+1}-b}{6} \right\rfloor} 
+           (-1)^j \widetilde{f}\left(n-\frac{j(3j+b)}{2}\right) \Iverson{k|n-\frac{j(3j+b)}{2}}
+      \end{align*}
+      }
+\pause\item We prove: $h_{n,k}^{-1}(f) = \sum\limits_{d|n} \frac{p(d-k)}{\widetilde{f}(d)} \mu\left(\frac{n}{d}\right)$
+
+\end{itemize}
+
+\end{frame}
+
+\begin{frame}
+\frametitle{Factorization theorems for LGFs -- Variants IV}
+\begin{itemize} 
+
+\item \textbf{Corollaries:} We have so-termed ``\emph{exotic}'' sums of the form 
+      {\scriptsize
+      \begin{align*}
+      \phi(n) & = \sum_{k=1}^n \sum_{d|n} \frac{p(d-k)}{d} \mu\left(\frac{n}{d}\right) \Biggl[k^2 + 
+           \sum_{b=\pm 1} \\ 
+          & \phantom{=\sum\ } + 
+	  \sum_{j=1}^{\left\lfloor \frac{\sqrt{24k-23}-b}{6} \right\rfloor} (-1)^j 
+          \left(k-\frac{j(3j+b)}{2}\right)^2\Biggr] \\ 
+      n^s & = \sum_{k=1}^n \sum_{d|n} \frac{p(d-k)}{\sigma_t(d)} \mu\left(\frac{n}{d}\right) 
+          \Biggl[\sigma_t(k)\sigma_s(k) \\ 
+          & \phantom{=\sum\ } + 
+          \sum_{b=\pm 1} \sum_{j=1}^{\left\lfloor \frac{\sqrt{24k+1}-b}{6} \right\rfloor} (-1)^j 
+          \sigma_t\left(k-\frac{j(3j+b)}{2}   \right)\sigma_s\left(k-\frac{j(3j+b)}{2}\right)\Biggr]. 
+      \end{align*}
+      }
+
+\end{itemize}
+
+\end{frame}
+
+%----------------------------------------------------------------------------------------
+
+\end{document} 
