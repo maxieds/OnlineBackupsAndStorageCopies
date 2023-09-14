@@ -34,4 +34,4 @@
 
 * reverse lookup 225 phone numbers from SJSS funeral (which ones correspond to which names?)
 * Windows/China screenshots: have the NY-to-CHI traceroute maps from FL (post if so)
-* make YouTube profile for `maxieds` replicate the FL profile videos (then do tasks above) 
+* make YouTube profile for `maxieds` replicate the FL profile videos (then do tasks above; names of videos uploaded should allow to replicate) 
