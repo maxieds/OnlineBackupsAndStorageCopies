@@ -1,0 +1,749 @@
+{
+  "messages": [
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:07:42 PM UTC",
+      "text": "Have you got it?",
+      "topic_id": "QmqjbQsUwb0"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:07:58 PM UTC",
+      "text": "Put you in.",
+      "topic_id": "VRbp_1C84ow"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:09:44 PM UTC",
+      "text": "Yes...",
+      "topic_id": "cJQt_YXlwUg"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:12:37 PM UTC",
+      "text": "☺",
+      "topic_id": "wMglj9X_KvU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:48:02 PM UTC",
+      "text": "I am a gamboy.",
+      "topic_id": "5rvxdmrXWoA"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:48:04 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-16.jpg",
+          "export_name": "File-2020-03-16.jpg"
+        }
+      ],
+      "topic_id": "njYdX3T4yE4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 16, 2020 at 11:48:59 PM UTC",
+      "text": "Get Brandye to install this. Then we can all be a family!",
+      "topic_id": "YuOJXVp5Rms"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 17, 2020 at 12:02:06 AM UTC",
+      "text": "The challah bread pudding is good.",
+      "topic_id": "bY9RSBu0Gfg"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 17, 2020 at 12:39:53 AM UTC",
+      "text": "You have an appointment with my adviser to talk about Don\u0027s stubbornness and stupidity re the virus tomorrow at 12 pm. I will be in touch.",
+      "topic_id": "drcQf6IDw0o"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 17, 2020 at 12:54:09 AM UTC",
+      "text": "I sent you the scheduling reminder for tomorrow.",
+      "topic_id": "G1wApLQahE0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 17, 2020 at 10:22:56 PM UTC",
+      "text": "Kushy is so perfect",
+      "topic_id": "h6jkwW7LmXg"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 17, 2020 at 10:41:09 PM UTC",
+      "text": "Kush brought me Eeks",
+      "topic_id": "G3gTANMB6oU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, March 21, 2020 at 12:54:24 AM UTC",
+      "text": "Did Don make it home safely?",
+      "topic_id": "69Th1pYOCxw"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, March 21, 2020 at 2:19:35 PM UTC",
+      "text": "Yes.",
+      "topic_id": "Lb2BOiHy0Co"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 6:23:00 PM UTC",
+      "text": "Show this to Don...",
+      "topic_id": "Nu-TWzf74nI"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 6:23:18 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "Screenshot from 2020-03-25 14-22-23.png",
+          "export_name": "File-Screenshot from 2020-03-25 14-22-23.png"
+        }
+      ],
+      "topic_id": "_0qkUMDAEZw"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 6:23:45 PM UTC",
+      "text": "Can\u0027t talk until my groceries are delivered (within 5 hours)",
+      "topic_id": "CiabTFHZUGE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 7:27:04 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-25.jpg",
+          "export_name": "File-2020-03-25.jpg"
+        }
+      ],
+      "topic_id": "c7ZYiZzXhN0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 7:27:17 PM UTC",
+      "text": "1.5 hours later, my food has arrived!",
+      "topic_id": "pGbxUUmvi9I"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 7:33:55 PM UTC",
+      "text": "The total after replacements out of stock was $230. The extra $36 I just shifted to Don will go towards my Chewy order for Kush in the next few days.",
+      "topic_id": "MhKvodHZh6Q"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, March 25, 2020 at 8:13:00 PM UTC",
+      "text": "You can call me if you like. I will be up studying the probability material for a while.",
+      "topic_id": "Kbo1mUPNZxI"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 6:07:40 PM UTC",
+      "text": "I think I proved a big result. Based on the morning and past experience with this level of delicate technical mathematics, there are surely flaws. But the central ideas are there. This could be a really big paper for me in a year before I graduate.",
+      "topic_id": "UbsB-PhYyic"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 6:08:43 PM UTC",
+      "text": "As I used to tell Don \"Damn I\u0027m good!\" I\u0027m also due for a bigger paper than usual. For whatever that\u0027s worth.",
+      "topic_id": "VRBTPorZvh4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 6:08:58 PM UTC",
+      "text": "Pray for me!",
+      "topic_id": "HhYZ2staK8E"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 6:10:39 PM UTC",
+      "text": "Is it tomorrow?",
+      "topic_id": "dm5EKMz94to"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 6:21:16 PM UTC",
+      "text": "No. Next week.",
+      "topic_id": "tsFKopwpmQ8"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 6:22:47 PM UTC",
+      "text": "I meant pray that I\u0027m right about the big problem proof. This is the big next step in the long term. Better than my thesis will be. If the proof is correct, or correctable, then it will end up in a top tier journal.",
+      "topic_id": "37dGbCJeJuE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 8:08:46 PM UTC",
+      "text": "https://youtu.be/m0-OYwzGEOo",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 28,
+          "youtube_metadata": {
+            "id": "m0-OYwzGEOo",
+            "start_time": 0
+          }
+        }
+      ],
+      "topic_id": "nGi0XecVKNw"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:05:14 PM UTC",
+      "text": "https://www.google.com/amp/s/amp.theatlantic.com/amp/article/608719/",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 68,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://www.google.com/amp/s/amp.theatlantic.com/amp/article/608719/"
+            }
+          }
+        }
+      ],
+      "topic_id": "Y6GUiHG3u1E"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:05:16 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-26.png",
+          "export_name": "File-2020-03-26.png"
+        }
+      ],
+      "topic_id": "XGcPRGo6d2E"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:52:18 PM UTC",
+      "text": "Is Brandywine still sober? I owe her shoes next Friday if so.",
+      "topic_id": "53OLS036CN4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 27, 2020 at 12:01:53 AM UTC",
+      "text": "Here’s a song for you… Mother Mother by Tracy Bonham\nhttps://open.spotify.com/track/6WGaVdhY8uMWMgxiKpdLVy?si\u003d-JliT62MS4iNXp6Qw8NgrQ",
+      "annotations": [
+        {
+          "start_index": 53,
+          "length": 79,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://open.spotify.com/track/6WGaVdhY8uMWMgxiKpdLVy?si\u003d-JliT62MS4iNXp6Qw8NgrQ"
+            }
+          }
+        }
+      ],
+      "topic_id": "x4kxdPdY_1s"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 3:55:55 AM UTC",
+      "text": "Tell the bitch I decided maybe for her birthday.",
+      "topic_id": "r8_OFe1tnzc"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 3:56:11 AM UTC",
+      "text": "I\u0027m doing well at school all things considering.",
+      "topic_id": "WUsn_ttHJYw"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 3:56:50 AM UTC",
+      "text": "Kushy bear is spoiled and attitudinal when she doesn\u0027t get her way.",
+      "topic_id": "i9azeKRUcqI"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 6:32:21 PM UTC",
+      "text": "Tour care package is on its way.  Should be there by Thursday.",
+      "topic_id": "MX-4MOiR_1U"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 1, 2020 at 4:49:21 PM UTC",
+      "text": "Sent the belt order confirmation to you email.",
+      "topic_id": "T_vHvC-6MVM"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 1, 2020 at 4:49:47 PM UTC",
+      "text": "https://slidebelts.com/collections/belts/products/distressed-black-checkered-belt",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 81,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://slidebelts.com/collections/belts/products/distressed-black-checkered-belt"
+            }
+          }
+        }
+      ],
+      "topic_id": "apoEtD4z4p0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 1, 2020 at 4:50:21 PM UTC",
+      "text": "https://slidebelts.com/collections/belts/products/steel-grey-belt",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 65,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://slidebelts.com/collections/belts/products/steel-grey-belt"
+            }
+          }
+        }
+      ],
+      "topic_id": "jbMquwVwWiA"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Sunday, April 5, 2020 at 11:21:44 PM UTC",
+      "text": "Of course! 678 510 8410 -- Michael Lacey",
+      "topic_id": "B9Lq_xY2qU0"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 6, 2020 at 10:50:39 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-04-06.jpg",
+          "export_name": "File-2020-04-06.jpg"
+        }
+      ],
+      "topic_id": "Jz8FI2KcbNM"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 6, 2020 at 10:50:55 PM UTC",
+      "text": "Just hanging out.",
+      "topic_id": "v64jsqmB3hg"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 6, 2020 at 11:34:19 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-04-06.jpg",
+          "export_name": "File-2020-04-06.jpg"
+        }
+      ],
+      "topic_id": "PIe_0FcncLs"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 6, 2020 at 11:36:02 PM UTC",
+      "text": "😈",
+      "topic_id": "5UmcOdZBj1U"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 6, 2020 at 11:57:25 PM UTC",
+      "text": "https://deadline.com/2020/04/white-house-covid-19-coordinator-dont-go-to-grocery-store-or-pharmacy-unless-essential-1202900889/",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 127,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://deadline.com/2020/04/white-house-covid-19-coordinator-dont-go-to-grocery-store-or-pharmacy-unless-essential-1202900889/"
+            }
+          }
+        }
+      ],
+      "topic_id": "bQdUik4tDFs"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 7:47:37 PM UTC",
+      "text": "My adviser bought me a new Thinkpad. It arrives in a month.",
+      "topic_id": "vmUmbD681eg"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, April 9, 2020 at 10:18:11 PM UTC",
+      "text": "Call me.",
+      "topic_id": "nbuUXCnEdOc"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 11, 2020 at 9:19:51 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-04-11.jpg",
+          "export_name": "File-2020-04-11.jpg"
+        }
+      ],
+      "topic_id": "diFPqW_QFEk"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 11, 2020 at 9:20:18 PM UTC",
+      "text": "Our outing.",
+      "topic_id": "hlnwYBH6uNU"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 11, 2020 at 9:20:58 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-04-11.jpg",
+          "export_name": "File-2020-04-11.jpg"
+        }
+      ],
+      "topic_id": "1-YxA0ntamY"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 11, 2020 at 9:20:58 PM UTC",
+      "text": "Nice",
+      "topic_id": "6CnhNgFO4Rs"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 11, 2020 at 9:21:13 PM UTC",
+      "text": "Needed unscented.",
+      "topic_id": "jYiU-zyYP58"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 11, 2020 at 9:27:47 PM UTC",
+      "text": "Where was this?",
+      "topic_id": "uzqSjyQg-rg"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Sunday, April 12, 2020 at 12:32:00 AM UTC",
+      "text": "Tell Brandy I don\u0027t have her number anymore.",
+      "topic_id": "gM__HiGvmyI"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Sunday, April 12, 2020 at 4:45:34 PM UTC",
+      "text": "Wal-Mart.",
+      "topic_id": "t5vIAxRp-ww"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 13, 2020 at 12:41:17 AM UTC",
+      "text": "Call me.",
+      "topic_id": "J9by947GQEA"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 13, 2020 at 2:24:14 AM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-04-12.jpg",
+          "export_name": "File-2020-04-12.jpg"
+        }
+      ],
+      "topic_id": "wACycYcKxt8"
+    },
+    {
+      "creator": {
+        "name": "Sarah Schmidt",
+        "email": "scubed54@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 13, 2020 at 2:24:53 AM UTC",
+      "text": "Do you remember who that is ?  It was in California.",
+      "topic_id": "yysb9JSPWV0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, April 13, 2020 at 2:25:18 AM UTC",
+      "text": "No?",
+      "topic_id": "RUinEgeVrdc"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 21, 2020 at 5:25:05 AM UTC",
+      "text": "It\u0027s very important.to me that you get up and come to Atlanta first thing in the morning.",
+      "topic_id": "SN1-IwQAoDE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 21, 2020 at 5:25:56 AM UTC",
+      "text": "I received some very disturbing forms of email and chat conversations. This is giving me extreme anxiety.",
+      "topic_id": "9iumf9uEzCw"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 21, 2020 at 5:26:58 AM UTC",
+      "text": "Never go back to Jagar\u0027s office. He is a hateful nasty sob that will screw his patients in unacceptable unethical ways.",
+      "topic_id": "xgvIgtagf3I"
+    }
+  ]
+}
