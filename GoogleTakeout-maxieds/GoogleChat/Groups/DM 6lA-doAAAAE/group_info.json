@@ -1,0 +1,13 @@
+{
+  "members": [
+    {
+      "name": "Alex Ionut",
+      "user_type": "Human"
+    },
+    {
+      "name": "Maxie Schmidt",
+      "email": "maxieds@gmail.com",
+      "user_type": "Human"
+    }
+  ]
+}
