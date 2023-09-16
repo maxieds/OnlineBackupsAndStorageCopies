@@ -7,3 +7,8 @@
 * `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2020/VID_20201208_054856088.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2020/VID_20201208_055758089.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2020/VID_20201208_060004444.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20220818_020345508.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20220818_024146590.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20220831_215236297.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20220831_220931475.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20221022_011454560.mp4` (archived at maxieds85v6@GoogleDrive)
