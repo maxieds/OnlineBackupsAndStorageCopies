@@ -1,0 +1,15 @@
+{
+  "name": {
+    "givenName": "Maxie",
+    "familyName": "Schmidt",
+    "formattedName": "Maxie Schmidt"
+  },
+  "displayName": "Maxie Schmidt",
+  "emails": [{
+    "value": "maxieds@gmail.com"
+  }],
+  "birthday": "0000-11-25",
+  "gender": {
+    "type": "female"
+  }
+}
