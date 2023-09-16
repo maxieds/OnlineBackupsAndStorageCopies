@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220628_190148.jpg",
+  "description": "",
+  "imageViews": "8",
+  "creationTime": {
+    "timestamp": "1666996326",
+    "formatted": "Oct 28, 2022, 10:32:06 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1656457308",
+    "formatted": "Jun 28, 2022, 11:01:48 PM UTC"
+  },
+  "geoData": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPjb6oIPabPYWyL-M_myB-ciiou_Dh0ThCALCtX",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": "Messages"
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
