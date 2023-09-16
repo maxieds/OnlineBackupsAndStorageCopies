@@ -1,0 +1,44 @@
+{
+  "messages": [
+    {
+      "creator": {
+        "name": "Simon Yorkston",
+        "email": "simon.yorkston@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, July 26, 2018 at 8:27:36 AM UTC",
+      "text": "Hi Maxie. Feel free to shoot me a message here. As soon as we\u0027re mutually online we can get in touch. You\u0027ve got a guest and I\u0027m likewise on the road today!",
+      "topic_id": "INpfGByyTg4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, July 26, 2018 at 12:30:13 PM UTC",
+      "text": "I might need another 30-45 minutes to get ready. Are you going to be able to talk in the next hour or so?",
+      "topic_id": "xiKNEUfl_QI"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, July 26, 2018 at 1:16:47 PM UTC",
+      "text": "I also emailed you a list of some questions / talking points I have for the phone call. Please give me an estimate of when you will want to talk.",
+      "topic_id": "KSE_ekTFcfE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, July 26, 2018 at 9:00:20 PM UTC",
+      "text": "I think we\u0027re going to need to continue this another day. Please email me with the times you are available for the rest of this and early next week so we can set something up.",
+      "topic_id": "gsDDOn5nzHw"
+    }
+  ]
+}

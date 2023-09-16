@@ -1,0 +1,14 @@
+{
+  "members": [
+    {
+      "name": "Simon Yorkston",
+      "email": "simon.yorkston@gmail.com",
+      "user_type": "Human"
+    },
+    {
+      "name": "Maxie Schmidt",
+      "email": "maxieds@gmail.com",
+      "user_type": "Human"
+    }
+  ]
+}
