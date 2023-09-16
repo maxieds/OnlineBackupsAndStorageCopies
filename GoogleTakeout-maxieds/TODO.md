@@ -15,3 +15,4 @@
 * `GoogleTakeout-maxieds/GooglePhotos/GoogleHangouts-Photos/2019-05-05(1)` (archived at maxieds85v6@GoogleDrive)
 * `GoogleTakeout-maxieds/GooglePhotos/GoogleHangouts-Photos/2019-12-20` (archived at maxieds85v6@GoogleDrive)
 * `GoogleTakeout-maxieds/GooglePhotos/GoogleHangouts-Photos/video-20190321_162704.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GoogleLocationHistory/Records.json` (archived at maxieds85v6@GoogleDrive)
