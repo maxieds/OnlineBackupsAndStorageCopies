@@ -1,0 +1,36 @@
+{
+  "title": "Screenshot_20221028-172613.png",
+  "description": "",
+  "imageViews": "12",
+  "creationTime": {
+    "timestamp": "1667010165",
+    "formatted": "Oct 29, 2022, 2:22:45 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1666999573",
+    "formatted": "Oct 28, 2022, 11:26:13 PM UTC"
+  },
+  "geoData": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMvgfsS8ThaaYoED53Lelmp7mJnLKJ4KV7gDMOt",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
