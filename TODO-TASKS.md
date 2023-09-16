@@ -4,10 +4,9 @@
 
 ### Google account: maxieds
 
-* Backup all data from Google Photos, Hangouts, and Maps data (including starred places and MyMaps), Location Data -- See [takeout.google.com](takeout.google.com)
-* Gmail emails with attachments (Sent and Starred folders; Notebook list for JZ others with FB attachments)
+* Gmail emails with attachments (Sent and Starred folders; labels)
 * `legal-records-prep/working-coarse-org/_videos/RPReplay*.mp4` backups to another Google Drive account (some in directory archived at maxieds85v6@GoogleDrive)?
-* Any other Google Takeout data of interest?
+* Any other Google Takeout data of interest: YouTube -- See [takeout.google.com](takeout.google.com)
 * Google Drive `Storage/` folder interesting contents
 
 ### Google accounts: maxieds85v3, maxieds85v5
