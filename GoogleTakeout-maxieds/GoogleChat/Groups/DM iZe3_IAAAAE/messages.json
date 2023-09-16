@@ -1,0 +1,252 @@
+{
+  "messages": [
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 3:47:53 PM UTC",
+      "text": "adding you to my contacts...",
+      "topic_id": "cBJxQtiAuX4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 4:37:00 PM UTC",
+      "text": "Are you going to be around later this afternoon / tonight. I\u0027m probably tied up for the next 4 hours or so with school.",
+      "topic_id": "nw1LMJbd0xw"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 4:37:49 PM UTC",
+      "text": "Yep ping me when you\u0027re ready.",
+      "topic_id": "R3rRJBOGS-4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 9:59:44 PM UTC",
+      "text": "There\u0027s a new fixed release of the app on play store (just uploaded it). Let\u0027s talk in a little bit after that gets rolled out.",
+      "topic_id": "EXcJwPq2s3o"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:00:10 PM UTC",
+      "text": "Ok I\u0027ll fetch it",
+      "topic_id": "i-r8KNfCt0g"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:04:44 PM UTC",
+      "text": "hmm my pc sees the 0.0.9 but the phone still sees the 0.0.8, it will need some time probably to get it synced",
+      "topic_id": "faB1y7pVrIo"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:06:02 PM UTC",
+      "text": "There\u0027s always the signed app on my GitHub site. It should be the same version I just uploaded to the store site.",
+      "topic_id": "QKbrFxv62k8"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:06:05 PM UTC",
+      "text": "btw it would be nice to see the version from the application itself",
+      "topic_id": "Z4BpyqEZ__o"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:06:18 PM UTC",
+      "text": "ok I\u0027ll get it on github",
+      "topic_id": "x0biMs9nO8g"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:08:28 PM UTC",
+      "text": "incompatible signatures, I\u0027ve to remove the google play version first, I thought they were both signed with your same key?",
+      "topic_id": "9ZeApsCrZMk"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:09:56 PM UTC",
+      "text": "whatever, 0.0.9 installed :)",
+      "topic_id": "4jFTRYD6Vjc"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:10:58 PM UTC",
+      "text": "hmm first launch by plugging the cham, log tab empty  😕 I had to close and open the app again",
+      "topic_id": "45QQM9KdBng"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:11:37 PM UTC",
+      "text": "periph \u0026 log mode visible again, nice  ☺",
+      "topic_id": "FeMfyBR_VZU"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:12:32 PM UTC",
+      "text": "now about the basic usages, I try to understand... ",
+      "topic_id": "lUCN_lLgt2Q"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:13:11 PM UTC",
+      "text": "tools menu / shell / uidsize? (or whatever). I press, nothing happens I\u0027ve to look to the log tab and there I see a nicely formatted info entry",
+      "topic_id": "3MEPhu9Jvrg"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:13:59 PM UTC",
+      "text": "tools menu / device cmds / identify : again no feedback, and when I go to the log tab I see some info but not anymore with the nice layout, more raw result",
+      "topic_id": "H_JU-yuoEPY"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:14:10 PM UTC",
+      "text": "is that the intended behaviour?",
+      "topic_id": "4tTXqPCs60s"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:15:13 PM UTC",
+      "text": "also the shell / version returns a \"invalid command usage\"",
+      "topic_id": "rZSt59Bd310"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:15:28 PM UTC",
+      "text": "Do you want to chat over voice?",
+      "topic_id": "8pX_X2RGpUg"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:15:43 PM UTC",
+      "text": "we may try, let me fetch my headphone",
+      "topic_id": "_VO3soDCbzM"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 10:30:34 PM UTC",
+      "text": "we may try this https://play.google.com/store/apps/details?id\u003dnfo.oneassist ",
+      "annotations": [
+        {
+          "start_index": 16,
+          "length": 59,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://play.google.com/store/apps/details?id\u003dnfo.oneassist"
+            }
+          }
+        }
+      ],
+      "topic_id": "v-9ycA6PL20"
+    },
+    {
+      "creator": {
+        "name": "Philippe Teuwen (Doegox)",
+        "email": "yobibe@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, January 10, 2018 at 11:12:49 PM UTC",
+      "text": "https://github.com/nfc-tools/libfreefare",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 40,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://github.com/nfc-tools/libfreefare"
+            }
+          }
+        }
+      ],
+      "topic_id": "puvSASn889A"
+    }
+  ]
+}
