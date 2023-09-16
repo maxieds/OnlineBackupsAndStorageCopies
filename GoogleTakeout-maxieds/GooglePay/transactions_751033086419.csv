@@ -1,0 +1,63 @@
+Time,Transaction ID,Description,Product,Payment method,Status,Amount
+"Sep 8, 2023, 6:40 PM",SOP.3358-0948-9077-36532..4,2 TB (Google One),Google One,Visa •••• 5775,Complete,USD 9.99
+"Aug 8, 2023, 6:40 PM",SOP.3358-0948-9077-36532..3,2 TB (Google One),Google One,Visa •••• 5775,Complete,USD 9.99
+"Jul 8, 2023, 6:40 PM",SOP.3358-0948-9077-36532..2,2 TB (Google One),Google One,Visa •••• 5775,Complete,USD 9.99
+"Jun 8, 2023, 6:40 PM",SOP.3358-0948-9077-36532..1,2 TB (Google One),Google One,Visa •••• 5775,Complete,USD 9.99
+"May 8, 2023, 6:40 PM",SOP.3358-0948-9077-36532..0,2 TB (Google One),Google One,Visa •••• 5775,Complete,USD 9.99
+"Mar 25, 2023, 9:19 PM",SOP.3358-0948-9077-36532,2 TB (Google One),Google One,Visa •••• 5775,Complete,USD 9.99
+"Mar 25, 2023, 8:24 AM",SOP.3309-5252-2306-21764,200 GB (Google One),Google One,Visa •••• 5775,Complete,USD 2.99
+"Mar 18, 2023, 7:50 AM",SOP.3378-5887-3598-24794..35,100 GB (Google One),Google One,"Visa •••• 0954,Visa •••• 5775",Complete,USD 1.99
+"Feb 18, 2023, 6:50 AM",SOP.3378-5887-3598-24794..34,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Jan 18, 2023, 6:50 AM",SOP.3378-5887-3598-24794..33,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Dec 18, 2022, 6:50 AM",SOP.3378-5887-3598-24794..32,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Nov 18, 2022, 6:50 AM",SOP.3378-5887-3598-24794..31,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Oct 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..30,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Sep 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..29,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Aug 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..28,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Jul 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..27,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Jun 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..26,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"May 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..25,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Apr 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..24,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Mar 18, 2022, 7:50 AM",SOP.3378-5887-3598-24794..23,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Feb 18, 2022, 6:50 AM",SOP.3378-5887-3598-24794..22,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Jan 18, 2022, 6:50 AM",SOP.3378-5887-3598-24794..21,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Dec 18, 2021, 6:50 AM",SOP.3378-5887-3598-24794..20,100 GB (Google One),Google One,Visa •••• 5775,Complete,USD 1.99
+"Nov 18, 2021, 8:07 AM",SOP.3378-5887-3598-24794..19,100 GB (Google One),Google One,"Visa •••• 0954,Visa •••• 5775",Complete,USD 1.99
+"Oct 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..18,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Sep 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..17,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Aug 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..16,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Jul 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..15,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Jun 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..14,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"May 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..13,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Apr 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..12,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Mar 18, 2021, 7:50 AM",SOP.3378-5887-3598-24794..11,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Feb 18, 2021, 6:50 AM",SOP.3378-5887-3598-24794..10,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Jan 18, 2021, 6:50 AM",SOP.3378-5887-3598-24794..9,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Dec 18, 2020, 6:50 AM",SOP.3378-5887-3598-24794..8,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Nov 18, 2020, 6:50 AM",SOP.3378-5887-3598-24794..7,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Oct 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..6,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Sep 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..5,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Aug 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..4,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Jul 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..3,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Jun 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..2,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"May 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..1,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Apr 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794..0,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Mar 18, 2020, 7:50 AM",SOP.3378-5887-3598-24794,100 GB (Google One),Google One,Visa •••• 0954,Complete,USD 1.99
+"Feb 16, 2020, 12:23 PM",SOP.3304-7593-3958-54618..9,200 GB (Google One),Google One,Mastercard •••• 4673,Cancelled,USD 2.99
+"Jan 17, 2020, 12:24 PM",SOP.3304-7593-3958-54618..8,200 GB (Google One),Google One,Mastercard •••• 4673,Complete,USD 2.99
+"Dec 17, 2019, 12:24 PM",SOP.3304-7593-3958-54618..7,200 GB (Google One),Google One,Mastercard •••• 4673,Complete,USD 2.99
+"Nov 17, 2019, 12:24 PM",SOP.3304-7593-3958-54618..6,200 GB (Google One),Google One,Mastercard •••• 4673,Complete,USD 2.99
+"Oct 20, 2019, 1:24 PM",SOP.3304-7593-3958-54618..5,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"Sep 17, 2019, 1:24 PM",SOP.3304-7593-3958-54618..4,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"Aug 17, 2019, 1:24 PM",SOP.3304-7593-3958-54618..3,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"Jul 17, 2019, 1:24 PM",SOP.3304-7593-3958-54618..2,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"Jun 17, 2019, 1:24 PM",SOP.3304-7593-3958-54618..1,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"May 17, 2019, 1:24 PM",SOP.3304-7593-3958-54618..0,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"Apr 17, 2019, 1:24 PM",SOP.3304-7593-3958-54618,200 GB (Google One),Google One,Visa •••• 0954,Complete,USD 2.99
+"Dec 27, 2018, 11:54 AM",GPA.3355-0284-4899-76159,Pro version (Incognito - Spyware Detector and Phone Security),Google Play Apps,Visa •••• 0954,Complete,USD 1.49
+"Jan 30, 2018, 11:42 PM",GPA.3393-8960-3621-44048,Shortcut Master (Secret Codes),Google Play Apps,Visa •••• 0954,Refunded,USD 0.00
+"Jan 30, 2018, 11:42 PM",GPA.3393-8960-3621-44048,Shortcut Master (Secret Codes),Google Play Apps,Visa •••• 0954,Cancelled,USD 5.48
+"Jan 30, 2018, 10:39 PM",GPA.3310-8448-8136-54296,Premium Upgrade (File Explorer Root Browser),Google Play Apps,Visa •••• 0954,Complete,USD 0.99
+"Jan 26, 2018, 3:10 AM",GPA.3398-3924-0062-79543,SpotTheSpy,Google Play Apps,Visa •••• 0954,Complete,USD 1.32
+"Jan 1, 2018, 5:28 PM",05912476870148976978.registration-d3bb0817-4cf4-4a35-a90c-4ef29822acac,Google Play,Google Play Developer Token,Visa •••• 2449,Complete,USD 25.00
+"Dec 23, 2017, 12:01 AM",GPA.3328-6348-5809-87254,NFC Relay,Google Play Apps,Visa •••• 0954,Complete,USD 1.00
