@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20221004_172709394.jpg",
+  "description": "",
+  "imageViews": "9",
+  "creationTime": {
+    "timestamp": "1667009907",
+    "formatted": "Oct 29, 2022, 2:18:27 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1664926030",
+    "formatted": "Oct 4, 2022, 11:27:10 PM UTC"
+  },
+  "geoData": {
+    "latitude": 35.150746,
+    "longitude": -106.499128,
+    "altitude": 1809.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 35.150746,
+    "longitude": -106.499128,
+    "altitude": 1809.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMuAdJ13t0AzOT4-osoL9UMIdr24eZTtI9-8GCh",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
