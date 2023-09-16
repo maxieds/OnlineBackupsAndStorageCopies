@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20221005_145428020.jpg",
+  "description": "",
+  "imageViews": "9",
+  "creationTime": {
+    "timestamp": "1667010083",
+    "formatted": "Oct 29, 2022, 2:21:23 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1665003269",
+    "formatted": "Oct 5, 2022, 8:54:29 PM UTC"
+  },
+  "geoData": {
+    "latitude": 35.150723,
+    "longitude": -106.49915100000001,
+    "altitude": 1809.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 35.150723,
+    "longitude": -106.49915100000001,
+    "altitude": 1809.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPQJkt7v2tX_1EZZiuDHAGAleZ5G4i9B_NLjuS1",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
