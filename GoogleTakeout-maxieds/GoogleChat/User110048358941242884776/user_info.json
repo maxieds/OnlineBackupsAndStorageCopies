@@ -1,0 +1,85 @@
+{
+  "user": {
+    "name": "Maxie Schmidt",
+    "email": "maxieds@gmail.com",
+    "user_type": "Human"
+  },
+  "membership_info": [
+    {
+      "group_id": "DM g-n9PIAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM hRY7LoAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM iZe3_IAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM lhB8QoAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM lqVSHIAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM rJwqeoAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM tEPAnIAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM uXUAHIAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM vBrlhoAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM wfY9oYAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM 3t19loAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM 6lA-doAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM 7bS2gYAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM 9wS7lYAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM -zsK_oAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM -2v5OIAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "DM _-grNoAAAAE",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "Space AAAAfvVeR9Y",
+      "membership_state": "MEMBER_JOINED"
+    },
+    {
+      "group_id": "Space AAAAslpmVZk",
+      "membership_state": "MEMBER_JOINED"
+    }
+  ]
+}
