@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20221108_235444893.jpg",
+  "description": "",
+  "imageViews": "15",
+  "creationTime": {
+    "timestamp": "1667985631",
+    "formatted": "Nov 9, 2022, 9:20:31 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1667976885",
+    "formatted": "Nov 9, 2022, 6:54:45 AM UTC"
+  },
+  "geoData": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 0.0,
+    "longitude": 0.0,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipNKbfIUZ3uCNu3Vz27NFe_yp7VLcIy1eiuolx0R",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
