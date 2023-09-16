@@ -1,0 +1,956 @@
+{
+  "messages": [
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, August 9, 2019 at 11:25:34 PM UTC",
+      "text": "Are you online?",
+      "topic_id": "Av2z6bXzVrs"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 20, 2020 at 2:14:08 AM UTC",
+      "text": "Check this out...",
+      "topic_id": "Dp0yNEHQBnE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 20, 2020 at 2:14:20 AM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-19.png",
+          "export_name": "File-2020-03-19.png"
+        }
+      ],
+      "topic_id": "jBHdQP0pNbU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 8:09:01 PM UTC",
+      "text": "https://youtu.be/m0-OYwzGEOo",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 28,
+          "youtube_metadata": {
+            "id": "m0-OYwzGEOo",
+            "start_time": 0
+          }
+        }
+      ],
+      "topic_id": "xwL_-_Ucv5E"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 8:51:37 PM UTC",
+      "text": "sad to hear!",
+      "topic_id": "odgu2vdIkrA"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 8:53:09 PM UTC",
+      "text": "BTW I studied the plans by Elizabeth warren and seems that she had amazing plans. Last time I did not know how amazing they were. Just wanted to say it. Sorry she could not survive. She could be a great president.",
+      "topic_id": "dwMg9v1Ky30"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:01:10 PM UTC",
+      "text": "She\u0027s my favorite. Maybe too liberal for the mainstream.",
+      "topic_id": "Vtu6WF9TsC0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:01:24 PM UTC",
+      "text": "My sister\u0027s ex\u0027s name is Justin btw...",
+      "topic_id": "bnCdjU6WEMU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:03:14 PM UTC",
+      "text": "https://www.google.com/amp/s/amp.washingtontimes.com/news/2017/oct/25/elizabeth-warrens-me-too-story-inconsistent-previo/",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 121,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://www.google.com/amp/s/amp.washingtontimes.com/news/2017/oct/25/elizabeth-warrens-me-too-story-inconsistent-previo/"
+            }
+          }
+        }
+      ],
+      "topic_id": "hK2OuSsIK48"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:04:56 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-26.png",
+          "export_name": "File-2020-03-26.png"
+        }
+      ],
+      "topic_id": "vG2ieUq49kA"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, March 26, 2020 at 9:04:57 PM UTC",
+      "text": "https://www.google.com/amp/s/amp.theatlantic.com/amp/article/608719/",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 68,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://www.google.com/amp/s/amp.theatlantic.com/amp/article/608719/"
+            }
+          }
+        }
+      ],
+      "topic_id": "rJAbbXlyU80"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 27, 2020 at 5:39:45 AM UTC",
+      "text": "I did not know about her being harassed experience. I am getting surprised, I never thought US has this many attacks, I mean I am coming from a country with a  lot of sick male; but my picture of US was fairly milder. ",
+      "topic_id": "Oq0-ec2BoL8"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 27, 2020 at 5:41:04 AM UTC",
+      "text": "I could not follow what you mean by name of your sister\u0027s ex.",
+      "topic_id": "pF3LVD81ZTA"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 27, 2020 at 5:42:01 AM UTC",
+      "text": "For the corona virus, I really agree that there should be a vast plan to control the situation. I really hope there will be!",
+      "topic_id": "P7pu8pAPKvY"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 27, 2020 at 5:43:59 AM UTC",
+      "text": "In case you did not see: ",
+      "topic_id": "VaRa4aotzTw"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Friday, March 27, 2020 at 5:44:01 AM UTC",
+      "text": "https://elizabethwarren.com/plans",
+      "annotations": [
+        {
+          "start_index": 0,
+          "length": 33,
+          "url_metadata": {
+            "title": "",
+            "snippet": "",
+            "image_url": "",
+            "url": {
+              "private_do_not_access_or_else_safe_url_wrapped_value": "https://elizabethwarren.com/plans"
+            }
+          }
+        }
+      ],
+      "topic_id": "Xp4REq8LL2M"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 6:56:28 PM UTC",
+      "text": "I have new bounds on the Mertens function. Have to check them carefully before I can send them around. If I\u0027m right on this, since our paper is getting cited in the article, we will both get good references on that citation.",
+      "topic_id": "xLX7vCXmyJU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 8:53:42 PM UTC",
+      "text": "Check this out... I bet my adviser a laptop I can pull this off with minor corrections. He\u0027s so beside himself right now with grief from hospice that he couldn\u0027t even help me with my exam on Friday. However, you might find this entertaining with the right context.",
+      "topic_id": "slUEZuncLjU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 8:54:05 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-30.jpg",
+          "export_name": "File-2020-03-30.jpg"
+        }
+      ],
+      "topic_id": "fNF6QMxigSE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 8:55:01 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-30.jpg",
+          "export_name": "File-2020-03-30.jpg"
+        }
+      ],
+      "topic_id": "kBxTts8Qddc"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 8:56:23 PM UTC",
+      "text": "Like I mentioned before. I have to be really careful that this is correct so I don\u0027t look foolish sending it around to people. Eventually Bruce said he will ask Kevin Ford to read it. It has to be near perfect since that is a one shot option.",
+      "topic_id": "_P4nP-UMvW0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 8:57:46 PM UTC",
+      "text": "I will not ask Ernie because according to him combinatorial number theory is useless and I will never make progress. Anyone else at GA Tech that should be able to work through this type of argument?",
+      "topic_id": "DP-INwEaB4E"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 8:59:07 PM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-30.jpg",
+          "export_name": "File-2020-03-30.jpg"
+        }
+      ],
+      "topic_id": "GZ4PCSVvgVw"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:13:28 PM UTC",
+      "text": "Wow. That is indeed amazing and if it is correct you will be famous. I suggest you to chack it very very carefully and wait for kevin ford\u0027s response first. He is semigod-level of mastering the technical formula. After his positive response, try to contact more people. That is good that you are progressing.:-)",
+      "topic_id": "D1Y7ZgC7BzU"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:14:02 PM UTC",
+      "text": "Make the peoof for him in most simple case and without any application and the shortest way possible.",
+      "topic_id": "3DjY3vI-BqU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:28:37 PM UTC",
+      "text": "Have you started in on Montgomery and Vaughan yet? The idea started from a DGF result there. There\u0027s more combinatorial flavor to mine than in previous work. In the worst case, I\u0027m off by a factor of x. I still get better than previously known *lower bounds* for M(x), which could be a top tier journal either way. I don\u0027t want to be famous. I just want to be able to tell your current adviser to \"go suck on it\" after proving a bigger result than I was ever really after. I just wanted to beat the best known bounds. If this works, you should really like the argument. It\u0027s delicate and technical, but when you take a step back from all the summations and integral formulas, it is actually very simple. And it doesn\u0027t require knowledge of better bounds on zeta zeros that is the typical argument where everyone gets hung up...",
+      "topic_id": "mmTFUM8dWBY"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:29:25 PM UTC",
+      "text": "Not to say it\u0027s easy or non-trivial, just new.",
+      "topic_id": "j1sQNlAtO0A"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:30:21 PM UTC",
+      "text": "Not easy to notice, but not that difficult overall to prove.",
+      "topic_id": "k2Wz9m_x0Ms"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:31:17 PM UTC",
+      "text": "At some point I will ask you to proof read a more polished draft. I would include you in the avks if it ever gets published.",
+      "topic_id": "7youMI03pdM"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:34:55 PM UTC",
+      "text": "Sure. I really root for your success in your proof. Sorry for not checking the result yet. I also was busy working on pqr problem(weaker version of 105). I will read both of them very soon. Of course I like to see your idea at some point that you like me to do.",
+      "topic_id": "Eh3I-99tHNw"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:35:54 PM UTC",
+      "text": "I understand. There are a lot of simple and clever ideas that someone could prove great result with them.",
+      "topic_id": "JDgEo_65xLE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:37:07 PM UTC",
+      "text": "Let me see if I can get it to pass muster through Bruce and Lacey. I would trust you to read it, but please understand it\u0027s not for collaboration, just an ack at the end for helping me prepare it if/when this ever gets published.",
+      "topic_id": "u4F3WRRv4J8"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:37:53 PM UTC",
+      "text": "Keven Ford should probably be one of the last people to read it. If there\u0027s a glaring error, I don\u0027t want him to be the one that finds it.",
+      "topic_id": "qcNIOgYB5xM"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:40:34 PM UTC",
+      "text": "Oh sure. That is your problem.",
+      "topic_id": "yHa2Nl8domo"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:41:23 PM UTC",
+      "text": "Exactly. I totally agree with you. You need to very carefully check it yourself first.",
+      "topic_id": "9sPzUsEwjqs"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Monday, March 30, 2020 at 9:46:53 PM UTC",
+      "text": "In the process. Can\u0027t be done numerically though. The subsequences along which the function grows (log log) large, are too big. I can triple check my symbolic summations in Mathematica also.",
+      "topic_id": "lAAB0SeqW_E"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 3:55:03 AM UTC",
+      "text": "Found several instances where I\u0027m off by logarithmic factors. This is overall fine. I convinced myself that it is basically doing what it needs to. The key polynomial factor still remains. This is really painful to reconstruct from my working notes. I\u0027m going to have to start keeping better logs of my Mathematica sessions.",
+      "topic_id": "CqvHlJZR3es"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 7:52:28 AM UTC",
+      "text": "I call it my \"hell theorem\". Now I\u0027m convinced it\u0027s accurate, at least up to a trivial lower order term...",
+      "topic_id": "uddyzCrerW8"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 7:52:56 AM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-31.jpg",
+          "export_name": "File-2020-03-31.jpg"
+        }
+      ],
+      "topic_id": "s43ob0ka_eo"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 7:53:40 AM UTC",
+      "text": "The proof is like 2 thin margins pages worth of technical summations, integration, and arguments justifying both. Not fun to debug.",
+      "topic_id": "NrrtgMEomiM"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 7:55:03 AM UTC",
+      "text": "This is how bad Mathematica\u0027s facilities are. At some point when I\u0027m looking for something to do, I\u0027m going to write out sane minded python code that will extract the single dominant term from the hell mess of terms.",
+      "topic_id": "aLWhCkpGDvY"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 7:55:29 AM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-31.jpg",
+          "export_name": "File-2020-03-31.jpg"
+        }
+      ],
+      "topic_id": "1HWpKCMRkL0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 7:56:29 AM UTC",
+      "text": "I believe you\u0027re the only person who hasn\u0027t questioned whether I\u0027m prepared for my exam on Friday. (I am)",
+      "topic_id": "QR1UrIqPnDY"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:22:55 AM UTC",
+      "text": "Seems complicated and struggling. Hopefully you made the proof.",
+      "topic_id": "x7cXJ3b_LfQ"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:23:32 AM UTC",
+      "text": "Honestly I forgot to ask, but also rather to just hope the best for you.",
+      "topic_id": "XFR9Hrn__MY"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:24:02 AM UTC",
+      "text": "Feel free to let me know if you need any help for the exam. I really mean it",
+      "topic_id": "xo7L-rut6A0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:26:01 AM UTC",
+      "text": "I shouldn\u0027t have called it the hell proof. It almost doesn\u0027t work. Just barely edge out a small factor at the end. I\u0027m going to point out again, this may never be numerically tested for a very long while. The subsequences are huge.",
+      "topic_id": "HYGCLflM7fY"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:26:35 AM UTC",
+      "attached_files": [
+        {
+          "original_name": "2020-03-31.jpg",
+          "export_name": "File-2020-03-31.jpg"
+        }
+      ],
+      "topic_id": "dy4xoS-BNPE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:26:50 AM UTC",
+      "text": "The exam will go smoothly. I can handle probability.",
+      "topic_id": "cJibz-oAk-4"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:27:43 AM UTC",
+      "text": "I feel very lucky. But strangely confounded by this. Surely there is a better sequence along which to show unboundedness.",
+      "topic_id": "-SA_7qoJe4k"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:28:31 AM UTC",
+      "text": "I\u0027m thinking of asking Larry Rolen to look at this. He was very encouraging about the problem when he was here a couple of years ago.",
+      "topic_id": "AUjoYAh7o1E"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:29:19 AM UTC",
+      "text": "If I send you a very rough, but spot checked draft today, would you spend an hour or two trying to read through the argument.",
+      "topic_id": "V6wCPYGicBw"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:29:52 AM UTC",
+      "text": "Just again, this will be acknowledged in the avks section should this thing ever get published.",
+      "topic_id": "WJ8y0YKiHGE"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 9:34:03 AM UTC",
+      "text": "It would be great to get some quick feedback, even if it\u0027s not complete right now. I\u0027m also sending it along to Bruce Reznick, but his look at time is not going to be this week most likely. Do not show this to anyone, especially Ernie!",
+      "topic_id": "AporwdX5UtU"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 10:02:52 AM UTC",
+      "text": "Sure, I will look at it by tomorrow. And Larry is a good option. I think it is good to Try to write it in simplest way with least number of notation so others answer you faster.",
+      "topic_id": "4y4XcTGDUkQ"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 10:36:28 AM UTC",
+      "text": "Let me know you received it.",
+      "topic_id": "YmNQwvcVHf8"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 10:53:13 AM UTC",
+      "text": "Also, if you can\u0027t find a PDF copy of Montgomery and Vaughan online, let me know and I will send you one.",
+      "topic_id": "wlL_4ZDGh0s"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 10:54:22 AM UTC",
+      "text": "Thanks. I owe you a gigantic professional favor for this. For example, if all errors can be corrected, and it would make you happier that I not suggest your adviser \"suck on it\", then I can do that. Or something.",
+      "topic_id": "fcJHrhhZ6wc"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 12:05:20 PM UTC",
+      "text": "I have to go to my first online class this afternoon.",
+      "topic_id": "OfPWY776f2k"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 1:01:58 PM UTC",
+      "text": "Whenever you look at this, keep in mind that hat some of these summations are going to be very tricky without a calculator like Mathematica. At some point after the comp exam, I will organize my scratch work better.",
+      "topic_id": "y3qg179b6iU"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 1:08:12 PM UTC",
+      "text": "In particular, the massive expansions you get out of (12) on pp 30-31 are going to be bad and nasty on paper. That\u0027s the image of the computer screen filled with log .... Logs I sent earlier. Whenever you start looking through this, a thumbs up or emotive icon indicating your name nitial impressions is welcome.",
+      "topic_id": "_u05uC6suTA"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 2:32:21 PM UTC",
+      "text": "👣",
+      "topic_id": "egB2ZmAg63k"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 4:43:28 PM UTC",
+      "text": "Any chance to start reading yet?",
+      "topic_id": "VLhDVJ67Jlw"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 4:44:05 PM UTC",
+      "text": "I have class up to next 2 hours. After that I can read.",
+      "topic_id": "YCPh47_vQJs"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 4:45:52 PM UTC",
+      "text": "Thanks.",
+      "topic_id": "yTO2jyS-2mI"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 8:16:16 PM UTC",
+      "text": "Maxie, that is 42 pages, it takes a while for me to read all of it. If you want a fast response, let me know where is the main theorem and its proof. Then I can check just that proof.",
+      "topic_id": "c6QNyWCMDzY"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 8:25:16 PM UTC",
+      "text": "I found a glaring error in the proof. I flipped the intervals. Correctable, but still. I will send along another manuscript with corrections later tonight. What",
+      "topic_id": "RWhJyRqCZV4"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 8:26:47 PM UTC",
+      "text": "Ok. it is fine.",
+      "topic_id": "cDWMS7mKmUM"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 8:27:10 PM UTC",
+      "text": "What I was going to suggest to Lacey is to read it a few times in order, skipping over the technical proofs, just to get a feel for the new argument, then dig into the delicate arguments. It has been a couple of months since I read the first result in MV, so I understand that it might take a while to review.",
+      "topic_id": "lS2b6Tyf-zM"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, March 31, 2020 at 8:36:02 PM UTC",
+      "text": "Yes I agree. It is better to have these kinds of proofs simpler. But well done so far.",
+      "topic_id": "a2j2nRFlPpY"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 1, 2020 at 5:18:19 PM UTC",
+      "text": "Any progress making sense out of my argument?",
+      "topic_id": "JsewT0--iNc"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 1, 2020 at 5:18:45 PM UTC",
+      "text": "It takes the full 40 pages to state and prove. No getting around it.",
+      "topic_id": "SzWLYwstTbw"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 1, 2020 at 5:55:08 PM UTC",
+      "text": "Ok. It is ok. I will try to understand the whole paper. Maybe I can reach back to you at the weekend.",
+      "topic_id": "dA2Sm1Lwv9I"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Thursday, April 2, 2020 at 12:24:30 AM UTC",
+      "text": "Slightly corrected version sent over email.",
+      "topic_id": "3qu3xg9uKr0"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 6:01:18 PM UTC",
+      "text": "Michael Lacey settled up on my bet,  which I haven\u0027t conclusively earned yet, but which is likely to be worthy. I\u0027m getting a new Thinkpad! I bet him a laptop that I could pull off the \"impossible\" with establishing significant lower bounds on M(x). I\u0027m happy, the arguments still need careful checking.",
+      "topic_id": "LGlyo646Beo"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 6:02:44 PM UTC",
+      "text": "How many papers are you and Ernie currently working on? And when do you intend to graduate. I have a humble opinion which I will share at some point that might save you some effort.",
+      "topic_id": "WdDyr55PVSQ"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 9:41:25 PM UTC",
+      "text": "Hi. I am sorry to hear about your illness. Try to check yourself with doctors and I hope you will be fine in near future. Also have a good exam next week.",
+      "topic_id": "dcvSbOXlvWc"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 9:42:08 PM UTC",
+      "text": "I and ernie submitted one paper and we are working on another one. Hopefully we can submit it by the end of summer.",
+      "topic_id": "AYmzToxCHZ8"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 9:42:31 PM UTC",
+      "text": "Sure. Feel free to share your opinion",
+      "topic_id": "pcnm85qDatQ"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 9:43:08 PM UTC",
+      "text": "It is nice that you got a thinkpad. I am glad to hear it.",
+      "topic_id": "AYMKtKnoMvA"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 11:16:04 PM UTC",
+      "text": "Are you anywhere near campus?",
+      "topic_id": "-CFDhjrCKuw"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Tuesday, April 7, 2020 at 11:19:53 PM UTC",
+      "text": "No. I am home.",
+      "topic_id": "ZiH-LqXXBk8"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Wednesday, April 8, 2020 at 5:28:15 AM UTC",
+      "text": "Do you want to see the latest draft of Mertens?",
+      "topic_id": "HwHFDqjRwjk"
+    },
+    {
+      "creator": {
+        "name": "Maxie Schmidt",
+        "email": "maxieds@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Saturday, April 18, 2020 at 5:20:05 AM UTC",
+      "text": "Where did Ernie go to graduate school? He told me it was UGA. Just curious.",
+      "topic_id": "cRixkDytnC4"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Sunday, April 19, 2020 at 6:55:43 AM UTC",
+      "text": "Yes. I guess he was granville\u0027s student in UGA.",
+      "topic_id": "z2eADavWFBs"
+    },
+    {
+      "creator": {
+        "name": "Hamed Moosavi",
+        "email": "moosavi.hamed69@gmail.com",
+        "user_type": "Human"
+      },
+      "created_date": "Sunday, April 19, 2020 at 6:57:06 AM UTC",
+      "text": "Sorry for the late response. I am a very single task person. I was working on my problem and left your report in the moddle of it. I finished(hopefully) mine so I will get back to your notes shortly.",
+      "topic_id": "pd7IHI2Btzs"
+    }
+  ]
+}
