@@ -1,0 +1,36 @@
+{
+  "title": "VID_20220901_085532579.mp4",
+  "description": "",
+  "imageViews": "1",
+  "creationTime": {
+    "timestamp": "1667010434",
+    "formatted": "Oct 29, 2022, 2:27:14 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1662044137",
+    "formatted": "Sep 1, 2022, 2:55:37 PM UTC"
+  },
+  "geoData": {
+    "latitude": 35.1506,
+    "longitude": -106.4991,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 35.1506,
+    "longitude": -106.4991,
+    "altitude": 0.0,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipONv6it-rW4KSA33kgq0oqqn_m08IYsLh4MJZPS",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
