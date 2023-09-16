@@ -1,0 +1,22 @@
+{
+    "Extensions": [
+        {
+            "incognito_enabled": false,
+            "remote_install": false,
+            "disable_reasons": 0,
+            "installed_by_custodian": false,
+            "update_url": "https://clients2.google.com/service/update2/crx",
+            "name": "Google Hangouts",
+            "id": "nckgahadagoaajjgafhacjanaoiihapd",
+            "version": "2019.411.420.3",
+            "enabled": true
+}
+    ],
+    "Extension Settings": [
+        {
+            "extension_id": "nckgahadagoaajjgafhacjanaoiihapd",
+            "value": "[[1553213588660.0,null,true]]",
+            "key": "app_sync_settings"
+}
+    ]
+}
