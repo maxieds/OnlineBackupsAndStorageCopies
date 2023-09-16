@@ -1,0 +1,205 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295116,
+        "longitudeE7": -873549805,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": 450815634
+        },
+        "locationConfidence": 80.53652,
+        "calibratedProbability": 67.46787
+      },
+      "duration": {
+        "startTimestamp": "2019-05-04T22:17:57Z",
+        "endTimestamp": "2019-05-07T00:12:25.434Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303295128,
+      "centerLngE7": -873550394,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 5.245351,
+        "calibratedProbability": 4.3941884
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 4.878171,
+        "calibratedProbability": 4.086591
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 1.6087997,
+        "calibratedProbability": 1.34774
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 1.1491292,
+        "calibratedProbability": 0.96266013
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.1432875,
+        "calibratedProbability": 0.9577664
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 0.9394156,
+        "calibratedProbability": 0.78697675
+      }, {
+        "latitudeE7": 303321287,
+        "longitudeE7": -873561594,
+        "placeId": "ChIJDb_gOce7kIgRtM1nzCXNwgg",
+        "address": "9981 Pandion Trail, Pensacola, FL 32507, USA",
+        "name": "Sunrise by Holiday Builders",
+        "locationConfidence": 0.7590646,
+        "calibratedProbability": 0.6358913
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ6UJ-QwW7kIgRlTy6nYQkxwg",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Georgio\u0027s",
+        "locationConfidence": 0.73556495,
+        "calibratedProbability": 0.6162049
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.70450014,
+        "calibratedProbability": 0.590181
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.4967142,
+        "calibratedProbability": 0.41611245
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295116,
+        "longitudeE7": -873549805,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": 450815634
+        },
+        "locationConfidence": 77.494415,
+        "calibratedProbability": 67.697815
+      },
+      "duration": {
+        "startTimestamp": "2019-05-09T02:58:59.752Z",
+        "endTimestamp": "2019-05-09T20:46:39Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303294925,
+      "centerLngE7": -873547475,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 6.052528,
+        "calibratedProbability": 5.2873864
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 4.38387,
+        "calibratedProbability": 3.829675
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 2.6423073,
+        "calibratedProbability": 2.308275
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 2.3182082,
+        "calibratedProbability": 2.0251477
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 1.3287303,
+        "calibratedProbability": 1.1607565
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.1564031,
+        "calibratedProbability": 1.0102142
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ6UJ-QwW7kIgRlTy6nYQkxwg",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Georgio\u0027s",
+        "locationConfidence": 0.88462687,
+        "calibratedProbability": 0.77279514
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.73214144,
+        "calibratedProbability": 0.6395864
+      }, {
+        "latitudeE7": 303310380,
+        "longitudeE7": -873537130,
+        "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+        "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+        "name": "Mc Cullar Crane Rentals",
+        "locationConfidence": 0.52639073,
+        "calibratedProbability": 0.45984608
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

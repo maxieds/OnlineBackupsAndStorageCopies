@@ -1,0 +1,1042 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303298080,
+        "longitudeE7": -873550329
+      },
+      "endLocation": {
+        "latitudeE7": 304055710,
+        "longitudeE7": -872764140,
+        "placeId": "ChIJ9yrhZDO5kIgRqcjzI0KGBqQ",
+        "address": "120 South New Warrington Road, Pensacola, FL 32507, United States",
+        "name": "Firehouse Subs",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 43.175037
+      },
+      "duration": {
+        "startTimestamp": "2017-03-09T18:11:12.452Z",
+        "endTimestamp": "2017-03-09T18:34:15.386Z"
+      },
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.1990243812266
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.4640517617962767
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.11074820797404915
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303298206,
+          "lngE7": -873553085
+        }, {
+          "latE7": 304066963,
+          "lngE7": -872766799
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 304055710,
+        "longitudeE7": -872764140,
+        "placeId": "ChIJ9yrhZDO5kIgRqcjzI0KGBqQ",
+        "address": "120 South New Warrington Road, Pensacola, FL 32507, United States",
+        "name": "Firehouse Subs",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 43.175037
+      },
+      "duration": {
+        "startTimestamp": "2017-03-09T18:34:15.386Z",
+        "endTimestamp": "2017-03-09T18:51:03Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 304059561,
+      "centerLngE7": -872764126,
+      "visitConfidence": 55,
+      "otherCandidateLocations": [{
+        "latitudeE7": 304057321,
+        "longitudeE7": -872763951,
+        "placeId": "ChIJb4ihkDS5kIgR8ToWGX9Cb3w",
+        "address": "6 S New Warrington Rd, Pensacola, FL 32507, USA",
+        "name": "Waffle House",
+        "locationConfidence": 14.897245
+      }, {
+        "latitudeE7": 304049619,
+        "longitudeE7": -872765403,
+        "placeId": "ChIJA-G6Ize5kIgRix_piy3QYf8",
+        "address": "1049 N Navy Blvd, Pensacola, FL 32507, USA",
+        "name": "Wendy\u0027s",
+        "locationConfidence": 9.425183
+      }, {
+        "latitudeE7": 304042560,
+        "longitudeE7": -872766010,
+        "placeId": "ChIJPZvQcRa_kIgR1_BAxdm5f3s",
+        "name": "Hummer4Hire",
+        "locationConfidence": 7.602915
+      }, {
+        "latitudeE7": 304034421,
+        "longitudeE7": -872749794,
+        "placeId": "ChIJA-G6Ize5kIgRuPRpF_DENAE",
+        "address": "980 N Navy Blvd, Pensacola, FL 32507, USA",
+        "name": "Life Storage",
+        "locationConfidence": 4.7156544
+      }, {
+        "latitudeE7": 304049827,
+        "longitudeE7": -872774495,
+        "placeId": "ChIJqWu1iDS5kIgRkhpfeyd2wpY",
+        "address": "201 S New Warrington Rd, Pensacola, FL 32507, USA",
+        "name": "Olgys",
+        "locationConfidence": 1.5911586
+      }, {
+        "latitudeE7": 304059050,
+        "longitudeE7": -872755973,
+        "placeId": "ChIJ1eG6Ize5kIgRlv_7m4lyfTw",
+        "address": "1107 N Navy Blvd, Pensacola, FL 32507, USA",
+        "name": "McDonald\u0027s",
+        "locationConfidence": 1.2180984
+      }, {
+        "latitudeE7": 304055267,
+        "longitudeE7": -872745795,
+        "placeId": "ChIJA-G6Ize5kIgRBe6ota793mI",
+        "address": "1112 N Navy Blvd, Pensacola, FL 32507, USA",
+        "name": "Circle K",
+        "locationConfidence": 1.0392449
+      }, {
+        "latitudeE7": 304045078,
+        "longitudeE7": -872753348,
+        "placeId": "ChIJvdyr3i2_kIgR8h0LX5cwwEQ",
+        "address": "1008 N Navy Blvd #1249, Pensacola, FL 32507, USA",
+        "name": "A-Tin-Hut Military Surplus",
+        "locationConfidence": 0.9384868
+      }, {
+        "latitudeE7": 304055256,
+        "longitudeE7": -872757139,
+        "placeId": "ChIJC1RObDO5kIgRgaGXnsdZX8k",
+        "address": "1089 W Navy Blvd, Pensacola, FL 32507, USA",
+        "name": "Daisy Cutters Barbershop",
+        "locationConfidence": 0.8214173
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 33,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 304053145,
+        "longitudeE7": -872771087
+      },
+      "endLocation": {
+        "latitudeE7": 303295163,
+        "longitudeE7": -873549537
+      },
+      "duration": {
+        "startTimestamp": "2017-03-09T18:51:03Z",
+        "endTimestamp": "2017-03-09T19:08:26Z"
+      },
+      "distance": 12414,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.37485810964658
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.3204643068409864
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.12699933096122906
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 304053134,
+          "lngE7": -872770919
+        }, {
+          "latE7": 303295059,
+          "lngE7": -873547058
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303295163,
+          "longitudeE7": -873549537
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-03-09T19:08:26Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303302508,
+        "longitudeE7": -873558877,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10015 Gulf Beach Highway, Pensacola, Florida 32507, United States",
+        "name": "Perdido Key Kid\u0027s Park",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 49.388733
+      },
+      "duration": {
+        "startTimestamp": "2017-03-09T19:08:26Z",
+        "endTimestamp": "2017-03-17T17:17:08.182Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 39.181793
+        },
+        "duration": {
+          "startTimestamp": "2017-03-09T19:08:26Z",
+          "endTimestamp": "2017-03-10T02:53:40.582Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295064,
+        "centerLngE7": -873550128,
+        "visitConfidence": 81,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 3.953607
+        }, {
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 2.4332247
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.97305435
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.4378658
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.42983314
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.4149981
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.31952527
+        }, {
+          "latitudeE7": 303277260,
+          "longitudeE7": -873550750,
+          "placeId": "ChIJIdegEpq6kIgRGK9eeMHYCdI",
+          "name": "American Marine Brokerage",
+          "locationConfidence": 0.23330292
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.230711
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 31,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 36.44951
+        },
+        "duration": {
+          "startTimestamp": "2017-03-11T17:20:25.905Z",
+          "endTimestamp": "2017-03-13T00:00:00Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303294943,
+        "centerLngE7": -873549948,
+        "visitConfidence": 86,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 4.4089265
+        }, {
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 2.4539046
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.5250125
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.43711933
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.25773463
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.22682789
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.18511494
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.14403212
+        }, {
+          "latitudeE7": 303277260,
+          "longitudeE7": -873550750,
+          "placeId": "ChIJIdegEpq6kIgRGK9eeMHYCdI",
+          "name": "American Marine Brokerage",
+          "locationConfidence": 0.14021726
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 27,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 51.97233
+        },
+        "duration": {
+          "startTimestamp": "2017-03-14T13:13:08.649Z",
+          "endTimestamp": "2017-03-15T05:23:41.819Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295011,
+        "centerLngE7": -873549860,
+        "visitConfidence": 95,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 1.8110019
+        }, {
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 1.356993
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.75051177
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.56151444
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.32327735
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.25466618
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.23646268
+        }, {
+          "latitudeE7": 303302700,
+          "longitudeE7": -873558610,
+          "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+          "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+          "name": "Gulf Beach Hair Designs",
+          "locationConfidence": 0.18695424
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.17231373
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 39,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 57.179016
+        },
+        "duration": {
+          "startTimestamp": "2017-03-15T05:25:19.078Z",
+          "endTimestamp": "2017-03-15T14:54:51.825Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295146,
+        "centerLngE7": -873549900,
+        "visitConfidence": 90,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 1.826941
+        }, {
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 1.691302
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.8285172
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.81625557
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.35947245
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.26929322
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.15864299
+        }, {
+          "latitudeE7": 303302700,
+          "longitudeE7": -873558610,
+          "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+          "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+          "name": "Gulf Beach Hair Designs",
+          "locationConfidence": 0.14694735
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.1429989
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 43,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 60.01588
+        },
+        "duration": {
+          "startTimestamp": "2017-03-15T14:57:17.962Z",
+          "endTimestamp": "2017-03-15T17:09:56.817Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295279,
+        "centerLngE7": -873550564,
+        "visitConfidence": 79,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 3.3900352
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 1.8105
+        }, {
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 1.4345274
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 1.3299098
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.61657673
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.310666
+        }, {
+          "latitudeE7": 303302700,
+          "longitudeE7": -873558610,
+          "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+          "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+          "name": "Gulf Beach Hair Designs",
+          "locationConfidence": 0.2900059
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.2644801
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.21899417
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 44,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 42.24508
+        },
+        "duration": {
+          "startTimestamp": "2017-03-16T00:00:00Z",
+          "endTimestamp": "2017-03-17T00:00:00Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295057,
+        "centerLngE7": -873550002,
+        "visitConfidence": 99,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 1.3935372
+        }, {
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 1.303682
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.48069322
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.4636188
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.32860473
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.23968424
+        }, {
+          "latitudeE7": 303302700,
+          "longitudeE7": -873558610,
+          "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+          "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+          "name": "Gulf Beach Hair Designs",
+          "locationConfidence": 0.13977835
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.13611609
+        }, {
+          "latitudeE7": 303309388,
+          "longitudeE7": -873536688,
+          "placeId": "ChIJPU7rVZC6kIgRXUsHiWKWpQ8",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Steel \u0026 Supply Co",
+          "locationConfidence": 0.13142096
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 33,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 41.146526
+        },
+        "duration": {
+          "startTimestamp": "2017-03-17T10:16:45.389Z",
+          "endTimestamp": "2017-03-17T10:27:29.236Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 303294400,
+        "centerLngE7": -873549300,
+        "visitConfidence": 64,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 8.906587
+        }, {
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 7.338529
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 2.7140377
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 1.3447616
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.94205725
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.563818
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.42926803
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR9tkcnTqHa0c",
+          "address": "4014 Azure Way, Pensacola, FL 32507, USA",
+          "name": "Mc Cullar Crane Rentals",
+          "locationConfidence": 0.33535847
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR8FFAR-LVgEQ",
+          "name": "McCullar Crane",
+          "locationConfidence": 0.30236614
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 32,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 36.714714
+        },
+        "duration": {
+          "startTimestamp": "2017-03-17T14:10:38.373Z",
+          "endTimestamp": "2017-03-17T16:08:53.290Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295033,
+        "centerLngE7": -873549808,
+        "visitConfidence": 81,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 5.1869392
+        }, {
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 3.1853495
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 1.0208882
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.6809934
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.45899147
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.28619274
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.2786436
+        }, {
+          "latitudeE7": 303302700,
+          "longitudeE7": -873558610,
+          "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+          "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+          "name": "Gulf Beach Hair Designs",
+          "locationConfidence": 0.21322964
+        }, {
+          "latitudeE7": 303277260,
+          "longitudeE7": -873550750,
+          "placeId": "ChIJIdegEpq6kIgRGK9eeMHYCdI",
+          "name": "American Marine Brokerage",
+          "locationConfidence": 0.18076152
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 29,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 303308822,
+          "longitudeE7": -873560802,
+          "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+          "address": "10004 Gulf Beach Hwy, Pensacola, Florida 32507, United States",
+          "name": "Perdido Kids Park",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 38.32382
+        },
+        "duration": {
+          "startTimestamp": "2017-03-17T16:10:44.078Z",
+          "endTimestamp": "2017-03-17T17:17:08.182Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 303295481,
+        "centerLngE7": -873549860,
+        "visitConfidence": 80,
+        "otherCandidateLocations": [{
+          "latitudeE7": 303289300,
+          "longitudeE7": -873521200,
+          "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+          "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+          "name": "Laguna Pointe Condominium Association",
+          "locationConfidence": 5.6825314
+        }, {
+          "latitudeE7": 303293650,
+          "longitudeE7": -873570510,
+          "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+          "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "WCI Lost Key Yacht",
+          "locationConfidence": 3.7602084
+        }, {
+          "latitudeE7": 303303810,
+          "longitudeE7": -873560030,
+          "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+          "name": "U-Haul Neighborhood Dealer",
+          "locationConfidence": 0.9387138
+        }, {
+          "latitudeE7": 303284720,
+          "longitudeE7": -873566990,
+          "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+          "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+          "name": "Galia Hoa",
+          "locationConfidence": 0.8582828
+        }, {
+          "latitudeE7": 303318790,
+          "longitudeE7": -873542070,
+          "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Gulf Bay Charters LLC",
+          "locationConfidence": 0.4379953
+        }, {
+          "latitudeE7": 303302700,
+          "longitudeE7": -873558610,
+          "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+          "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+          "name": "Gulf Beach Hair Designs",
+          "locationConfidence": 0.31870073
+        }, {
+          "latitudeE7": 303274011,
+          "longitudeE7": -873574391,
+          "placeId": "ChIJOQmUwZm6kIgR6TLwUfDREm4",
+          "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "H2O Below Charters",
+          "locationConfidence": 0.3061375
+        }, {
+          "latitudeE7": 303280427,
+          "longitudeE7": -873564779,
+          "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+          "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+          "name": "Lost Key Marina \u0026 Yacht Club",
+          "locationConfidence": 0.30470344
+        }, {
+          "latitudeE7": 303310380,
+          "longitudeE7": -873537130,
+          "placeId": "ChIJPU7rVZC6kIgR8FFAR-LVgEQ",
+          "name": "McCullar Crane",
+          "locationConfidence": 0.19424514
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 30,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 303295064,
+      "centerLngE7": -873550128,
+      "visitConfidence": 81,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303294897,
+        "longitudeE7": -873549762,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Dr, Pensacola, FL 32507, USA",
+        "locationConfidence": 35.456757,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 303296698,
+        "longitudeE7": -873549762,
+        "placeId": "ChIJUb6ZlZC6kIgRBiF4XKSeAZo",
+        "address": "4011 Landfall Dr, Pensacola, FL 32507, USA",
+        "locationConfidence": 10.580025
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.306681
+      }, {
+        "latitudeE7": 303299613,
+        "longitudeE7": -873549787,
+        "placeId": "ChIJD4q76pC6kIgRoa565qHXnSg",
+        "address": "4009 Landfall Dr, Pensacola, FL 32507, USA",
+        "locationConfidence": 1.201054
+      }, {
+        "latitudeE7": 303293650,
+        "longitudeE7": -873570510,
+        "placeId": "ChIJIRKCUJe6kIgRp9Hdmc2Hq2w",
+        "address": "10098 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "WCI Lost Key Yacht",
+        "locationConfidence": 0.8041893
+      }, {
+        "latitudeE7": 303303810,
+        "longitudeE7": -873560030,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "name": "U-Haul Neighborhood Dealer",
+        "locationConfidence": 0.3215979
+      }, {
+        "latitudeE7": 303280427,
+        "longitudeE7": -873564779,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 0.14471619
+      }, {
+        "latitudeE7": 303318790,
+        "longitudeE7": -873542070,
+        "placeId": "ChIJ-cStBZG6kIgRAn8auXwCosY",
+        "address": "10121 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Gulf Bay Charters LLC",
+        "locationConfidence": 0.14206137
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.13715835
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 38,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

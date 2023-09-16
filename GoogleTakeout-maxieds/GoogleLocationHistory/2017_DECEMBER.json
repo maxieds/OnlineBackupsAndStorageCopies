@@ -1,0 +1,4200 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "endLocation": {
+        "latitudeE7": 337921373,
+        "longitudeE7": -843215417
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T06:12:29Z",
+        "endTimestamp": "2017-12-03T06:31:02Z"
+      },
+      "distance": 7793,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 89.70446941747552
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.002843753561243
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.8306420384698319
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337815055,
+          "lngE7": -843957138
+        }, {
+          "latE7": 337984809,
+          "lngE7": -843606414
+        }, {
+          "latE7": 337921028,
+          "lngE7": -843214035
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337983865,
+          "lngE7": -843607040,
+          "accuracyMeters": 25,
+          "timestamp": "2017-12-03T06:22:49.460Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337921373,
+          "longitudeE7": -843215417,
+          "accuracyMetres": 17
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-12-03T06:34:09.122Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337921115,
+        "longitudeE7": -843221599,
+        "placeId": "ChIJyYqdV_oG9YgRPvDOKl57PEo",
+        "address": "1364 Clifton Rd NE, Atlanta, Georgia 30322, United States",
+        "name": "Emory University Hospital",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 90.11752,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T06:31:02Z",
+        "endTimestamp": "2017-12-03T06:41:53.565Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337920590,
+          "longitudeE7": -843215151,
+          "placeId": "ChIJV9vSZPoG9YgRUUVM_Me-AEw",
+          "address": "1364 Clifton Road Northeast, Atlanta, Georgia 30322, United States",
+          "name": "Emory University Hospital -Emory Healthcare Emergency Room",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 68.22927
+        },
+        "duration": {
+          "startTimestamp": "2017-12-03T06:31:02Z",
+          "endTimestamp": "2017-12-03T06:41:53.565Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337921667,
+        "centerLngE7": -843211367,
+        "visitConfidence": 94,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337977474,
+          "longitudeE7": -843154516,
+          "placeId": "ChIJ7303wPkG9YgREKRE6HCNFMI",
+          "address": "1463 Clifton Rd, Decatur, GA 30033, USA",
+          "name": "Lullwater Preserve",
+          "locationConfidence": 1.8531672,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337925094,
+          "longitudeE7": -843203800,
+          "placeId": "ChIJv-GFt_sG9YgRtJKigha74iU",
+          "address": "1365 Clifton Rd NE Building A, Atlanta, GA 30322, USA",
+          "name": "Emory Clinic at 1365 Clifton Rd",
+          "locationConfidence": 1.5688124
+        }, {
+          "latitudeE7": 337916300,
+          "longitudeE7": -843207900,
+          "placeId": "ChIJbeNwWPoG9YgRiEC_sLZWdBw",
+          "address": "Atlanta, GA 30307, USA",
+          "name": "Clifton Rd NE @ Lowergate Dr NE",
+          "locationConfidence": 1.4900415
+        }, {
+          "latitudeE7": 337931436,
+          "longitudeE7": -843213141,
+          "placeId": "ChIJiQuOivkG9YgR4ONncm4WQRI",
+          "address": "1440 Clifton Rd, Atlanta, GA 30322, USA",
+          "name": "Emory University School of Medicine",
+          "locationConfidence": 0.8967848,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337904910,
+          "longitudeE7": -843209930,
+          "placeId": "ChIJP_le6foG9YgRn-kRf5TZj44",
+          "address": "Atlanta, GA 30322, USA",
+          "name": "Clifton Rd @ Fishburne Dr",
+          "locationConfidence": 0.57036567,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337920389,
+          "longitudeE7": -843208738,
+          "placeId": "ChIJzWxfWfoG9YgRxmykDPEm170",
+          "address": "1365 Clifton Rd, Atlanta, GA 30322, USA",
+          "name": "Dr. Robert A. Guyton, MD",
+          "locationConfidence": 0.5303935
+        }, {
+          "latitudeE7": 337929890,
+          "longitudeE7": -843209270,
+          "placeId": "ChIJ18tfR_oG9YgR6v4WNz20xb4",
+          "address": "Atlanta, GA 30307, USA",
+          "name": "Clifton Rd NE @ Upper Gate Dr NE",
+          "locationConfidence": 0.52976906
+        }, {
+          "latitudeE7": 337929890,
+          "longitudeE7": -843210140,
+          "placeId": "ChIJHQarQPoG9YgRJb6WfjXt_vY",
+          "address": "Atlanta, GA 30329, USA",
+          "name": "Clifton Rd@Upper Gate Dr",
+          "locationConfidence": 0.46352676,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 338037231,
+          "longitudeE7": -843232880,
+          "placeId": "ChIJQxgq21kG9YgROqkp48ILs64",
+          "address": "866 Houston Mill Rd NE, Atlanta, GA 30329, USA",
+          "name": "Hahn Woods",
+          "locationConfidence": 0.38390613,
+          "isCurrentLocation": true
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 54,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337921667,
+      "centerLngE7": -843211367,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337977474,
+        "longitudeE7": -843154516,
+        "placeId": "ChIJ7303wPkG9YgREKRE6HCNFMI",
+        "address": "1463 Clifton Rd, Decatur, GA 30033, USA",
+        "name": "Lullwater Preserve",
+        "locationConfidence": 0.8496862,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337925094,
+        "longitudeE7": -843203800,
+        "placeId": "ChIJv-GFt_sG9YgRtJKigha74iU",
+        "address": "1365 Clifton Rd NE Building A, Atlanta, GA 30322, USA",
+        "name": "Emory Clinic at 1365 Clifton Rd",
+        "locationConfidence": 0.71930814
+      }, {
+        "latitudeE7": 337916300,
+        "longitudeE7": -843207900,
+        "placeId": "ChIJbeNwWPoG9YgRiEC_sLZWdBw",
+        "address": "Atlanta, GA 30307, USA",
+        "name": "Clifton Rd NE @ Lowergate Dr NE",
+        "locationConfidence": 0.6831913
+      }, {
+        "latitudeE7": 337931436,
+        "longitudeE7": -843213141,
+        "placeId": "ChIJiQuOivkG9YgR4ONncm4WQRI",
+        "address": "1440 Clifton Rd, Atlanta, GA 30322, USA",
+        "name": "Emory University School of Medicine",
+        "locationConfidence": 0.4111802,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337904910,
+        "longitudeE7": -843209930,
+        "placeId": "ChIJP_le6foG9YgRn-kRf5TZj44",
+        "address": "Atlanta, GA 30322, USA",
+        "name": "Clifton Rd @ Fishburne Dr",
+        "locationConfidence": 0.26151544,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337920389,
+        "longitudeE7": -843208738,
+        "placeId": "ChIJzWxfWfoG9YgRxmykDPEm170",
+        "address": "1365 Clifton Rd, Atlanta, GA 30322, USA",
+        "name": "Dr. Robert A. Guyton, MD",
+        "locationConfidence": 0.24318801
+      }, {
+        "latitudeE7": 337929890,
+        "longitudeE7": -843209270,
+        "placeId": "ChIJ18tfR_oG9YgR6v4WNz20xb4",
+        "address": "Atlanta, GA 30307, USA",
+        "name": "Clifton Rd NE @ Upper Gate Dr NE",
+        "locationConfidence": 0.2429017
+      }, {
+        "latitudeE7": 337929890,
+        "longitudeE7": -843210140,
+        "placeId": "ChIJHQarQPoG9YgRJb6WfjXt_vY",
+        "address": "Atlanta, GA 30329, USA",
+        "name": "Clifton Rd@Upper Gate Dr",
+        "locationConfidence": 0.21252929,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 338037231,
+        "longitudeE7": -843232880,
+        "placeId": "ChIJQxgq21kG9YgROqkp48ILs64",
+        "address": "866 Houston Mill Rd NE, Atlanta, GA 30329, USA",
+        "name": "Hahn Woods",
+        "locationConfidence": 0.17602283,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 78,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337921115,
+        "longitudeE7": -843221599
+      },
+      "endLocation": {
+        "latitudeE7": 337683973,
+        "longitudeE7": -843861399
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T06:41:53.565Z",
+        "endTimestamp": "2017-12-03T06:59:56Z"
+      },
+      "distance": 7814,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 92.57879083093303
+      }, {
+        "activityType": "WALKING",
+        "probability": 4.092243595743297
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.9119082034626276
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337921028,
+          "lngE7": -843214035
+        }, {
+          "latE7": 337792015,
+          "lngE7": -843369979
+        }, {
+          "latE7": 337681846,
+          "lngE7": -843861236
+        }],
+        "source": "INFERRED"
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337792378,
+          "lngE7": -843370838,
+          "accuracyMeters": 23,
+          "timestamp": "2017-12-03T06:48:51.624Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337683973,
+          "longitudeE7": -843861399
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-12-03T06:59:56Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337683973,
+        "longitudeE7": -843861399,
+        "placeId": "ChIJ42AWonoE9YgRonLLiSdYxtA",
+        "address": "550 Peachtree St NE, Atlanta, Georgia 30308, United States",
+        "name": "Emory University Hospital Midtown",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 86.75876,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T06:59:56Z",
+        "endTimestamp": "2017-12-03T08:10:11.642Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337687217,
+      "centerLngE7": -843867783,
+      "visitConfidence": 96,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337702064,
+        "longitudeE7": -843876333,
+        "placeId": "ChIJmX5uKGUE9YgRLS3WaxO1vDA",
+        "address": "590 W Peachtree St NW, Atlanta, GA 30308, USA",
+        "name": "Crowne Plaza Atlanta - Midtown",
+        "locationConfidence": 10.8115835
+      }, {
+        "latitudeE7": 337687649,
+        "longitudeE7": -843848732,
+        "placeId": "ChIJCVR4GnAE9YgRbnCsXdnMlAo",
+        "address": "521 Peachtree St NE, Atlanta, GA 30308, USA",
+        "name": "521 Peachtree Street",
+        "locationConfidence": 0.18846971
+      }, {
+        "latitudeE7": 337702350,
+        "longitudeE7": -843881640,
+        "placeId": "ChIJLa6SKGUE9YgR6Bvgq5Umt0I",
+        "address": "590 W Peachtree St NW, Atlanta, GA 30308, USA",
+        "name": "Thrive Farmers Coffee",
+        "locationConfidence": 0.1429487
+      }, {
+        "latitudeE7": 337683764,
+        "longitudeE7": -843861687,
+        "placeId": "ChIJBzy5o3oE9YgRSSDVs1X8vsY",
+        "address": "500 Peachtree St NE, Atlanta, GA 30303, USA",
+        "locationConfidence": 0.117175125,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337698480,
+        "longitudeE7": -843853380,
+        "placeId": "ChIJcUH1-28E9YgRTy3f70TaXzE",
+        "address": "Atlanta, GA 30308, USA",
+        "name": "Peachtree St NE@Linden Ave NE",
+        "locationConfidence": 0.100523405,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337685526,
+        "longitudeE7": -843884247,
+        "placeId": "ChIJEYUf2XoE9YgRKgIgeaSf4pg",
+        "address": "1 Baltimore Pl NW, Atlanta, GA 30308, USA",
+        "name": "Atlanta Birth Center",
+        "locationConfidence": 0.10044145
+      }, {
+        "latitudeE7": 337707434,
+        "longitudeE7": -843859731,
+        "placeId": "ChIJMeiYXWUE9YgRgaTbZP9EqHc",
+        "name": "Troutman Sanders LLP: Mc Daniel Theresa E",
+        "locationConfidence": 0.091843665
+      }, {
+        "latitudeE7": 337701100,
+        "longitudeE7": -843881548,
+        "placeId": "ChIJ-4PtKGUE9YgREA2TuGDENK0",
+        "address": "23 Linden Ave NW, Atlanta, GA 30308, USA",
+        "name": "Staybridge Suites Atlanta - Midtown",
+        "locationConfidence": 0.088101245
+      }, {
+        "latitudeE7": 337692087,
+        "longitudeE7": -843866873,
+        "placeId": "ChIJTQhxsHoE9YgR_ixAvE1OK-U",
+        "address": "25-21 Prescott St NE, Atlanta, GA 30308, USA",
+        "locationConfidence": 0.08751461
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 73,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337683973,
+        "longitudeE7": -843861399
+      },
+      "endLocation": {
+        "latitudeE7": 337773060,
+        "longitudeE7": -843914214
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T08:10:11.642Z",
+        "endTimestamp": "2017-12-03T08:17:00.798Z"
+      },
+      "distance": 1036,
+      "activityType": "CYCLING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "CYCLING",
+        "probability": 52.273619628556304
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 24.1030450165752
+      }, {
+        "activityType": "WALKING",
+        "probability": 13.471920083321484
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337681846,
+          "lngE7": -843861236
+        }, {
+          "latE7": 337773971,
+          "lngE7": -843915328
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1619.7314330320787,
+        "travelMode": "BICYCLE",
+        "confidence": 0.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337773060,
+        "longitudeE7": -843914214
+      },
+      "endLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T08:17:00.798Z",
+        "endTimestamp": "2017-12-03T08:27:19.839Z"
+      },
+      "distance": 779,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 64.78332317648326
+      }, {
+        "activityType": "WALKING",
+        "probability": 22.351855493045534
+      }, {
+        "activityType": "CYCLING",
+        "probability": 8.4685376790144
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337773971,
+          "lngE7": -843915328
+        }, {
+          "latE7": 337815055,
+          "lngE7": -843957138
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337817154,
+          "longitudeE7": -843957138
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-12-03T08:27:19.839Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138,
+        "placeId": "ChIJ_esv6V8E9YgR266b7Axe50k",
+        "address": "251 10th Street Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 94.41805
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T08:27:19.839Z",
+        "endTimestamp": "2017-12-03T22:33:09.118Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337816646,
+      "centerLngE7": -843957919,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 5.0908465,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.04630925,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.04493781
+      }, {
+        "latitudeE7": 337738811,
+        "longitudeE7": -843995745,
+        "placeId": "ChIJVc2UIokE9YgRS484AF18wLQ",
+        "address": "355 Ferst Dr NW, Atlanta, GA 30318, USA",
+        "name": "GaTech Visitor Parking",
+        "locationConfidence": 0.044099063,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337830900,
+        "longitudeE7": -843949496,
+        "placeId": "ChIJta-qu18E9YgR4g-mwuANcI0",
+        "name": "TBS Employee Parking",
+        "locationConfidence": 0.035628933
+      }, {
+        "latitudeE7": 337816040,
+        "longitudeE7": -843974580,
+        "placeId": "ChIJifGWSfUE9YgRwzjayvxbefs",
+        "address": "Atlanta, GA 30318, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.03202241
+      }, {
+        "latitudeE7": 337725503,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJzUNECGME9YgRTgSdqqZ1aLw",
+        "address": "177 North Avenue NW, Atlanta, GA 30332, USA",
+        "name": "Bobby Dodd Stadium at Historic Grant Field",
+        "locationConfidence": 0.031191824,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.030300323,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.029635573,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337816646,
+        "longitudeE7": -843957919
+      },
+      "endLocation": {
+        "latitudeE7": 337748020,
+        "longitudeE7": -843987017
+      },
+      "duration": {
+        "startTimestamp": "2017-12-03T22:33:09.118Z",
+        "endTimestamp": "2017-12-07T20:39:01Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337751834,
+          "lngE7": -843969499,
+          "accuracyMeters": 6,
+          "timestamp": "2017-12-07T20:36:27Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 857.6577282424179
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337748020,
+        "longitudeE7": -843987017
+      },
+      "endLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "North Ave NW, Atlanta, Georgia 30332, United States",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 98.73134,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-07T20:39:01Z",
+        "endTimestamp": "2017-12-07T20:46:42.562Z"
+      },
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 97.68343889315385
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 1.5630191015336237
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.468289017652784
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337747955,
+          "lngE7": -843986968
+        }, {
+          "latE7": 337746200,
+          "lngE7": -843993682
+        }, {
+          "latE7": 337751655,
+          "lngE7": -843978576
+        }, {
+          "latE7": 337742805,
+          "lngE7": -843965606
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 315.06079457713486,
+        "travelMode": "WALK",
+        "confidence": 0.9968495817922172
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337744637,
+          "lngE7": -843995361,
+          "accuracyMeters": 20,
+          "timestamp": "2017-12-07T20:42:40.629Z"
+        }, {
+          "latE7": 337751045,
+          "lngE7": -843978195,
+          "accuracyMeters": 50,
+          "timestamp": "2017-12-07T20:44:41.573Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "North Ave NW, Atlanta, Georgia 30332, United States",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 98.73134,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-07T20:46:42.562Z",
+        "endTimestamp": "2017-12-08T02:01:44.029Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th Street Northwest, Atlanta, Georgia 30313, United States",
+          "name": "Clough Undergraduate Learning Commons",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 84.66671,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-07T20:46:42.562Z",
+          "endTimestamp": "2017-12-07T21:06:30.316Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337741878,
+        "centerLngE7": -843964537,
+        "visitConfidence": 90,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337738570,
+          "longitudeE7": -843987740,
+          "placeId": "ChIJZcs9p4kE9YgRu-dEuLafueU",
+          "address": "351 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center",
+          "locationConfidence": 0.5777704
+        }, {
+          "latitudeE7": 337742603,
+          "longitudeE7": -843957281,
+          "placeId": "ChIJv_D55mIE9YgR4-MDJOVwpCo",
+          "address": "260 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Library",
+          "locationConfidence": 0.4247019,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337742804,
+          "longitudeE7": -843958565,
+          "placeId": "ChIJrYmNDGIE9YgREKJeJzuBaGs",
+          "address": "686-704 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Price Gilbert Memorial Library",
+          "locationConfidence": 0.28912202,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337746156,
+          "longitudeE7": -843973354,
+          "placeId": "ChIJG0Yc7IkE9YgRsymOdccxfi0",
+          "address": "North Avenue NW, Atlanta, GA 30332, USA",
+          "name": "Tech Green",
+          "locationConfidence": 0.25612512
+        }, {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJ9ZIn_YkE9YgR74r2gtr3qtM",
+          "address": "266 4th St NW UNIT 215, Atlanta, GA 30332, USA",
+          "name": "Technology Support Center",
+          "locationConfidence": 0.21366228,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337700063,
+          "longitudeE7": -843913399,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.1671902,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337736023,
+          "longitudeE7": -843963625,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "locationConfidence": 0.14209242,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337746243,
+          "longitudeE7": -843950566,
+          "placeId": "ChIJa2vgHGIE9YgR80VITzkigVQ",
+          "address": "723 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Hinman Building",
+          "locationConfidence": 0.10106915,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Mathematics - Georgia Institute of Technology",
+          "locationConfidence": 0.097239226
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 71,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 337737073,
+          "longitudeE7": -843962435,
+          "placeId": "ChIJTeiTb2IE9YgRsoMLlN-2_aE",
+          "address": "686 Cherry Street Northwest, Atlanta, Georgia 30313, United States",
+          "name": "School of Literature, Media, and Communication",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 14.324819,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-07T21:39:22.375Z",
+          "endTimestamp": "2017-12-07T22:12:52.569Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337737289,
+        "centerLngE7": -843962738,
+        "visitConfidence": 90,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337735470,
+          "longitudeE7": -843959640,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Department of Mathematics",
+          "locationConfidence": 12.5275345,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337736023,
+          "longitudeE7": -843963625,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "locationConfidence": 8.722243,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Mathematics - Georgia Institute of Technology",
+          "locationConfidence": 3.6367111,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337708188,
+          "longitudeE7": -843968197,
+          "placeId": "ChIJmcxgK_jd5okRWSOpMOD70mQ",
+          "name": "Coca-Cola",
+          "locationConfidence": 1.5633593
+        }, {
+          "latitudeE7": 337711611,
+          "longitudeE7": -843972878,
+          "placeId": "ChIJy8fMFYgE9YgRNS2DneoaXuc",
+          "name": "Coca Cola Co: Williams-Bibbs Mialeeka",
+          "locationConfidence": 1.3805486
+        }, {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Clough Undergraduate Learning Commons",
+          "locationConfidence": 0.6250693
+        }, {
+          "latitudeE7": 337738570,
+          "longitudeE7": -843987740,
+          "placeId": "ChIJZcs9p4kE9YgRu-dEuLafueU",
+          "address": "351 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center",
+          "locationConfidence": 0.6249842
+        }, {
+          "latitudeE7": 337700063,
+          "longitudeE7": -843913399,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.2562109,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337746156,
+          "longitudeE7": -843973354,
+          "placeId": "ChIJG0Yc7IkE9YgRsymOdccxfi0",
+          "address": "North Avenue NW, Atlanta, GA 30332, USA",
+          "name": "Tech Green",
+          "locationConfidence": 0.20757382
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 11,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 337754478,
+          "longitudeE7": -844012498,
+          "placeId": "ChIJoY_ro44E9YgRpsas27ARQT4",
+          "address": "759 Ferst Drive, Atlanta, Georgia 30318, United States",
+          "name": "Instructional Center",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 49.23614,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-07T22:19:13.005Z",
+          "endTimestamp": "2017-12-08T02:01:44.029Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337754261,
+        "centerLngE7": -844013019,
+        "visitConfidence": 90,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337754091,
+          "longitudeE7": -844012236,
+          "placeId": "ChIJoY_ro44E9YgRpsas27ARQT4",
+          "address": "759 Ferst Dr, Atlanta, GA 30318, USA",
+          "name": "Georgia Tech Instructional Center",
+          "locationConfidence": 35.339954,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337700063,
+          "longitudeE7": -843913399,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.84691834,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337738570,
+          "longitudeE7": -843987740,
+          "placeId": "ChIJZcs9p4kE9YgRu-dEuLafueU",
+          "address": "351 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center",
+          "locationConfidence": 0.5090946
+        }, {
+          "latitudeE7": 337752008,
+          "longitudeE7": -844018502,
+          "placeId": "ChIJM5QQro4E9YgR6zvFAp9hiMg",
+          "address": "Atlanta, GA 30332, USA",
+          "name": "Department of Industrial and Systems Engineering",
+          "locationConfidence": 0.4861373
+        }, {
+          "latitudeE7": 337737835,
+          "longitudeE7": -844001564,
+          "placeId": "ChIJWRbQF4kE9YgRV3acrQlqf1U",
+          "address": "Smithgall Building, 353 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center Parking",
+          "locationConfidence": 0.44587696
+        }, {
+          "latitudeE7": 337751684,
+          "longitudeE7": -844018676,
+          "placeId": "ChIJsaznqY4E9YgR9I51815pEh4",
+          "address": "755 Ferst Dr NW, Atlanta, GA 30318, USA",
+          "name": "ISyE Main Building",
+          "locationConfidence": 0.40715632
+        }, {
+          "latitudeE7": 337738811,
+          "longitudeE7": -843995745,
+          "placeId": "ChIJ1xktEIkE9YgRfc12WeaRxvc",
+          "name": "Visitor Parking",
+          "locationConfidence": 0.3491623
+        }, {
+          "latitudeE7": 337793076,
+          "longitudeE7": -844046032,
+          "placeId": "ChIJexvkBI0E9YgRpBR5dAWnyNI",
+          "address": "532 8th St NW, Atlanta, GA 30332, USA",
+          "name": "West Village Dining",
+          "locationConfidence": 0.31373468,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337791606,
+          "longitudeE7": -844044763,
+          "placeId": "ChIJy1WsBI0E9YgR7IzwBVizXHA",
+          "address": "532 8th St NW, Atlanta, GA 30332, USA",
+          "name": "Panera Bread",
+          "locationConfidence": 0.3018499,
+          "isCurrentLocation": true
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 40,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337748417,
+      "centerLngE7": -843994644,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337763172,
+        "longitudeE7": -844014379,
+        "placeId": "ChIJsYUi44sE9YgRCd_dkAbS0ss",
+        "address": "759 Ferst Dr NW, Atlanta, GA 30332, USA",
+        "locationConfidence": 0.1270528
+      }, {
+        "latitudeE7": 337732354,
+        "longitudeE7": -844040167,
+        "placeId": "ChIJ7Yq5_44E9YgR4DNifsFLCmE",
+        "address": "3375 Spring Hill Pkwy SE Unit 369, Smyrna, GA 30080, USA",
+        "name": "KratomFresh.com",
+        "locationConfidence": 0.115285024
+      }, {
+        "latitudeE7": 337752581,
+        "longitudeE7": -844018782,
+        "placeId": "ChIJkZp2ro4E9YgRf6iKDGnU9LI",
+        "address": "755 Ferst Dr, Atlanta, GA 30332, USA",
+        "locationConfidence": 0.10038688
+      }, {
+        "latitudeE7": 337754821,
+        "longitudeE7": -843998667,
+        "placeId": "ChIJF7-EZokE9YgRS60NgPOIOqE",
+        "address": "770 State St NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 0.09276724
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.07871217,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337725503,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJzUNECGME9YgRTgSdqqZ1aLw",
+        "address": "177 North Avenue NW, Atlanta, GA 30332, USA",
+        "name": "Bobby Dodd Stadium at Historic Grant Field",
+        "locationConfidence": 0.07815455,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.07533651,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.06075815,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337722147,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJ-aM7D2ME9YgR3g1-_cU0AEA",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "J.C.Shaw Sports Complex",
+        "locationConfidence": 0.060044415,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337739826,
+          "lngE7": -843969298,
+          "accuracyMeters": 32,
+          "timestamp": "2017-12-07T20:46:42.562Z"
+        }, {
+          "latE7": 337738410,
+          "lngE7": -843961737,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-07T21:52:51.704Z"
+        }, {
+          "latE7": 337734534,
+          "lngE7": -843968756,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-07T22:12:52.569Z"
+        }, {
+          "latE7": 337753792,
+          "lngE7": -844013752,
+          "accuracyMeters": 20,
+          "timestamp": "2017-12-07T22:35:10.482Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 909.2235163765237
+      },
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337752885,
+        "longitudeE7": -844016294
+      },
+      "endLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "duration": {
+        "startTimestamp": "2017-12-08T02:01:44.029Z",
+        "endTimestamp": "2017-12-08T02:24:15.178Z"
+      },
+      "distance": 1577,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.69266437904466
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.8445417019491431
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.23304481909361144
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337752876,
+          "lngE7": -844016265
+        }, {
+          "latE7": 337748374,
+          "lngE7": -843965530
+        }, {
+          "latE7": 337758827,
+          "lngE7": -843942947
+        }, {
+          "latE7": 337769241,
+          "lngE7": -843941955
+        }, {
+          "latE7": 337775840,
+          "lngE7": -843936233
+        }, {
+          "latE7": 337815513,
+          "lngE7": -843957138
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1160.5262383269742,
+        "travelMode": "WALK",
+        "confidence": 0.9981701907228379
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337748375,
+          "lngE7": -843965302,
+          "accuracyMeters": 20,
+          "timestamp": "2017-12-08T02:10:45.309Z"
+        }, {
+          "latE7": 337760010,
+          "lngE7": -843944016,
+          "accuracyMeters": 23,
+          "timestamp": "2017-12-08T02:14:04.028Z"
+        }, {
+          "latE7": 337769699,
+          "lngE7": -843941956,
+          "accuracyMeters": 28,
+          "timestamp": "2017-12-08T02:16:05.036Z"
+        }, {
+          "latE7": 337775803,
+          "lngE7": -843934326,
+          "accuracyMeters": 100,
+          "timestamp": "2017-12-08T02:18:05.167Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138,
+        "placeId": "ChIJ_esv6V8E9YgR266b7Axe50k",
+        "address": "251 10th Street Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 92.21555
+      },
+      "duration": {
+        "startTimestamp": "2017-12-08T02:24:15.178Z",
+        "endTimestamp": "2017-12-08T15:47:40.268Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337816860,
+      "centerLngE7": -843958028,
+      "visitConfidence": 86,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 7.1885943,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.122766055
+      }, {
+        "latitudeE7": 337738811,
+        "longitudeE7": -843995745,
+        "placeId": "ChIJVc2UIokE9YgRS484AF18wLQ",
+        "address": "355 Ferst Dr NW, Atlanta, GA 30318, USA",
+        "name": "GaTech Visitor Parking",
+        "locationConfidence": 0.05165893,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.049066793,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337830900,
+        "longitudeE7": -843949496,
+        "placeId": "ChIJta-qu18E9YgR4g-mwuANcI0",
+        "name": "TBS Employee Parking",
+        "locationConfidence": 0.03534405
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.033701412,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.032587845,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337816040,
+        "longitudeE7": -843974580,
+        "placeId": "ChIJifGWSfUE9YgRwzjayvxbefs",
+        "address": "Atlanta, GA 30318, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.030936958
+      }, {
+        "latitudeE7": 337722147,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJ-aM7D2ME9YgR3g1-_cU0AEA",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "J.C.Shaw Sports Complex",
+        "locationConfidence": 0.030802632,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 80,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "endLocation": {
+        "latitudeE7": 337737236,
+        "longitudeE7": -843962326
+      },
+      "duration": {
+        "startTimestamp": "2017-12-08T15:47:40.268Z",
+        "endTimestamp": "2017-12-08T15:59:58.208Z"
+      },
+      "distance": 1123,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.8985863080661
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.7253494699056365
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.20820650448751124
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337815513,
+          "lngE7": -843957138
+        }, {
+          "latE7": 337801513,
+          "lngE7": -843935928
+        }, {
+          "latE7": 337769470,
+          "lngE7": -843951263
+        }, {
+          "latE7": 337759323,
+          "lngE7": -843937072
+        }, {
+          "latE7": 337747611,
+          "lngE7": -843965530
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1038.3877894713853,
+        "travelMode": "WALK",
+        "confidence": 0.9964061294457912
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337801666,
+          "lngE7": -843929138,
+          "accuracyMeters": 50,
+          "timestamp": "2017-12-08T15:51:43.174Z"
+        }, {
+          "latE7": 337771988,
+          "lngE7": -843949356,
+          "accuracyMeters": 55,
+          "timestamp": "2017-12-08T15:53:45.327Z"
+        }, {
+          "latE7": 337755852,
+          "lngE7": -843937225,
+          "accuracyMeters": 96,
+          "timestamp": "2017-12-08T15:55:46.172Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337737236,
+        "longitudeE7": -843962326,
+        "placeId": "ChIJEadw2IkE9YgRs_95eiLq_yc",
+        "address": "Skiles Classroom Building, Atlanta, Georgia 30313, United States",
+        "name": "Skiles Classroom Building",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 65.89374,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-08T15:59:58.208Z",
+        "endTimestamp": "2017-12-08T18:49:43.537Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337737511,
+      "centerLngE7": -843959924,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 33.440266,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337708188,
+        "longitudeE7": -843968197,
+        "placeId": "ChIJmcxgK_jd5okRWSOpMOD70mQ",
+        "name": "Coca-Cola",
+        "locationConfidence": 0.26753587
+      }, {
+        "latitudeE7": 337711611,
+        "longitudeE7": -843972878,
+        "placeId": "ChIJy8fMFYgE9YgRNS2DneoaXuc",
+        "name": "Coca Cola Co: Williams-Bibbs Mialeeka",
+        "locationConfidence": 0.07610854
+      }, {
+        "latitudeE7": 337711611,
+        "longitudeE7": -843972878,
+        "placeId": "ChIJy8fMFYgE9YgR3WtaK9FjdQ8",
+        "name": "Coca-Cola Federal Credit Union",
+        "locationConfidence": 0.07257363
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.02967334,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.025180267,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW@Fowler St",
+        "locationConfidence": 0.024367126,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.021606166,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337713110,
+        "longitudeE7": -843964300,
+        "placeId": "ChIJ1-V0H4gE9YgRStNt6fkoOY4",
+        "address": "Atlanta, GA 30313, USA",
+        "name": "North Ave NW @ Luckie St NW",
+        "locationConfidence": 0.020287646
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 52,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337737236,
+        "longitudeE7": -843962326
+      },
+      "endLocation": {
+        "latitudeE7": 337818324,
+        "longitudeE7": -843954193
+      },
+      "duration": {
+        "startTimestamp": "2017-12-08T18:49:43.537Z",
+        "endTimestamp": "2017-12-08T19:06:58.099Z"
+      },
+      "distance": 1164,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.82568924246186
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.7951817238262098
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.15308719963696368
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337738990,
+          "lngE7": -843962631
+        }, {
+          "latE7": 337745590,
+          "lngE7": -843965530
+        }, {
+          "latE7": 337811813,
+          "lngE7": -843935775
+        }, {
+          "latE7": 337818756,
+          "lngE7": -843954010
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1320.5985907339136,
+        "travelMode": "WALK",
+        "confidence": 0.9624224556767027
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337745590,
+          "lngE7": -843964996,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-08T18:53:42.845Z"
+        }, {
+          "latE7": 337811775,
+          "lngE7": -843933411,
+          "accuracyMeters": 100,
+          "timestamp": "2017-12-08T19:02:43.206Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337816719,
+        "longitudeE7": -843957666
+      },
+      "endLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "duration": {
+        "startTimestamp": "2017-12-11T21:47:04.877Z",
+        "endTimestamp": "2017-12-11T22:03:21.289Z"
+      },
+      "distance": 1133,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 96.70758035410903
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.6474069120144534
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.33942954412194315
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337815513,
+          "lngE7": -843957672
+        }, {
+          "latE7": 337777519,
+          "lngE7": -843936233
+        }, {
+          "latE7": 337746810,
+          "lngE7": -843968658
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1009.0997260313685,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337777481,
+          "lngE7": -843934021,
+          "accuracyMeters": 23,
+          "timestamp": "2017-12-11T21:55:10.120Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "North Ave NW, Atlanta, Georgia 30332, United States",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 97.592445,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-11T22:03:21.289Z",
+        "endTimestamp": "2017-12-12T00:45:43.237Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th Street Northwest, Atlanta, Georgia 30313, United States",
+          "name": "Clough Undergraduate Learning Commons",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 95.45391,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-11T22:03:21.289Z",
+          "endTimestamp": "2017-12-12T00:00:00Z"
+        },
+        "placeConfidence": "HIGH_CONFIDENCE",
+        "centerLatE7": 337741038,
+        "centerLngE7": -843963899,
+        "visitConfidence": 85,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337738570,
+          "longitudeE7": -843987740,
+          "placeId": "ChIJZcs9p4kE9YgRu-dEuLafueU",
+          "address": "351 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center",
+          "locationConfidence": 0.12306225
+        }, {
+          "latitudeE7": 337742804,
+          "longitudeE7": -843958565,
+          "placeId": "ChIJrYmNDGIE9YgREKJeJzuBaGs",
+          "address": "686-704 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Price Gilbert Memorial Library",
+          "locationConfidence": 0.12044027,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337742603,
+          "longitudeE7": -843957281,
+          "placeId": "ChIJv_D55mIE9YgR4-MDJOVwpCo",
+          "address": "260 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Library",
+          "locationConfidence": 0.06961833,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337700063,
+          "longitudeE7": -843913399,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.06466076,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337736023,
+          "longitudeE7": -843963625,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "locationConfidence": 0.050903212,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJ9ZIn_YkE9YgR74r2gtr3qtM",
+          "address": "266 4th St NW UNIT 215, Atlanta, GA 30332, USA",
+          "name": "Technology Support Center",
+          "locationConfidence": 0.0470835,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337746243,
+          "longitudeE7": -843950566,
+          "placeId": "ChIJa2vgHGIE9YgR80VITzkigVQ",
+          "address": "723 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Hinman Building",
+          "locationConfidence": 0.043844126,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Mathematics - Georgia Institute of Technology",
+          "locationConfidence": 0.03467448
+        }, {
+          "latitudeE7": 337762653,
+          "longitudeE7": -843957081,
+          "placeId": "ChIJC-XB8GEE9YgRApazMHdRWB8",
+          "address": "245 4th St NW, Atlanta, GA 30332, USA",
+          "name": "College of Design",
+          "locationConfidence": 0.03219635,
+          "isCurrentLocation": true
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 85,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337741038,
+      "centerLngE7": -843963899,
+      "visitConfidence": 85,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337737236,
+        "longitudeE7": -843962326,
+        "placeId": "ChIJEadw2IkE9YgRs_95eiLq_yc",
+        "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+        "name": "Skiles Classroom Building",
+        "locationConfidence": 2.3241968
+      }, {
+        "latitudeE7": 337725503,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJzUNECGME9YgRTgSdqqZ1aLw",
+        "address": "177 North Avenue NW, Atlanta, GA 30332, USA",
+        "name": "Bobby Dodd Stadium at Historic Grant Field",
+        "locationConfidence": 0.017860139,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337722147,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJ-aM7D2ME9YgR3g1-_cU0AEA",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "J.C.Shaw Sports Complex",
+        "locationConfidence": 0.012253356,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.0099326335,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.0083734915,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW@Fowler St",
+        "locationConfidence": 0.007218456,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.007194268,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337774050,
+        "longitudeE7": -843983040,
+        "placeId": "ChIJn3tKT4oE9YgREScGBYQwS-g",
+        "address": "Howey Physics Bldg, 837 State St NW, Atlanta, GA 30332, USA",
+        "name": "Center for Relativistic Astrophysics",
+        "locationConfidence": 0.0055573857,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337731720,
+        "longitudeE7": -844030810,
+        "placeId": "ChIJlcyU4Y4E9YgRp-9BSk2XDhA",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Marietta St NW@Means St NW",
+        "locationConfidence": 0.003740005,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337746803,
+          "lngE7": -843970119,
+          "accuracyMeters": 53,
+          "timestamp": "2017-12-11T22:03:21.289Z"
+        }, {
+          "latE7": 337740918,
+          "lngE7": -843968351,
+          "accuracyMeters": 33,
+          "timestamp": "2017-12-11T22:05:23.229Z"
+        }, {
+          "latE7": 337738292,
+          "lngE7": -843959971,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-11T22:11:35.320Z"
+        }, {
+          "latE7": 337733468,
+          "lngE7": -843960778,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-11T22:33:06.170Z"
+        }, {
+          "latE7": 337728036,
+          "lngE7": -843968452,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-11T22:35:06.806Z"
+        }, {
+          "latE7": 337732841,
+          "lngE7": -843970107,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-11T22:39:16.808Z"
+        }, {
+          "latE7": 337744314,
+          "lngE7": -843962455,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-11T22:53:30.060Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1344.5620008380754
+      },
+      "locationConfidence": 88,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "endLocation": {
+        "latitudeE7": 337817357,
+        "longitudeE7": -843958201
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T00:45:43.237Z",
+        "endTimestamp": "2017-12-12T00:59:53.414Z"
+      },
+      "distance": 1179,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 97.29598370409364
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.2183798316517347
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.19879871915553884
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337757492,
+          "lngE7": -843962860
+        }, {
+          "latE7": 337754478,
+          "lngE7": -843952560
+        }, {
+          "latE7": 337777175,
+          "lngE7": -843936233
+        }, {
+          "latE7": 337814788,
+          "lngE7": -843935623
+        }, {
+          "latE7": 337818717,
+          "lngE7": -843957672
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1105.7578320016287,
+        "travelMode": "WALK",
+        "confidence": 0.870164068190003
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337753754,
+          "lngE7": -843952026,
+          "accuracyMeters": 26,
+          "timestamp": "2017-12-12T00:47:43.232Z"
+        }, {
+          "latE7": 337777176,
+          "lngE7": -843936005,
+          "accuracyMeters": 31,
+          "timestamp": "2017-12-12T00:51:47.219Z"
+        }, {
+          "latE7": 337819328,
+          "lngE7": -843933868,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-12T00:55:50.181Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138,
+        "placeId": "ChIJ_esv6V8E9YgR266b7Axe50k",
+        "address": "251 10th Street Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 93.489716
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T00:59:53.414Z",
+        "endTimestamp": "2017-12-12T13:48:44Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337816660,
+      "centerLngE7": -843957799,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 5.8794584,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.07382491
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.066525355,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337738811,
+        "longitudeE7": -843995745,
+        "placeId": "ChIJVc2UIokE9YgRS484AF18wLQ",
+        "address": "355 Ferst Dr NW, Atlanta, GA 30318, USA",
+        "name": "GaTech Visitor Parking",
+        "locationConfidence": 0.047585282,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337816040,
+        "longitudeE7": -843974580,
+        "placeId": "ChIJifGWSfUE9YgRwzjayvxbefs",
+        "address": "Atlanta, GA 30318, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.042287774
+      }, {
+        "latitudeE7": 337815260,
+        "longitudeE7": -843990660,
+        "placeId": "ChIJ5X421PQE9YgR1PWpgSELI3k",
+        "address": "Atlanta, GA 30318, USA",
+        "name": "10th St NW@State St NW",
+        "locationConfidence": 0.041626107
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.040971983,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.037855893,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337830900,
+        "longitudeE7": -843949496,
+        "placeId": "ChIJta-qu18E9YgR4g-mwuANcI0",
+        "name": "TBS Employee Parking",
+        "locationConfidence": 0.0346424
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 82,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "endLocation": {
+        "latitudeE7": 337800364,
+        "longitudeE7": -843876197
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T13:48:44Z",
+        "endTimestamp": "2017-12-12T13:51:22.377Z"
+      },
+      "distance": 256,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 75.19858814105237
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 15.20808917875128
+      }, {
+        "activityType": "CYCLING",
+        "probability": 7.43883541321803
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337815513,
+          "lngE7": -843957138
+        }, {
+          "latE7": 337812690,
+          "lngE7": -843895339
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 595.3834151119479,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337800364,
+        "longitudeE7": -843876197,
+        "placeId": "ChIJWWlPg2cE9YgRd2rn-UL3CYc",
+        "address": "950 West Peachtree Street Northwest, Atlanta, Georgia 30309, United States",
+        "name": "The Plaza Midtown",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 79.92286
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T13:51:22.377Z",
+        "endTimestamp": "2017-12-12T14:04:34.408Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337803785,
+          "longitudeE7": -843887174,
+          "placeId": "ChIJfTK9iWcE9YgRbZH2RIa6Ajc",
+          "address": "950 West Peachtree Street, Atlanta, Georgia 30309-3821, United States",
+          "name": "Publix Super Market at The Plaza Midtown",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 63.920986
+        },
+        "duration": {
+          "startTimestamp": "2017-12-12T13:51:22.377Z",
+          "endTimestamp": "2017-12-12T14:04:34.408Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337808260,
+        "centerLngE7": -843889780,
+        "visitConfidence": 93,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337817130,
+          "longitudeE7": -843875490,
+          "placeId": "ChIJvfuJbl0E9YgRppUFsYqwRFo",
+          "address": "10 10th St NW #390, Atlanta, GA 30309, USA",
+          "name": "RHR International",
+          "locationConfidence": 3.4746792
+        }, {
+          "latitudeE7": 337812318,
+          "longitudeE7": -843894548,
+          "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+          "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Chevron",
+          "locationConfidence": 3.3956218
+        }, {
+          "latitudeE7": 337800821,
+          "longitudeE7": -843894032,
+          "placeId": "ChIJFS69QmcE9YgRdJQuZG6iyQs",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "UH Midtown",
+          "locationConfidence": 1.2551881
+        }, {
+          "latitudeE7": 337809160,
+          "longitudeE7": -843879920,
+          "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+          "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+          "name": "Mac’s Beer And Wine",
+          "locationConfidence": 1.1320335
+        }, {
+          "latitudeE7": 337811050,
+          "longitudeE7": -843863329,
+          "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+          "address": "Atlanta, GA 30309, USA",
+          "name": "Midtown Transit Station",
+          "locationConfidence": 0.8854033
+        }, {
+          "latitudeE7": 337800705,
+          "longitudeE7": -843891217,
+          "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Insomnia Cookies",
+          "locationConfidence": 0.40402701
+        }, {
+          "latitudeE7": 337783396,
+          "longitudeE7": -843876589,
+          "placeId": "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+          "address": "866 W Peachtree St NW, Atlanta, GA 30308, USA",
+          "name": "Renaissance Atlanta Midtown Hotel",
+          "locationConfidence": 0.27451032
+        }, {
+          "latitudeE7": 337820250,
+          "longitudeE7": -843902880,
+          "placeId": "ChIJz7015V0E9YgR1biDQFibiIw",
+          "address": "97 10th St NW, Atlanta, GA 30309, USA",
+          "name": "Homewood Suites by Hilton Atlanta Midtown, GA",
+          "locationConfidence": 0.2599012
+        }, {
+          "latitudeE7": 337804496,
+          "longitudeE7": -843883141,
+          "placeId": "ChIJNWWKjmcE9YgRiWn6IWaJcV0",
+          "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Solar Dimensions Tanning - Midtown",
+          "locationConfidence": 0.14110206
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 50,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337808260,
+      "centerLngE7": -843889780,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337817130,
+        "longitudeE7": -843875490,
+        "placeId": "ChIJvfuJbl0E9YgRppUFsYqwRFo",
+        "address": "10 10th St NW #390, Atlanta, GA 30309, USA",
+        "name": "RHR International",
+        "locationConfidence": 4.3445244
+      }, {
+        "latitudeE7": 337812318,
+        "longitudeE7": -843894548,
+        "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+        "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Chevron",
+        "locationConfidence": 4.245676
+      }, {
+        "latitudeE7": 337800821,
+        "longitudeE7": -843894032,
+        "placeId": "ChIJFS69QmcE9YgRdJQuZG6iyQs",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "UH Midtown",
+        "locationConfidence": 1.5694097
+      }, {
+        "latitudeE7": 337809160,
+        "longitudeE7": -843879920,
+        "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+        "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+        "name": "Mac’s Beer And Wine",
+        "locationConfidence": 1.415425
+      }, {
+        "latitudeE7": 337811050,
+        "longitudeE7": -843863329,
+        "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+        "address": "Atlanta, GA 30309, USA",
+        "name": "Midtown Transit Station",
+        "locationConfidence": 1.1070536
+      }, {
+        "latitudeE7": 337800705,
+        "longitudeE7": -843891217,
+        "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Insomnia Cookies",
+        "locationConfidence": 0.50517046
+      }, {
+        "latitudeE7": 337783396,
+        "longitudeE7": -843876589,
+        "placeId": "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+        "address": "866 W Peachtree St NW, Atlanta, GA 30308, USA",
+        "name": "Renaissance Atlanta Midtown Hotel",
+        "locationConfidence": 0.34323078
+      }, {
+        "latitudeE7": 337820250,
+        "longitudeE7": -843902880,
+        "placeId": "ChIJz7015V0E9YgR1biDQFibiIw",
+        "address": "97 10th St NW, Atlanta, GA 30309, USA",
+        "name": "Homewood Suites by Hilton Atlanta Midtown, GA",
+        "locationConfidence": 0.32496443
+      }, {
+        "latitudeE7": 337804496,
+        "longitudeE7": -843883141,
+        "placeId": "ChIJNWWKjmcE9YgRiWn6IWaJcV0",
+        "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "Solar Dimensions Tanning - Midtown",
+        "locationConfidence": 0.17642532
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337800364,
+        "longitudeE7": -843876197
+      },
+      "endLocation": {
+        "latitudeE7": 337774953,
+        "longitudeE7": -843841772
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T14:04:34.408Z",
+        "endTimestamp": "2017-12-12T14:13:57.335Z"
+      },
+      "distance": 597,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.3796132464684
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 1.3816569448148448
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.08026576946551514
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337800521,
+          "lngE7": -843873519
+        }, {
+          "latE7": 337807807,
+          "lngE7": -843846206
+        }, {
+          "latE7": 337785415,
+          "lngE7": -843844909
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 413.2233518291135,
+        "travelMode": "WALK",
+        "confidence": 0.9977809760098819
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337808113,
+          "lngE7": -843848190,
+          "accuracyMeters": 25,
+          "timestamp": "2017-12-12T14:09:42.266Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337774953,
+        "longitudeE7": -843841772,
+        "placeId": "ChIJJWhy9GgE9YgRiRdnGroqxxM",
+        "address": "855 Peachtree St NE, Atlanta, Georgia 30308, United States",
+        "name": "QuikTrip",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 79.78435
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T14:13:57.335Z",
+        "endTimestamp": "2017-12-12T14:34:15.333Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337776429,
+      "centerLngE7": -843845765,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337775807,
+        "longitudeE7": -843848336,
+        "placeId": "ChIJiwRLxGIF9YgRtxMKyNeEHd0",
+        "address": "842 Peachtree St NE, Atlanta, GA 30308, USA",
+        "name": "CVS",
+        "locationConfidence": 6.2101398
+      }, {
+        "latitudeE7": 337779247,
+        "longitudeE7": -843837850,
+        "placeId": "ChIJX36ZXmgE9YgRqoyY79Z-CBM",
+        "name": "Viewpoint Condominium Association",
+        "locationConfidence": 1.664528
+      }, {
+        "latitudeE7": 337776669,
+        "longitudeE7": -843841893,
+        "placeId": "ChIJicUWWGgE9YgRnO1R17GNpfQ",
+        "address": "855 Peachtree St NE, Atlanta, GA 30308, USA",
+        "name": "Le Macaron Atlanta",
+        "locationConfidence": 1.0939367
+      }, {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 0.9017452
+      }, {
+        "latitudeE7": 337778200,
+        "longitudeE7": -843838070,
+        "placeId": "ChIJ3ayIsEYE9YgR3GMMaQMLJXo",
+        "address": "855 Peachtree St NE, Atlanta, GA 30308, USA",
+        "name": "The Art of Touch Therapeutic Massage Center",
+        "locationConfidence": 0.60904086
+      }, {
+        "latitudeE7": 337778383,
+        "longitudeE7": -843839170,
+        "placeId": "ChIJFzp1jWgE9YgRhvexD_4tRIQ",
+        "address": "855 Peachtree St NE Suite #3, Atlanta, GA 30308, USA",
+        "name": "Vitality Bowls Atlanta",
+        "locationConfidence": 0.47463542
+      }, {
+        "latitudeE7": 337767600,
+        "longitudeE7": -843831710,
+        "placeId": "ChIJfR0R4mgE9YgR8mEJ3O0Sqq8",
+        "address": "814 Juniper St NE Audio / Visual, Atlanta, GA 30318, USA",
+        "name": "Phone Fancy Iphone Screen Repair",
+        "locationConfidence": 0.29633626
+      }, {
+        "latitudeE7": 337781940,
+        "longitudeE7": -843847580,
+        "placeId": "ChIJgQtqcGUF9YgRRFG09xZuwe4",
+        "address": "860 Peachtree St NE Suite F, Atlanta, GA 30308, USA",
+        "name": "Eyedeology Vision Center + Optique",
+        "locationConfidence": 0.20853537
+      }, {
+        "latitudeE7": 337767600,
+        "longitudeE7": -843831710,
+        "placeId": "ChIJfR0R4mgE9YgRQkf51VeSiXc",
+        "address": "1259 Monroe Dr NE, Atlanta, GA 30306, USA",
+        "name": "Midtown Family Chiropractic \u0026 Wellness Center",
+        "locationConfidence": 0.20285507
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337777212,
+        "longitudeE7": -843843305
+      },
+      "endLocation": {
+        "latitudeE7": 337800364,
+        "longitudeE7": -843876197
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T14:34:15.333Z",
+        "endTimestamp": "2017-12-12T14:43:31.320Z"
+      },
+      "distance": 701,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 92.73898899521186
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 6.298686361552357
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.6098870169356739
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337777214,
+          "lngE7": -843843383
+        }, {
+          "latE7": 337807769,
+          "lngE7": -843848190
+        }, {
+          "latE7": 337800521,
+          "lngE7": -843873519
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 524.1552060754373,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337807426,
+          "lngE7": -843848190,
+          "accuracyMeters": 31,
+          "timestamp": "2017-12-12T14:39:28.336Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337800364,
+        "longitudeE7": -843876197,
+        "placeId": "ChIJWWlPg2cE9YgRd2rn-UL3CYc",
+        "address": "950 West Peachtree Street Northwest, Atlanta, Georgia 30309, United States",
+        "name": "The Plaza Midtown",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 90.21309,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T14:43:31.320Z",
+        "endTimestamp": "2017-12-12T15:04:49.319Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337803785,
+          "longitudeE7": -843887174,
+          "placeId": "ChIJfTK9iWcE9YgRbZH2RIa6Ajc",
+          "address": "950 West Peachtree Street, Atlanta, Georgia 30309-3821, United States",
+          "name": "Publix Super Market at The Plaza Midtown",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 81.50589,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-12T14:43:31.320Z",
+          "endTimestamp": "2017-12-12T15:04:49.319Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337803088,
+        "centerLngE7": -843887125,
+        "visitConfidence": 94,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337809160,
+          "longitudeE7": -843879920,
+          "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+          "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+          "name": "Mac’s Beer And Wine",
+          "locationConfidence": 1.424858
+        }, {
+          "latitudeE7": 337817130,
+          "longitudeE7": -843875490,
+          "placeId": "ChIJvfuJbl0E9YgRppUFsYqwRFo",
+          "address": "10 10th St NW #390, Atlanta, GA 30309, USA",
+          "name": "RHR International",
+          "locationConfidence": 1.3467377
+        }, {
+          "latitudeE7": 337800821,
+          "longitudeE7": -843894032,
+          "placeId": "ChIJFS69QmcE9YgRdJQuZG6iyQs",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "UH Midtown",
+          "locationConfidence": 1.1156739
+        }, {
+          "latitudeE7": 337812318,
+          "longitudeE7": -843894548,
+          "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+          "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Chevron",
+          "locationConfidence": 0.41960222
+        }, {
+          "latitudeE7": 337756178,
+          "longitudeE7": -843962850,
+          "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+          "address": "Atlanta, GA 30332, USA",
+          "name": "Georgia Institute of Technology",
+          "locationConfidence": 0.3886221
+        }, {
+          "latitudeE7": 337811050,
+          "longitudeE7": -843863329,
+          "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+          "address": "Atlanta, GA 30309, USA",
+          "name": "Midtown Transit Station",
+          "locationConfidence": 0.3238741
+        }, {
+          "latitudeE7": 337804496,
+          "longitudeE7": -843883141,
+          "placeId": "ChIJNWWKjmcE9YgRiWn6IWaJcV0",
+          "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Solar Dimensions Tanning - Midtown",
+          "locationConfidence": 0.22152977,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337783396,
+          "longitudeE7": -843876589,
+          "placeId": "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+          "address": "866 W Peachtree St NW, Atlanta, GA 30308, USA",
+          "name": "Renaissance Atlanta Midtown Hotel",
+          "locationConfidence": 0.21723464
+        }, {
+          "latitudeE7": 337800705,
+          "longitudeE7": -843891217,
+          "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Insomnia Cookies",
+          "locationConfidence": 0.08900688
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 67,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337803088,
+      "centerLngE7": -843887125,
+      "visitConfidence": 94,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337809160,
+        "longitudeE7": -843879920,
+        "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+        "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+        "name": "Mac’s Beer And Wine",
+        "locationConfidence": 1.577074
+      }, {
+        "latitudeE7": 337817130,
+        "longitudeE7": -843875490,
+        "placeId": "ChIJvfuJbl0E9YgRppUFsYqwRFo",
+        "address": "10 10th St NW #390, Atlanta, GA 30309, USA",
+        "name": "RHR International",
+        "locationConfidence": 1.4906083
+      }, {
+        "latitudeE7": 337800821,
+        "longitudeE7": -843894032,
+        "placeId": "ChIJFS69QmcE9YgRdJQuZG6iyQs",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "UH Midtown",
+        "locationConfidence": 1.2348602
+      }, {
+        "latitudeE7": 337812318,
+        "longitudeE7": -843894548,
+        "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+        "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Chevron",
+        "locationConfidence": 0.46442792
+      }, {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 0.43013823
+      }, {
+        "latitudeE7": 337811050,
+        "longitudeE7": -843863329,
+        "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+        "address": "Atlanta, GA 30309, USA",
+        "name": "Midtown Transit Station",
+        "locationConfidence": 0.35847324
+      }, {
+        "latitudeE7": 337804496,
+        "longitudeE7": -843883141,
+        "placeId": "ChIJNWWKjmcE9YgRiWn6IWaJcV0",
+        "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "Solar Dimensions Tanning - Midtown",
+        "locationConfidence": 0.24519557,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337783396,
+        "longitudeE7": -843876589,
+        "placeId": "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+        "address": "866 W Peachtree St NW, Atlanta, GA 30308, USA",
+        "name": "Renaissance Atlanta Midtown Hotel",
+        "locationConfidence": 0.2404416
+      }, {
+        "latitudeE7": 337804152,
+        "longitudeE7": -843883717,
+        "placeId": "ChIJndG6gWcE9YgRzfqH6WkCUlg",
+        "address": "44 Peachtree Pl NE, Atlanta, GA 30309, USA",
+        "locationConfidence": 0.12230932,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 78,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337800364,
+        "longitudeE7": -843876197
+      },
+      "endLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T15:04:49.319Z",
+        "endTimestamp": "2017-12-12T15:24:36.315Z"
+      },
+      "distance": 1451,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.50780812104342
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.709325325153137
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.5869752999407775
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337805442,
+          "lngE7": -843893890
+        }, {
+          "latE7": 337806396,
+          "lngE7": -843920440
+        }, {
+          "latE7": 337815246,
+          "lngE7": -843935623
+        }, {
+          "latE7": 337813339,
+          "lngE7": -843935699
+        }, {
+          "latE7": 337795867,
+          "lngE7": -843929824
+        }, {
+          "latE7": 337743606,
+          "lngE7": -843965606
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1335.8272330821158,
+        "travelMode": "WALK",
+        "confidence": 0.9960856033197677
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337806320,
+          "lngE7": -843921661,
+          "accuracyMeters": 42,
+          "timestamp": "2017-12-12T15:06:50.386Z"
+        }, {
+          "latE7": 337817230,
+          "lngE7": -843931732,
+          "accuracyMeters": 50,
+          "timestamp": "2017-12-12T15:08:49.121Z"
+        }, {
+          "latE7": 337813339,
+          "lngE7": -843934937,
+          "accuracyMeters": 85,
+          "timestamp": "2017-12-12T15:10:49.999Z"
+        }, {
+          "latE7": 337796936,
+          "lngE7": -843928604,
+          "accuracyMeters": 39,
+          "timestamp": "2017-12-12T15:12:52.047Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "North Ave NW, Atlanta, Georgia 30332, United States",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 74.81696,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T15:24:36.315Z",
+        "endTimestamp": "2017-12-12T19:17:04.147Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry Street Northwest, Atlanta, Georgia 30313, United States",
+          "name": "School of Mathematics - Georgia Institute of Technology",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 32.494595,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-12T15:24:36.315Z",
+          "endTimestamp": "2017-12-12T19:17:04.147Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337734086,
+        "centerLngE7": -843959870,
+        "visitConfidence": 91,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337735470,
+          "longitudeE7": -843959640,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Department of Mathematics",
+          "locationConfidence": 13.715533,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337736023,
+          "longitudeE7": -843963625,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "locationConfidence": 7.232247,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337737073,
+          "longitudeE7": -843962435,
+          "placeId": "ChIJTeiTb2IE9YgRsoMLlN-2_aE",
+          "address": "Skiles Classroom Bldg, 686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Literature, Media, and Communication",
+          "locationConfidence": 5.4677176,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337742983,
+          "longitudeE7": -843981828,
+          "placeId": "ChIJCfQBmIkE9YgR9Lw1mw-vjnA",
+          "name": "Kessler Campanile",
+          "locationConfidence": 4.9754453
+        }, {
+          "latitudeE7": 337708188,
+          "longitudeE7": -843968197,
+          "placeId": "ChIJmcxgK_jd5okRWSOpMOD70mQ",
+          "name": "Coca-Cola",
+          "locationConfidence": 0.65965956
+        }, {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Clough Undergraduate Learning Commons",
+          "locationConfidence": 0.3569877
+        }, {
+          "latitudeE7": 337700063,
+          "longitudeE7": -843913399,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.31099087,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337720802,
+          "longitudeE7": -843952690,
+          "placeId": "ChIJ5X5DkGIE9YgRG3Twd_IBo1A",
+          "address": "631 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Institute of Technology - Graduate Studies",
+          "locationConfidence": 0.1780089
+        }, {
+          "latitudeE7": 337724231,
+          "longitudeE7": -843947865,
+          "placeId": "ChIJfwlvi2IE9YgRaPMPuf0tqh8",
+          "address": "225 North Avenue NW #202, Atlanta, GA 30332, USA",
+          "name": "Georgia Institute of Technology-Dean\u0027s Office",
+          "locationConfidence": 0.17774698
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 28,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337734086,
+      "centerLngE7": -843959870,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337737236,
+        "longitudeE7": -843962326,
+        "placeId": "ChIJEadw2IkE9YgRs_95eiLq_yc",
+        "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+        "name": "Skiles Classroom Building",
+        "locationConfidence": 23.05705,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337708188,
+        "longitudeE7": -843968197,
+        "placeId": "ChIJmcxgK_jd5okRWSOpMOD70mQ",
+        "name": "Coca-Cola",
+        "locationConfidence": 0.87871456
+      }, {
+        "latitudeE7": 337711611,
+        "longitudeE7": -843972878,
+        "placeId": "ChIJy8fMFYgE9YgRNS2DneoaXuc",
+        "name": "Coca Cola Co: Williams-Bibbs Mialeeka",
+        "locationConfidence": 0.22504637
+      }, {
+        "latitudeE7": 337711611,
+        "longitudeE7": -843972878,
+        "placeId": "ChIJy8fMFYgE9YgR3WtaK9FjdQ8",
+        "name": "Coca-Cola Federal Credit Union",
+        "locationConfidence": 0.18301511
+      }, {
+        "latitudeE7": 337697765,
+        "longitudeE7": -843951103,
+        "placeId": "ChIJATHnVH0E9YgRtD0kUAXqL6M",
+        "address": "531 Luckie St NW, Atlanta, GA 30313, USA",
+        "name": "Centennial Academy School",
+        "locationConfidence": 0.13881688
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.07697107,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.065889925,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW@Fowler St",
+        "locationConfidence": 0.06459105,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337713110,
+        "longitudeE7": -843964300,
+        "placeId": "ChIJ1-V0H4gE9YgRStNt6fkoOY4",
+        "address": "Atlanta, GA 30313, USA",
+        "name": "North Ave NW @ Luckie St NW",
+        "locationConfidence": 0.06000221
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337734155,
+          "lngE7": -843961386,
+          "accuracyMeters": 18,
+          "timestamp": "2017-12-12T19:15:56Z"
+        }, {
+          "latE7": 337739291,
+          "lngE7": -843962532,
+          "accuracyMeters": 12,
+          "timestamp": "2017-12-12T19:16:27Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 348.50290486015314
+      },
+      "locationConfidence": 60,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "endLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T19:17:04.147Z",
+        "endTimestamp": "2017-12-12T19:32:16.587Z"
+      },
+      "distance": 1391,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 97.5090041752205
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 2.104901201792731
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.17432670055003435
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337741432,
+          "lngE7": -843965606
+        }, {
+          "latE7": 337774200,
+          "lngE7": -843934326
+        }, {
+          "latE7": 337769279,
+          "lngE7": -843944778
+        }, {
+          "latE7": 337807846,
+          "lngE7": -843935852
+        }, {
+          "latE7": 337815513,
+          "lngE7": -843957138
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1107.0734533429572,
+        "travelMode": "WALK",
+        "confidence": 0.9931477178826452
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337774658,
+          "lngE7": -843932724,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-12T19:24:12.637Z"
+        }, {
+          "latE7": 337770386,
+          "lngE7": -843944778,
+          "accuracyMeters": 61,
+          "timestamp": "2017-12-12T19:26:13.533Z"
+        }, {
+          "latE7": 337806244,
+          "lngE7": -843934326,
+          "accuracyMeters": 63,
+          "timestamp": "2017-12-12T19:28:14.675Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "endLocation": {
+        "latitudeE7": 337816232,
+        "longitudeE7": -843960308
+      },
+      "duration": {
+        "startTimestamp": "2017-12-12T19:32:16.587Z",
+        "endTimestamp": "2017-12-14T12:09:11.635Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337819054,
+          "lngE7": -843952644,
+          "accuracyMeters": 28,
+          "timestamp": "2017-12-12T19:32:16.587Z"
+        }, {
+          "latE7": 337823688,
+          "lngE7": -843953594,
+          "accuracyMeters": 36,
+          "timestamp": "2017-12-13T02:17:12Z"
+        }, {
+          "latE7": 337818885,
+          "lngE7": -843959641,
+          "accuracyMeters": 20,
+          "timestamp": "2017-12-14T12:08:41.568Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 206.30859215933467
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337816232,
+        "longitudeE7": -843960308
+      },
+      "endLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "duration": {
+        "startTimestamp": "2017-12-14T12:09:11.635Z",
+        "endTimestamp": "2017-12-14T12:23:16.773Z"
+      },
+      "distance": 1163,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 97.43699202574663
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 1.613020628748485
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.582467515680832
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337816238,
+          "lngE7": -843960647
+        }, {
+          "latE7": 337773895,
+          "lngE7": -843936309
+        }, {
+          "latE7": 337743759,
+          "lngE7": -843968658
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1023.157181385431,
+        "travelMode": "WALK",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337773895,
+          "lngE7": -843935394,
+          "accuracyMeters": 100,
+          "timestamp": "2017-12-14T12:15:13.752Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "North Ave NW, Atlanta, Georgia 30332, United States",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 96.5678,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-14T12:23:16.773Z",
+        "endTimestamp": "2017-12-14T16:28:30.728Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337735470,
+          "longitudeE7": -843959640,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry Street Northwest, Atlanta, GA 30332-0160, United States",
+          "name": "Department of Mathematics",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 14.76708
+        },
+        "duration": {
+          "startTimestamp": "2017-12-14T12:23:16.773Z",
+          "endTimestamp": "2017-12-14T16:08:07.568Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337738681,
+        "centerLngE7": -843962816,
+        "visitConfidence": 89,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337736023,
+          "longitudeE7": -843963625,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "locationConfidence": 14.149147,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337737073,
+          "longitudeE7": -843962435,
+          "placeId": "ChIJTeiTb2IE9YgRsoMLlN-2_aE",
+          "address": "Skiles Classroom Bldg, 686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Literature, Media, and Communication",
+          "locationConfidence": 12.729342
+        }, {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Mathematics - Georgia Institute of Technology",
+          "locationConfidence": 3.6178565
+        }, {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Clough Undergraduate Learning Commons",
+          "locationConfidence": 0.884948
+        }, {
+          "latitudeE7": 337708188,
+          "longitudeE7": -843968197,
+          "placeId": "ChIJmcxgK_jd5okRWSOpMOD70mQ",
+          "name": "Coca-Cola",
+          "locationConfidence": 0.7204363
+        }, {
+          "latitudeE7": 337739778,
+          "longitudeE7": -843988123,
+          "placeId": "ChIJZcs9p4kE9YgRu-dEuLafueU",
+          "address": "351 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center",
+          "locationConfidence": 0.32275233
+        }, {
+          "latitudeE7": 337742804,
+          "longitudeE7": -843958565,
+          "placeId": "ChIJrYmNDGIE9YgREKJeJzuBaGs",
+          "address": "686-704 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Price Gilbert Memorial Library",
+          "locationConfidence": 0.17859904
+        }, {
+          "latitudeE7": 337700063,
+          "longitudeE7": -843913399,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.16766775,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337746156,
+          "longitudeE7": -843973354,
+          "placeId": "ChIJG0Yc7IkE9YgRsymOdccxfi0",
+          "address": "North Avenue NW, Atlanta, GA 30332, USA",
+          "name": "Tech Green",
+          "locationConfidence": 0.16330497
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 11,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 337765320,
+          "longitudeE7": -843885360,
+          "placeId": "ChIJyc9l82YE9YgRx8-ln6ML2To",
+          "address": "48 5th St NW, Atlanta, Georgia 30308-1067, United States",
+          "name": "Barnes \u0026 Noble",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 82.52703,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-14T16:20:25.546Z",
+          "endTimestamp": "2017-12-14T16:28:30.728Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337766600,
+        "centerLngE7": -843886550,
+        "visitConfidence": 89,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337764020,
+          "longitudeE7": -843892600,
+          "placeId": "ChIJU_y6jWYE9YgR0nGJG2ELdqw",
+          "address": "800 Spring St NW, Atlanta, GA 30308, USA",
+          "name": "Georgia Tech Hotel \u0026 Conference Center",
+          "locationConfidence": 3.8777204
+        }, {
+          "latitudeE7": 337763453,
+          "longitudeE7": -843878079,
+          "placeId": "ChIJMZ4BXmYE9YgRb6ReJRITGSA",
+          "address": "800 W Peachtree St NW, Atlanta, GA 30332, USA",
+          "name": "Scheller College of Business",
+          "locationConfidence": 2.8317676,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337767016,
+          "longitudeE7": -843898165,
+          "placeId": "ChIJIf2EwGYE9YgRrcnvuRW77lY",
+          "address": "86 5th St NW, Atlanta, GA 30308, USA",
+          "name": "Amazon@GeorgiaTech",
+          "locationConfidence": 0.8921591
+        }, {
+          "latitudeE7": 337766790,
+          "longitudeE7": -843894180,
+          "placeId": "ChIJJ8kS62YE9YgRU-NkB9KCiTo",
+          "address": "66 5th St NW, Atlanta, GA 30332, USA",
+          "name": "Waffle House",
+          "locationConfidence": 0.32226074
+        }, {
+          "latitudeE7": 337773869,
+          "longitudeE7": -843877359,
+          "placeId": "ChIJNa3eTmYE9YgRn_HukVJewQ0",
+          "address": "830 W Peachtree St NW #101, Atlanta, GA 30332, USA",
+          "name": "Atlanta Eye Consultants, Pc",
+          "locationConfidence": 0.16606218
+        }, {
+          "latitudeE7": 337769111,
+          "longitudeE7": -843869273,
+          "placeId": "ChIJaR9QLmYE9YgRSeYzEQwvaEk",
+          "address": "1200 Peachtree St NE Suite 800, Atlanta, GA 30309, USA",
+          "name": "Kimley-Horn and Associates, Inc.",
+          "locationConfidence": 0.13411306
+        }, {
+          "latitudeE7": 337769274,
+          "longitudeE7": -843870136,
+          "placeId": "ChIJ5fNl4vej9YgREvkNqIvZSUg",
+          "address": "756 W Peachtree St NW 4th Floor, Atlanta, GA 30308, USA",
+          "name": "352 Inc.",
+          "locationConfidence": 0.13097821
+        }, {
+          "latitudeE7": 337744461,
+          "longitudeE7": -843849120,
+          "placeId": "ChIJEdwwV28E9YgRegk939Pn4HY",
+          "address": "730 Peachtree St NE, Atlanta, GA 30308, USA",
+          "name": "Atlanta Job Corps Recruitment",
+          "locationConfidence": 0.12186248
+        }, {
+          "latitudeE7": 337774564,
+          "longitudeE7": -843895722,
+          "placeId": "ChIJ3TK652YE9YgR9YWvWT6t1Hc",
+          "address": "75 5th St NW #311, Atlanta, GA 30332, USA",
+          "name": "BLH Venture Partners, LLC",
+          "locationConfidence": 0.086135484
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 68,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337741340,
+      "centerLngE7": -843955553,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337769111,
+        "longitudeE7": -843869273,
+        "placeId": "ChIJaR9QLmYE9YgRSeYzEQwvaEk",
+        "address": "1200 Peachtree St NE Suite 800, Atlanta, GA 30309, USA",
+        "name": "Kimley-Horn and Associates, Inc.",
+        "locationConfidence": 0.15693043
+      }, {
+        "latitudeE7": 337769274,
+        "longitudeE7": -843870136,
+        "placeId": "ChIJ5fNl4vej9YgREvkNqIvZSUg",
+        "address": "756 W Peachtree St NW 4th Floor, Atlanta, GA 30308, USA",
+        "name": "352 Inc.",
+        "locationConfidence": 0.15326224
+      }, {
+        "latitudeE7": 337744461,
+        "longitudeE7": -843849120,
+        "placeId": "ChIJEdwwV28E9YgRegk939Pn4HY",
+        "address": "730 Peachtree St NE, Atlanta, GA 30308, USA",
+        "name": "Atlanta Job Corps Recruitment",
+        "locationConfidence": 0.1425956
+      }, {
+        "latitudeE7": 337779798,
+        "longitudeE7": -843892951,
+        "placeId": "ChIJD4tI-M0F9YgRKBGmWEuvtVk",
+        "address": "848 Spring St NW, Atlanta, GA 30308, USA",
+        "name": "Square on Fifth",
+        "locationConfidence": 0.096672356
+      }, {
+        "latitudeE7": 337783396,
+        "longitudeE7": -843876589,
+        "placeId": "ChIJG4VmsWcE9YgRoLLAyzuntX8",
+        "address": "866 W Peachtree St NW, Atlanta, GA 30308, USA",
+        "name": "Renaissance Atlanta Midtown Hotel",
+        "locationConfidence": 0.09471773
+      }, {
+        "latitudeE7": 337770761,
+        "longitudeE7": -843869114,
+        "placeId": "ChIJbRXkF2YE9YgRAmIGZ2dSx0Y",
+        "address": "817 W Peachtree St NW, Atlanta, GA 30308, USA",
+        "name": "USA-HealthInsurance",
+        "locationConfidence": 0.0925483
+      }, {
+        "latitudeE7": 337778000,
+        "longitudeE7": -843880530,
+        "placeId": "ChIJ_zGq_2YE9YgRRYfzLM1sllc",
+        "address": "845 Spring St NW # B1, Atlanta, GA 30308, USA",
+        "name": "MidCity Dentistry",
+        "locationConfidence": 0.077109694
+      }, {
+        "latitudeE7": 337769110,
+        "longitudeE7": -843869270,
+        "placeId": "ChIJk3EXR2YE9YgRgANvMHp-LGk",
+        "address": "2827 Peachtree Rd NE Suite 500, Atlanta, GA 30305, USA",
+        "name": "Novare Group",
+        "locationConfidence": 0.0734467
+      }, {
+        "latitudeE7": 337778000,
+        "longitudeE7": -843880530,
+        "placeId": "ChIJL32AVGYE9YgRzerZdB3rMNk",
+        "name": "Metro Atlanta Realty Group | Keller Williams Real Estate Team",
+        "locationConfidence": 0.07206445
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337743747,
+          "lngE7": -843971956,
+          "accuracyMeters": 41,
+          "timestamp": "2017-12-14T12:23:16.773Z"
+        }, {
+          "latE7": 337734117,
+          "lngE7": -843965656,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-14T12:31:19.473Z"
+        }, {
+          "latE7": 337738870,
+          "lngE7": -843960741,
+          "accuracyMeters": 23,
+          "timestamp": "2017-12-14T15:58:14.500Z"
+        }, {
+          "latE7": 337749139,
+          "lngE7": -843965931,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-14T16:08:07.568Z"
+        }, {
+          "latE7": 337768574,
+          "lngE7": -843927032,
+          "accuracyMeters": 24,
+          "timestamp": "2017-12-14T16:14:19.183Z"
+        }, {
+          "latE7": 337763870,
+          "lngE7": -843884669,
+          "accuracyMeters": 20,
+          "timestamp": "2017-12-14T16:20:25.546Z"
+        }, {
+          "latE7": 337771548,
+          "lngE7": -843885928,
+          "accuracyMeters": 24,
+          "timestamp": "2017-12-14T16:27:27.534Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1280.9006608133157
+      },
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "endLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "duration": {
+        "startTimestamp": "2017-12-14T16:28:30.728Z",
+        "endTimestamp": "2017-12-14T16:39:40.734Z"
+      },
+      "distance": 1009,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.71228136248735
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 0.8491217233860713
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.18468456619226367
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337769966,
+          "lngE7": -843895492
+        }, {
+          "latE7": 337776184,
+          "lngE7": -843936233
+        }, {
+          "latE7": 337815513,
+          "lngE7": -843957138
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1080.740986328561,
+        "travelMode": "WALK",
+        "confidence": 0.9996770994261199
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337776184,
+          "lngE7": -843935013,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-14T16:33:38.780Z"
+        }]
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "endLocation": {
+        "latitudeE7": 337816337,
+        "longitudeE7": -843944633
+      },
+      "duration": {
+        "startTimestamp": "2017-12-14T16:39:40.734Z",
+        "endTimestamp": "2017-12-15T17:51:25Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337817356,
+          "lngE7": -843955773,
+          "accuracyMeters": 12,
+          "timestamp": "2017-12-15T17:50:08Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 116.39268530544734
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337816337,
+        "longitudeE7": -843944633
+      },
+      "endLocation": {
+        "latitudeE7": 337743246,
+        "longitudeE7": -843964812
+      },
+      "duration": {
+        "startTimestamp": "2017-12-15T17:51:25Z",
+        "endTimestamp": "2017-12-15T18:07:12.224Z"
+      },
+      "distance": 833,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 92.66093555253401
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.399440093234971
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 3.071221666208148
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337816352,
+          "lngE7": -843944625
+        }, {
+          "latE7": 337742118,
+          "lngE7": -843963317
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "North Ave NW, Atlanta, Georgia 30332, United States",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 96.707886,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-15T18:07:12.224Z",
+        "endTimestamp": "2017-12-15T20:50:03.302Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337744069,
+          "longitudeE7": -843996194,
+          "placeId": "ChIJlc4sE4kE9YgR0XOcvZ0UEEQ",
+          "address": "353 Ferst Drive, Atlanta, Georgia 30313, United States",
+          "name": "Student Services Building",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 65.62805,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2017-12-15T18:25:04.742Z",
+          "endTimestamp": "2017-12-15T20:38:30.187Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337742868,
+        "centerLngE7": -843996313,
+        "visitConfidence": 92,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337743541,
+          "longitudeE7": -843995957,
+          "placeId": "ChIJ10lhbvUE9YgR9myhCTpb1HY",
+          "address": "353 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Housing",
+          "locationConfidence": 6.687669,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337743182,
+          "longitudeE7": -843996116,
+          "placeId": "ChIJtWQmbYkE9YgRO08fCw2T08I",
+          "name": "Georgia Tech Central Housing Office",
+          "locationConfidence": 5.569914,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337739778,
+          "longitudeE7": -843988123,
+          "placeId": "ChIJZcs9p4kE9YgRu-dEuLafueU",
+          "address": "351 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center",
+          "locationConfidence": 3.3848214
+        }, {
+          "latitudeE7": 337738811,
+          "longitudeE7": -843995745,
+          "placeId": "ChIJ1xktEIkE9YgRfc12WeaRxvc",
+          "name": "Visitor Parking",
+          "locationConfidence": 2.4000497
+        }, {
+          "latitudeE7": 337737835,
+          "longitudeE7": -844001564,
+          "placeId": "ChIJWRbQF4kE9YgRV3acrQlqf1U",
+          "address": "Smithgall Building, 353 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Student Center Parking",
+          "locationConfidence": 2.3907967
+        }, {
+          "latitudeE7": 337744090,
+          "longitudeE7": -843986810,
+          "placeId": "ChIJoScuBIkE9YgREZl1aenzJHs",
+          "address": "410 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Paper \u0026 Clay",
+          "locationConfidence": 0.92084825
+        }, {
+          "latitudeE7": 337742127,
+          "longitudeE7": -844006443,
+          "placeId": "ChIJ_1PjOIkE9YgRXBnJVck3dsA",
+          "name": "GaTech Parking W02",
+          "locationConfidence": 0.42659077
+        }, {
+          "latitudeE7": 337741166,
+          "longitudeE7": -843988161,
+          "placeId": "ChIJh9Mbp4kE9YgRQWAfEFurcXM",
+          "name": "Ferst Place",
+          "locationConfidence": 0.30736467
+        }, {
+          "latitudeE7": 337744069,
+          "longitudeE7": -843996194,
+          "placeId": "ChIJ2bhPbYkE9YgRJqNhljje34M",
+          "address": "Smithgall Building, 353 Ferst Dr NW, Atlanta, GA 30332, USA",
+          "name": "Dean of Students (Smithgall)",
+          "locationConfidence": 0.29450068,
+          "isCurrentLocation": true
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 52,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 337741462,
+      "centerLngE7": -843989894,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337737236,
+        "longitudeE7": -843962326,
+        "placeId": "ChIJEadw2IkE9YgRs_95eiLq_yc",
+        "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+        "name": "Skiles Classroom Building",
+        "locationConfidence": 2.2699568
+      }, {
+        "latitudeE7": 337725503,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJzUNECGME9YgRTgSdqqZ1aLw",
+        "address": "177 North Avenue NW, Atlanta, GA 30332, USA",
+        "name": "Bobby Dodd Stadium at Historic Grant Field",
+        "locationConfidence": 0.1691872,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337722147,
+        "longitudeE7": -843928581,
+        "placeId": "ChIJ-aM7D2ME9YgR3g1-_cU0AEA",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "J.C.Shaw Sports Complex",
+        "locationConfidence": 0.09448672,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814550,
+        "longitudeE7": -843977610,
+        "placeId": "ChIJifGWSfUE9YgRzkhafd0lnyM",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Atlantic Dr NW",
+        "locationConfidence": 0.09370849,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337722520,
+        "longitudeE7": -844014820,
+        "placeId": "ChIJ77VOzYgE9YgRut468YSCeKw",
+        "address": "Atlanta, GA 30313, USA",
+        "name": "Marietta St NW@Wallace St NW",
+        "locationConfidence": 0.082662955
+      }, {
+        "latitudeE7": 337725744,
+        "longitudeE7": -844026098,
+        "placeId": "ChIJUQqlI48E9YgRx3_0okdtsJA",
+        "address": "740 Marietta St NW, Atlanta, GA 30318, USA",
+        "name": "Salvation Army Rehab Center",
+        "locationConfidence": 0.076528385
+      }, {
+        "latitudeE7": 337814880,
+        "longitudeE7": -844027630,
+        "placeId": "ChIJ7Qm8SvME9YgRMg7OODy6BQI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW@Center St NW",
+        "locationConfidence": 0.07471744,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337814548,
+        "longitudeE7": -843993420,
+        "placeId": "ChIJZdmA0_QE9YgR8GAekOUm3nI",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "10th St NW @ State St NW",
+        "locationConfidence": 0.06306028,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW@Fowler St",
+        "locationConfidence": 0.04952227,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337731341,
+          "lngE7": -843961976,
+          "accuracyMeters": 21,
+          "timestamp": "2017-12-15T18:14:24.253Z"
+        }, {
+          "latE7": 337733283,
+          "lngE7": -843969809,
+          "accuracyMeters": 37,
+          "timestamp": "2017-12-15T18:17:36.217Z"
+        }, {
+          "latE7": 337742300,
+          "lngE7": -843985429,
+          "accuracyMeters": 32,
+          "timestamp": "2017-12-15T18:28:07.151Z"
+        }, {
+          "latE7": 337742300,
+          "lngE7": -843985429,
+          "accuracyMeters": 32,
+          "timestamp": "2017-12-15T18:29:27.489Z"
+        }, {
+          "latE7": 337742943,
+          "lngE7": -843993229,
+          "accuracyMeters": 25,
+          "timestamp": "2017-12-15T18:32:55.177Z"
+        }, {
+          "latE7": 337737008,
+          "lngE7": -843961451,
+          "accuracyMeters": 20,
+          "timestamp": "2017-12-15T20:42:31.864Z"
+        }, {
+          "latE7": 337741680,
+          "lngE7": -843960552,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-15T20:49:02.481Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 1222.564827544824
+      },
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850
+      },
+      "endLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "duration": {
+        "startTimestamp": "2017-12-15T20:50:03.302Z",
+        "endTimestamp": "2017-12-15T21:04:22.329Z"
+      },
+      "distance": 1104,
+      "activityType": "WALKING",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 98.06320116972873
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 1.371515949134872
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.25633775762245586
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337757453,
+          "lngE7": -843962860
+        }, {
+          "latE7": 337818489,
+          "lngE7": -843957901
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817154,
+        "longitudeE7": -843957138
+      },
+      "endLocation": {
+        "latitudeE7": 337818215,
+        "longitudeE7": -843964961
+      },
+      "duration": {
+        "startTimestamp": "2017-12-15T21:04:22.329Z",
+        "endTimestamp": "2017-12-18T23:12:53.541Z"
+      },
+      "activityType": "UNKNOWN_ACTIVITY_TYPE",
+      "activities": [{
+        "activityType": "UNKNOWN_ACTIVITY_TYPE",
+        "probability": 0.0
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337817711,
+          "lngE7": -843947543,
+          "accuracyMeters": 25,
+          "timestamp": "2017-12-15T21:04:22.329Z"
+        }, {
+          "latE7": 337819671,
+          "lngE7": -843956986,
+          "accuracyMeters": 26,
+          "timestamp": "2017-12-16T02:42:55.947Z"
+        }, {
+          "latE7": 337816940,
+          "lngE7": -843962260,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-18T23:08:52.202Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 264.98386179574476
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337818215,
+        "longitudeE7": -843964961
+      },
+      "endLocation": {
+        "latitudeE7": 338024805,
+        "longitudeE7": -844275631
+      },
+      "duration": {
+        "startTimestamp": "2017-12-18T23:12:53.541Z",
+        "endTimestamp": "2017-12-18T23:26:08.180Z"
+      },
+      "distance": 4200,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.63683278236398
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.6380854283977447
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.352296708541395
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337815093,
+          "lngE7": -843964843
+        }, {
+          "latE7": 338019256,
+          "lngE7": -844282150
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 338024805,
+          "longitudeE7": -844275631,
+          "accuracyMetres": 15
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-12-18T23:28:25.734Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 338019337,
+        "longitudeE7": -844276979,
+        "placeId": "ChIJteoZQNgE9YgR_2J5_jgpsL8",
+        "address": "1750-A Ellsworth Industrial Boulevard Northwest, Atlanta, Georgia 30318, United States",
+        "name": "K\u0026G Fashion Superstore",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 96.93516,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-18T23:26:08.180Z",
+        "endTimestamp": "2017-12-19T00:45:42.540Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 338023962,
+      "centerLngE7": -844275185,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 338027854,
+        "longitudeE7": -844267868,
+        "placeId": "ChIJuU2yO9gE9YgRgOab7QHUky4",
+        "address": "1737 Ellsworth Industrial Blvd NW, Atlanta, GA 30318, USA",
+        "name": "TWD \"King County Sheriff Department\" and Season 1 production offices/studio",
+        "locationConfidence": 0.9800538
+      }, {
+        "latitudeE7": 338024777,
+        "longitudeE7": -844264022,
+        "placeId": "ChIJx8bfSNgE9YgRv4_3sxG8L2U",
+        "address": "1737 Ellsworth Industrial Blvd NW, Atlanta, GA 30318, USA",
+        "name": "Vesta Holdings",
+        "locationConfidence": 0.26762956
+      }, {
+        "latitudeE7": 338019270,
+        "longitudeE7": -844264463,
+        "placeId": "ChIJabfRt9kE9YgR0bNWHUiaK3o",
+        "address": "1175 Chattahoochee Ave NW, Atlanta, GA 30318, USA",
+        "name": "COMPLEX West Midtown",
+        "locationConfidence": 0.25693274
+      }, {
+        "latitudeE7": 338036713,
+        "longitudeE7": -844275201,
+        "placeId": "ChIJc7LA4xoF9YgRrNXbZsbkg18",
+        "address": "1778 Ellsworth Industrial Blvd NW, Atlanta, GA 30318, USA",
+        "name": "Revel",
+        "locationConfidence": 0.24349384
+      }, {
+        "latitudeE7": 338033530,
+        "longitudeE7": -844264800,
+        "placeId": "ChIJ2RoG5-AE9YgRbxg3bw82cE0",
+        "address": "1777 Ellsworth Industrial Blvd NW, Atlanta, GA 30318, USA",
+        "name": "OxBlue Corporation",
+        "locationConfidence": 0.16015898
+      }, {
+        "latitudeE7": 338013734,
+        "longitudeE7": -844264159,
+        "placeId": "ChIJhYFXwMkF9YgRBG8xcavvafs",
+        "address": "1175 Chattahoochee Ave NW bldg a, Atlanta, GA 30318, USA",
+        "name": "Proof of the Pudding",
+        "locationConfidence": 0.16008607
+      }, {
+        "latitudeE7": 338026079,
+        "longitudeE7": -844267348,
+        "placeId": "ChIJsVoXzdkE9YgR5_vG5SobYcg",
+        "address": "2961 Olympic Industrial Dr Suite 101, Smyrna, GA 30080, USA",
+        "name": "InVesta Services",
+        "locationConfidence": 0.07767799
+      }, {
+        "latitudeE7": 338006800,
+        "longitudeE7": -844254304,
+        "placeId": "ChIJj8TyodkE9YgRvw1qMNmdfl4",
+        "address": "1176 Chattahoochee Ave NW, Atlanta, GA 30318, USA",
+        "name": "Circle K",
+        "locationConfidence": 0.07322398
+      }, {
+        "latitudeE7": 338036713,
+        "longitudeE7": -844274450,
+        "placeId": "ChIJc7jKHtgE9YgRYV1OyLAvPm4",
+        "address": "1778 Ellsworth Industrial Blvd NW, Atlanta, GA 30318, USA",
+        "name": "Studio West",
+        "locationConfidence": 0.056253083
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 87,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 338019337,
+        "longitudeE7": -844276979
+      },
+      "endLocation": {
+        "latitudeE7": 338028269,
+        "longitudeE7": -844115850
+      },
+      "duration": {
+        "startTimestamp": "2017-12-19T00:45:42.540Z",
+        "endTimestamp": "2017-12-19T01:01:54.413Z"
+      },
+      "distance": 2539,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 96.37544963615278
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.6949105698147202
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.0613911486433667
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 338019256,
+          "lngE7": -844282150
+        }, {
+          "latE7": 338030281,
+          "lngE7": -844117431
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 338028269,
+          "longitudeE7": -844115850,
+          "accuracyMetres": 22
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-12-19T01:04:34.717Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 338030199,
+        "longitudeE7": -844117515,
+        "placeId": "ChIJy-H3HuIE9YgRkHpYTbWgSPk",
+        "address": "1801 Howell Mill Road Northwest, Atlanta, Georgia 30318, United States",
+        "name": "The District at Howell Mill",
+        "sourceInfo": {
+          "deviceTag": 1134559649
+        },
+        "locationConfidence": 98.233185,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2017-12-19T01:01:54.413Z",
+        "endTimestamp": "2017-12-19T01:21:18.639Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 338030266,
+          "longitudeE7": -844116913,
+          "placeId": "ChIJb2lkfesE9YgRtxIhLF6Yin0",
+          "address": "1801 Howell Mill Road Northwest, Atlanta, Georgia 30318, United States",
+          "name": "Walmart Supercenter",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 93.105545
+        },
+        "duration": {
+          "startTimestamp": "2017-12-19T01:02:57.335Z",
+          "endTimestamp": "2017-12-19T01:10:12.107Z"
+        },
+        "placeConfidence": "HIGH_CONFIDENCE",
+        "centerLatE7": 338028173,
+        "centerLngE7": -844115192,
+        "visitConfidence": 95,
+        "otherCandidateLocations": [{
+          "latitudeE7": 338030264,
+          "longitudeE7": -844120590,
+          "placeId": "ChIJL9pL9uAE9YgRQb-mPZ938CU",
+          "address": "1801 Howell Mill Rd NW, Atlanta, GA 30318, USA",
+          "name": "SUBWAY®Restaurants",
+          "locationConfidence": 4.4534082
+        }, {
+          "latitudeE7": 338030199,
+          "longitudeE7": -844117515,
+          "placeId": "ChIJy-H3HuIE9YgRkHpYTbWgSPk",
+          "address": "1801 Howell Mill Rd NW, Atlanta, GA 30318, USA",
+          "name": "The District at Howell Mill",
+          "locationConfidence": 0.5585762
+        }, {
+          "latitudeE7": 338046414,
+          "longitudeE7": -844142472,
+          "placeId": "ChIJeYpCfesE9YgRR_jVMm2Jkq8",
+          "name": "Carter \u0026 Associates",
+          "locationConfidence": 0.0012224006
+        }, {
+          "latitudeE7": 338046854,
+          "longitudeE7": -844145357,
+          "placeId": "ChIJkepd0OEE9YgRY9a6CV2iAkY",
+          "address": "1800 Howell Mill Rd Suite 140, Atlanta, GA 30318, USA",
+          "name": "Sarcia Marc a MD",
+          "locationConfidence": 0.0012224006
+        }, {
+          "latitudeE7": 338034700,
+          "longitudeE7": -844087830,
+          "placeId": "ChIJr7XbhOIE9YgRwiIyoqkD2sQ",
+          "name": "A Plus Breezy Screens",
+          "locationConfidence": 0.0012224006
+        }, {
+          "latitudeE7": 338046854,
+          "longitudeE7": -844145357,
+          "placeId": "ChIJkepd0OEE9YgRqDbQnkSYfT4",
+          "address": "1800 Howell Mill Rd # 450, Atlanta, GA 30318, USA",
+          "name": "Kies Staci D",
+          "locationConfidence": 0.0012224006
+        }, {
+          "latitudeE7": 338008258,
+          "longitudeE7": -844117986,
+          "placeId": "ChIJpy631uME9YgRfNPNwwG6uBQ",
+          "address": "1700 Commerce Dr NW, Atlanta, GA 30318, USA",
+          "name": "Blue Door",
+          "locationConfidence": 0.0012224006
+        }, {
+          "latitudeE7": 338046854,
+          "longitudeE7": -844145357,
+          "placeId": "ChIJCySdLh4F9YgRhk8ddLWxpZQ",
+          "address": "Piedmont West Medical Building, 1800 Howell Mill Rd #200, Atlanta, GA 30318, USA",
+          "name": "Orthoatlant Mri Piedmont West",
+          "locationConfidence": 0.0012224006
+        }, {
+          "latitudeE7": 338031350,
+          "longitudeE7": -844116036,
+          "placeId": "ChIJozos8OEE9YgR22YPJq5ot0E",
+          "address": "1801 Howell Mill Rd NW, Atlanta, GA 30318, USA",
+          "name": "Marvin J. Carus, O",
+          "locationConfidence": 0.0012224006
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 99,
+        "placeVisitType": "SINGLE_PLACE"
+      }, {
+        "location": {
+          "latitudeE7": 338030264,
+          "longitudeE7": -844120590,
+          "placeId": "ChIJL9pL9uAE9YgRQb-mPZ938CU",
+          "address": "1801 Howell Mill Rd NW, Atlanta, Georgia 30318, United States",
+          "name": "SUBWAY®Restaurants",
+          "sourceInfo": {
+            "deviceTag": 1134559649
+          },
+          "locationConfidence": 78.808365
+        },
+        "duration": {
+          "startTimestamp": "2017-12-19T01:11:14.359Z",
+          "endTimestamp": "2017-12-19T01:21:18.639Z"
+        },
+        "placeConfidence": "HIGH_CONFIDENCE",
+        "centerLatE7": 338029467,
+        "centerLngE7": -844118211,
+        "visitConfidence": 95,
+        "otherCandidateLocations": [{
+          "latitudeE7": 338030266,
+          "longitudeE7": -844116913,
+          "placeId": "ChIJb2lkfesE9YgRtxIhLF6Yin0",
+          "address": "1801 Howell Mill Rd NW, Atlanta, GA 30318, USA",
+          "name": "Walmart Supercenter",
+          "locationConfidence": 19.343521
+        }, {
+          "latitudeE7": 338008215,
+          "longitudeE7": -844104546,
+          "placeId": "ChIJ1Wj-tuME9YgRYzUG_g2C-Cg",
+          "address": "1705 Commerce Dr NW, Atlanta, GA 30318, USA",
+          "name": "Life Theatre",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338013056,
+          "longitudeE7": -844103302,
+          "placeId": "ChIJ021uNeIE9YgR3ssp1eAo6nM",
+          "name": "Transland Financial",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338046972,
+          "longitudeE7": -844141555,
+          "placeId": "ChIJB0wNTOAE9YgRn5DBejafH8Y",
+          "name": "Dr. Alfred Jenkins",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338033409,
+          "longitudeE7": -844142675,
+          "placeId": "ChIJGQZBzuEE9YgR7afy3aERfBk",
+          "name": "Jungle Woodwork",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338014910,
+          "longitudeE7": -844116384,
+          "placeId": "ChIJRU13LeIE9YgR4kUoRhyvXgA",
+          "name": "OneTechGirl",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338046854,
+          "longitudeE7": -844145357,
+          "placeId": "ChIJCySdLh4F9YgRhk8ddLWxpZQ",
+          "address": "Piedmont West Medical Building, 1800 Howell Mill Rd #200, Atlanta, GA 30318, USA",
+          "name": "Orthoatlant Mri Piedmont West",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338035007,
+          "longitudeE7": -844119888,
+          "placeId": "ChIJozos8OEE9YgRzXzMDAi26Tk",
+          "address": "1801 Howell Mill Rd NW, Atlanta, GA 30318, USA",
+          "name": "Kim C. Raharja, OD",
+          "locationConfidence": 8.2996004E-4
+        }, {
+          "latitudeE7": 338013684,
+          "longitudeE7": -844111354,
+          "placeId": "ChIJI8I9M-IE9YgRaXi9_TxZaBA",
+          "name": "Art Design",
+          "locationConfidence": 8.2996004E-4
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 91,
+        "placeVisitType": "SINGLE_PLACE"
+      }],
+      "centerLatE7": 338029184,
+      "centerLngE7": -844116895,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 338017696,
+        "longitudeE7": -844125697,
+        "placeId": "ChIJ8wGZmeEE9YgRjG0uuXXtCDQ",
+        "address": "1715 Howell Mill Rd NW, Atlanta, GA 30318, USA",
+        "name": "Howell Mill Square",
+        "locationConfidence": 0.8056831
+      }, {
+        "latitudeE7": 338014910,
+        "longitudeE7": -844116384,
+        "placeId": "ChIJRU13LeIE9YgR7A7eLz3WLF0",
+        "address": "1750 Commerce Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 0.03453221
+      }, {
+        "latitudeE7": 338019020,
+        "longitudeE7": -844111730,
+        "placeId": "ChIJy-ldzOME9YgRGcswdOUrFhg",
+        "address": "Advantage Corporation Apartments, 1750 Commerce Dr NW, Atlanta, GA 30318, USA",
+        "name": "Alexander at the District",
+        "locationConfidence": 0.028502341
+      }, {
+        "latitudeE7": 338043897,
+        "longitudeE7": -844140904,
+        "placeId": "ChIJI3nt2OEE9YgRJk_K1rBjZlI",
+        "address": "1800 Howell Mill Rd NW #130, Atlanta, GA 30318, USA",
+        "name": "American Family Care",
+        "locationConfidence": 0.020197421
+      }, {
+        "latitudeE7": 338010047,
+        "longitudeE7": -844119916,
+        "placeId": "ChIJIwAj0eME9YgRUNJR71zaXlQ",
+        "address": "1700 Commerce Dr NW Ste 100, Atlanta, GA 30318, USA",
+        "name": "Living Foods Institute",
+        "locationConfidence": 0.018185409
+      }, {
+        "latitudeE7": 338037360,
+        "longitudeE7": -844142420,
+        "placeId": "ChIJD5tt0eEE9YgRb1iMVRvigrY",
+        "address": "Atlanta, GA 30318, USA",
+        "name": "Howell Mill Rd NW@1710",
+        "locationConfidence": 0.017703673
+      }, {
+        "latitudeE7": 338042060,
+        "longitudeE7": -844136640,
+        "placeId": "ChIJc-6oIB4F9YgRu7ZTIXtysuY",
+        "address": "Atlanta, GA 30318, USA",
+        "name": "Howell Mill Rd NW @ 1801",
+        "locationConfidence": 0.01693097,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 338045397,
+        "longitudeE7": -844142058,
+        "placeId": "ChIJc4WuG-ME9YgRKxhj1mGC_Zo",
+        "address": "1800 Howell Mill Rd, Atlanta, GA 30318, USA",
+        "name": "Rising Roll Gourmet",
+        "locationConfidence": 0.016891018
+      }, {
+        "latitudeE7": 338047145,
+        "longitudeE7": -844142558,
+        "placeId": "ChIJA2hpugAF9YgR2eVnQdQlYCc",
+        "address": "1800 Howell Mill Rd #200, Atlanta, GA 30318, USA",
+        "name": "OrthoAtlanta: Peter J. Symbas MD",
+        "locationConfidence": 0.016633695
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 338032996,
+          "lngE7": -844122007,
+          "accuracyMeters": 22,
+          "timestamp": "2017-12-19T01:01:54.413Z"
+        }, {
+          "latE7": 338027705,
+          "lngE7": -844111930,
+          "accuracyMeters": 32,
+          "timestamp": "2017-12-19T01:10:12.107Z"
+        }],
+        "source": "BACKFILLED",
+        "distanceMeters": 220.2794262085616
+      },
+      "locationConfidence": 89,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 338030803,
+        "longitudeE7": -844120126
+      },
+      "endLocation": {
+        "latitudeE7": 337822507,
+        "longitudeE7": -843962329
+      },
+      "duration": {
+        "startTimestamp": "2017-12-19T01:21:18.639Z",
+        "endTimestamp": "2017-12-19T01:28:08.515Z"
+      },
+      "distance": 2719,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.72664262507118
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.7351184107708095
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.22121948497624738
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 338030395,
+          "lngE7": -844120483
+        }, {
+          "latE7": 337822494,
+          "lngE7": -843960723
+        }],
+        "source": "INFERRED"
+      },
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337822507,
+          "longitudeE7": -843962329
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2017-12-19T01:28:08.515Z"
+      }
+    }
+  }]
+}

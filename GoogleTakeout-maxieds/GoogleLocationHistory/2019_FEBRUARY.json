@@ -1,0 +1,3048 @@
+{
+  "timelineObjects": [{
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 78.40781
+      },
+      "duration": {
+        "startTimestamp": "2019-02-01T05:27:15.277Z",
+        "endTimestamp": "2019-02-07T03:13:13Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303294896,
+      "centerLngE7": -873549556,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 5.2177424
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 4.0415463
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 2.527314
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 2.0723336
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.6527642
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.4378542
+      }, {
+        "latitudeE7": 303321287,
+        "longitudeE7": -873561594,
+        "placeId": "ChIJDb_gOce7kIgRtM1nzCXNwgg",
+        "address": "9981 Pandion Trail, Pensacola, FL 32507, USA",
+        "name": "Sunrise by Holiday Builders",
+        "locationConfidence": 1.2155414
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.79437566
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.67138153
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 66,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303952433,
+        "longitudeE7": -872742848,
+        "placeId": "ChIJeTBXfTq5kIgRNd7f9ueUXps",
+        "address": "901 S Old Corry Field Rd, Pensacola, FL 32507, USA",
+        "name": "United States Postal Service",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 87.25138
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T15:49:47.107Z",
+        "endTimestamp": "2019-02-07T16:02:10.135Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 303951586,
+      "centerLngE7": -872737829,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303946020,
+        "longitudeE7": -872736210,
+        "placeId": "ChIJJT6bkjq5kIgRgqj8iyjfoJ0",
+        "address": "1001 S Old Corry Field Rd, Pensacola, FL 32507, USA",
+        "name": "Happy 7 Food Store",
+        "locationConfidence": 5.363481
+      }, {
+        "latitudeE7": 303953215,
+        "longitudeE7": -872735011,
+        "placeId": "ChIJ___rqdO-kIgRzZvvsPuUPbU",
+        "locationConfidence": 2.2078729
+      }, {
+        "latitudeE7": 303983739,
+        "longitudeE7": -872708485,
+        "placeId": "ChIJDT20zi-5kIgRHzXdZ8obWBI",
+        "address": "900 S Old Corry Field Rd, Pensacola, FL 32507, USA",
+        "name": "Lexington Terrace",
+        "locationConfidence": 1.7239513
+      }, {
+        "latitudeE7": 303942647,
+        "longitudeE7": -872769188,
+        "placeId": "ChIJnTs5ijm5kIgRPOuAruxVdiw",
+        "address": "450 N Navy Blvd, Pensacola, FL 32507, USA",
+        "name": "Dollar Tree",
+        "locationConfidence": 1.1012763
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303952433,
+        "longitudeE7": -872742848,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303629389,
+        "longitudeE7": -873572956,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T16:02:10.135Z",
+        "endTimestamp": "2019-02-07T16:13:16.723Z"
+      },
+      "distance": 8831,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.30157004445434
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.45989806904908503
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.0707949130288823
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303952102,
+          "lngE7": -872745971
+        }, {
+          "latE7": 303874607,
+          "lngE7": -872827072
+        }, {
+          "latE7": 303631248,
+          "lngE7": -873567962
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ537VZDq5kIgR47Ty8zOSBPM"
+        }, {
+          "placeId": "ChIJUd6Cejq5kIgR2aFmb63s3a0"
+        }, {
+          "placeId": "ChIJv4d8dzq5kIgRkc38ndsYWco"
+        }, {
+          "placeId": "ChIJUZgvgDC5kIgR-4xSvY3B7rM"
+        }, {
+          "placeId": "ChIJF9aKdzC5kIgRR5J742j3MZc"
+        }, {
+          "placeId": "ChIJ93P4mzq5kIgRSjZUMsXZggc"
+        }, {
+          "placeId": "ChIJ_3zWljq5kIgR3kstLg6I3Dc"
+        }, {
+          "placeId": "ChIJl0O-lDq5kIgRtAYK2jX3u8o"
+        }, {
+          "placeId": "ChIJmZI05jq5kIgRfnFaPxWHwVI"
+        }, {
+          "placeId": "ChIJZze3GDu5kIgR3S5BMyih6YE"
+        }, {
+          "placeId": "ChIJD3YhPju5kIgRcELRFpF7h24"
+        }, {
+          "placeId": "ChIJPQfrQTu5kIgRNEAl6Lkgz7A"
+        }, {
+          "placeId": "ChIJ3ax_Xju5kIgRS2OCpCQ6CKg"
+        }, {
+          "placeId": "ChIJ9Z_Bozy5kIgREGSelvFp2ME"
+        }, {
+          "placeId": "ChIJzbZyvDy5kIgRNHQhZIOB_BY"
+        }, {
+          "placeId": "ChIJgUbovzy5kIgRVfGkwWT8ViQ"
+        }, {
+          "placeId": "ChIJL72v7Dy5kIgRrwQiXGlrvDE"
+        }, {
+          "placeId": "ChIJa8pl7Ty5kIgR6ZeNoQv4lf4"
+        }, {
+          "placeId": "ChIJZ7WY8zy5kIgR48767kYBI3E"
+        }, {
+          "placeId": "ChIJ7wxMXzy5kIgRV4LJEtdJ3lE"
+        }, {
+          "placeId": "ChIJD-a9Wzy5kIgRTqIvwaMK56c"
+        }, {
+          "placeId": "ChIJl13URDy5kIgRcAxUZxF9fTE"
+        }, {
+          "placeId": "ChIJj6avRTy5kIgRyMDWZEHwM-0"
+        }, {
+          "placeId": "ChIJXTfERTy5kIgRhu2eA5s9Dsw"
+        }, {
+          "placeId": "ChIJkzk5Rjy5kIgR9utIJ1vTkas"
+        }, {
+          "placeId": "ChIJwW2LNzy5kIgRxYU-JqpgR8k"
+        }, {
+          "placeId": "ChIJ56NKNzy5kIgRx1m8tsa15rQ"
+        }, {
+          "placeId": "ChIJH8DGMDy5kIgRjdm2jLVhySc"
+        }, {
+          "placeId": "ChIJ-aY3MDy5kIgRzbeiYNsbyZ4"
+        }, {
+          "placeId": "ChIJNRpTLjy5kIgRGX76VPeD2jg"
+        }, {
+          "placeId": "ChIJgSypKTy5kIgRwcKLnAvTBQU"
+        }, {
+          "placeId": "ChIJJ41ChD65kIgR924Z0Ocg2fE"
+        }, {
+          "placeId": "ChIJ07t9jD65kIgR0kqVEstqEaQ"
+        }, {
+          "placeId": "ChIJW0sI9D65kIgR_pFlBIQopAk"
+        }, {
+          "placeId": "ChIJ29fT8D65kIgRd3LFYY_5wnM"
+        }, {
+          "placeId": "ChIJgaBf-T65kIgRzbn5qlFWPUc"
+        }, {
+          "placeId": "ChIJMYeSAT-5kIgRkVW-Jfg1gPg"
+        }, {
+          "placeId": "ChIJQeVgBj-5kIgRobVgMnWMoE8"
+        }, {
+          "placeId": "ChIJEYzhdD-5kIgRfblsCH7mk9c"
+        }, {
+          "placeId": "ChIJGedXdj-5kIgRTgGSzz-ZNo8"
+        }, {
+          "placeId": "ChIJkW3QeD-5kIgRJvaK_WMAv5w"
+        }, {
+          "placeId": "ChIJ8Ui9h0C5kIgRGRpw9kXewm4"
+        }, {
+          "placeId": "ChIJe6f0iUC5kIgRhrB8eUQDfr4"
+        }, {
+          "placeId": "ChIJRwFs9UC5kIgRKMa4bPCXe14"
+        }, {
+          "placeId": "ChIJbYOVVUC5kIgRKnCSBVtNKXE"
+        }, {
+          "placeId": "ChIJNTIBp0G5kIgRnk1GIdGy3UE"
+        }, {
+          "placeId": "ChIJRdjNnEG5kIgRQQ91e8-qg00"
+        }, {
+          "placeId": "ChIJJcA6LEK5kIgRlenDxLus7B8"
+        }, {
+          "placeId": "ChIJuYxdSUK5kIgR-S_Ed5ztJMM"
+        }, {
+          "placeId": "ChIJwW70VkK5kIgRoxh1du2syg0"
+        }, {
+          "placeId": "ChIJbwHP-kK5kIgR3ZGrYmUfwrU"
+        }, {
+          "placeId": "ChIJw7Ee6EK5kIgRnQ-RgdM4_z4"
+        }, {
+          "placeId": "ChIJcR4sz0K5kIgREPG4Tex9UI0"
+        }, {
+          "placeId": "ChIJSc8SNl25kIgRkmmjWy8M5YA"
+        }, {
+          "placeId": "ChIJS8FAal25kIgRgD8Cbg6-CeY"
+        }, {
+          "placeId": "ChIJF7Y8d125kIgR0Pbgj4loJTI"
+        }, {
+          "placeId": "ChIJoQO-hF25kIgR5qe61TQ0t1w"
+        }, {
+          "placeId": "ChIJ89Lljl25kIgRpzYsER-VVzU"
+        }, {
+          "placeId": "ChIJC2BD9F25kIgRmVnIpXPxyaA"
+        }, {
+          "placeId": "ChIJV6_9qmC5kIgRp-pH9OOYpMM"
+        }, {
+          "placeId": "ChIJIf6No2C5kIgRkOz499-KsyQ"
+        }, {
+          "placeId": "ChIJ64cEmmC5kIgRsSPiOzQNlWE"
+        }, {
+          "placeId": "ChIJfWEhiWC5kIgRCdO04mV_EpM"
+        }, {
+          "placeId": "ChIJPSO8ZmC5kIgRkcpmkUgQKh0"
+        }, {
+          "placeId": "ChIJOWrPP2C5kIgR3eqeWRNmllI"
+        }, {
+          "placeId": "ChIJqTeuid-7kIgR9G54m2nbJhM"
+        }, {
+          "placeId": "ChIJua2Vmd-7kIgROEZwOBEXObs"
+        }, {
+          "placeId": "ChIJU_QYpN-7kIgR2iZJem04mzI"
+        }, {
+          "placeId": "ChIJ1wx6qd-7kIgRLl01tr4rSOM"
+        }, {
+          "placeId": "ChIJ-YFT_967kIgRBMGPqF6smPk"
+        }, {
+          "placeId": "ChIJxb2FjN67kIgRpaHfkG3pQFw"
+        }, {
+          "placeId": "ChIJFSO3J9y7kIgRMT3fIcaS9Oo"
+        }, {
+          "placeId": "ChIJlVaIO9y7kIgRRXpNKKKzYsk"
+        }, {
+          "placeId": "ChIJaxOkQdy7kIgRttdRpMG9cmI"
+        }, {
+          "placeId": "ChIJieVFity7kIgRFuzbZZB0LxU"
+        }, {
+          "placeId": "ChIJ89jXlty7kIgREdbg21ICPJg"
+        }, {
+          "placeId": "ChIJ7Qu6pNy7kIgRMWgQbOpbeSE"
+        }, {
+          "placeId": "ChIJnVknrNy7kIgRgRzMfwNCEl4"
+        }, {
+          "placeId": "ChIJs5SfVsO7kIgR513DwdrIWzg"
+        }, {
+          "placeId": "ChIJQ-61n8S7kIgREtpKbkiQruw"
+        }, {
+          "placeId": "ChIJO2mjfcS7kIgREuoEqxbJjuE"
+        }, {
+          "placeId": "ChIJN5LPbcS7kIgRoxaEcYfR4Zw"
+        }, {
+          "placeId": "ChIJH6Q-FMS7kIgRHcmd6-I5J8E"
+        }, {
+          "placeId": "ChIJTZPHIsS7kIgRDam13S6IRds"
+        }, {
+          "placeId": "ChIJYcrFJsS7kIgRVz3Eyx1fG-w"
+        }, {
+          "placeId": "ChIJt-mJJ8S7kIgR_wyLzlCvNC8"
+        }, {
+          "placeId": "ChIJCTNGnca7kIgR9N2t5WY1FRk"
+        }, {
+          "placeId": "ChIJIYoog8a7kIgRHk0hrdgI07Y"
+        }, {
+          "placeId": "ChIJa9AFhsa7kIgR8MwTltGm4MU"
+        }, {
+          "placeId": "ChIJceZoWca7kIgRyjAYqz0u5Bk"
+        }, {
+          "placeId": "ChIJl2aDsce7kIgRPkGF-hj4_4A"
+        }, {
+          "placeId": "ChIJpdHxvse7kIgRRUdHeWQeTJs"
+        }, {
+          "placeId": "ChIJH0dTk8e7kIgRWZCbaR2dDwo"
+        }, {
+          "placeId": "ChIJ6VHT9ce7kIgRERWhxr5EZ7k"
+        }, {
+          "placeId": "ChIJefBuGri7kIgRBy98VWP9x1U"
+        }, {
+          "placeId": "ChIJY9srJri7kIgRyWWbT4_SmqE"
+        }, {
+          "placeId": "ChIJO207fLe7kIgRejieM-UHaOI"
+        }, {
+          "placeId": "ChIJ-yI3Xbe7kIgR_u7EKdaR92g"
+        }, {
+          "placeId": "ChIJy7UWtrC7kIgRzUXA6t7gYpE"
+        }, {
+          "placeId": "ChIJH_OF6bC7kIgRTojOKO1K9Y0"
+        }, {
+          "placeId": "ChIJ2Q797rC7kIgRAlXuL8K7lYM"
+        }, {
+          "placeId": "ChIJd91c-LC7kIgRIG0wibIWOUY"
+        }, {
+          "placeId": "ChIJi0FzUrC7kIgRwGSVl1IuaXQ"
+        }, {
+          "placeId": "ChIJef_K1rG7kIgRjf4wr-_urCc"
+        }, {
+          "placeId": "ChIJmWVEP667kIgRfiqbIh9N1wc"
+        }, {
+          "placeId": "ChIJEbDYYK67kIgRRQPxCGAYRKQ"
+        }, {
+          "placeId": "ChIJzUN3mK67kIgR3qke5wZBkBE"
+        }, {
+          "placeId": "ChIJN-tdqq67kIgRmQGDvrg1hiE"
+        }, {
+          "placeId": "ChIJzfR35Ku7kIgR03LN2vFp-q4"
+        }, {
+          "placeId": "ChIJ_VNpxau7kIgRIvKSDTgczeQ"
+        }, {
+          "placeId": "ChIJiwTXNaq7kIgR31ajGytijYA"
+        }, {
+          "placeId": "ChIJowdJaaq7kIgRD3QNAGctpiM"
+        }, {
+          "placeId": "ChIJrcF9ggC7kIgRmwVRuKwSUwM"
+        }, {
+          "placeId": "ChIJf8X5iAC7kIgRYm9xg0GBToY"
+        }, {
+          "placeId": "ChIJ5QYJXwC7kIgRXoDZcTadvTg"
+        }, {
+          "placeId": "ChIJB-HLUAC7kIgRUjoJdGmVcsI"
+        }, {
+          "placeId": "ChIJ5at7rQG7kIgRmPHPi7woY7U"
+        }, {
+          "placeId": "ChIJF6v2uwG7kIgRHcns7yp3-SE"
+        }, {
+          "placeId": "ChIJ5UkJkwG7kIgRhYQhNzK-NEQ"
+        }, {
+          "placeId": "ChIJJZcw9QG7kIgRS59w-S_4kSs"
+        }, {
+          "placeId": "ChIJL_fiGAK7kIgRCjBXTXbMbB8"
+        }, {
+          "placeId": "ChIJ3ZK1GQK7kIgRP6bzswOunxE"
+        }, {
+          "placeId": "ChIJjx33awK7kIgR0SPGzv308Ko"
+        }, {
+          "placeId": "ChIJNUI9ZAK7kIgRUfcbm602XIo"
+        }, {
+          "placeId": "ChIJJXEUYgK7kIgR9vu3z8N10XU"
+        }, {
+          "placeId": "ChIJGUvug-K6kIgRI_Z1qam4--w"
+        }, {
+          "placeId": "ChIJKbK3euK6kIgRbS01lzETcrI"
+        }, {
+          "placeId": "ChIJJXMBFOK6kIgRmfIcZekoBmo"
+        }, {
+          "placeId": "ChIJN0Y1GOK6kIgRo55LWhhnE8k"
+        }, {
+          "placeId": "ChIJTzWAH-K6kIgRwh_F0zOP2GQ"
+        }],
+        "distanceMeters": 9925.91576644308
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303629518,
+          "longitudeE7": -873577724,
+          "accuracyMetres": 147
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-07T16:15:18.359Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303629389,
+        "longitudeE7": -873572956,
+        "placeId": "ChIJCXzhSeC6kIgR6w6d8D4gz1Q",
+        "address": "2950 S Blue Angel Pkwy, Pensacola, FL 32506, USA",
+        "name": "Target",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 94.188774,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T16:13:16.723Z",
+        "endTimestamp": "2019-02-07T16:19:20.600Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303630850,
+      "centerLngE7": -873578900,
+      "visitConfidence": 89,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303619736,
+        "longitudeE7": -873599700,
+        "placeId": "ChIJwRzCtUG8kIgRh2hRIxvM_2c",
+        "address": "2941 S Blue Angel Pkwy, Pensacola, FL 32506, USA",
+        "name": "Murphy USA",
+        "locationConfidence": 1.6643319
+      }, {
+        "latitudeE7": 303604450,
+        "longitudeE7": -873574380,
+        "placeId": "ChIJFfFXn-G6kIgRlwNUhIeUQOs",
+        "address": "10291 Sorrento Rd, Pensacola, FL 32507, USA",
+        "name": "Synovus Bank - ATM",
+        "locationConfidence": 0.8127735
+      }, {
+        "latitudeE7": 303616028,
+        "longitudeE7": -873583118,
+        "placeId": "ChIJi-UOtOG6kIgR0-jLiie462I",
+        "address": "2990 S Blue Angel Pkwy, Pensacola, FL 32506, USA",
+        "name": "Tom Thumb",
+        "locationConfidence": 0.7178154
+      }, {
+        "latitudeE7": 303712941,
+        "longitudeE7": -874038490,
+        "placeId": "ChIJG8yzsyalkIgRMm2s1CPfnSM",
+        "address": "2401 Bauer Rd, Pensacola, FL 32506, USA",
+        "name": "Tarkiln Bayou Preserve State Park",
+        "locationConfidence": 0.50441766
+      }, {
+        "latitudeE7": 303614450,
+        "longitudeE7": -873578870,
+        "placeId": "ChIJKWUfueG6kIgRWgLvZJur38I",
+        "address": "Florida 32506, USA",
+        "name": "Blue Angel Pkwy \u0026 Gulf Beach Hwy (East)",
+        "locationConfidence": 0.48738247
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 83,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303629389,
+        "longitudeE7": -873572956,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303295193,
+        "longitudeE7": -873549838,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T16:19:20.600Z",
+        "endTimestamp": "2019-02-07T16:59:39.665Z"
+      },
+      "distance": 13060,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 98.0776858114488
+      }, {
+        "activityType": "WALKING",
+        "probability": 1.3073407574808218
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.19314988612034265
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303631248,
+          "lngE7": -873567962
+        }, {
+          "latE7": 303229141,
+          "lngE7": -874175949
+        }, {
+          "latE7": 303202209,
+          "lngE7": -874137191
+        }, {
+          "latE7": 303218402,
+          "lngE7": -874040069
+        }, {
+          "latE7": 303295097,
+          "lngE7": -873547058
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ3eMPi-G6kIgRaMzWmoX91uQ"
+        }, {
+          "placeId": "ChIJuTXqjeG6kIgR8O-8c1YwkIk"
+        }, {
+          "placeId": "ChIJX47IluG6kIgR8pmZHDtJyfo"
+        }, {
+          "placeId": "ChIJuQVsveG6kIgRViIiU7TAXh8"
+        }, {
+          "placeId": "ChIJe-TPpOG6kIgRWPE3rTdXJZE"
+        }, {
+          "placeId": "ChIJObqar-G6kIgRCIhHfhyGxpc"
+        }, {
+          "placeId": "ChIJh-ubruG6kIgR_PFbvZ1rJNY"
+        }, {
+          "placeId": "ChIJj7dXq-G6kIgRgBlLZetOztQ"
+        }, {
+          "placeId": "ChIJNQ2yV-C6kIgRBoB39EzQppY"
+        }, {
+          "placeId": "ChIJHe3p9eC6kIgREIVpHoeN_dw"
+        }, {
+          "placeId": "ChIJkzcZ9eC6kIgRiW0CE1nWgCg"
+        }, {
+          "placeId": "ChIJsyqUi-C6kIgRbVdfvmeMmUo"
+        }, {
+          "placeId": "ChIJB78pj-C6kIgRGTdMk0ewoOw"
+        }, {
+          "placeId": "ChIJbb1YhOC6kIgRa1xw3IM_gb4"
+        }, {
+          "placeId": "ChIJ6WAzJt66kIgR0U3hYF0-wyk"
+        }, {
+          "placeId": "ChIJKTx4O966kIgRjYK5IrB82jM"
+        }, {
+          "placeId": "ChIJ4zKBQN66kIgRWXIVObKIn6k"
+        }, {
+          "placeId": "ChIJC0xyQt66kIgRZz_UqO98yTI"
+        }, {
+          "placeId": "ChIJSUCnZ966kIgRSknJSZ5xFvE"
+        }, {
+          "placeId": "ChIJAWXPHzKlkIgR3oi2zrcvnGY"
+        }, {
+          "placeId": "ChIJff_5jjClkIgRDBDk5iI1FGc"
+        }, {
+          "placeId": "ChIJy6geuT-lkIgRMzXQxmq1zMA"
+        }, {
+          "placeId": "ChIJSw6rSRWlkIgRJYXnErnhSVA"
+        }, {
+          "placeId": "ChIJ83-VMxWlkIgR3Sm3ywEbZ8w"
+        }, {
+          "placeId": "ChIJ1X20LBWlkIgRafY35DM2S9Q"
+        }, {
+          "placeId": "ChIJP-syKmulkIgRTuGjKFWfrag"
+        }, {
+          "placeId": "ChIJdScDn2ylkIgREThgakrUAzk"
+        }, {
+          "placeId": "ChIJr35c8mylkIgR3IRJ2H_nIEE"
+        }, {
+          "placeId": "ChIJvfPhqG2lkIgRtPD_1NmgeIQ"
+        }, {
+          "placeId": "ChIJnYrP8m2lkIgRtJ2ZBNfXNV0"
+        }, {
+          "placeId": "ChIJbzxwA3KlkIgRaqTC18HjDvo"
+        }, {
+          "placeId": "ChIJ305-8nGlkIgR4JaEx91znGg"
+        }, {
+          "placeId": "ChIJFQ1Ok3GlkIgRjtAgzRNtcFQ"
+        }, {
+          "placeId": "ChIJmzLyhnmlkIgRsredBNQ9XxY"
+        }, {
+          "placeId": "ChIJp86UeHmlkIgR33lzk8yexwU"
+        }, {
+          "placeId": "ChIJm-LvenmlkIgRkaMML0us2uo"
+        }, {
+          "placeId": "ChIJp6K3xH6lkIgRfxuiNJZrhBg"
+        }, {
+          "placeId": "ChIJTx7L336lkIgRj3ImHqCbjPQ"
+        }, {
+          "placeId": "ChIJP6KNH3-lkIgRM1aMgLW2ug8"
+        }, {
+          "placeId": "ChIJiQgwF3-lkIgRZfeb-sg9j_g"
+        }, {
+          "placeId": "ChIJnzade3-lkIgRtCdPx4_dNkM"
+        }, {
+          "placeId": "ChIJnzade3-lkIgRAYRQlcudjvA"
+        }, {
+          "placeId": "ChIJ8TGd0oGlkIgRRYPbwtIoXks"
+        }, {
+          "placeId": "ChIJoxzZzIGlkIgRr9x5mtM7P0w"
+        }, {
+          "placeId": "ChIJjxrGNIClkIgRsWjP0a5-HiA"
+        }, {
+          "placeId": "ChIJWwrHS4ClkIgRx740sj613Z4"
+        }, {
+          "placeId": "ChIJpVUuUIClkIgRnf29apQTOyc"
+        }, {
+          "placeId": "ChIJ62ykjIClkIgRJ6q0P2ofLkM"
+        }, {
+          "placeId": "ChIJz3S1kYClkIgRqmBGxlii6qw"
+        }, {
+          "placeId": "ChIJY5D3moClkIgRctwlZQdLlMs"
+        }, {
+          "placeId": "ChIJN6PqhYClkIgRfOefrusZslQ"
+        }, {
+          "placeId": "ChIJ_5PSfIClkIgR2gQkDeG36pE"
+        }, {
+          "placeId": "ChIJWVCnbYClkIgRGmdAb33cG5g"
+        }, {
+          "placeId": "ChIJ9V8O7H-lkIgRqtelOiCgSd0"
+        }, {
+          "placeId": "ChIJ9V8O7H-lkIgR_h2hHsU6_Z4"
+        }, {
+          "placeId": "ChIJ3URaR36lkIgRvMVwRCZJECc"
+        }, {
+          "placeId": "ChIJcWCNbH6lkIgRmo2h0Z7MLV8"
+        }, {
+          "placeId": "ChIJwYx2bX6lkIgREsQnXssLP6s"
+        }, {
+          "placeId": "ChIJIw3rdX6lkIgRCUoKLkhAowk"
+        }, {
+          "placeId": "ChIJcU2GuH2lkIgRWbK4HnzdUCE"
+        }, {
+          "placeId": "ChIJKz76B32lkIgRdd36DAGJVak"
+        }, {
+          "placeId": "ChIJG7rLG32lkIgR22MxRrzrtQM"
+        }, {
+          "placeId": "ChIJ26XVJX2lkIgRcD9HOe4mez8"
+        }, {
+          "placeId": "ChIJ4Rnk1GKlkIgRNjiC21nLp3g"
+        }, {
+          "placeId": "ChIJXSBQ32KlkIgRgQOXfyXg14s"
+        }, {
+          "placeId": "ChIJv6kwHWOlkIgR1OMrsE4q8HM"
+        }, {
+          "placeId": "ChIJ8fHHq2OlkIgREDpiPC8N56g"
+        }, {
+          "placeId": "ChIJ2ZaLtmOlkIgRHqZsJAOtFBE"
+        }, {
+          "placeId": "ChIJE4440GOlkIgRrxwmU66o5Tw"
+        }, {
+          "placeId": "ChIJZRvTYmGlkIgRO3HU-A0fZ7M"
+        }, {
+          "placeId": "ChIJTwdCZWGlkIgR7z3CSRom8vs"
+        }, {
+          "placeId": "ChIJvwHLbWGlkIgRISmnQJdKO6c"
+        }, {
+          "placeId": "ChIJDwikE2GlkIgRFY8-yjS_rRM"
+        }, {
+          "placeId": "ChIJ1d4GGmGlkIgRl6UC6GyC3nA"
+        }, {
+          "placeId": "ChIJK8kW4WClkIgR0pjVCLeAc6k"
+        }, {
+          "placeId": "ChIJHdt_oGClkIgRNkFxpVCGe1M"
+        }, {
+          "placeId": "ChIJJ1gAZV6lkIgR5EVF8Bv_W0w"
+        }, {
+          "placeId": "ChIJeR_rYl6lkIgR2pbjQApv_Ak"
+        }, {
+          "placeId": "ChIJc1snr16lkIgRRCfJYfOjY4g"
+        }, {
+          "placeId": "ChIJr__VK1qlkIgRaZCfjPeAhcs"
+        }, {
+          "placeId": "ChIJK1NQIVqlkIgRVmnJhKOh5sY"
+        }, {
+          "placeId": "ChIJuZwKG1qlkIgR4gFGDJqvA3Q"
+        }, {
+          "placeId": "ChIJHd7-r1ClkIgRACDFH_fo95o"
+        }, {
+          "placeId": "ChIJ3dM621ClkIgR_6z5E13xPsM"
+        }, {
+          "placeId": "ChIJmYrZ2FClkIgRV5ObJuUeGKM"
+        }, {
+          "placeId": "ChIJL05YPFGlkIgRX_KKPBLF9cI"
+        }, {
+          "placeId": "ChIJX2hoZ1GlkIgR9rtsLF99xJM"
+        }, {
+          "placeId": "ChIJOTE53FOlkIgRV5TNJuH65DM"
+        }, {
+          "placeId": "ChIJ32J0xFOlkIgROm9YM8Kn54Y"
+        }, {
+          "placeId": "ChIJc-k21FKlkIgR9aIwzvx40Pk"
+        }, {
+          "placeId": "ChIJV_6lIq26kIgRgcKqXmFaPgQ"
+        }, {
+          "placeId": "ChIJ2wXvD626kIgR06SYIdxxZVE"
+        }, {
+          "placeId": "ChIJzRdMpK26kIgRUtZnY4QYLUk"
+        }, {
+          "placeId": "ChIJQzUYcq66kIgRdPRfUf3uwbg"
+        }, {
+          "placeId": "ChIJazsTaq66kIgR5iWqoLeJJS4"
+        }, {
+          "placeId": "ChIJO8_ORq66kIgRHqG31OXDaus"
+        }, {
+          "placeId": "ChIJg0IMSa66kIgR2xItccfALow"
+        }, {
+          "placeId": "ChIJuTOYt6-6kIgRztJ0MfBPLOQ"
+        }, {
+          "placeId": "ChIJYwTflK-6kIgRzn4mMGEiv4M"
+        }, {
+          "placeId": "ChIJlZ5Pja-6kIgRtNJepyyxDyo"
+        }, {
+          "placeId": "ChIJ_1VV9a-6kIgRf5i4QFFJTnI"
+        }, {
+          "placeId": "ChIJWe68QqW6kIgRy0MlH5YmbR0"
+        }, {
+          "placeId": "ChIJ-z9JPqW6kIgRMz9PwESUkH0"
+        }, {
+          "placeId": "ChIJp2SHIKW6kIgR3plxoKG97Kk"
+        }, {
+          "placeId": "ChIJXwqYwKS6kIgRM28PmOkOaUk"
+        }, {
+          "placeId": "ChIJlbtno6S6kIgR93ZiqRkJLAg"
+        }, {
+          "placeId": "ChIJ0YxqWaO6kIgRqn1GDJEspig"
+        }, {
+          "placeId": "ChIJuf7FR6O6kIgRLzaEu15yEm4"
+        }, {
+          "placeId": "ChIJYedQLqO6kIgRl0mVXs4dl_g"
+        }, {
+          "placeId": "ChIJP5I01KK6kIgRgXP4KzgWbYM"
+        }, {
+          "placeId": "ChIJoahV0qK6kIgRWyPFIv-oC9U"
+        }, {
+          "placeId": "ChIJ_zQxy6K6kIgRMcXIXsdZ74w"
+        }, {
+          "placeId": "ChIJF-GWTL26kIgRIeZtIYgkExA"
+        }, {
+          "placeId": "ChIJmUCfU726kIgRv-IrrGpQvYw"
+        }, {
+          "placeId": "ChIJK66785e6kIgRv9bfXuYkwaQ"
+        }, {
+          "placeId": "ChIJDctCbpe6kIgR6jcUhllXSBw"
+        }, {
+          "placeId": "ChIJx3nVN5e6kIgRc-z9iD8sXr4"
+        }, {
+          "placeId": "ChIJFZK4zJC6kIgRgS-J0tttXqQ"
+        }, {
+          "placeId": "ChIJr_Y42pC6kIgRTRolX-xtLXI"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRPz_d921zzU0"
+        }, {
+          "placeId": "ChIJsdvw3ZC6kIgRWld5tPRssY8"
+        }, {
+          "placeId": "ChIJ8z1z7JC6kIgRaOybRIe16EY"
+        }, {
+          "placeId": "ChIJ3chhiJC6kIgRJ7BEzwsFFf4"
+        }],
+        "distanceMeters": 4516.3501764773755
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303294940,
+          "longitudeE7": -873553689,
+          "accuracyMetres": 102
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-07T16:59:36.145Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 80.74664
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T16:59:39.665Z",
+        "endTimestamp": "2019-02-07T23:32:31.289Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303295042,
+      "centerLngE7": -873549950,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 4.811716
+      }, {
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 4.051235
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 2.4520905
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 1.8273187
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.3924758
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.3858447
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.8870002
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.7850628
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 304112097,
+        "longitudeE7": -872337253,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T23:32:31.289Z",
+        "endTimestamp": "2019-02-07T23:57:08Z"
+      },
+      "distance": 17299,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.29827623588045
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.527143862255185
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.08678762628060546
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303294925,
+          "lngE7": -873547058
+        }, {
+          "latE7": 303984775,
+          "lngE7": -872501831
+        }, {
+          "latE7": 304112186,
+          "lngE7": -872339630
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ3chhiJC6kIgRJrBEzwsFFf4"
+        }, {
+          "placeId": "ChIJ8z1z7JC6kIgRaeybRIe16EY"
+        }, {
+          "placeId": "ChIJsdvw3ZC6kIgRW1d5tPRssY8"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRNYa28S2H6hE"
+        }, {
+          "placeId": "ChIJffYfIJG6kIgRyaGEAQ6wmHo"
+        }, {
+          "placeId": "ChIJp1WZGpG6kIgRZdYpw4atmco"
+        }, {
+          "placeId": "ChIJp1WZGpG6kIgRz2KMgSLHMIo"
+        }, {
+          "placeId": "ChIJZZjInpG6kIgRWVr9p1XzO7Y"
+        }, {
+          "placeId": "ChIJB6oZ9ZG6kIgRz1eddy6hJtY"
+        }, {
+          "placeId": "ChIJDyiZl426kIgRH1mdj5-Wn4E"
+        }, {
+          "placeId": "ChIJZZq5o426kIgR9YivIA9S9lo"
+        }, {
+          "placeId": "ChIJZ1zeBo26kIgR2t6DzUVYW3I"
+        }, {
+          "placeId": "ChIJtQMa5oy6kIgRy4rce0HRxaQ"
+        }, {
+          "placeId": "ChIJoZH3wYy6kIgR4W-2VIj9Hss"
+        }, {
+          "placeId": "ChIJSVK4uIy6kIgRC30sC_a1wA0"
+        }, {
+          "placeId": "ChIJlXmfsIy6kIgRtTy8e-L17Bk"
+        }, {
+          "placeId": "ChIJCYjYsYy6kIgRWhflYsglMAE"
+        }, {
+          "placeId": "ChIJdcvXrYy6kIgRghYdkBWPwpA"
+        }, {
+          "placeId": "ChIJ2fplrIy6kIgRabrTXzTmepk"
+        }, {
+          "placeId": "ChIJZR8vq4y6kIgR0wKF25idlhI"
+        }, {
+          "placeId": "ChIJBWOXr_S6kIgRK6ic0evU4IE"
+        }, {
+          "placeId": "ChIJ3X7CvvS6kIgR9BAJEcrQdDk"
+        }, {
+          "placeId": "ChIJEwcp5fS6kIgR9M39MWoUbyM"
+        }, {
+          "placeId": "ChIJdz6UuPW6kIgRY2qIluZ8q2M"
+        }, {
+          "placeId": "ChIJW_3sDfi6kIgRR5h6FW43ulk"
+        }, {
+          "placeId": "ChIJ5yh7cPi6kIgR6KnFfhSYM4A"
+        }, {
+          "placeId": "ChIJzcmxkfi6kIgRywiIkDyuqPI"
+        }, {
+          "placeId": "ChIJFbzpvvi6kIgR3MyHRYGXt9Q"
+        }, {
+          "placeId": "ChIJRdEjOv-6kIgR87YSVv1H608"
+        }, {
+          "placeId": "ChIJAaTyBv-6kIgRWkDj_Z13Evw"
+        }, {
+          "placeId": "ChIJ2-qDJP66kIgRD8lRMSj7zFE"
+        }, {
+          "placeId": "ChIJRxvqI_66kIgRl-sI-5Zkyok"
+        }, {
+          "placeId": "ChIJSdCwIf66kIgR3_lbv1KC6SM"
+        }, {
+          "placeId": "ChIJTekd4QG7kIgRi4v0Qps22b4"
+        }, {
+          "placeId": "ChIJQWEE7wG7kIgRzYrPW31WzEA"
+        }, {
+          "placeId": "ChIJIWNf7QG7kIgR6gbGVhhHl0o"
+        }, {
+          "placeId": "ChIJ5UkJkwG7kIgRhIQhNzK-NEQ"
+        }, {
+          "placeId": "ChIJF6v2uwG7kIgRHMns7yp3-SE"
+        }, {
+          "placeId": "ChIJ5at7rQG7kIgRmfHPi7woY7U"
+        }, {
+          "placeId": "ChIJB-HLUAC7kIgRUzoJdGmVcsI"
+        }, {
+          "placeId": "ChIJ5QYJXwC7kIgRX4DZcTadvTg"
+        }, {
+          "placeId": "ChIJf8X5iAC7kIgRY29xg0GBToY"
+        }, {
+          "placeId": "ChIJrcF9ggC7kIgRmgVRuKwSUwM"
+        }, {
+          "placeId": "ChIJowdJaaq7kIgRDnQNAGctpiM"
+        }, {
+          "placeId": "ChIJiwTXNaq7kIgR3lajGytijYA"
+        }, {
+          "placeId": "ChIJ_VNpxau7kIgRI_KSDTgczeQ"
+        }, {
+          "placeId": "ChIJzfR35Ku7kIgR0nLN2vFp-q4"
+        }, {
+          "placeId": "ChIJN-tdqq67kIgRmAGDvrg1hiE"
+        }, {
+          "placeId": "ChIJzUN3mK67kIgR36ke5wZBkBE"
+        }, {
+          "placeId": "ChIJEbDYYK67kIgRRAPxCGAYRKQ"
+        }, {
+          "placeId": "ChIJmWVEP667kIgRfyqbIh9N1wc"
+        }, {
+          "placeId": "ChIJef_K1rG7kIgRjP4wr-_urCc"
+        }, {
+          "placeId": "ChIJi0FzUrC7kIgRwWSVl1IuaXQ"
+        }, {
+          "placeId": "ChIJd91c-LC7kIgRIW0wibIWOUY"
+        }, {
+          "placeId": "ChIJ2Q797rC7kIgRA1XuL8K7lYM"
+        }, {
+          "placeId": "ChIJH_OF6bC7kIgRT4jOKO1K9Y0"
+        }, {
+          "placeId": "ChIJy7UWtrC7kIgRzEXA6t7gYpE"
+        }, {
+          "placeId": "ChIJ-yI3Xbe7kIgR_-7EKdaR92g"
+        }, {
+          "placeId": "ChIJO207fLe7kIgRezieM-UHaOI"
+        }, {
+          "placeId": "ChIJY9srJri7kIgRyGWbT4_SmqE"
+        }, {
+          "placeId": "ChIJefBuGri7kIgRBi98VWP9x1U"
+        }, {
+          "placeId": "ChIJ6VHT9ce7kIgREBWhxr5EZ7k"
+        }, {
+          "placeId": "ChIJH0dTk8e7kIgRWJCbaR2dDwo"
+        }, {
+          "placeId": "ChIJpdHxvse7kIgRREdHeWQeTJs"
+        }, {
+          "placeId": "ChIJl2aDsce7kIgRP0GF-hj4_4A"
+        }, {
+          "placeId": "ChIJceZoWca7kIgRyzAYqz0u5Bk"
+        }, {
+          "placeId": "ChIJa9AFhsa7kIgR8cwTltGm4MU"
+        }, {
+          "placeId": "ChIJIYoog8a7kIgRH00hrdgI07Y"
+        }, {
+          "placeId": "ChIJCTNGnca7kIgR9d2t5WY1FRk"
+        }, {
+          "placeId": "ChIJt-mJJ8S7kIgR_gyLzlCvNC8"
+        }, {
+          "placeId": "ChIJYcrFJsS7kIgRVj3Eyx1fG-w"
+        }, {
+          "placeId": "ChIJTZPHIsS7kIgRDKm13S6IRds"
+        }, {
+          "placeId": "ChIJH6Q-FMS7kIgRHMmd6-I5J8E"
+        }, {
+          "placeId": "ChIJN5LPbcS7kIgRohaEcYfR4Zw"
+        }, {
+          "placeId": "ChIJO2mjfcS7kIgRE-oEqxbJjuE"
+        }, {
+          "placeId": "ChIJQ-61n8S7kIgRE9pKbkiQruw"
+        }, {
+          "placeId": "ChIJs5SfVsO7kIgR5l3DwdrIWzg"
+        }, {
+          "placeId": "ChIJnVknrNy7kIgRgBzMfwNCEl4"
+        }, {
+          "placeId": "ChIJ7Qu6pNy7kIgRMGgQbOpbeSE"
+        }, {
+          "placeId": "ChIJ89jXlty7kIgRENbg21ICPJg"
+        }, {
+          "placeId": "ChIJieVFity7kIgRF-zbZZB0LxU"
+        }, {
+          "placeId": "ChIJaxOkQdy7kIgRt9dRpMG9cmI"
+        }, {
+          "placeId": "ChIJlVaIO9y7kIgRRHpNKKKzYsk"
+        }, {
+          "placeId": "ChIJFSO3J9y7kIgRMD3fIcaS9Oo"
+        }, {
+          "placeId": "ChIJxb2FjN67kIgRpKHfkG3pQFw"
+        }, {
+          "placeId": "ChIJ-YFT_967kIgRBcGPqF6smPk"
+        }, {
+          "placeId": "ChIJ1wx6qd-7kIgRL101tr4rSOM"
+        }, {
+          "placeId": "ChIJU_QYpN-7kIgR2yZJem04mzI"
+        }, {
+          "placeId": "ChIJua2Vmd-7kIgROUZwOBEXObs"
+        }, {
+          "placeId": "ChIJqTeuid-7kIgR9W54m2nbJhM"
+        }, {
+          "placeId": "ChIJOWrPP2C5kIgR3OqeWRNmllI"
+        }, {
+          "placeId": "ChIJPSO8ZmC5kIgRkMpmkUgQKh0"
+        }, {
+          "placeId": "ChIJfWEhiWC5kIgRCNO04mV_EpM"
+        }, {
+          "placeId": "ChIJ64cEmmC5kIgRsCPiOzQNlWE"
+        }, {
+          "placeId": "ChIJIf6No2C5kIgRkez499-KsyQ"
+        }, {
+          "placeId": "ChIJV6_9qmC5kIgRpupH9OOYpMM"
+        }, {
+          "placeId": "ChIJC2BD9F25kIgRmFnIpXPxyaA"
+        }, {
+          "placeId": "ChIJ89Lljl25kIgRpjYsER-VVzU"
+        }, {
+          "placeId": "ChIJoQO-hF25kIgR56e61TQ0t1w"
+        }, {
+          "placeId": "ChIJF7Y8d125kIgR0fbgj4loJTI"
+        }, {
+          "placeId": "ChIJS8FAal25kIgRgT8Cbg6-CeY"
+        }, {
+          "placeId": "ChIJSc8SNl25kIgRk2mjWy8M5YA"
+        }, {
+          "placeId": "ChIJcR4sz0K5kIgREfG4Tex9UI0"
+        }, {
+          "placeId": "ChIJw7Ee6EK5kIgRnA-RgdM4_z4"
+        }, {
+          "placeId": "ChIJbwHP-kK5kIgR3JGrYmUfwrU"
+        }, {
+          "placeId": "ChIJwW70VkK5kIgRohh1du2syg0"
+        }, {
+          "placeId": "ChIJuYxdSUK5kIgR-C_Ed5ztJMM"
+        }, {
+          "placeId": "ChIJJcA6LEK5kIgRlOnDxLus7B8"
+        }, {
+          "placeId": "ChIJRdjNnEG5kIgRQA91e8-qg00"
+        }, {
+          "placeId": "ChIJNTIBp0G5kIgRn01GIdGy3UE"
+        }, {
+          "placeId": "ChIJbYOVVUC5kIgRK3CSBVtNKXE"
+        }, {
+          "placeId": "ChIJRwFs9UC5kIgRKca4bPCXe14"
+        }, {
+          "placeId": "ChIJe6f0iUC5kIgRh7B8eUQDfr4"
+        }, {
+          "placeId": "ChIJ8Ui9h0C5kIgRGBpw9kXewm4"
+        }, {
+          "placeId": "ChIJkW3QeD-5kIgRJ_aK_WMAv5w"
+        }, {
+          "placeId": "ChIJXw44dj-5kIgRcTO4sHtooX8"
+        }, {
+          "placeId": "ChIJPdDpCj-5kIgRLq-AicONTKk"
+        }, {
+          "placeId": "ChIJRcpgCD-5kIgRHNb7fSSAGes"
+        }, {
+          "placeId": "ChIJGS5SBj-5kIgRFJbJP167Eak"
+        }, {
+          "placeId": "ChIJMRrTBj-5kIgRhK2BfosAuTs"
+        }, {
+          "placeId": "ChIJ_5cV-T65kIgR3izuXfR_OsA"
+        }, {
+          "placeId": "ChIJW0sI9D65kIgRUHASGoYO0Cc"
+        }, {
+          "placeId": "ChIJ07t9jD65kIgRRWRbkHFPmMo"
+        }, {
+          "placeId": "ChIJpzw1gj65kIgRLrUsXPcs0Tw"
+        }, {
+          "placeId": "ChIJBwvGLjy5kIgRNVMfJh8FV0U"
+        }, {
+          "placeId": "ChIJaaRoLjy5kIgRK3oFlpctAII"
+        }, {
+          "placeId": "ChIJz4W1MTy5kIgRPeeQ9fCF2GA"
+        }, {
+          "placeId": "ChIJH8DGMDy5kIgRjNm2jLVhySc"
+        }, {
+          "placeId": "ChIJ56NKNzy5kIgRxlm8tsa15rQ"
+        }, {
+          "placeId": "ChIJwW2LNzy5kIgRxIU-JqpgR8k"
+        }, {
+          "placeId": "ChIJkzk5Rjy5kIgR9-tIJ1vTkas"
+        }, {
+          "placeId": "ChIJXTfERTy5kIgRh-2eA5s9Dsw"
+        }, {
+          "placeId": "ChIJj6avRTy5kIgRycDWZEHwM-0"
+        }, {
+          "placeId": "ChIJl13URDy5kIgRcQxUZxF9fTE"
+        }, {
+          "placeId": "ChIJD-a9Wzy5kIgRT6IvwaMK56c"
+        }, {
+          "placeId": "ChIJ7wxMXzy5kIgRVoLJEtdJ3lE"
+        }, {
+          "placeId": "ChIJZ7WY8zy5kIgR4s767kYBI3E"
+        }, {
+          "placeId": "ChIJa8pl7Ty5kIgR6JeNoQv4lf4"
+        }, {
+          "placeId": "ChIJL72v7Dy5kIgRrgQiXGlrvDE"
+        }, {
+          "placeId": "ChIJgUbovzy5kIgRVPGkwWT8ViQ"
+        }, {
+          "placeId": "ChIJK4feuTy5kIgRrXy8d1k_Q4c"
+        }, {
+          "placeId": "ChIJKybLTCO5kIgRsyRgBtD_-Kk"
+        }, {
+          "placeId": "ChIJl3LDXCO5kIgRDS4ioZkDhTY"
+        }, {
+          "placeId": "ChIJTcpYeyO5kIgRC9FFCewfVjg"
+        }, {
+          "placeId": "ChIJybPjfiO5kIgRNXKi8o_L1LU"
+        }, {
+          "placeId": "ChIJNbTXdCS5kIgRcRlaaW53ySY"
+        }, {
+          "placeId": "ChIJWYQ8qCa5kIgRpcJs8gpOFYI"
+        }, {
+          "placeId": "ChIJkaJhHye5kIgRp9Wc0OnK4Lk"
+        }, {
+          "placeId": "ChIJK-Wgbie5kIgRKOqh7LbRlm4"
+        }, {
+          "placeId": "ChIJE1iZhNi4kIgRcAdiOAnmAPk"
+        }, {
+          "placeId": "ChIJk8eDhdi4kIgR3pZsSCETmfA"
+        }, {
+          "placeId": "ChIJcQOkjti4kIgRXSK_b-BGIFc"
+        }, {
+          "placeId": "ChIJi7lii9i4kIgR_fwDyzbouwg"
+        }, {
+          "placeId": "ChIJM1059Ni4kIgR1w7lzCtBzR8"
+        }, {
+          "placeId": "ChIJTSJX_9i4kIgR3kK3z0Ke_k0"
+        }, {
+          "placeId": "ChIJa7uBqdm4kIgRYvjCXyfFf1E"
+        }, {
+          "placeId": "ChIJFcH8o9m4kIgRx8WpgBTIty4"
+        }, {
+          "placeId": "ChIJT0Awmtm4kIgR062s9VuLy_w"
+        }, {
+          "placeId": "ChIJnaBhj9m4kIgR_L8r8PYnKm4"
+        }, {
+          "placeId": "ChIJ7e4mJNq4kIgRxf1vOijKf00"
+        }, {
+          "placeId": "ChIJoyjrPtq4kIgRmEhnc4rQIbw"
+        }, {
+          "placeId": "ChIJWUOwQdq4kIgRUCaKLQ8ptlI"
+        }, {
+          "placeId": "ChIJvVV9Qtq4kIgRuRxMkSj5APs"
+        }, {
+          "placeId": "ChIJh-52Z9q4kIgR4XeOK7eSKzE"
+        }, {
+          "placeId": "ChIJU5xMYNq4kIgR85cwR3CCOzM"
+        }, {
+          "placeId": "ChIJ1zqXi9q4kIgRFcoXfP35fKA"
+        }, {
+          "placeId": "ChIJx_NGkdq4kIgRzg973_odh3g"
+        }, {
+          "placeId": "ChIJJZyYvNq4kIgRhhiC9N9RgMQ"
+        }, {
+          "placeId": "ChIJX3g2pdq4kIgRWd3Q6Vs743E"
+        }, {
+          "placeId": "ChIJ7zFvq9q4kIgRz41GoofH0l0"
+        }, {
+          "placeId": "ChIJQWwdVcW4kIgRshmYQHlXJMw"
+        }, {
+          "placeId": "ChIJQWwdVcW4kIgR4wVFvVvVZrI"
+        }, {
+          "placeId": "ChIJPZoj_8-4kIgRhM7DJnGOt_I"
+        }, {
+          "placeId": "ChIJ--wt6c-4kIgR6l9BdMMxOoc"
+        }, {
+          "placeId": "ChIJda-nwc-4kIgRWGGsgobc1Yo"
+        }, {
+          "placeId": "ChIJhdfXx8-4kIgRukUaScyYPuY"
+        }, {
+          "placeId": "ChIJibTaX864kIgR0zchxUADqi8"
+        }, {
+          "placeId": "ChIJR1-Gj864kIgRCvE_vbJGoc4"
+        }, {
+          "placeId": "ChIJzQmEH8y4kIgRdC9QEfksius"
+        }, {
+          "placeId": "ChIJ18SaDsy4kIgRDM89mukCtcQ"
+        }, {
+          "placeId": "ChIJ3Tk0lsu4kIgRsKiOgoofugQ"
+        }, {
+          "placeId": "ChIJTZm9pcu4kIgRMlrDg_jG1vQ"
+        }, {
+          "placeId": "ChIJTZm9pcu4kIgRTPKrvMSsyrU"
+        }, {
+          "placeId": "ChIJOwJ-VMq4kIgRhrliudwpUN4"
+        }, {
+          "placeId": "ChIJV-WLWcq4kIgRpteOIhMvujg"
+        }, {
+          "placeId": "ChIJkweyY8q4kIgRmGljvtUmJkU"
+        }, {
+          "placeId": "ChIJM9cpdrW4kIgRk7n3-h8ag7Q"
+        }, {
+          "placeId": "ChIJA2ZqDrW4kIgR9zoKFfYj2A4"
+        }, {
+          "placeId": "ChIJcWF4G7W4kIgRg4fbPhlR_A0"
+        }, {
+          "placeId": "ChIJDd7u4LS4kIgRuVspYaha5Tk"
+        }, {
+          "placeId": "ChIJ9w8Ew7S4kIgRY0CJNt1pqVQ"
+        }, {
+          "placeId": "ChIJR2dsx7S4kIgRHMYCT7Z7VY0"
+        }, {
+          "placeId": "ChIJ0dKmsLS4kIgRktRTPxMc5mU"
+        }, {
+          "placeId": "ChIJPcdFsLS4kIgRf2tvuhpRbFQ"
+        }, {
+          "placeId": "ChIJOy7wq7S4kIgRgYkw1N9ep_M"
+        }, {
+          "placeId": "ChIJEd9qq0y_kIgRLGt_qCaoKYc"
+        }, {
+          "placeId": "ChIJyV0R3ky_kIgR-lFYW3nVIR4"
+        }, {
+          "placeId": "ChIJzaSOG02_kIgROOcQGQZQqJw"
+        }, {
+          "placeId": "ChIJRRXCBk2_kIgR5HZQM_G-hgQ"
+        }],
+        "distanceMeters": 16938.198627478698
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 304005033,
+          "lngE7": -872488307,
+          "accuracyMeters": 20,
+          "timestamp": "2019-02-07T23:52:07Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 304112097,
+          "longitudeE7": -872337253,
+          "accuracyMetres": 36
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-07T23:58:27.100Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 304112160,
+        "longitudeE7": -872338150,
+        "placeId": "ChIJtagbxk2_kIgRwU4pipr998g",
+        "address": "9500 Pensacola Blvd Unit 9, Pensacola, FL 32534, USA",
+        "name": "FRINGE Hair Salon",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 75.46031,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-02-07T23:57:08Z",
+        "endTimestamp": "2019-02-08T01:06:04.334Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 304112262,
+      "centerLngE7": -872338221,
+      "visitConfidence": 95,
+      "otherCandidateLocations": [{
+        "latitudeE7": 304112080,
+        "longitudeE7": -872336230,
+        "placeId": "ChIJv-qWxk2_kIgR1EPq3rT5GWg",
+        "address": "309 W Gregory St, Pensacola, FL 32502, USA",
+        "name": "Classic Insurance Group",
+        "locationConfidence": 5.373295
+      }, {
+        "latitudeE7": 304112353,
+        "longitudeE7": -872338407,
+        "placeId": "ChIJtagbxk2_kIgRARWF-S-lhrM",
+        "locationConfidence": 4.6102443,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 304109889,
+        "longitudeE7": -872333750,
+        "placeId": "ChIJeds46k2_kIgRsa4VMZIvyzk",
+        "address": "1401 W Garden St, Pensacola, FL 32501, USA",
+        "name": "Dollar General",
+        "locationConfidence": 3.0195248
+      }, {
+        "latitudeE7": 304113070,
+        "longitudeE7": -872341590,
+        "placeId": "ChIJrT0CzE2_kIgRo38vR9ffpCY",
+        "name": "SWEET BETSY Tattoos",
+        "locationConfidence": 2.1669374
+      }, {
+        "latitudeE7": 304117928,
+        "longitudeE7": -872342764,
+        "placeId": "ChIJvQeR002_kIgRD_I__ZqJW6c",
+        "address": "1506 W Garden St, Pensacola, FL 32502, USA",
+        "name": "Eimaj Spa, Esthetics, \u0026 Hair Studio",
+        "locationConfidence": 0.73109454
+      }, {
+        "latitudeE7": 304134267,
+        "longitudeE7": -872335309,
+        "placeId": "ChIJSTv6b06_kIgRyK9A2RQt8CQ",
+        "address": "1301 W Gregory St, Pensacola, FL 32502, USA",
+        "name": "Legion Field",
+        "locationConfidence": 0.5553853
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 304112160,
+        "longitudeE7": -872338150,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303999600,
+        "longitudeE7": -872573580,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-08T01:06:04.334Z",
+        "endTimestamp": "2019-02-08T01:12:26.838Z"
+      },
+      "distance": 2722,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.10686092655794
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.646301920040423
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.07105325443048092
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 304112224,
+          "lngE7": -872339630
+        }, {
+          "latE7": 303979263,
+          "lngE7": -872506484
+        }, {
+          "latE7": 303998184,
+          "lngE7": -872574768
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJRRXCBk2_kIgR5XZQM_G-hgQ"
+        }, {
+          "placeId": "ChIJzaSOG02_kIgROecQGQZQqJw"
+        }, {
+          "placeId": "ChIJyV0R3ky_kIgR-1FYW3nVIR4"
+        }, {
+          "placeId": "ChIJEd9qq0y_kIgRLWt_qCaoKYc"
+        }, {
+          "placeId": "ChIJOy7wq7S4kIgRgIkw1N9ep_M"
+        }, {
+          "placeId": "ChIJPcdFsLS4kIgRfmtvuhpRbFQ"
+        }, {
+          "placeId": "ChIJ0dKmsLS4kIgRk9RTPxMc5mU"
+        }, {
+          "placeId": "ChIJR2dsx7S4kIgRHcYCT7Z7VY0"
+        }, {
+          "placeId": "ChIJ9w8Ew7S4kIgRYkCJNt1pqVQ"
+        }, {
+          "placeId": "ChIJDd7u4LS4kIgRuFspYaha5Tk"
+        }, {
+          "placeId": "ChIJcWF4G7W4kIgRgofbPhlR_A0"
+        }, {
+          "placeId": "ChIJA2ZqDrW4kIgR9joKFfYj2A4"
+        }, {
+          "placeId": "ChIJ7yNddLW4kIgRttPlUUAhhjg"
+        }, {
+          "placeId": "ChIJoTLyd7W4kIgREhaZi6aI4o8"
+        }, {
+          "placeId": "ChIJ3epJgLW4kIgR-tRuEdUXKrY"
+        }, {
+          "placeId": "ChIJhdH8fMq4kIgRVlcktpEz8Xs"
+        }, {
+          "placeId": "ChIJI92tY8q4kIgRUdpOapdcbhQ"
+        }, {
+          "placeId": "ChIJcWEQpsu4kIgRPsWxqfhB04c"
+        }, {
+          "placeId": "ChIJkTzkDcy4kIgRDTgci1ZwUQE"
+        }, {
+          "placeId": "ChIJzxyvGcy4kIgRyYfz2MCjB3U"
+        }, {
+          "placeId": "ChIJlxxHXM64kIgRBMW-Oq1Rszk"
+        }, {
+          "placeId": "ChIJncWrTs64kIgRYo42nX7oq40"
+        }, {
+          "placeId": "ChIJBWoqtc-4kIgRPn_kglkv04Q"
+        }, {
+          "placeId": "ChIJ02eYyc-4kIgRO3PTkxuhnpY"
+        }, {
+          "placeId": "ChIJ02eYyc-4kIgRNPJzVVQ7Q_M"
+        }, {
+          "placeId": "ChIJH-6Yzc-4kIgROeGxXhuONfk"
+        }, {
+          "placeId": "ChIJD0Z6Ks64kIgR47B2CqoUzr4"
+        }, {
+          "placeId": "ChIJP1Q20NG4kIgRWBywjunal_w"
+        }, {
+          "placeId": "ChIJSxCVvtG4kIgROz4j-QnAo3Y"
+        }, {
+          "placeId": "ChIJtSS4ZtG4kIgRJw2svbqyqGw"
+        }, {
+          "placeId": "ChIJcZdmWtG4kIgRovgPKsKyeiA"
+        }, {
+          "placeId": "ChIJAzQstda4kIgRgLAlvct8WBo"
+        }, {
+          "placeId": "ChIJ16CEkta4kIgRcTmuhb3eCIQ"
+        }],
+        "distanceMeters": 3272.866511876826
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303992068,
+          "longitudeE7": -872580008,
+          "accuracyMetres": 137
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-08T01:18:44.851Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303999600,
+        "longitudeE7": -872573580,
+        "placeId": "ChIJ19oytta4kIgR81j-7_vXC4s",
+        "address": "200 Hermey Ave, Pensacola, FL 32507, USA",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 53.808617
+      },
+      "duration": {
+        "startTimestamp": "2019-02-08T01:12:26.838Z",
+        "endTimestamp": "2019-02-08T01:18:44.851Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 303992833,
+      "centerLngE7": -872578933,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 304006100,
+        "longitudeE7": -872590631,
+        "placeId": "ChIJ8UyuiNa4kIgRJqHFEu039w8",
+        "address": "3265 Maplewood Dr, Gulf Breeze, FL 32563, USA",
+        "name": "Gulf Coast Drywall \u0026 Paint",
+        "locationConfidence": 9.568424
+      }, {
+        "latitudeE7": 303987541,
+        "longitudeE7": -872559765,
+        "placeId": "ChIJZUakJtG4kIgRLvXte1r6G0c",
+        "address": "404B Seamarge Ln, Pensacola, FL 32507, USA",
+        "locationConfidence": 8.387047
+      }, {
+        "latitudeE7": 303987840,
+        "longitudeE7": -872597710,
+        "placeId": "ChIJZ9B2Uta4kIgRfe0aC39Xa3Q",
+        "address": "207 Mandalay Dr, Pensacola, FL 32507, USA",
+        "name": "Sunday\u0027s Tree Services",
+        "locationConfidence": 8.180333
+      }, {
+        "latitudeE7": 303982890,
+        "longitudeE7": -872565370,
+        "placeId": "ChIJF_fzMEy_kIgRY1FLqSFRR24",
+        "name": "Panhandle Movers",
+        "locationConfidence": 7.526835
+      }, {
+        "latitudeE7": 304015597,
+        "longitudeE7": -872585875,
+        "placeId": "ChIJC1NZJtS4kIgR8IZyFtCAVkI",
+        "address": "218 Ada Wilson Ave, Pensacola, FL 32507, USA",
+        "name": "Tami L. Toney, RN, CMA",
+        "locationConfidence": 5.7055335
+      }, {
+        "latitudeE7": 304011964,
+        "longitudeE7": -872589534,
+        "placeId": "ChIJH8W0g9a4kIgRKz_IzOk_FOA",
+        "locationConfidence": 2.7220953
+      }, {
+        "latitudeE7": 303988520,
+        "longitudeE7": -872609931,
+        "placeId": "ChIJj0aOM9a4kIgRz8CB48D0b2E",
+        "address": "309 Ruberia Ave, Pensacola, FL 32507, USA",
+        "name": "All Seasons Remodeling Center Inc",
+        "locationConfidence": 2.2319403
+      }, {
+        "latitudeE7": 303987817,
+        "longitudeE7": -872560105,
+        "placeId": "ChIJSdCfJtG4kIgRqgATbYRPEmY",
+        "address": "404a Seamarge Ln, Pensacola, FL 32507, USA",
+        "locationConfidence": 1.8691758
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 49,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303999600,
+        "longitudeE7": -872573580,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303942511,
+        "longitudeE7": -872557478,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-08T01:18:44.851Z",
+        "endTimestamp": "2019-02-08T01:20:46.377Z"
+      },
+      "distance": 723,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 91.78145518592449
+      }, {
+        "activityType": "CYCLING",
+        "probability": 5.4529987805134965
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.181021604862219
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303998184,
+          "lngE7": -872574768
+        }, {
+          "latE7": 303944358,
+          "lngE7": -872554779
+        }, {
+          "latE7": 303943481,
+          "lngE7": -872554397
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ16CEkta4kIgRcDmuhb3eCIQ"
+        }, {
+          "placeId": "ChIJaTI-xda4kIgRcGGtsodERaI"
+        }, {
+          "placeId": "ChIJ8TPU4da4kIgRXiSg_dW-1fY"
+        }, {
+          "placeId": "ChIJZ0blONe4kIgRS7l_-BkW8BI"
+        }, {
+          "placeId": "ChIJxWMlqtC4kIgR6NBGnseEk54"
+        }, {
+          "placeId": "ChIJrWgeDtq4kIgRfteJzkRsaqQ"
+        }, {
+          "placeId": "ChIJmb9Patq4kIgRZcKCY2PAxRE"
+        }],
+        "distanceMeters": 791.8416742928582
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303942511,
+          "longitudeE7": -872557478,
+          "accuracyMetres": 82
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-08T01:24:06.266Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303940828,
+        "longitudeE7": -872556603,
+        "placeId": "ChIJGbyNFdq4kIgRkRuLQ1JI1i4",
+        "address": "3430 Barrancas Ave, Pensacola, FL 32507, USA",
+        "name": "Shell",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 52.101006,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2019-02-08T01:20:46.377Z",
+        "endTimestamp": "2019-02-08T01:29:22.838Z"
+      },
+      "placeConfidence": "LOW_CONFIDENCE",
+      "centerLatE7": 303941700,
+      "centerLngE7": -872556660,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303942414,
+        "longitudeE7": -872558448,
+        "placeId": "ChIJ08RyFdq4kIgRO7F0O12c9Ow",
+        "address": "3430 Barrancas Ave, Pensacola, FL 32507, USA",
+        "name": "Circle K",
+        "locationConfidence": 28.030825
+      }, {
+        "latitudeE7": 303939050,
+        "longitudeE7": -872551750,
+        "placeId": "ChIJfdqsQ9q4kIgRjml5V4hUEgE",
+        "address": "Warrington, FL 32507, USA",
+        "name": "Barrancas Ave \u0026 Lakewood Rd",
+        "locationConfidence": 12.300154
+      }, {
+        "latitudeE7": 303940596,
+        "longitudeE7": -872551519,
+        "placeId": "ChIJqfuHQtq4kIgRxMQDvCJZj74",
+        "address": "3422 Barrancas Ave, Pensacola, FL 32507, USA",
+        "name": "Sweet Home Pensacola",
+        "locationConfidence": 1.8001512
+      }, {
+        "latitudeE7": 303946630,
+        "longitudeE7": -872558700,
+        "placeId": "ChIJPQ44Edq4kIgRXOdQuO2uHZs",
+        "address": "1 Lakewood Rd, Pensacola, FL 32507, USA",
+        "name": "Continental Import Repair",
+        "locationConfidence": 0.7717871
+      }, {
+        "latitudeE7": 303936780,
+        "longitudeE7": -872547780,
+        "placeId": "ChIJg7eJr2e5kIgRnT4qbF9loks",
+        "address": "3425 Barrancas Ave, Pensacola, FL 32507, USA",
+        "name": "House of Prayers Learning Center",
+        "locationConfidence": 0.6975858
+      }, {
+        "latitudeE7": 303937042,
+        "longitudeE7": -872572660,
+        "placeId": "ChIJ4biRjtm4kIgRPZuNMpCNsjc",
+        "address": "3480 Barrancas Ave, Pensacola, FL 32507, USA",
+        "name": "Gulf Coast Tattoos LLC",
+        "locationConfidence": 0.62848145
+      }, {
+        "latitudeE7": 303944360,
+        "longitudeE7": -872551043,
+        "placeId": "ChIJt37FaNq4kIgR_PgUnHGreb8",
+        "address": "223 Palafox Pl, Pensacola, FL 32502, USA",
+        "name": "Neighborhood Enterprise Inc",
+        "locationConfidence": 0.5093439
+      }, {
+        "latitudeE7": 303944460,
+        "longitudeE7": -872542650,
+        "placeId": "ChIJZyKJidq4kIgRVqrb8xetnqY",
+        "address": "Warrington, FL 32507, USA",
+        "name": "Barrancas Ave @ Shirleys Bar",
+        "locationConfidence": 0.45754486
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 48,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "TRANSITIONAL"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303941800,
+        "longitudeE7": -872556036,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303299518,
+        "longitudeE7": -873548761,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-08T01:29:22.838Z",
+        "endTimestamp": "2019-02-08T01:42:32.633Z"
+      },
+      "distance": 11966,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.54216551815907
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.2647486047727169
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.04366334100888271
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303942451,
+          "lngE7": -872553939
+        }, {
+          "latE7": 303870182,
+          "lngE7": -872897796
+        }, {
+          "latE7": 303299465,
+          "lngE7": -873546905
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJmb9Patq4kIgRZcKCY2PAxRE"
+        }, {
+          "placeId": "ChIJWUOwQdq4kIgRUSaKLQ8ptlI"
+        }, {
+          "placeId": "ChIJoyjrPtq4kIgRmUhnc4rQIbw"
+        }, {
+          "placeId": "ChIJ7e4mJNq4kIgRxP1vOijKf00"
+        }, {
+          "placeId": "ChIJnaBhj9m4kIgR_b8r8PYnKm4"
+        }, {
+          "placeId": "ChIJT0Awmtm4kIgR0q2s9VuLy_w"
+        }, {
+          "placeId": "ChIJFcH8o9m4kIgRxsWpgBTIty4"
+        }, {
+          "placeId": "ChIJa7uBqdm4kIgRY_jCXyfFf1E"
+        }, {
+          "placeId": "ChIJTSJX_9i4kIgR30K3z0Ke_k0"
+        }, {
+          "placeId": "ChIJM1059Ni4kIgR1g7lzCtBzR8"
+        }, {
+          "placeId": "ChIJi7lii9i4kIgR_PwDyzbouwg"
+        }, {
+          "placeId": "ChIJcQOkjti4kIgRXCK_b-BGIFc"
+        }, {
+          "placeId": "ChIJk8eDhdi4kIgR35ZsSCETmfA"
+        }, {
+          "placeId": "ChIJE1iZhNi4kIgRcQdiOAnmAPk"
+        }, {
+          "placeId": "ChIJK-Wgbie5kIgRKeqh7LbRlm4"
+        }, {
+          "placeId": "ChIJkaJhHye5kIgRptWc0OnK4Lk"
+        }, {
+          "placeId": "ChIJWYQ8qCa5kIgRpMJs8gpOFYI"
+        }, {
+          "placeId": "ChIJNbTXdCS5kIgRcBlaaW53ySY"
+        }, {
+          "placeId": "ChIJybPjfiO5kIgRNHKi8o_L1LU"
+        }, {
+          "placeId": "ChIJTcpYeyO5kIgRCtFFCewfVjg"
+        }, {
+          "placeId": "ChIJl3LDXCO5kIgRDC4ioZkDhTY"
+        }, {
+          "placeId": "ChIJKybLTCO5kIgRsiRgBtD_-Kk"
+        }, {
+          "placeId": "ChIJK4feuTy5kIgRrHy8d1k_Q4c"
+        }, {
+          "placeId": "ChIJgUbovzy5kIgRVfGkwWT8ViQ"
+        }, {
+          "placeId": "ChIJL72v7Dy5kIgRrwQiXGlrvDE"
+        }, {
+          "placeId": "ChIJa8pl7Ty5kIgR6ZeNoQv4lf4"
+        }, {
+          "placeId": "ChIJZ7WY8zy5kIgR48767kYBI3E"
+        }, {
+          "placeId": "ChIJ7wxMXzy5kIgRV4LJEtdJ3lE"
+        }, {
+          "placeId": "ChIJD-a9Wzy5kIgRTqIvwaMK56c"
+        }, {
+          "placeId": "ChIJl13URDy5kIgRcAxUZxF9fTE"
+        }, {
+          "placeId": "ChIJj6avRTy5kIgRyMDWZEHwM-0"
+        }, {
+          "placeId": "ChIJXTfERTy5kIgRhu2eA5s9Dsw"
+        }, {
+          "placeId": "ChIJkzk5Rjy5kIgR9utIJ1vTkas"
+        }, {
+          "placeId": "ChIJwW2LNzy5kIgRxYU-JqpgR8k"
+        }, {
+          "placeId": "ChIJ56NKNzy5kIgRx1m8tsa15rQ"
+        }, {
+          "placeId": "ChIJH8DGMDy5kIgRjdm2jLVhySc"
+        }, {
+          "placeId": "ChIJ-aY3MDy5kIgRzbeiYNsbyZ4"
+        }, {
+          "placeId": "ChIJNRpTLjy5kIgRGX76VPeD2jg"
+        }, {
+          "placeId": "ChIJgSypKTy5kIgRwcKLnAvTBQU"
+        }, {
+          "placeId": "ChIJJ41ChD65kIgR924Z0Ocg2fE"
+        }, {
+          "placeId": "ChIJ07t9jD65kIgR0kqVEstqEaQ"
+        }, {
+          "placeId": "ChIJW0sI9D65kIgR_pFlBIQopAk"
+        }, {
+          "placeId": "ChIJ29fT8D65kIgRd3LFYY_5wnM"
+        }, {
+          "placeId": "ChIJgaBf-T65kIgRzbn5qlFWPUc"
+        }, {
+          "placeId": "ChIJMYeSAT-5kIgRkVW-Jfg1gPg"
+        }, {
+          "placeId": "ChIJQeVgBj-5kIgRobVgMnWMoE8"
+        }, {
+          "placeId": "ChIJEYzhdD-5kIgRfblsCH7mk9c"
+        }, {
+          "placeId": "ChIJGedXdj-5kIgRTgGSzz-ZNo8"
+        }, {
+          "placeId": "ChIJkW3QeD-5kIgRJvaK_WMAv5w"
+        }, {
+          "placeId": "ChIJ8Ui9h0C5kIgRGRpw9kXewm4"
+        }, {
+          "placeId": "ChIJe6f0iUC5kIgRhrB8eUQDfr4"
+        }, {
+          "placeId": "ChIJRwFs9UC5kIgRKMa4bPCXe14"
+        }, {
+          "placeId": "ChIJbYOVVUC5kIgRKnCSBVtNKXE"
+        }, {
+          "placeId": "ChIJNTIBp0G5kIgRnk1GIdGy3UE"
+        }, {
+          "placeId": "ChIJRdjNnEG5kIgRQQ91e8-qg00"
+        }, {
+          "placeId": "ChIJJcA6LEK5kIgRlenDxLus7B8"
+        }, {
+          "placeId": "ChIJuYxdSUK5kIgR-S_Ed5ztJMM"
+        }, {
+          "placeId": "ChIJwW70VkK5kIgRoxh1du2syg0"
+        }, {
+          "placeId": "ChIJbwHP-kK5kIgR3ZGrYmUfwrU"
+        }, {
+          "placeId": "ChIJw7Ee6EK5kIgRnQ-RgdM4_z4"
+        }, {
+          "placeId": "ChIJcR4sz0K5kIgREPG4Tex9UI0"
+        }, {
+          "placeId": "ChIJSc8SNl25kIgRkmmjWy8M5YA"
+        }, {
+          "placeId": "ChIJS8FAal25kIgRgD8Cbg6-CeY"
+        }, {
+          "placeId": "ChIJF7Y8d125kIgR0Pbgj4loJTI"
+        }, {
+          "placeId": "ChIJoQO-hF25kIgR5qe61TQ0t1w"
+        }, {
+          "placeId": "ChIJ89Lljl25kIgRpzYsER-VVzU"
+        }, {
+          "placeId": "ChIJC2BD9F25kIgRmVnIpXPxyaA"
+        }, {
+          "placeId": "ChIJV6_9qmC5kIgRp-pH9OOYpMM"
+        }, {
+          "placeId": "ChIJIf6No2C5kIgRkOz499-KsyQ"
+        }, {
+          "placeId": "ChIJ64cEmmC5kIgRsSPiOzQNlWE"
+        }, {
+          "placeId": "ChIJfWEhiWC5kIgRCdO04mV_EpM"
+        }, {
+          "placeId": "ChIJPSO8ZmC5kIgRkcpmkUgQKh0"
+        }, {
+          "placeId": "ChIJOWrPP2C5kIgR3eqeWRNmllI"
+        }, {
+          "placeId": "ChIJqTeuid-7kIgR9G54m2nbJhM"
+        }, {
+          "placeId": "ChIJua2Vmd-7kIgROEZwOBEXObs"
+        }, {
+          "placeId": "ChIJU_QYpN-7kIgR2iZJem04mzI"
+        }, {
+          "placeId": "ChIJ1wx6qd-7kIgRLl01tr4rSOM"
+        }, {
+          "placeId": "ChIJ-YFT_967kIgRBMGPqF6smPk"
+        }, {
+          "placeId": "ChIJxb2FjN67kIgRpaHfkG3pQFw"
+        }, {
+          "placeId": "ChIJFSO3J9y7kIgRMT3fIcaS9Oo"
+        }, {
+          "placeId": "ChIJlVaIO9y7kIgRRXpNKKKzYsk"
+        }, {
+          "placeId": "ChIJaxOkQdy7kIgRttdRpMG9cmI"
+        }, {
+          "placeId": "ChIJieVFity7kIgRFuzbZZB0LxU"
+        }, {
+          "placeId": "ChIJ89jXlty7kIgREdbg21ICPJg"
+        }, {
+          "placeId": "ChIJ7Qu6pNy7kIgRMWgQbOpbeSE"
+        }, {
+          "placeId": "ChIJnVknrNy7kIgRgRzMfwNCEl4"
+        }, {
+          "placeId": "ChIJs5SfVsO7kIgR513DwdrIWzg"
+        }, {
+          "placeId": "ChIJQ-61n8S7kIgREtpKbkiQruw"
+        }, {
+          "placeId": "ChIJO2mjfcS7kIgREuoEqxbJjuE"
+        }, {
+          "placeId": "ChIJN5LPbcS7kIgRoxaEcYfR4Zw"
+        }, {
+          "placeId": "ChIJH6Q-FMS7kIgRHcmd6-I5J8E"
+        }, {
+          "placeId": "ChIJTZPHIsS7kIgRDam13S6IRds"
+        }, {
+          "placeId": "ChIJYcrFJsS7kIgRVz3Eyx1fG-w"
+        }, {
+          "placeId": "ChIJt-mJJ8S7kIgR_wyLzlCvNC8"
+        }, {
+          "placeId": "ChIJCTNGnca7kIgR9N2t5WY1FRk"
+        }, {
+          "placeId": "ChIJIYoog8a7kIgRHk0hrdgI07Y"
+        }, {
+          "placeId": "ChIJa9AFhsa7kIgR8MwTltGm4MU"
+        }, {
+          "placeId": "ChIJceZoWca7kIgRyjAYqz0u5Bk"
+        }, {
+          "placeId": "ChIJl2aDsce7kIgRPkGF-hj4_4A"
+        }, {
+          "placeId": "ChIJpdHxvse7kIgRRUdHeWQeTJs"
+        }, {
+          "placeId": "ChIJH0dTk8e7kIgRWZCbaR2dDwo"
+        }, {
+          "placeId": "ChIJ6VHT9ce7kIgRERWhxr5EZ7k"
+        }, {
+          "placeId": "ChIJefBuGri7kIgRBy98VWP9x1U"
+        }, {
+          "placeId": "ChIJY9srJri7kIgRyWWbT4_SmqE"
+        }, {
+          "placeId": "ChIJO207fLe7kIgRejieM-UHaOI"
+        }, {
+          "placeId": "ChIJ-yI3Xbe7kIgR_u7EKdaR92g"
+        }, {
+          "placeId": "ChIJy7UWtrC7kIgRzUXA6t7gYpE"
+        }, {
+          "placeId": "ChIJH_OF6bC7kIgRTojOKO1K9Y0"
+        }, {
+          "placeId": "ChIJ2Q797rC7kIgRAlXuL8K7lYM"
+        }, {
+          "placeId": "ChIJd91c-LC7kIgRIG0wibIWOUY"
+        }, {
+          "placeId": "ChIJi0FzUrC7kIgRwGSVl1IuaXQ"
+        }, {
+          "placeId": "ChIJef_K1rG7kIgRjf4wr-_urCc"
+        }, {
+          "placeId": "ChIJmWVEP667kIgRfiqbIh9N1wc"
+        }, {
+          "placeId": "ChIJEbDYYK67kIgRRQPxCGAYRKQ"
+        }, {
+          "placeId": "ChIJzUN3mK67kIgR3qke5wZBkBE"
+        }, {
+          "placeId": "ChIJN-tdqq67kIgRmQGDvrg1hiE"
+        }, {
+          "placeId": "ChIJzfR35Ku7kIgR03LN2vFp-q4"
+        }, {
+          "placeId": "ChIJ_VNpxau7kIgRIvKSDTgczeQ"
+        }, {
+          "placeId": "ChIJiwTXNaq7kIgR31ajGytijYA"
+        }, {
+          "placeId": "ChIJowdJaaq7kIgRD3QNAGctpiM"
+        }, {
+          "placeId": "ChIJrcF9ggC7kIgRmwVRuKwSUwM"
+        }, {
+          "placeId": "ChIJf8X5iAC7kIgRYm9xg0GBToY"
+        }, {
+          "placeId": "ChIJ5QYJXwC7kIgRXoDZcTadvTg"
+        }, {
+          "placeId": "ChIJB-HLUAC7kIgRUjoJdGmVcsI"
+        }, {
+          "placeId": "ChIJ5at7rQG7kIgRmPHPi7woY7U"
+        }, {
+          "placeId": "ChIJF6v2uwG7kIgRHcns7yp3-SE"
+        }, {
+          "placeId": "ChIJ5UkJkwG7kIgRhYQhNzK-NEQ"
+        }, {
+          "placeId": "ChIJIWNf7QG7kIgR6wbGVhhHl0o"
+        }, {
+          "placeId": "ChIJQWEE7wG7kIgRzIrPW31WzEA"
+        }, {
+          "placeId": "ChIJTekd4QG7kIgRiov0Qps22b4"
+        }, {
+          "placeId": "ChIJSdCwIf66kIgR3vlbv1KC6SM"
+        }, {
+          "placeId": "ChIJRxvqI_66kIgRlusI-5Zkyok"
+        }, {
+          "placeId": "ChIJ2-qDJP66kIgRDslRMSj7zFE"
+        }, {
+          "placeId": "ChIJAaTyBv-6kIgRW0Dj_Z13Evw"
+        }, {
+          "placeId": "ChIJRdEjOv-6kIgR8rYSVv1H608"
+        }, {
+          "placeId": "ChIJFbzpvvi6kIgR3cyHRYGXt9Q"
+        }, {
+          "placeId": "ChIJzcmxkfi6kIgRygiIkDyuqPI"
+        }, {
+          "placeId": "ChIJ5yh7cPi6kIgR6anFfhSYM4A"
+        }, {
+          "placeId": "ChIJW_3sDfi6kIgRRph6FW43ulk"
+        }, {
+          "placeId": "ChIJdz6UuPW6kIgRYmqIluZ8q2M"
+        }, {
+          "placeId": "ChIJEwcp5fS6kIgR9c39MWoUbyM"
+        }, {
+          "placeId": "ChIJ3X7CvvS6kIgR9RAJEcrQdDk"
+        }, {
+          "placeId": "ChIJBWOXr_S6kIgRKqic0evU4IE"
+        }, {
+          "placeId": "ChIJZR8vq4y6kIgR0gKF25idlhI"
+        }, {
+          "placeId": "ChIJ2fplrIy6kIgRaLrTXzTmepk"
+        }, {
+          "placeId": "ChIJdcvXrYy6kIgRgxYdkBWPwpA"
+        }, {
+          "placeId": "ChIJCYjYsYy6kIgRWxflYsglMAE"
+        }, {
+          "placeId": "ChIJlXmfsIy6kIgRtDy8e-L17Bk"
+        }, {
+          "placeId": "ChIJSVK4uIy6kIgRCn0sC_a1wA0"
+        }, {
+          "placeId": "ChIJoZH3wYy6kIgR4G-2VIj9Hss"
+        }, {
+          "placeId": "ChIJtQMa5oy6kIgRyorce0HRxaQ"
+        }, {
+          "placeId": "ChIJZ1zeBo26kIgR296DzUVYW3I"
+        }, {
+          "placeId": "ChIJZZq5o426kIgR9IivIA9S9lo"
+        }, {
+          "placeId": "ChIJDyiZl426kIgRHlmdj5-Wn4E"
+        }, {
+          "placeId": "ChIJB6oZ9ZG6kIgRzleddy6hJtY"
+        }, {
+          "placeId": "ChIJZZjInpG6kIgRWFr9p1XzO7Y"
+        }, {
+          "placeId": "ChIJp1WZGpG6kIgRzmKMgSLHMIo"
+        }, {
+          "placeId": "ChIJp1WZGpG6kIgRZNYpw4atmco"
+        }, {
+          "placeId": "ChIJffYfIJG6kIgRyKGEAQ6wmHo"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRPHwPE36h4sc"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRPz_d921zzU0"
+        }, {
+          "placeId": "ChIJsdvw3ZC6kIgRWld5tPRssY8"
+        }, {
+          "placeId": "ChIJ8z1z7JC6kIgRaOybRIe16EY"
+        }],
+        "distanceMeters": 13859.7474763935
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303299518,
+          "longitudeE7": -873548761,
+          "accuracyMetres": 43
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-08T01:43:19.887Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 77.13408
+      },
+      "duration": {
+        "startTimestamp": "2019-02-08T01:42:32.633Z",
+        "endTimestamp": "2019-02-10T12:23:19.897Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303294647,
+      "centerLngE7": -873549597,
+      "visitConfidence": 88,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 6.0658555
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 4.7532673
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 3.1290476
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 2.3662322
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.6509612
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.2707258
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.97280693
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.81513816
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 77.68015
+      },
+      "duration": {
+        "startTimestamp": "2019-02-12T22:55:05.124Z",
+        "endTimestamp": "2019-02-19T22:22:11.146Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303295279,
+      "centerLngE7": -873549823,
+      "visitConfidence": 90,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 7.0030346
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 5.0834327
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 2.3528051
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 1.7885145
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.467043
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.1783657
+      }, {
+        "latitudeE7": 303321287,
+        "longitudeE7": -873561594,
+        "placeId": "ChIJDb_gOce7kIgRtM1nzCXNwgg",
+        "address": "9981 Pandion Trail, Pensacola, FL 32507, USA",
+        "name": "Sunrise by Holiday Builders",
+        "locationConfidence": 0.8829229
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.6837343
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.49802074
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303295423,
+        "longitudeE7": -873550386,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-19T22:22:11.146Z",
+        "endTimestamp": "2019-02-19T23:17:29.070Z"
+      },
+      "distance": 9910,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 99.11974344686641
+      }, {
+        "activityType": "WALKING",
+        "probability": 0.5522663593832492
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.11967370041795693
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303295516,
+          "lngE7": -873553237
+        }, {
+          "latE7": 303275737,
+          "lngE7": -873667907
+        }, {
+          "latE7": 303265228,
+          "lngE7": -873807296
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ8Uteu5C6kIgRmxy9Qkw-8DI"
+        }, {
+          "placeId": "ChIJT28AxpC6kIgReNkaJUN4MU8"
+        }, {
+          "placeId": "ChIJFZK4zJC6kIgRgC-J0tttXqQ"
+        }, {
+          "placeId": "ChIJx3nVN5e6kIgRcuz9iD8sXr4"
+        }, {
+          "placeId": "ChIJDctCbpe6kIgR6zcUhllXSBw"
+        }, {
+          "placeId": "ChIJK66785e6kIgRvtbfXuYkwaQ"
+        }, {
+          "placeId": "ChIJmUCfU726kIgRvuIrrGpQvYw"
+        }, {
+          "placeId": "ChIJF-GWTL26kIgRIOZtIYgkExA"
+        }, {
+          "placeId": "ChIJ_zQxy6K6kIgRMMXIXsdZ74w"
+        }, {
+          "placeId": "ChIJoahV0qK6kIgRWiPFIv-oC9U"
+        }, {
+          "placeId": "ChIJP5I01KK6kIgRgHP4KzgWbYM"
+        }, {
+          "placeId": "ChIJYedQLqO6kIgRlkmVXs4dl_g"
+        }, {
+          "placeId": "ChIJuf7FR6O6kIgRLjaEu15yEm4"
+        }, {
+          "placeId": "ChIJ0YxqWaO6kIgRq31GDJEspig"
+        }, {
+          "placeId": "ChIJlbtno6S6kIgR9nZiqRkJLAg"
+        }, {
+          "placeId": "ChIJXwqYwKS6kIgRMm8PmOkOaUk"
+        }, {
+          "placeId": "ChIJp2SHIKW6kIgR35lxoKG97Kk"
+        }, {
+          "placeId": "ChIJ-z9JPqW6kIgRMj9PwESUkH0"
+        }, {
+          "placeId": "ChIJWe68QqW6kIgRykMlH5YmbR0"
+        }, {
+          "placeId": "ChIJ_1VV9a-6kIgRfpi4QFFJTnI"
+        }, {
+          "placeId": "ChIJlZ5Pja-6kIgRtdJepyyxDyo"
+        }, {
+          "placeId": "ChIJYwTflK-6kIgRz34mMGEiv4M"
+        }, {
+          "placeId": "ChIJuTOYt6-6kIgRz9J0MfBPLOQ"
+        }, {
+          "placeId": "ChIJg0IMSa66kIgR2hItccfALow"
+        }, {
+          "placeId": "ChIJO8_ORq66kIgRH6G31OXDaus"
+        }, {
+          "placeId": "ChIJazsTaq66kIgR5yWqoLeJJS4"
+        }, {
+          "placeId": "ChIJQzUYcq66kIgRdfRfUf3uwbg"
+        }, {
+          "placeId": "ChIJzRdMpK26kIgRU9ZnY4QYLUk"
+        }, {
+          "placeId": "ChIJ2wXvD626kIgR0qSYIdxxZVE"
+        }, {
+          "placeId": "ChIJV_6lIq26kIgRgMKqXmFaPgQ"
+        }, {
+          "placeId": "ChIJc-k21FKlkIgR9KIwzvx40Pk"
+        }],
+        "distanceMeters": 2617.5877036808847
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303295365,
+          "longitudeE7": -873550524,
+          "accuracyMetres": 76
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-19T23:19:29.158Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 71.3506
+      },
+      "duration": {
+        "startTimestamp": "2019-02-19T23:17:29.070Z",
+        "endTimestamp": "2019-02-20T15:21:31.209Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303294950,
+      "centerLngE7": -873549811,
+      "visitConfidence": 92,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 9.408931
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 5.9373803
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 3.5344615
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 2.5858784
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 2.0127633
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.5427266
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.9846904
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.7471393
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 60,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 303295453,
+        "longitudeE7": -873549822,
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        }
+      },
+      "duration": {
+        "startTimestamp": "2019-02-20T15:21:31.209Z",
+        "endTimestamp": "2019-02-20T15:52:13.732Z"
+      },
+      "distance": 14051,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 96.53600816999293
+      }, {
+        "activityType": "WALKING",
+        "probability": 2.3156380662808838
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.46815352853018627
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 303294925,
+          "lngE7": -873547058
+        }, {
+          "latE7": 303235168,
+          "lngE7": -873939285
+        }, {
+          "latE7": 303181991,
+          "lngE7": -874261550
+        }, {
+          "latE7": 303295364,
+          "lngE7": -873547058
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJ3chhiJC6kIgRJrBEzwsFFf4"
+        }, {
+          "placeId": "ChIJ8z1z7JC6kIgRaeybRIe16EY"
+        }, {
+          "placeId": "ChIJsdvw3ZC6kIgRW1d5tPRssY8"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRNYa28S2H6hE"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRPHwPE36h4sc"
+        }, {
+          "placeId": "ChIJr_Y42pC6kIgRTBolX-xtLXI"
+        }, {
+          "placeId": "ChIJFZK4zJC6kIgRgC-J0tttXqQ"
+        }, {
+          "placeId": "ChIJx3nVN5e6kIgRcuz9iD8sXr4"
+        }, {
+          "placeId": "ChIJDctCbpe6kIgR6zcUhllXSBw"
+        }, {
+          "placeId": "ChIJK66785e6kIgRvtbfXuYkwaQ"
+        }, {
+          "placeId": "ChIJmUCfU726kIgRvuIrrGpQvYw"
+        }, {
+          "placeId": "ChIJF-GWTL26kIgRIOZtIYgkExA"
+        }, {
+          "placeId": "ChIJ_zQxy6K6kIgRMMXIXsdZ74w"
+        }, {
+          "placeId": "ChIJoahV0qK6kIgRWiPFIv-oC9U"
+        }, {
+          "placeId": "ChIJP5I01KK6kIgRgHP4KzgWbYM"
+        }, {
+          "placeId": "ChIJYedQLqO6kIgRlkmVXs4dl_g"
+        }, {
+          "placeId": "ChIJuf7FR6O6kIgRLjaEu15yEm4"
+        }, {
+          "placeId": "ChIJ0YxqWaO6kIgRq31GDJEspig"
+        }, {
+          "placeId": "ChIJlbtno6S6kIgR9nZiqRkJLAg"
+        }, {
+          "placeId": "ChIJXwqYwKS6kIgRMm8PmOkOaUk"
+        }, {
+          "placeId": "ChIJp2SHIKW6kIgR35lxoKG97Kk"
+        }, {
+          "placeId": "ChIJ-z9JPqW6kIgRMj9PwESUkH0"
+        }, {
+          "placeId": "ChIJWe68QqW6kIgRykMlH5YmbR0"
+        }, {
+          "placeId": "ChIJ_1VV9a-6kIgRfpi4QFFJTnI"
+        }, {
+          "placeId": "ChIJlZ5Pja-6kIgRtdJepyyxDyo"
+        }, {
+          "placeId": "ChIJYwTflK-6kIgRz34mMGEiv4M"
+        }, {
+          "placeId": "ChIJuTOYt6-6kIgRz9J0MfBPLOQ"
+        }, {
+          "placeId": "ChIJg0IMSa66kIgR2hItccfALow"
+        }, {
+          "placeId": "ChIJO8_ORq66kIgRH6G31OXDaus"
+        }, {
+          "placeId": "ChIJazsTaq66kIgR5yWqoLeJJS4"
+        }, {
+          "placeId": "ChIJQzUYcq66kIgRdfRfUf3uwbg"
+        }, {
+          "placeId": "ChIJzRdMpK26kIgRU9ZnY4QYLUk"
+        }, {
+          "placeId": "ChIJ2wXvD626kIgR0qSYIdxxZVE"
+        }, {
+          "placeId": "ChIJV_6lIq26kIgRgMKqXmFaPgQ"
+        }, {
+          "placeId": "ChIJc-k21FKlkIgR9KIwzvx40Pk"
+        }, {
+          "placeId": "ChIJ32J0xFOlkIgRO29YM8Kn54Y"
+        }, {
+          "placeId": "ChIJOTE53FOlkIgRVpTNJuH65DM"
+        }, {
+          "placeId": "ChIJX2hoZ1GlkIgR97tsLF99xJM"
+        }, {
+          "placeId": "ChIJL05YPFGlkIgRXvKKPBLF9cI"
+        }, {
+          "placeId": "ChIJmYrZ2FClkIgRVpObJuUeGKM"
+        }, {
+          "placeId": "ChIJ3dM621ClkIgR_qz5E13xPsM"
+        }, {
+          "placeId": "ChIJHd7-r1ClkIgRASDFH_fo95o"
+        }, {
+          "placeId": "ChIJuZwKG1qlkIgR4wFGDJqvA3Q"
+        }, {
+          "placeId": "ChIJK1NQIVqlkIgRV2nJhKOh5sY"
+        }, {
+          "placeId": "ChIJr__VK1qlkIgRaJCfjPeAhcs"
+        }, {
+          "placeId": "ChIJc1snr16lkIgRRSfJYfOjY4g"
+        }, {
+          "placeId": "ChIJeR_rYl6lkIgR25bjQApv_Ak"
+        }, {
+          "placeId": "ChIJJ1gAZV6lkIgR5UVF8Bv_W0w"
+        }, {
+          "placeId": "ChIJHdt_oGClkIgRN0FxpVCGe1M"
+        }, {
+          "placeId": "ChIJK8kW4WClkIgR05jVCLeAc6k"
+        }, {
+          "placeId": "ChIJ1d4GGmGlkIgRlqUC6GyC3nA"
+        }, {
+          "placeId": "ChIJDwikE2GlkIgRFI8-yjS_rRM"
+        }, {
+          "placeId": "ChIJvwHLbWGlkIgRICmnQJdKO6c"
+        }, {
+          "placeId": "ChIJTwdCZWGlkIgR7j3CSRom8vs"
+        }, {
+          "placeId": "ChIJZRvTYmGlkIgROnHU-A0fZ7M"
+        }, {
+          "placeId": "ChIJE4440GOlkIgRrhwmU66o5Tw"
+        }, {
+          "placeId": "ChIJ2ZaLtmOlkIgRH6ZsJAOtFBE"
+        }, {
+          "placeId": "ChIJ8fHHq2OlkIgRETpiPC8N56g"
+        }, {
+          "placeId": "ChIJv6kwHWOlkIgR1eMrsE4q8HM"
+        }, {
+          "placeId": "ChIJXSBQ32KlkIgRgAOXfyXg14s"
+        }, {
+          "placeId": "ChIJ4Rnk1GKlkIgRNziC21nLp3g"
+        }, {
+          "placeId": "ChIJ26XVJX2lkIgRcT9HOe4mez8"
+        }, {
+          "placeId": "ChIJG7rLG32lkIgR2mMxRrzrtQM"
+        }, {
+          "placeId": "ChIJKz76B32lkIgRdN36DAGJVak"
+        }, {
+          "placeId": "ChIJcU2GuH2lkIgRWLK4HnzdUCE"
+        }, {
+          "placeId": "ChIJIw3rdX6lkIgRCEoKLkhAowk"
+        }, {
+          "placeId": "ChIJwYx2bX6lkIgRE8QnXssLP6s"
+        }, {
+          "placeId": "ChIJcWCNbH6lkIgRm42h0Z7MLV8"
+        }, {
+          "placeId": "ChIJ3URaR36lkIgRvcVwRCZJECc"
+        }, {
+          "placeId": "ChIJ9V8O7H-lkIgR_x2hHsU6_Z4"
+        }, {
+          "placeId": "ChIJ9V8O7H-lkIgRq9elOiCgSd0"
+        }, {
+          "placeId": "ChIJWVCnbYClkIgRG2dAb33cG5g"
+        }, {
+          "placeId": "ChIJ_5PSfIClkIgR2wQkDeG36pE"
+        }, {
+          "placeId": "ChIJN6PqhYClkIgRfeefrusZslQ"
+        }, {
+          "placeId": "ChIJY5D3moClkIgRc9wlZQdLlMs"
+        }, {
+          "placeId": "ChIJYUInmYClkIgRsg9JDCdEzXM"
+        }, {
+          "placeId": "ChIJSX6Bn4ClkIgRPKtiTg5wRdg"
+        }, {
+          "placeId": "ChIJrbcOoIClkIgR0fNXQ7f9QjU"
+        }, {
+          "placeId": "ChIJ6VbiHn6vkIgR6WLqC8ZXjL0"
+        }, {
+          "placeId": "ChIJvbeVG36vkIgRUSFwSe_vZc4"
+        }, {
+          "placeId": "ChIJ6aChHH6vkIgRgZTtwtqx_Cw"
+        }, {
+          "placeId": "ChIJ0ajjHH6vkIgR30BPvKqNHfQ"
+        }, {
+          "placeId": "ChIJXePrAn6vkIgRd_8F1fKv5A4"
+        }, {
+          "placeId": "ChIJQ2-4V4elkIgR9nZ4jmB1geE"
+        }, {
+          "placeId": "ChIJlZlrV4elkIgRsnn_bLSHTN8"
+        }, {
+          "placeId": "ChIJHeVNV4elkIgRmJ3bBJMaQDY"
+        }, {
+          "placeId": "ChIJecWhUIelkIgRBNuafKkgGmo"
+        }, {
+          "placeId": "ChIJteZiUIelkIgRRGSzW8wFPKs"
+        }, {
+          "placeId": "ChIJeYn6UoelkIgRw5e9qdsDyWg"
+        }, {
+          "placeId": "ChIJafBxroClkIgRTSyGFMHsU6c"
+        }, {
+          "placeId": "ChIJrbp6o4ClkIgRcTRLj9R3ZcA"
+        }, {
+          "placeId": "ChIJY5D3moClkIgRctwlZQdLlMs"
+        }, {
+          "placeId": "ChIJN6PqhYClkIgRfOefrusZslQ"
+        }, {
+          "placeId": "ChIJ_5PSfIClkIgR2gQkDeG36pE"
+        }, {
+          "placeId": "ChIJWVCnbYClkIgRGmdAb33cG5g"
+        }, {
+          "placeId": "ChIJ9V8O7H-lkIgRqtelOiCgSd0"
+        }, {
+          "placeId": "ChIJ9V8O7H-lkIgR_h2hHsU6_Z4"
+        }, {
+          "placeId": "ChIJ3URaR36lkIgRvMVwRCZJECc"
+        }, {
+          "placeId": "ChIJcWCNbH6lkIgRmo2h0Z7MLV8"
+        }, {
+          "placeId": "ChIJwYx2bX6lkIgREsQnXssLP6s"
+        }, {
+          "placeId": "ChIJIw3rdX6lkIgRCUoKLkhAowk"
+        }, {
+          "placeId": "ChIJcU2GuH2lkIgRWbK4HnzdUCE"
+        }, {
+          "placeId": "ChIJKz76B32lkIgRdd36DAGJVak"
+        }, {
+          "placeId": "ChIJG7rLG32lkIgR22MxRrzrtQM"
+        }, {
+          "placeId": "ChIJ26XVJX2lkIgRcD9HOe4mez8"
+        }, {
+          "placeId": "ChIJ4Rnk1GKlkIgRNjiC21nLp3g"
+        }, {
+          "placeId": "ChIJXSBQ32KlkIgRgQOXfyXg14s"
+        }, {
+          "placeId": "ChIJv6kwHWOlkIgR1OMrsE4q8HM"
+        }, {
+          "placeId": "ChIJ8fHHq2OlkIgREDpiPC8N56g"
+        }, {
+          "placeId": "ChIJ2ZaLtmOlkIgRHqZsJAOtFBE"
+        }, {
+          "placeId": "ChIJE4440GOlkIgRrxwmU66o5Tw"
+        }, {
+          "placeId": "ChIJZRvTYmGlkIgRO3HU-A0fZ7M"
+        }, {
+          "placeId": "ChIJTwdCZWGlkIgR7z3CSRom8vs"
+        }, {
+          "placeId": "ChIJvwHLbWGlkIgRISmnQJdKO6c"
+        }, {
+          "placeId": "ChIJDwikE2GlkIgRFY8-yjS_rRM"
+        }, {
+          "placeId": "ChIJ1d4GGmGlkIgRl6UC6GyC3nA"
+        }, {
+          "placeId": "ChIJK8kW4WClkIgR0pjVCLeAc6k"
+        }, {
+          "placeId": "ChIJHdt_oGClkIgRNkFxpVCGe1M"
+        }, {
+          "placeId": "ChIJJ1gAZV6lkIgR5EVF8Bv_W0w"
+        }, {
+          "placeId": "ChIJeR_rYl6lkIgR2pbjQApv_Ak"
+        }, {
+          "placeId": "ChIJc1snr16lkIgRRCfJYfOjY4g"
+        }, {
+          "placeId": "ChIJr__VK1qlkIgRaZCfjPeAhcs"
+        }, {
+          "placeId": "ChIJK1NQIVqlkIgRVmnJhKOh5sY"
+        }, {
+          "placeId": "ChIJuZwKG1qlkIgR4gFGDJqvA3Q"
+        }, {
+          "placeId": "ChIJHd7-r1ClkIgRACDFH_fo95o"
+        }, {
+          "placeId": "ChIJ3dM621ClkIgR_6z5E13xPsM"
+        }, {
+          "placeId": "ChIJmYrZ2FClkIgRV5ObJuUeGKM"
+        }, {
+          "placeId": "ChIJL05YPFGlkIgRX_KKPBLF9cI"
+        }, {
+          "placeId": "ChIJX2hoZ1GlkIgR9rtsLF99xJM"
+        }, {
+          "placeId": "ChIJOTE53FOlkIgRV5TNJuH65DM"
+        }, {
+          "placeId": "ChIJ32J0xFOlkIgROm9YM8Kn54Y"
+        }, {
+          "placeId": "ChIJc-k21FKlkIgR9aIwzvx40Pk"
+        }, {
+          "placeId": "ChIJV_6lIq26kIgRgcKqXmFaPgQ"
+        }, {
+          "placeId": "ChIJ2wXvD626kIgR06SYIdxxZVE"
+        }, {
+          "placeId": "ChIJzRdMpK26kIgRUtZnY4QYLUk"
+        }, {
+          "placeId": "ChIJQzUYcq66kIgRdPRfUf3uwbg"
+        }, {
+          "placeId": "ChIJazsTaq66kIgR5iWqoLeJJS4"
+        }, {
+          "placeId": "ChIJO8_ORq66kIgRHqG31OXDaus"
+        }, {
+          "placeId": "ChIJg0IMSa66kIgR2xItccfALow"
+        }, {
+          "placeId": "ChIJuTOYt6-6kIgRztJ0MfBPLOQ"
+        }, {
+          "placeId": "ChIJYwTflK-6kIgRzn4mMGEiv4M"
+        }, {
+          "placeId": "ChIJlZ5Pja-6kIgRtNJepyyxDyo"
+        }, {
+          "placeId": "ChIJ_1VV9a-6kIgRf5i4QFFJTnI"
+        }, {
+          "placeId": "ChIJWe68QqW6kIgRy0MlH5YmbR0"
+        }, {
+          "placeId": "ChIJ-z9JPqW6kIgRMz9PwESUkH0"
+        }, {
+          "placeId": "ChIJp2SHIKW6kIgR3plxoKG97Kk"
+        }, {
+          "placeId": "ChIJXwqYwKS6kIgRM28PmOkOaUk"
+        }, {
+          "placeId": "ChIJlbtno6S6kIgR93ZiqRkJLAg"
+        }, {
+          "placeId": "ChIJ0YxqWaO6kIgRqn1GDJEspig"
+        }, {
+          "placeId": "ChIJuf7FR6O6kIgRLzaEu15yEm4"
+        }, {
+          "placeId": "ChIJYedQLqO6kIgRl0mVXs4dl_g"
+        }, {
+          "placeId": "ChIJP5I01KK6kIgRgXP4KzgWbYM"
+        }, {
+          "placeId": "ChIJoahV0qK6kIgRWyPFIv-oC9U"
+        }, {
+          "placeId": "ChIJ_zQxy6K6kIgRMcXIXsdZ74w"
+        }, {
+          "placeId": "ChIJF-GWTL26kIgRIeZtIYgkExA"
+        }, {
+          "placeId": "ChIJmUCfU726kIgRv-IrrGpQvYw"
+        }, {
+          "placeId": "ChIJK66785e6kIgRv9bfXuYkwaQ"
+        }, {
+          "placeId": "ChIJDctCbpe6kIgR6jcUhllXSBw"
+        }, {
+          "placeId": "ChIJx3nVN5e6kIgRc-z9iD8sXr4"
+        }, {
+          "placeId": "ChIJFZK4zJC6kIgRgS-J0tttXqQ"
+        }, {
+          "placeId": "ChIJr_Y42pC6kIgRTRolX-xtLXI"
+        }, {
+          "placeId": "ChIJYwvq3pC6kIgRPz_d921zzU0"
+        }, {
+          "placeId": "ChIJsdvw3ZC6kIgRWld5tPRssY8"
+        }, {
+          "placeId": "ChIJ8z1z7JC6kIgRaOybRIe16EY"
+        }, {
+          "placeId": "ChIJ3chhiJC6kIgRJ7BEzwsFFf4"
+        }],
+        "distanceMeters": 4.8749496653119895
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 303179864,
+          "lngE7": -874263616,
+          "accuracyMeters": 98,
+          "timestamp": "2019-02-20T15:40:02.988Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 303295453,
+          "longitudeE7": -873549822,
+          "accuracyMetres": 48
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "UNKNOWN",
+        "timestamp": "2019-02-20T15:52:54.336Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 303295040,
+        "longitudeE7": -873549957,
+        "placeId": "ChIJfcHFvZC6kIgRm4fNABxLa7U",
+        "address": "4015 Landfall Drive, Pensacola, Florida 32507-9296, United States",
+        "sourceInfo": {
+          "deviceTag": -1536643181
+        },
+        "locationConfidence": 70.91182
+      },
+      "duration": {
+        "startTimestamp": "2019-02-20T15:52:13.732Z",
+        "endTimestamp": "2019-03-01T15:06:00.345Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 303295112,
+      "centerLngE7": -873549741,
+      "visitConfidence": 93,
+      "otherCandidateLocations": [{
+        "latitudeE7": 303287446,
+        "longitudeE7": -873547327,
+        "placeId": "ChIJ5VoDa5q6kIgRDiatdhhtjuE",
+        "address": "Landfall Dr, Pensacola, FL 32507, USA",
+        "name": "Landfall Marina",
+        "locationConfidence": 12.08941
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRNWNrClAWQFA",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Convenience Store",
+        "locationConfidence": 5.0157676
+      }, {
+        "latitudeE7": 303312649,
+        "longitudeE7": -873572637,
+        "placeId": "ChIJqSWmMZe6kIgRAjgIACDRcXs",
+        "address": "10004 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Perdido Kids Park",
+        "locationConfidence": 2.9867504
+      }, {
+        "latitudeE7": 303278525,
+        "longitudeE7": -873564817,
+        "placeId": "ChIJEyFQ_Jm6kIgR8uO0aBkLTmg",
+        "address": "10045 Sinton Dr, Pensacola, FL 32507, USA",
+        "name": "Lost Key Marina \u0026 Yacht Club",
+        "locationConfidence": 2.358937
+      }, {
+        "latitudeE7": 303289300,
+        "longitudeE7": -873521200,
+        "placeId": "ChIJJ0L2DpC6kIgRanQM10llezk",
+        "address": "4060 Indigo Dr, Pensacola, FL 32507, USA",
+        "name": "Laguna Pointe Condominium Association",
+        "locationConfidence": 1.5117695
+      }, {
+        "latitudeE7": 303302663,
+        "longitudeE7": -873558802,
+        "placeId": "ChIJ_y81yZC6kIgR6vDuCEFxCNw",
+        "locationConfidence": 1.3804038
+      }, {
+        "latitudeE7": 303321287,
+        "longitudeE7": -873561594,
+        "placeId": "ChIJDb_gOce7kIgRtM1nzCXNwgg",
+        "address": "9981 Pandion Trail, Pensacola, FL 32507, USA",
+        "name": "Sunrise by Holiday Builders",
+        "locationConfidence": 0.89708143
+      }, {
+        "latitudeE7": 303284720,
+        "longitudeE7": -873566990,
+        "placeId": "ChIJcRJF95m6kIgRDYkgn91o_Zo",
+        "address": "10099 Nelle Ave, Pensacola, FL 32507, USA",
+        "name": "Galia Hoa",
+        "locationConfidence": 0.72452694
+      }, {
+        "latitudeE7": 303302700,
+        "longitudeE7": -873558610,
+        "placeId": "ChIJ_y81yZC6kIgRGYxcNMGJv_Q",
+        "address": "10015 Gulf Beach Hwy, Pensacola, FL 32507, USA",
+        "name": "Gulf Beach Hair Designs",
+        "locationConfidence": 0.5610547
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 60,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}

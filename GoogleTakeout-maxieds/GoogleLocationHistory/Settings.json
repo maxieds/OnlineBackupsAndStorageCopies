@@ -1,0 +1,63 @@
+{
+  "createdTime": "2014-03-21T03:25:49.633Z",
+  "modifiedTime": "2023-03-16T03:20:03.529Z",
+  "historyEnabled": false,
+  "historyDeletionTime": "2022-11-24T15:51:23.876Z",
+  "deviceSettings": [{
+    "deviceTag": -427858253,
+    "reportingEnabled": false,
+    "devicePrettyName": "C5L Max",
+    "platformType": "ANDROID",
+    "deviceCreationTime": "2023-09-07T11:40:17.664Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2023-09-07T11:40:17.664Z"
+    },
+    "androidOsLevel": 30,
+    "deviceSpec": {
+      "manufacturer": "BLU",
+      "brand": "BLU",
+      "product": "C5L_Max",
+      "device": "C0170WW",
+      "model": "C5L Max",
+      "isLowRam": true
+    }
+  }, {
+    "deviceTag": -942140902,
+    "reportingEnabled": false,
+    "devicePrettyName": "C5L Max",
+    "platformType": "ANDROID",
+    "deviceCreationTime": "2023-08-26T20:08:36.025Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2023-08-26T20:08:36.025Z"
+    },
+    "androidOsLevel": 30,
+    "deviceSpec": {
+      "manufacturer": "BLU",
+      "brand": "BLU",
+      "product": "C5L_Max",
+      "device": "C0170WW",
+      "model": "C5L Max",
+      "isLowRam": true
+    }
+  }, {
+    "deviceTag": -389868362,
+    "reportingEnabled": false,
+    "legalCountryCode": "us",
+    "devicePrettyName": "iPad",
+    "platformType": "IOS",
+    "deviceCreationTime": "2023-03-16T03:20:03.529Z",
+    "latestLocationReportingSettingChange": {
+      "reportingEnabledModificationTime": "2023-03-16T03:20:03.529Z"
+    },
+    "iosVersion": "16.3.1",
+    "deviceSpec": {
+      "device": "iPad12,1"
+    }
+  }],
+  "latestLocationHistorySettingChange": {
+    "historyEnabledModificationTime": "2022-06-02T12:27:35.509Z"
+  },
+  "retentionWindowDays": 2147483647,
+  "hasReportedLocations": true,
+  "hasSetRetention": false
+}

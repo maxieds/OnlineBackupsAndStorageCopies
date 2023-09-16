@@ -1,0 +1,5506 @@
+{
+  "timelineObjects": [{
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337826373,
+        "longitudeE7": -843951644,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337797829,
+        "longitudeE7": -843934621,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-01T07:42:21.980Z",
+        "endTimestamp": "2020-08-01T08:59:08.869Z"
+      },
+      "distance": 355,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 36.281031370162964
+      }, {
+        "activityType": "WALKING",
+        "probability": 26.77561640739441
+      }, {
+        "activityType": "STILL",
+        "probability": 23.464930057525635
+      }, {
+        "activityType": "CYCLING",
+        "probability": 9.804828464984894
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.294954214245081
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.2639868073165417
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.29692223761230707
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.28379682917147875
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.2480093389749527
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.2341743791475892
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.020411460718605667
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.013020016194786876
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.01155184509116225
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.005495277946465649
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0012729232366837095
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337827491,
+          "lngE7": -843950195
+        }, {
+          "latE7": 337828979,
+          "lngE7": -843952560
+        }, {
+          "latE7": 337829017,
+          "lngE7": -843953857
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJNb7XlV8E9YgRgYejDgeIuNE",
+          "duration": "1727s"
+        }],
+        "distanceMeters": 40.15128207614845,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337797829,
+          "longitudeE7": -843934621,
+          "accuracyMetres": 160,
+          "sourceInfo": {
+            "deviceTag": 144087378
+          }
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-01T08:59:08.869Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 58.56091,
+        "calibratedProbability": 16.624111
+      },
+      "duration": {
+        "startTimestamp": "2020-08-01T08:59:08.869Z",
+        "endTimestamp": "2020-08-03T13:36:29.160Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337822241,
+      "centerLngE7": -843951945,
+      "visitConfidence": 62,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 35.231617,
+        "calibratedProbability": 10.001455,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 3.020239,
+        "calibratedProbability": 0.85737723
+      }, {
+        "latitudeE7": 337830900,
+        "longitudeE7": -843949496,
+        "placeId": "ChIJta-qu18E9YgR4g-mwuANcI0",
+        "locationConfidence": 1.5955975,
+        "calibratedProbability": 0.45295385
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.75175256,
+        "calibratedProbability": 0.21340546
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.7001914,
+        "calibratedProbability": 0.1987684
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 47,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337823334,
+        "longitudeE7": -843959621,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337750131,
+        "longitudeE7": -844025214,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-03T13:36:29.160Z",
+        "endTimestamp": "2020-08-03T14:13:28.225Z"
+      },
+      "distance": 3253,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 85.35287976264954
+      }, {
+        "activityType": "WALKING",
+        "probability": 10.786549001932144
+      }, {
+        "activityType": "STILL",
+        "probability": 1.3871808536350727
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.9833157062530518
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.8162957616150379
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.25874972343444824
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.1625332864932716
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.11780712520703673
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.04194248467683792
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.040762763819657266
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.0193767249584198
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.01638678804738447
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.010247350292047486
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0057499040849506855
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.1668331555702025E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337823791,
+          "lngE7": -843960266
+        }, {
+          "latE7": 337796058,
+          "lngE7": -844075622
+        }, {
+          "latE7": 337739639,
+          "lngE7": -844029998
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJQ1L89F8E9YgRKc4Ah0C8t9U",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJkdDI9F8E9YgRKQBJKlEPKT4",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJCSQu9V8E9YgRS-4KLUI4mdY",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVJVrkosM3eU",
+          "duration": "46s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRHlpl2msqLiA",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR2qve0ECD-8U",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1wcyYQ6bHbA",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ8cu_0_QE9YgRY7_MbzV7RGE",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJL3qXy_QE9YgRG1HlI15EjuM",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJG1uitfQE9YgRyX-aei1uG1Q",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ6S72rPQE9YgR4zJh1gicRBA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJp8t2VfME9YgRtV4n9HHwB1M",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJoRf9UvME9YgRsQb_57eCBrY",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJGTLtTPME9YgR5kSZImHY-Rk",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJRw_kSvME9YgRJvEVixPYBaw",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ34JhNfME9YgR5rqE_s3enqA",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJbYijLPME9YgR2l5ku0ehj2E",
+          "duration": "12s"
+        }, {
+          "placeId": "ChIJwwjR0vIE9YgRs7u4RMaPJyA",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJE-csy_IE9YgRG-HmKKZ4iLU",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJj4dNS40E9YgRwkgVfgq-R74",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJqbbJUo0E9YgRS7RkQxIWjZ8",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ1-jZVI0E9YgRGIoHz8OmRes",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJfTo5q5IE9YgRuYcx5SbYcBU",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJGci-rJIE9YgRNJVFN1m2olE",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ2WNprZIE9YgRPtn7iAQwkls",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ68a9spIE9YgRQ1HqQsswiUw",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJudUzkJIE9YgRED0zhUA7mh8",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJRaaaj5IE9YgRerJtpqupdxM",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJJUBDj5IE9YgRWk0xm2dXqtQ",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ5XJNj5IE9YgRVJfhFCQyZvg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ-SYt5Y0E9YgRpplKyI_Xyo8",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJc9_2440E9YgRqJqpIzZi3ok",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJyZpR4I0E9YgRLDUUa947NF8",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJF_2mdY4E9YgRPi-qWmNK4i8",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJSaafdo4E9YgRKCiB3xES-Ao",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ84zWcI4E9YgRGnvrcYpkwPE",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJl_Df8o4E9YgRYyjnSSbV14w",
+          "duration": "4s"
+        }],
+        "distanceMeters": 2195.7081002598993,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337750592,
+          "longitudeE7": -844024962,
+          "accuracyMetres": 84
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-03T14:14:30.242Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337748642,
+        "longitudeE7": -844028091,
+        "placeId": "ChIJP4pYoY4E9YgRRQbGyKxVM1k",
+        "address": "740 Ferst Drive Northwest, Atlanta, Georgia 30332, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 70.15332,
+        "calibratedProbability": 29.672287
+      },
+      "duration": {
+        "startTimestamp": "2020-08-03T14:13:28.225Z",
+        "endTimestamp": "2020-08-03T14:21:47Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337751233,
+      "centerLngE7": -844026250,
+      "visitConfidence": 66,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 29.666473,
+        "calibratedProbability": 12.5478325,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337741351,
+        "longitudeE7": -844059814,
+        "placeId": "ChIJsbivTn4F9YgR2YmRg350ljg",
+        "address": "800 Marietta St NW, Atlanta, GA 30318, USA",
+        "name": "Paloma West Midtown",
+        "locationConfidence": 0.05528468,
+        "calibratedProbability": 0.023383396
+      }, {
+        "latitudeE7": 337725159,
+        "longitudeE7": -844029667,
+        "placeId": "ChIJJcIr1xUF9YgRIqmLYyhJbH0",
+        "address": "746 Marietta St NW, Atlanta, GA 30318, USA",
+        "name": "The Salvation Army Family Store \u0026 Donation Center",
+        "locationConfidence": 0.019811312,
+        "calibratedProbability": 0.008379459
+      }, {
+        "latitudeE7": 337736780,
+        "longitudeE7": -844052252,
+        "placeId": "ChIJn8gPT44E9YgRtoPwd2YU84M",
+        "address": "794 Marietta St NW, Atlanta, GA 30318, USA",
+        "name": "United States Postal Service",
+        "locationConfidence": 0.01790047,
+        "calibratedProbability": 0.007571244
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 56,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337751584,
+        "longitudeE7": -844026613,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337826441,
+        "longitudeE7": -843951615,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-03T14:21:47Z",
+        "endTimestamp": "2020-08-03T14:33:16.276Z"
+      },
+      "distance": 1892,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 85.21119952201843
+      }, {
+        "activityType": "WALKING",
+        "probability": 7.543423026800156
+      }, {
+        "activityType": "STILL",
+        "probability": 3.9246082305908203
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.400744542479515
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.1657892726361752
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.27389824390411377
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.1732711330987513
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.09064294281415641
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.08131639915518463
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.0698763586115092
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.03993496939074248
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.013983309327159077
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.006739087984897196
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0042967938497895375
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.7506932838150533E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337751541,
+          "lngE7": -844025878
+        }, {
+          "latE7": 337800979,
+          "lngE7": -844074401
+        }, {
+          "latE7": 337827529,
+          "lngE7": -843950271
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJJevGvI4E9YgRUJyvi_90wNY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJWaZHvI4E9YgRB3XQ3WgIFFg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJoVk7x44E9YgRj63GpHmG_K0",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJl_Df8o4E9YgRYijnSSbV14w",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJ84zWcI4E9YgRG3vrcYpkwPE",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJSaafdo4E9YgRKSiB3xES-Ao",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJF_2mdY4E9YgRPy-qWmNK4i8",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJyZpR4I0E9YgRLTUUa947NF8",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJc9_2440E9YgRqZqpIzZi3ok",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ-SYt5Y0E9YgRp5lKyI_Xyo8",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ5XJNj5IE9YgRVZfhFCQyZvg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJJUBDj5IE9YgRW00xm2dXqtQ",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJRaaaj5IE9YgRMbk1XeT1X2U",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ6x1CkJIE9YgRBt5orZrqEKA",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJPfmlkJIE9YgRMQtxkhA6pAU",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJYVn3l5IE9YgRc2U9U6AmbsY",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJebytvJIE9YgRcVVyX9Zdc4U",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJebytvJIE9YgR2HMU1hWxOnE",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJP4wCsJIE9YgRjNXA2L8pRNw",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ7VCvrZIE9YgRjHiQmCd2-xc",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJfTo5q5IE9YgRuIcx5SbYcBU",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJ1-jZVI0E9YgRGYoHz8OmRes",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJqbbJUo0E9YgRSrRkQxIWjZ8",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJj4dNS40E9YgRw0gVfgq-R74",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJE-csy_IE9YgRGuHmKKZ4iLU",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJwwjR0vIE9YgRsru4RMaPJyA",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJbYijLPME9YgR215ku0ehj2E",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJ34JhNfME9YgR57qE_s3enqA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJRw_kSvME9YgRJ_EVixPYBaw",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJGTLtTPME9YgR50SZImHY-Rk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJoRf9UvME9YgRsAb_57eCBrY",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJp8t2VfME9YgRtF4n9HHwB1M",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ6S72rPQE9YgR4jJh1gicRBA",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJG1uitfQE9YgRyH-aei1uG1Q",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJL3qXy_QE9YgRGlHlI15EjuM",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJ8cu_0_QE9YgRYr_MbzV7RGE",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJa9PG1vQE9YgRbHu6L8DIFpI",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJI7Mq3vQE9YgRXqEkq9hChv4",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJdVVP4vQE9YgRQjopjFScmfQ",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJffRFA_UE9YgR2JXTnnmrD1U",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJFwAWDvUE9YgR5fjZqMil6Uo",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRklotXRoJFkM",
+          "duration": "28s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqJucFI359fI",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRXokHSifJCM4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRYotA8hH6JcY",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRwp7olpw-UCY",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgRODRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRpvJRuZOqX6w",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5iFMUPhKSwE",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJNb7XlV8E9YgRgIejDgeIuNE",
+          "duration": "6s"
+        }],
+        "distanceMeters": 2592.449804209093,
+        "travelMode": "DRIVE",
+        "confidence": 0.9975967059848072
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337826441,
+          "longitudeE7": -843951615,
+          "accuracyMetres": 85
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2020-08-03T14:35:31.774Z"
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337816998,
+        "longitudeE7": -843953815,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337827956,
+        "longitudeE7": -843908348,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-04T09:04:46.930Z",
+        "endTimestamp": "2020-08-04T09:26:30.548Z"
+      },
+      "distance": 437,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 38.54351341724396
+      }, {
+        "activityType": "STILL",
+        "probability": 25.27971863746643
+      }, {
+        "activityType": "WALKING",
+        "probability": 19.35373842716217
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 9.092708677053452
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.9166852831840515
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.9228333830833435
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.8971162140369415
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.741714471951127
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.39434731006622314
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.2989049069583416
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.2491026185452938
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.14839902287349105
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.11534702498465776
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.03439157153479755
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.011480516695883125
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337815055,
+          "lngE7": -843953781
+        }, {
+          "latE7": 337815132,
+          "lngE7": -843971023
+        }, {
+          "latE7": 337827262,
+          "lngE7": -843949966
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJm9SoN_UE9YgRf4gGY6RKa1w",
+          "duration": "83s"
+        }, {
+          "placeId": "ChIJafnTOPUE9YgRIK7Mb7dGvaY",
+          "duration": "93s"
+        }, {
+          "placeId": "ChIJY2SGFPUE9YgRn5BZ3hpfHdA",
+          "duration": "187s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRklotXRoJFkM",
+          "duration": "135s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqJucFI359fI",
+          "duration": "31s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRXokHSifJCM4",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRYotA8hH6JcY",
+          "duration": "62s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRwp7olpw-UCY",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgRODRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRpvJRuZOqX6w",
+          "duration": "52s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5iFMUPhKSwE",
+          "duration": "145s"
+        }, {
+          "placeId": "ChIJNb7XlV8E9YgRgIejDgeIuNE",
+          "duration": "41s"
+        }],
+        "distanceMeters": 772.6541697500546,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337826346,
+        "longitudeE7": -843951530,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337814483,
+        "longitudeE7": -843918201,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-04T18:48:32.050Z",
+        "endTimestamp": "2020-08-04T18:56:52.470Z"
+      },
+      "distance": 335,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 52.6685357093811
+      }, {
+        "activityType": "WALKING",
+        "probability": 31.65278434753418
+      }, {
+        "activityType": "CYCLING",
+        "probability": 5.103110894560814
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 3.9261411875486374
+      }, {
+        "activityType": "STILL",
+        "probability": 3.3648084849119186
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 1.001370046287775
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.9058354422450066
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.3791216993704438
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.3516110824421048
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.32863125670701265
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.1206814544275403
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.10448789689689875
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.05155156832188368
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.03853852394968271
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.002795767431962304
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337827415,
+          "lngE7": -843950119
+        }, {
+          "latE7": 337815361,
+          "lngE7": -843931274
+        }, {
+          "latE7": 337815475,
+          "lngE7": -843918228
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJNb7XlV8E9YgRgYejDgeIuNE",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5yFMUPhKSwE",
+          "duration": "39s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRp_JRuZOqX6w",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgROTRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRw57olpw-UCY",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRY4tA8hH6JcY",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRX4kHSifJCM4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqZucFI359fI",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRk1otXRoJFkM",
+          "duration": "41s"
+        }, {
+          "placeId": "ChIJY2SGFPUE9YgRnpBZ3hpfHdA",
+          "duration": "55s"
+        }, {
+          "placeId": "ChIJafnTOPUE9YgRIa7Mb7dGvaY",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJm9SoN_UE9YgRfogGY6RKa1w",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbzewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgyosTR7uluk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJ5Qi43V8E9YgRMVAYrAiyqH8",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJOeudJF4E9YgROkGsguVSavg",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhN2N6OVzn4c",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMgKF-HgVxUA",
+          "duration": "5s"
+        }],
+        "distanceMeters": 1098.9391793689033,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      }
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337826399,
+        "longitudeE7": -843951624,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337845802,
+        "longitudeE7": -843918201,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-05T13:44:54.527Z",
+        "endTimestamp": "2020-08-05T15:25:41.405Z"
+      },
+      "distance": 376,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 44.513776898384094
+      }, {
+        "activityType": "WALKING",
+        "probability": 24.927593767642975
+      }, {
+        "activityType": "STILL",
+        "probability": 20.678578317165375
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.4809455275535583
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 3.014991246163845
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.9879839606583118
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.9412899613380432
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.6938641890883446
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.3231683047488332
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.16587041318416595
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.12443645391613245
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.06872646627016366
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.050855649169534445
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.02638361183926463
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.0015318020814447664
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337827491,
+          "lngE7": -843950195
+        }, {
+          "latE7": 338066940,
+          "lngE7": -843788833
+        }, {
+          "latE7": 337845764,
+          "lngE7": -843917846
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJNb7XlV8E9YgRgYejDgeIuNE",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5yFMUPhKSwE",
+          "duration": "118s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRp_JRuZOqX6w",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgROTRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRw57olpw-UCY",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRY4tA8hH6JcY",
+          "duration": "50s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRX4kHSifJCM4",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqZucFI359fI",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRk1otXRoJFkM",
+          "duration": "127s"
+        }, {
+          "placeId": "ChIJPxUGC_UE9YgR_bJKH-Pcko0",
+          "duration": "118s"
+        }, {
+          "placeId": "ChIJNdm2vfUE9YgRz_nMMwG9mII",
+          "duration": "186s"
+        }, {
+          "placeId": "ChIJdUXwwvUE9YgRUQP7EtDIctU",
+          "duration": "76s"
+        }, {
+          "placeId": "ChIJQRkt5PUE9YgRUMkBVo9a80g",
+          "duration": "59s"
+        }, {
+          "placeId": "ChIJ44Db-PUE9YgRTdfRGgzdN4s",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJz4X_U18E9YgRwivX4FITyCk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJCVfqTV8E9YgRfGfYZqO-qW8",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJoRtjSl8E9YgRBKUZ7tjZHF0",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJL0eHNF8E9YgRmuvtxHTnTM0",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJwQWfM18E9YgRBgr2hH13WKo",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJrfl7LV8E9YgRgO0_u8D_b-8",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJM82fLF8E9YgRPSCx6anDfDs",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJXRlb1V4E9YgR7sl7nRqiuy4",
+          "duration": "50s"
+        }, {
+          "placeId": "ChIJYUdNzV4E9YgRvuhB_u1t8hM",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJUz2xSlkE9YgRPu0TAlL_Z7c",
+          "duration": "110s"
+        }, {
+          "placeId": "ChIJrV_FTFkE9YgRKn950RhFrLI",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJIbxc-FsE9YgRPOcmgmvlgLE",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJXwysi1sE9YgRxX7vOpaGrmQ",
+          "duration": "76s"
+        }, {
+          "placeId": "ChIJZXPChlsE9YgRbkcBSXo9wUs",
+          "duration": "118s"
+        }, {
+          "placeId": "ChIJ-xuiflsE9YgROPmr5w5UE0E",
+          "duration": "59s"
+        }, {
+          "placeId": "ChIJBbKZfFsE9YgRTphx_MPokRA",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJVWCTcVsE9YgRG6fkhBT6PGg",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJj08_DVsE9YgRJPcO3f_DDFE",
+          "duration": "50s"
+        }, {
+          "placeId": "ChIJxzvzD1sE9YgREeecrLLEBGo",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJE42hBFsE9YgRrJCzjdOosFM",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJVbu9AlsE9YgR7S62lguTCkk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJDVtC_VoE9YgRpqkSth-Mr10",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJBcPC_FoE9YgRsYgVtSA_jLM",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ5-XC-loE9YgRa7TskNIJNCI",
+          "duration": "76s"
+        }, {
+          "placeId": "ChIJsbPH8VoE9YgRUu6FRIicDck",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJ96cX8loE9YgRlRAaUXiXzDc",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ_Yfxj1oE9YgRzG2Wis8382A",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJwxpEhVoE9YgRHq4tbt76ySY",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJL3enhFoE9YgRgNgryPuNHx8",
+          "duration": "84s"
+        }, {
+          "placeId": "ChIJM4W5gloE9YgR4GbCJYyKCHo",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJCdj2eVAE9YgR1Dax1dtL2fM",
+          "duration": "84s"
+        }, {
+          "placeId": "ChIJnyt2ZVAE9YgRLCAB58u5YVA",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJJVU8ZlAE9YgRxAAFCRaFoOI",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJvd_oZ1AE9YgRsxkr0KuPW0g",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJdS07XVAE9YgRSxUNefGovVA",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJt0TEXFAE9YgRw3k8gJQBvbQ",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJDb1bW1AE9YgRPITtMfi26QY",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJc18nW1AE9YgRCajJku3vAO8",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ91rHWlAE9YgR9UftT52S1q8",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJ3camWlAE9YgR_P9zLXRnwYU",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJc1y9UVAE9YgRLvKbKr4JfLk",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJlQE2U1AE9YgRhZdC_WIM4qQ",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJyST2I88F9YgR11OPCrVazMk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJmao7JM8F9YgR0Yn177Y3TiU",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJjSwsKc8F9YgRLxxxugAfR10",
+          "duration": "84s"
+        }, {
+          "placeId": "ChIJP1cwK88F9YgRo98L1VCTw9w",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJw7S21cgF9YgRNVFOINYqzzk",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJc0vy18gF9YgRL80rtiM7ONk",
+          "duration": "50s"
+        }, {
+          "placeId": "ChIJ85-t2MgF9YgRd1U0lusktMw",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJPd3m4MgF9YgRe9zm89HsxVM",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJibbc5sgF9YgRj5LPcnpmz-U",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJCfIF5sgF9YgRsoCaLHNHDZc",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJYe7BmLMF9YgR_N9vd_eN4jU",
+          "duration": "59s"
+        }, {
+          "placeId": "ChIJyZbJrrIF9YgRS4HqHltuS74",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJDYEP3VIE9YgRvRRHFnNLGVo",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJz-emL1QE9YgRm0Gls5HCSiY",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJyVFBKVQE9YgR5kngEc_wm4A",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJJ-TPgVYE9YgR6M7zLN5me4o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJd0M6XlYE9YgR8TvEIVOyqC8",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJGbZPqlcE9YgRLc4hqZ_OZls",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJqyafp1cE9YgRFRjKXhCOyUI",
+          "duration": "0s"
+        }],
+        "distanceMeters": 10263.844760151303,
+        "travelMode": "DRIVE",
+        "confidence": 0.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 84.3289,
+        "calibratedProbability": 56.594482
+      },
+      "duration": {
+        "startTimestamp": "2020-08-08T17:30:50.028Z",
+        "endTimestamp": "2020-08-11T02:58:12.623Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826320,
+      "centerLngE7": -843951475,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 9.319433,
+        "calibratedProbability": 6.254421,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337830900,
+        "longitudeE7": -843949496,
+        "placeId": "ChIJta-qu18E9YgR4g-mwuANcI0",
+        "locationConfidence": 4.0339236,
+        "calibratedProbability": 2.7072308
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.2715015,
+        "calibratedProbability": 1.5244411
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.0052301735,
+        "calibratedProbability": 0.0035100533,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 69,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337826603,
+        "longitudeE7": -843951739,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337814334,
+        "longitudeE7": -843914917,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-11T02:58:12.623Z",
+        "endTimestamp": "2020-08-11T03:12:53.678Z"
+      },
+      "distance": 366,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 56.42988085746765
+      }, {
+        "activityType": "WALKING",
+        "probability": 29.458189010620117
+      }, {
+        "activityType": "STILL",
+        "probability": 5.398958548903465
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.462962970137596
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.7626745626330376
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.2005418539047241
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.6742678582668304
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.3609806299209595
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.13829432427883148
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.05509912152774632
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.028043173369951546
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.013689130719285458
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.01211269773193635
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.0037523957871599123
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 5.5614032135054E-4
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337826879,
+          "lngE7": -843960008,
+          "accuracyMeters": 150,
+          "timestamp": "2020-08-11T03:08:53.489Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 521.6653271947637
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337826584,
+          "longitudeE7": -843951733,
+          "accuracyMetres": 86
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-11T03:12:55.296Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 80.74839,
+        "calibratedProbability": 39.542156
+      },
+      "duration": {
+        "startTimestamp": "2020-08-11T03:12:53.678Z",
+        "endTimestamp": "2020-08-12T13:17:46Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826708,
+      "centerLngE7": -843951631,
+      "visitConfidence": 65,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 12.05411,
+        "calibratedProbability": 5.9028487,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337830900,
+        "longitudeE7": -843949496,
+        "placeId": "ChIJta-qu18E9YgR4g-mwuANcI0",
+        "locationConfidence": 4.0829015,
+        "calibratedProbability": 1.9993804
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.3571446,
+        "calibratedProbability": 1.1542841
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.66746247,
+        "calibratedProbability": 0.32685366
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 65,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817870,
+        "longitudeE7": -843960275,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337765167,
+        "longitudeE7": -843905064,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-12T13:17:46Z",
+        "endTimestamp": "2020-08-12T13:28:01.711Z"
+      },
+      "distance": 3301,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 70.77142596244812
+      }, {
+        "activityType": "WALKING",
+        "probability": 13.704198598861694
+      }, {
+        "activityType": "STILL",
+        "probability": 12.283404916524887
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.43405394628644
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0806681588292122
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.3140198066830635
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.17330613918602467
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.08601380977779627
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.06536899600178003
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.0271287455689162
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.022540471400134265
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.01705107424641028
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.01683092414168641
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.003094452040386386
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 9.003067134472076E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337817840,
+          "lngE7": -843960723
+        }, {
+          "latE7": 337796058,
+          "lngE7": -844075622
+        }, {
+          "latE7": 337748908,
+          "lngE7": -844026031
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJO_-x-V8E9YgR2qve0ECD-8U",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1wcyYQ6bHbA",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ8cu_0_QE9YgRY7_MbzV7RGE",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJL3qXy_QE9YgRG1HlI15EjuM",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJG1uitfQE9YgRyX-aei1uG1Q",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ6S72rPQE9YgR4zJh1gicRBA",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJp8t2VfME9YgRtV4n9HHwB1M",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJoRf9UvME9YgRsQb_57eCBrY",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJGTLtTPME9YgR5kSZImHY-Rk",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJRw_kSvME9YgRJvEVixPYBaw",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ34JhNfME9YgR5rqE_s3enqA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJbYijLPME9YgR2l5ku0ehj2E",
+          "duration": "59s"
+        }, {
+          "placeId": "ChIJwwjR0vIE9YgRs7u4RMaPJyA",
+          "duration": "69s"
+        }, {
+          "placeId": "ChIJE-csy_IE9YgRG-HmKKZ4iLU",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJj4dNS40E9YgRwkgVfgq-R74",
+          "duration": "53s"
+        }, {
+          "placeId": "ChIJqbbJUo0E9YgRS7RkQxIWjZ8",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ1-jZVI0E9YgRGIoHz8OmRes",
+          "duration": "53s"
+        }, {
+          "placeId": "ChIJfTo5q5IE9YgRuYcx5SbYcBU",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJGci-rJIE9YgRNJVFN1m2olE",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ2WNprZIE9YgRPtn7iAQwkls",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJ68a9spIE9YgRQ1HqQsswiUw",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJudUzkJIE9YgRED0zhUA7mh8",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJRaaaj5IE9YgRerJtpqupdxM",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJJUBDj5IE9YgRWk0xm2dXqtQ",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ5XJNj5IE9YgRVJfhFCQyZvg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ-SYt5Y0E9YgRpplKyI_Xyo8",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJc9_2440E9YgRqJqpIzZi3ok",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJyZpR4I0E9YgRLDUUa947NF8",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJF_2mdY4E9YgRPi-qWmNK4i8",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJSaafdo4E9YgRKCiB3xES-Ao",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ84zWcI4E9YgRGnvrcYpkwPE",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJl_Df8o4E9YgRYyjnSSbV14w",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJ3XqZwo4E9YgRuEbruUgry7g",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJWT0Dw44E9YgRbIcwnjlaF6M",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJi6UGxI4E9YgRe7Xbxp_DHYw",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJi6UGxI4E9YgRJytY7y9PV2I",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJTfr3xo4E9YgRpPPA9qyGQOY",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJe0Wqx44E9YgRWx8dvQXBbqo",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJaRwWx44E9YgRTCJkv06IAzg",
+          "duration": "10s"
+        }],
+        "distanceMeters": 2260.029639123343,
+        "travelMode": "DRIVE",
+        "confidence": 0.9858077087570626
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337746259,
+          "longitudeE7": -844029945,
+          "accuracyMetres": 25
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-12T13:24:05.258Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337748642,
+        "longitudeE7": -844028091,
+        "placeId": "ChIJP4pYoY4E9YgRRQbGyKxVM1k",
+        "address": "740 Ferst Drive Northwest, Atlanta, Georgia 30332, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 61.047535,
+        "calibratedProbability": 33.75224
+      },
+      "duration": {
+        "startTimestamp": "2020-08-12T13:28:01.711Z",
+        "endTimestamp": "2020-08-12T14:12:16.372Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337751784,
+      "centerLngE7": -844026044,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 38.84078,
+        "calibratedProbability": 21.474466,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.014858636,
+        "calibratedProbability": 0.00821511,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337731720,
+        "longitudeE7": -844030810,
+        "placeId": "ChIJlcyU4Y4E9YgRp-9BSk2XDhA",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Marietta St NW \u0026 Means St NW",
+        "locationConfidence": 0.010032947,
+        "calibratedProbability": 0.0055470616,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337757920,
+        "longitudeE7": -844069010,
+        "placeId": "ChIJaTNc_pEE9YgRzKfzaluPYnk",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Marietta St NW \u0026 Northside Dr NW",
+        "locationConfidence": 0.009974627,
+        "calibratedProbability": 0.005514817,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 49,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337751655,
+        "longitudeE7": -844025157,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337826474,
+        "longitudeE7": -843951613,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-12T14:12:16.372Z",
+        "endTimestamp": "2020-08-12T14:44:12.960Z"
+      },
+      "distance": 1984,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 52.943551540374756
+      }, {
+        "activityType": "WALKING",
+        "probability": 21.87952846288681
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 14.874768257141113
+      }, {
+        "activityType": "STILL",
+        "probability": 7.6287344098091125
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.2004240415990353
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.5986112169921398
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.2768182661384344
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.24723857641220093
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.1016234396956861
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.09416560060344636
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.07506324909627438
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.062031444394961
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.011073018686147407
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.004577209620038047
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0017950593246496283
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337751693,
+          "lngE7": -844025802
+        }, {
+          "latE7": 337758865,
+          "lngE7": -844025115
+        }, {
+          "latE7": 337787551,
+          "lngE7": -844041824
+        }, {
+          "latE7": 337805709,
+          "lngE7": -844050750
+        }, {
+          "latE7": 337805709,
+          "lngE7": -844050750
+        }, {
+          "latE7": 337815170,
+          "lngE7": -844007186
+        }, {
+          "latE7": 337815856,
+          "lngE7": -843960647
+        }, {
+          "latE7": 337827529,
+          "lngE7": -843950271
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJJevGvI4E9YgRUZyvi_90wNY",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ7wiio44E9YgRMXtvjCd_I40",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ3afno44E9YgRno5wLFeQHaY",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQ304oY4E9YgRjDvu820LBAk",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJmfVXGYwE9YgRuyYjvXFWfhY",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJQ5oYGowE9YgRfZuKWSXng6w",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJo0KwEIwE9YgRZszEesgk5Kk",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJo0KwEIwE9YgRJjAO8xAUDR4",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ44pvNYwE9YgRnbP9NuJErvw",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJFVngtI0E9YgRrWID6q_SVJM",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJ223eso0E9YgRiXMviisz9Ao",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJl4ygso0E9YgRd19kSUaP9_E",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ3YDcrI0E9YgR6EejeXlBLAA",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJM_kkq40E9YgRs2P_sSQ958Q",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJCf4IAI0E9YgREPwNbDgJwDc",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJB84yAI0E9YgR4qJQ1QPHYt0",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJ_cfwAY0E9YgRWdRZPjzz2XU",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJbURtAo0E9YgRAERKE5Rcq2o",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJ9wOQAo0E9YgRjLPkoPJoug4",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJGVFdHY0E9YgRxedZuCS_8YA",
+          "duration": "43s"
+        }, {
+          "placeId": "ChIJ30sYHo0E9YgRxEP2m6aP45w",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJI6L5H40E9YgRp32b7QSwqmY",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ7ah7II0E9YgRxizbqHA284U",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJy9CsII0E9YgR13Sxr0b3pKA",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ1RnjJo0E9YgRVlddl35ocr0",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJT-PDJI0E9YgR7XR6FGEyQRE",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ-VW-O40E9YgRfRZvnSkPdZo",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ0zgjR40E9YgRya8rsMyEoyk",
+          "duration": "43s"
+        }, {
+          "placeId": "ChIJ253oRI0E9YgR3KEfgq0wUZQ",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ2aZiM40E9YgRvHOQSIg-J4k",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ2aZiM40E9YgROHGe0roOs8E",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJwwjR0vIE9YgRsru4RMaPJyA",
+          "duration": "46s"
+        }, {
+          "placeId": "ChIJbYijLPME9YgR215ku0ehj2E",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJ34JhNfME9YgR57qE_s3enqA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJRw_kSvME9YgRJ_EVixPYBaw",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJGTLtTPME9YgR50SZImHY-Rk",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJoRf9UvME9YgRsAb_57eCBrY",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJp8t2VfME9YgRtF4n9HHwB1M",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ6S72rPQE9YgR4jJh1gicRBA",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJG1uitfQE9YgRyH-aei1uG1Q",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJL3qXy_QE9YgRGlHlI15EjuM",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJ8cu_0_QE9YgRYr_MbzV7RGE",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbzewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgyosTR7uluk",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1gcyYQ6bHbA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR26ve0ECD-8U",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRH1pl2msqLiA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVZVrkosM3eU",
+          "duration": "53s"
+        }, {
+          "placeId": "ChIJQ1L89F8E9YgRKc4Ah0C8t9U",
+          "duration": "39s"
+        }, {
+          "placeId": "ChIJkdDI9F8E9YgRKQBJKlEPKT4",
+          "duration": "39s"
+        }, {
+          "placeId": "ChIJCSQu9V8E9YgRS-4KLUI4mdY",
+          "duration": "39s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVJVrkosM3eU",
+          "duration": "199s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRHlpl2msqLiA",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR2qve0ECD-8U",
+          "duration": "69s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1wcyYQ6bHbA",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJm9SoN_UE9YgRf4gGY6RKa1w",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJafnTOPUE9YgRIK7Mb7dGvaY",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJY2SGFPUE9YgRn5BZ3hpfHdA",
+          "duration": "59s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRklotXRoJFkM",
+          "duration": "43s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqJucFI359fI",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRXokHSifJCM4",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRYotA8hH6JcY",
+          "duration": "19s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRwp7olpw-UCY",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgRODRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRpvJRuZOqX6w",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5iFMUPhKSwE",
+          "duration": "46s"
+        }, {
+          "placeId": "ChIJNb7XlV8E9YgRgIejDgeIuNE",
+          "duration": "9s"
+        }],
+        "distanceMeters": 2904.210787530733,
+        "travelMode": "DRIVE",
+        "confidence": 0.9178583408254878
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337786789,
+          "lngE7": -844042358,
+          "accuracyMeters": 11,
+          "timestamp": "2020-08-12T14:13:34Z"
+        }, {
+          "latE7": 337805977,
+          "lngE7": -844048080,
+          "accuracyMeters": 10,
+          "timestamp": "2020-08-12T14:16:23Z"
+        }, {
+          "latE7": 337817917,
+          "lngE7": -843960342,
+          "accuracyMeters": 13,
+          "timestamp": "2020-08-12T14:19:27.816Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337826509,
+          "longitudeE7": -843951764,
+          "accuracyMetres": 124
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-12T14:46:09.625Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 77.103226,
+        "calibratedProbability": 44.61054
+      },
+      "duration": {
+        "startTimestamp": "2020-08-12T14:44:12.960Z",
+        "endTimestamp": "2020-08-14T11:30:03.418Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337825964,
+      "centerLngE7": -843951609,
+      "visitConfidence": 75,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 20.012516,
+        "calibratedProbability": 11.578882,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.8567617,
+        "calibratedProbability": 1.6528709
+      }, {
+        "latitudeE7": 337819533,
+        "longitudeE7": -843944408,
+        "placeId": "ChIJA7JoJAMF9YgROZ-jl1I2Dk0",
+        "address": "1010 Techwood Dr NW, Atlanta, GA 30332, USA",
+        "name": "Family Housing Parking Lot ER66",
+        "locationConfidence": 0.0034444467,
+        "calibratedProbability": 0.001992895
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.0030689936,
+        "calibratedProbability": 0.0017756645
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 62,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337786345,
+        "longitudeE7": -843911632,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337826524,
+        "longitudeE7": -843951696,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-14T11:30:03.418Z",
+        "endTimestamp": "2020-08-14T12:09:57.239Z"
+      },
+      "distance": 580,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 36.89913749694824
+      }, {
+        "activityType": "STILL",
+        "probability": 25.57174861431122
+      }, {
+        "activityType": "WALKING",
+        "probability": 24.752788245677948
+      }, {
+        "activityType": "CYCLING",
+        "probability": 9.835756570100784
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.2788090854883194
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.5480978637933731
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.48634973354637623
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.3490756032988429
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.16754778334870934
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.050482171354815364
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.024143164046108723
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.019212269398849458
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.014086517330724746
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.002471426887495909
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.9893324153817957E-4
+      }],
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337826524,
+          "longitudeE7": -843951696,
+          "accuracyMetres": 88
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2020-08-14T12:19:55.349Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 83.27968,
+        "calibratedProbability": 57.835766
+      },
+      "duration": {
+        "startTimestamp": "2020-08-14T12:09:57.239Z",
+        "endTimestamp": "2020-08-15T22:17:36.651Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826781,
+      "centerLngE7": -843951788,
+      "visitConfidence": 83,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 13.37247,
+        "calibratedProbability": 9.286863,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.8082669,
+        "calibratedProbability": 1.9502748
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.49710143,
+        "calibratedProbability": 0.34522516
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.004726975,
+        "calibratedProbability": 0.0032827724,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337801010,
+        "longitudeE7": -843928053,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337826761,
+        "longitudeE7": -843951312,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-15T22:17:36.651Z",
+        "endTimestamp": "2020-08-15T22:55:52.679Z"
+      },
+      "distance": 438,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 50.63444375991821
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 28.152161836624146
+      }, {
+        "activityType": "STILL",
+        "probability": 14.520213007926941
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.391684591770172
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.821259967982769
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.5902503617107868
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.26548050809651613
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.2491967286914587
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.2205847529694438
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.06692972383461893
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.04020268388558179
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.029006783734075725
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.012121527106501162
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.006089210000936873
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.715460479725152E-4
+      }],
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337812791,
+          "lngE7": -843957609,
+          "accuracyMeters": 400,
+          "timestamp": "2020-08-15T22:24:23.191Z"
+        }, {
+          "latE7": 337823231,
+          "lngE7": -843957609,
+          "accuracyMeters": 100,
+          "timestamp": "2020-08-15T22:30:28.239Z"
+        }, {
+          "latE7": 337833373,
+          "lngE7": -843951041,
+          "accuracyMeters": 200,
+          "timestamp": "2020-08-15T22:38:34.447Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 620.675619439308
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 82.451485,
+        "calibratedProbability": 58.384106
+      },
+      "duration": {
+        "startTimestamp": "2020-08-15T22:55:52.679Z",
+        "endTimestamp": "2020-08-17T17:32:49Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826940,
+      "centerLngE7": -843951160,
+      "visitConfidence": 84,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 14.6455965,
+        "calibratedProbability": 10.3705845,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.8513815,
+        "calibratedProbability": 2.0190706
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.007673774,
+        "calibratedProbability": 0.005433819,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.004747188,
+        "calibratedProbability": 0.0033614961
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337818709,
+        "longitudeE7": -843960450,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337822623,
+        "longitudeE7": -843961416,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-17T17:32:49Z",
+        "endTimestamp": "2020-08-17T17:48:16.186Z"
+      },
+      "distance": 3866,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 71.46565318107605
+      }, {
+        "activityType": "WALKING",
+        "probability": 16.272073984146118
+      }, {
+        "activityType": "STILL",
+        "probability": 8.505554497241974
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.4866391196846962
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.2288013473153114
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.5576118361204863
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.1892184023745358
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.07697278051637113
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.07436748710460961
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.0732407090254128
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.03663843672256917
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.020472136384341866
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.006046692578820512
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.0058453428209759295
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 8.609120413893834E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337818489,
+          "lngE7": -843960723
+        }, {
+          "latE7": 337796058,
+          "lngE7": -844075622
+        }, {
+          "latE7": 337742233,
+          "lngE7": -844034042
+        }, {
+          "latE7": 337800979,
+          "lngE7": -844074401
+        }, {
+          "latE7": 337822608,
+          "lngE7": -843960723
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJeQN-918E9YgRHlpl2msqLiA",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR2qve0ECD-8U",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1wcyYQ6bHbA",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ8cu_0_QE9YgRY7_MbzV7RGE",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJL3qXy_QE9YgRG1HlI15EjuM",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJG1uitfQE9YgRyX-aei1uG1Q",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ6S72rPQE9YgR4zJh1gicRBA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJp8t2VfME9YgRtV4n9HHwB1M",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJoRf9UvME9YgRsQb_57eCBrY",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJGTLtTPME9YgR5kSZImHY-Rk",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJRw_kSvME9YgRJvEVixPYBaw",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ34JhNfME9YgR5rqE_s3enqA",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJbYijLPME9YgR2l5ku0ehj2E",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJwwjR0vIE9YgRs7u4RMaPJyA",
+          "duration": "24s"
+        }, {
+          "placeId": "ChIJE-csy_IE9YgRG-HmKKZ4iLU",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJj4dNS40E9YgRwkgVfgq-R74",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJqbbJUo0E9YgRS7RkQxIWjZ8",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ1-jZVI0E9YgRGIoHz8OmRes",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJfTo5q5IE9YgRuYcx5SbYcBU",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJGci-rJIE9YgRNJVFN1m2olE",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ2WNprZIE9YgRPtn7iAQwkls",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ68a9spIE9YgRQ1HqQsswiUw",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJudUzkJIE9YgRED0zhUA7mh8",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJRaaaj5IE9YgRerJtpqupdxM",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJJUBDj5IE9YgRWk0xm2dXqtQ",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ5XJNj5IE9YgRVJfhFCQyZvg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ-SYt5Y0E9YgRpplKyI_Xyo8",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJc9_2440E9YgRqJqpIzZi3ok",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJyZpR4I0E9YgRLDUUa947NF8",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJF_2mdY4E9YgRPi-qWmNK4i8",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJSaafdo4E9YgRKCiB3xES-Ao",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ84zWcI4E9YgRGnvrcYpkwPE",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJl_Df8o4E9YgRYyjnSSbV14w",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJc3QE544E9YgRXTT7pHv_K6k",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJCYOS4o4E9YgRzL08uZOQxz4",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJO_FMUY4E9YgRQn8Pk4KY-Dc",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJxdIqTo4E9YgRZ2VezyQ2HZs",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJEcIUT44E9YgRv8Llr7w_a-o",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJMdfmO44E9YgR-IOAmX9h5qg",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJQfg-HY4E9YgRueuQlaNjr9A",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJmwefAo4E9YgRe279WRRDgMQ",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJmwefAo4E9YgRLnTM160jAUE",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJD6J-_pEE9YgR8d3EvdKPLwI",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJwzlJ-o0E9YgR6xPz6OkM7PA",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJdVzL8Y0E9YgRuITZdcfU_pM",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ6x1CkJIE9YgRBt5orZrqEKA",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJPfmlkJIE9YgRMQtxkhA6pAU",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJYVn3l5IE9YgRc2U9U6AmbsY",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJebytvJIE9YgRcVVyX9Zdc4U",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJebytvJIE9YgR2HMU1hWxOnE",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJP4wCsJIE9YgRjNXA2L8pRNw",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ7VCvrZIE9YgRjHiQmCd2-xc",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJfTo5q5IE9YgRuIcx5SbYcBU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ1-jZVI0E9YgRGYoHz8OmRes",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJqbbJUo0E9YgRSrRkQxIWjZ8",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJj4dNS40E9YgRw0gVfgq-R74",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJE-csy_IE9YgRGuHmKKZ4iLU",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJwwjR0vIE9YgRsru4RMaPJyA",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJbYijLPME9YgR215ku0ehj2E",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJ34JhNfME9YgR57qE_s3enqA",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJRw_kSvME9YgRJ_EVixPYBaw",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJGTLtTPME9YgR50SZImHY-Rk",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJoRf9UvME9YgRsAb_57eCBrY",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJp8t2VfME9YgRtF4n9HHwB1M",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ6S72rPQE9YgR4jJh1gicRBA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJG1uitfQE9YgRyH-aei1uG1Q",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJL3qXy_QE9YgRGlHlI15EjuM",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ8cu_0_QE9YgRYr_MbzV7RGE",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbzewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgyosTR7uluk",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1gcyYQ6bHbA",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR26ve0ECD-8U",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRH1pl2msqLiA",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVZVrkosM3eU",
+          "duration": "24s"
+        }],
+        "distanceMeters": 4498.8964233555025,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337741852,
+          "lngE7": -844034500,
+          "accuracyMeters": 14,
+          "timestamp": "2020-08-17T17:39:32Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337817788,
+          "longitudeE7": -843961046,
+          "accuracyMetres": 93
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-17T17:45:38.582Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 83.4501,
+        "calibratedProbability": 52.97165
+      },
+      "duration": {
+        "startTimestamp": "2020-08-17T17:48:16.186Z",
+        "endTimestamp": "2020-08-19T12:09:13.122Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826857,
+      "centerLngE7": -843951092,
+      "visitConfidence": 77,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 13.149587,
+        "calibratedProbability": 8.346968,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.9759672,
+        "calibratedProbability": 1.8890557
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.37208283,
+        "calibratedProbability": 0.23618715
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.005312931,
+        "calibratedProbability": 0.0033724909
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 68,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337826416,
+        "longitudeE7": -843951596,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337735559,
+        "longitudeE7": -843960458,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-19T12:09:13.122Z",
+        "endTimestamp": "2020-08-19T12:30:09Z"
+      },
+      "distance": 1014,
+      "activityType": "WALKING",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 60.3537917137146
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 19.366860389709473
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 9.836001694202423
+      }, {
+        "activityType": "CYCLING",
+        "probability": 4.744486138224602
+      }, {
+        "activityType": "STILL",
+        "probability": 3.013162687420845
+      }, {
+        "activityType": "RUNNING",
+        "probability": 1.3792887330055237
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.4241078160703182
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.32318520825356245
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.21760694216936827
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.21104284096509218
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.056555442279204726
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.0364502368029207
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.028762681176885962
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.005332145519787446
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.003367305180290714
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337827491,
+          "lngE7": -843950195
+        }, {
+          "latE7": 337769546,
+          "lngE7": -843953018
+        }, {
+          "latE7": 337752876,
+          "lngE7": -843956222
+        }, {
+          "latE7": 337739906,
+          "lngE7": -843959197
+        }, {
+          "latE7": 337738647,
+          "lngE7": -843960723
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJNb7XlV8E9YgRgYejDgeIuNE",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJrR9eiV8E9YgRltW_tv3fr5k",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJ6RUhjF8E9YgRI_oKhFGKjCk",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJyVaAjV8E9YgRJtEPM5ILcec",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJ4-Y_7V8E9YgRMpWxdxH-ta4",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJXSLB9F8E9YgRyTQQU-HgHhk",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJQ1L89F8E9YgRKc4Ah0C8t9U",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVJVrkosM3eU",
+          "duration": "43s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRHlpl2msqLiA",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR2qve0ECD-8U",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1wcyYQ6bHbA",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ-bkQC2AE9YgRFO0Rt9EmIug",
+          "duration": "106s"
+        }, {
+          "placeId": "ChIJy1UbEWAE9YgRSu9srTGvnMc",
+          "duration": "69s"
+        }, {
+          "placeId": "ChIJIZXwGGAE9YgRlcEPhEKBu7g",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJVxVII2AE9YgRK95JjLl0lAE",
+          "duration": "45s"
+        }, {
+          "placeId": "ChIJQ0qCOmAE9YgRzlgSs7uDM-g",
+          "duration": "34s"
+        }, {
+          "placeId": "ChIJE5xMMmAE9YgRt-KOh2HdxJo",
+          "duration": "48s"
+        }, {
+          "placeId": "ChIJdzVVzGEE9YgRXRmvgfN2YHM",
+          "duration": "28s"
+        }, {
+          "placeId": "ChIJI0nU0WEE9YgRtG51WO7zZ7Q",
+          "duration": "36s"
+        }, {
+          "placeId": "ChIJyU-E2mEE9YgRftyNXxcfQYw",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJh9PJxGEE9YgRXKOtETh2czw",
+          "duration": "31s"
+        }, {
+          "placeId": "ChIJrezwwWEE9YgRK2RYQkA5kQ4",
+          "duration": "41s"
+        }, {
+          "placeId": "ChIJrUWXwmEE9YgRVlKJZcUuO0o",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJo28F5WEE9YgR0MWBpxlFzWs",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJGXkx-mEE9YgRL4iKVxiKWeU",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJLRCg-WEE9YgRi61HxnXPtkI",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJc2de-GEE9YgR0b2ud4e3DA4",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJMSDoAmIE9YgRwVuL9Blm7P8",
+          "duration": "20s"
+        }, {
+          "placeId": "ChIJgcCDcmIE9YgR7vCdzVIfrS0",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJwUD4dGIE9YgRMsW6CGVVH6o",
+          "duration": "5s"
+        }],
+        "distanceMeters": 1493.6561253139741,
+        "travelMode": "WALK",
+        "confidence": 0.999910688927007
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337752380,
+          "lngE7": -843957596,
+          "accuracyMeters": 23,
+          "timestamp": "2020-08-19T12:25:28.631Z"
+        }]
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 78.334816,
+        "calibratedProbability": 50.01346,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2020-08-19T12:30:09Z",
+        "endTimestamp": "2020-08-19T14:36:16.056Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337735470,
+          "longitudeE7": -843959640,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "sourceInfo": {
+            "deviceTag": 144087378
+          },
+          "locationConfidence": 42.538815,
+          "calibratedProbability": 32.42146
+        },
+        "duration": {
+          "startTimestamp": "2020-08-19T12:30:09Z",
+          "endTimestamp": "2020-08-19T13:25:30.926Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337735571,
+        "centerLngE7": -843961721,
+        "visitConfidence": 80,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337715135,
+          "longitudeE7": -843927921,
+          "placeId": "ChIJi_U4-WIE9YgRHauQwLpwzos",
+          "address": "225 North Avenue NW, Atlanta, GA 30332, USA",
+          "name": "Bill Moore Student Success Center",
+          "locationConfidence": 26.634382,
+          "calibratedProbability": 20.29971
+        }, {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Mathematics",
+          "locationConfidence": 7.529577,
+          "calibratedProbability": 5.7387557
+        }, {
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Clough Undergraduate Learning Commons",
+          "locationConfidence": 3.8633504,
+          "calibratedProbability": 2.944498
+        }, {
+          "latitudeE7": 337737073,
+          "longitudeE7": -843962435,
+          "placeId": "ChIJTeiTb2IE9YgRsoMLlN-2_aE",
+          "address": "Skiles Classroom Bldg, 686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Literature, Media, and Communication",
+          "locationConfidence": 3.1822164,
+          "calibratedProbability": 2.4253638
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 34,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }, {
+        "location": {
+          "latitudeE7": 337715135,
+          "longitudeE7": -843927921,
+          "placeId": "ChIJi_U4-WIE9YgRHauQwLpwzos",
+          "address": "225 North Avenue NW, Atlanta, GA 30332, USA",
+          "name": "Bill Moore Student Success Center",
+          "sourceInfo": {
+            "deviceTag": 144087378
+          },
+          "locationConfidence": 33.160217,
+          "calibratedProbability": 25.633425
+        },
+        "duration": {
+          "startTimestamp": "2020-08-19T13:31:17.276Z",
+          "endTimestamp": "2020-08-19T13:59:03.269Z"
+        },
+        "placeConfidence": "LOW_CONFIDENCE",
+        "centerLatE7": 337738413,
+        "centerLngE7": -843958460,
+        "visitConfidence": 80,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337749203,
+          "longitudeE7": -843964148,
+          "placeId": "ChIJx0xM4okE9YgRG6O9OozCBy8",
+          "address": "266 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Clough Undergraduate Learning Commons",
+          "locationConfidence": 17.98609,
+          "calibratedProbability": 13.903561
+        }, {
+          "latitudeE7": 337735470,
+          "longitudeE7": -843959640,
+          "placeId": "ChIJYcFE2IkE9YgRFo00CXAPvDQ",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "Skiles Classroom Building",
+          "locationConfidence": 17.684929,
+          "calibratedProbability": 13.670758,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337737073,
+          "longitudeE7": -843962435,
+          "placeId": "ChIJTeiTb2IE9YgRsoMLlN-2_aE",
+          "address": "Skiles Classroom Bldg, 686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Literature, Media, and Communication",
+          "locationConfidence": 10.813912,
+          "calibratedProbability": 8.359343,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337735761,
+          "longitudeE7": -843958941,
+          "placeId": "ChIJF_s3d2IE9YgRsc0gRthKOHY",
+          "address": "686 Cherry St NW, Atlanta, GA 30332, USA",
+          "name": "School of Mathematics",
+          "locationConfidence": 2.1067183,
+          "calibratedProbability": 1.62853,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337741421,
+          "longitudeE7": -843952034,
+          "placeId": "ChIJv_D55mIE9YgR4-MDJOVwpCo",
+          "address": "260 4th St NW, Atlanta, GA 30332, USA",
+          "name": "Georgia Tech Library",
+          "locationConfidence": 0.8203822,
+          "calibratedProbability": 0.6341697
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 26,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }],
+      "centerLatE7": 337735571,
+      "centerLngE7": -843961721,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337734032,
+        "longitudeE7": -843963776,
+        "placeId": "ChIJr9pu04kE9YgR7IbGIcKBgHk",
+        "address": "275 Ferst Dr NW, Atlanta, GA 30332, USA",
+        "name": "Weber Building I",
+        "locationConfidence": 21.620567,
+        "calibratedProbability": 13.803817
+      }, {
+        "latitudeE7": 337725485,
+        "longitudeE7": -843984304,
+        "placeId": "ChIJbafgTYgE9YgRwTcZE1F-pMI",
+        "address": "645 State St NW, Atlanta, GA 30313, USA",
+        "name": "Wells Fargo Bank",
+        "locationConfidence": 0.0096053025,
+        "calibratedProbability": 0.006132579
+      }, {
+        "latitudeE7": 337704233,
+        "longitudeE7": -843954696,
+        "placeId": "ChIJAXSxq2IE9YgRmRLaw1tlYuQ",
+        "address": "555 Luckie St NW, Atlanta, GA 30313, USA",
+        "name": "Arthur M. Blank Family Youth YMCA",
+        "locationConfidence": 0.0051021357,
+        "calibratedProbability": 0.0032574974
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.004889183,
+        "calibratedProbability": 0.0031215365,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337735559,
+          "lngE7": -843960458,
+          "accuracyMeters": 8,
+          "timestamp": "2020-08-19T12:30:09Z"
+        }, {
+          "latE7": 337733941,
+          "lngE7": -843965087,
+          "accuracyMeters": 13,
+          "timestamp": "2020-08-19T12:31:54.550Z"
+        }, {
+          "latE7": 337734568,
+          "lngE7": -843963559,
+          "accuracyMeters": 13,
+          "timestamp": "2020-08-19T12:32:34.607Z"
+        }, {
+          "latE7": 337734265,
+          "lngE7": -843962038,
+          "accuracyMeters": 17,
+          "timestamp": "2020-08-19T12:32:55.468Z"
+        }, {
+          "latE7": 337738519,
+          "lngE7": -843959066,
+          "accuracyMeters": 12,
+          "timestamp": "2020-08-19T12:34:19.473Z"
+        }, {
+          "latE7": 337733002,
+          "lngE7": -843963352,
+          "accuracyMeters": 23,
+          "timestamp": "2020-08-19T13:10:02.570Z"
+        }, {
+          "latE7": 337738534,
+          "lngE7": -843958638,
+          "accuracyMeters": 13,
+          "timestamp": "2020-08-19T13:31:17.276Z"
+        }, {
+          "latE7": 337730076,
+          "lngE7": -843969860,
+          "accuracyMeters": 72,
+          "timestamp": "2020-08-19T14:15:48.983Z"
+        }, {
+          "latE7": 337731773,
+          "lngE7": -843969301,
+          "accuracyMeters": 72,
+          "timestamp": "2020-08-19T14:21:57.003Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 407.35338960538866
+      },
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337727318,
+        "longitudeE7": -843972194,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337826015,
+        "longitudeE7": -843954242,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-19T14:36:16.056Z",
+        "endTimestamp": "2020-08-19T15:13:03.193Z"
+      },
+      "distance": 1271,
+      "activityType": "WALKING",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "WALKING",
+        "probability": 50.854772329330444
+      }, {
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 27.892783284187317
+      }, {
+        "activityType": "STILL",
+        "probability": 11.153831332921982
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 4.175182059407234
+      }, {
+        "activityType": "CYCLING",
+        "probability": 3.991416096687317
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.5887768696993589
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.47698994167149067
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.32102782279253006
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.23999426048249006
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.18935558618977666
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.05853295442648232
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.028669499442912638
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.016747007612138987
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.009158610919257626
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 0.002758442860795185
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337727737,
+          "lngE7": -843971710
+        }, {
+          "latE7": 337761421,
+          "lngE7": -843978271
+        }, {
+          "latE7": 337825736,
+          "lngE7": -843955001
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJWbhHM4gE9YgRFxjM-L6bqjg",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJXcE4y4kE9YgR8Ak3cebrp5M",
+          "duration": "44s"
+        }, {
+          "placeId": "ChIJ-100yokE9YgRimTGhxjuGLo",
+          "duration": "47s"
+        }, {
+          "placeId": "ChIJJTH3yIkE9YgRufCReUvA6LU",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJIULsx4kE9YgR9Rvpxm5KhWc",
+          "duration": "77s"
+        }, {
+          "placeId": "ChIJaXDZuIkE9YgRJxLERsosxg4",
+          "duration": "30s"
+        }, {
+          "placeId": "ChIJ3dPGvokE9YgR-9hulAEHigo",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJ0RH0i4kE9YgROVYyTYBVpvM",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJbWXLi4kE9YgRVueUaiTqDEY",
+          "duration": "51s"
+        }, {
+          "placeId": "ChIJm5e-IIoE9YgRREDiJQWGCQU",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJJRLDIIoE9YgRmztlhBWflyQ",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJUfs-IYoE9YgREPUWKadGLc4",
+          "duration": "33s"
+        }, {
+          "placeId": "ChIJ2e9nPIoE9YgRFVgPaHPjW24",
+          "duration": "80s"
+        }, {
+          "placeId": "ChIJMxnAPooE9YgRSMetDXGIjBs",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ6dvpQIoE9YgRy6gVCm6rZoI",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJE8BpQYoE9YgRQnMhyII4DDE",
+          "duration": "40s"
+        }, {
+          "placeId": "ChIJLacTQ4oE9YgR-1LzEHJ4304",
+          "duration": "59s"
+        }, {
+          "placeId": "ChIJ7y9kX4oE9YgR7WtYuW28mPk",
+          "duration": "42s"
+        }, {
+          "placeId": "ChIJu4pC9IoE9YgRj5gBneGWW_s",
+          "duration": "54s"
+        }, {
+          "placeId": "ChIJ7xW984oE9YgR_Lee2XluAkg",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJyWWy84oE9YgR_1AU9I1k4G8",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJ0ddD8ooE9YgRfQsP6xEFkxE",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJoem97YoE9YgRdcfM7mcd6mE",
+          "duration": "56s"
+        }, {
+          "placeId": "ChIJbe147IoE9YgR8tgo0819kmY",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJXdVM6ooE9YgRMPH370y1YF8",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJXdVM6ooE9YgRbhY56MTN5ro",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJ-cHXwYoE9YgRzHYoUs0fnhM",
+          "duration": "37s"
+        }, {
+          "placeId": "ChIJVQOmwYoE9YgRn8jekS4RVgc",
+          "duration": "28s"
+        }, {
+          "placeId": "ChIJX-TnxooE9YgRl-hAQRdY2ok",
+          "duration": "51s"
+        }, {
+          "placeId": "ChIJX-TnxooE9YgR20Tq6qSmIoU",
+          "duration": "16s"
+        }, {
+          "placeId": "ChIJd4UvxooE9YgRWZ7vFdFqUsY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "49s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1gcyYQ6bHbA",
+          "duration": "14s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR26ve0ECD-8U",
+          "duration": "35s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRH1pl2msqLiA",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVZVrkosM3eU",
+          "duration": "92s"
+        }, {
+          "placeId": "ChIJQ1L89F8E9YgRKc4Ah0C8t9U",
+          "duration": "18s"
+        }, {
+          "placeId": "ChIJ4-Y_7V8E9YgRM5WxdxH-ta4",
+          "duration": "42s"
+        }],
+        "distanceMeters": 1332.71687287634,
+        "travelMode": "WALK",
+        "confidence": 0.0
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 78.54937,
+        "calibratedProbability": 44.181217
+      },
+      "duration": {
+        "startTimestamp": "2020-08-19T15:13:03.193Z",
+        "endTimestamp": "2020-08-20T07:05:19.778Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826766,
+      "centerLngE7": -843951776,
+      "visitConfidence": 72,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 18.432783,
+        "calibratedProbability": 10.367783,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.5345972,
+        "calibratedProbability": 1.4256204
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.44423354,
+        "calibratedProbability": 0.24986552
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.0043533747,
+        "calibratedProbability": 0.002448618,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 63,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 36.522083,
+        "calibratedProbability": 9.440732
+      },
+      "duration": {
+        "startTimestamp": "2020-08-20T07:05:19.778Z",
+        "endTimestamp": "2020-08-20T10:38:14.660Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337829333,
+      "centerLngE7": -843913800,
+      "visitConfidence": 63,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 14.5261,
+        "calibratedProbability": 3.754907
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 14.075628,
+        "calibratedProbability": 3.6384628
+      }, {
+        "latitudeE7": 337817916,
+        "longitudeE7": -843886795,
+        "placeId": "ChIJH7f6nl0E9YgRXYsYDxlpUvY",
+        "address": "1010 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "Tens on West",
+        "locationConfidence": 7.2097855,
+        "calibratedProbability": 1.8636849
+      }, {
+        "latitudeE7": 337820119,
+        "longitudeE7": -843903551,
+        "placeId": "ChIJkwSR710E9YgRwrqybcyeEcQ",
+        "address": "97 10th St NW, Atlanta, GA 30309, USA",
+        "name": "Hilton Garden Inn Atlanta Midtown",
+        "locationConfidence": 6.144308,
+        "calibratedProbability": 1.5882655
+      }, {
+        "latitudeE7": 337846871,
+        "longitudeE7": -843882455,
+        "placeId": "ChIJSTzX81wE9YgROjXNgo9VbIY",
+        "address": "1080 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "The M by Radius",
+        "locationConfidence": 4.2593956,
+        "calibratedProbability": 1.1010274
+      }, {
+        "latitudeE7": 337800213,
+        "longitudeE7": -843900752,
+        "placeId": "ChIJJ4N2SGcE9YgRQioXothHkl0",
+        "address": "95 8th St NW, Atlanta, GA 30309, USA",
+        "name": "Modera Midtown",
+        "locationConfidence": 3.5260212,
+        "calibratedProbability": 0.9114546
+      }, {
+        "latitudeE7": 337818715,
+        "longitudeE7": -843903617,
+        "placeId": "ChIJz7015V0E9YgR1biDQFibiIw",
+        "address": "97 10th St NW, Atlanta, GA 30309, USA",
+        "name": "Homewood Suites by Hilton Atlanta Midtown, GA",
+        "locationConfidence": 3.1261332,
+        "calibratedProbability": 0.80808604
+      }, {
+        "latitudeE7": 337810590,
+        "longitudeE7": -843901670,
+        "placeId": "ChIJiQ6H8l0E9YgRuNf8HKchVmQ",
+        "address": "100 10th St NW, Atlanta, GA 30309, USA",
+        "name": "100 Midtown",
+        "locationConfidence": 2.818089,
+        "calibratedProbability": 0.7284585
+      }, {
+        "latitudeE7": 337854711,
+        "longitudeE7": -843926629,
+        "placeId": "ChIJlfecIGEE9YgRtSVtLo69KSM",
+        "address": "1132 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Sonesta Select Atlanta Midtown Georgia Tech",
+        "locationConfidence": 2.0584054,
+        "calibratedProbability": 0.53208506
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 29,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337826711,
+        "longitudeE7": -843957609,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337805265,
+        "longitudeE7": -843886830,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-20T10:38:14.660Z",
+        "endTimestamp": "2020-08-20T10:59:24.885Z"
+      },
+      "distance": 938,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 60.57354807853699
+      }, {
+        "activityType": "STILL",
+        "probability": 24.203883111476898
+      }, {
+        "activityType": "WALKING",
+        "probability": 13.982322812080383
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.6867730524390936
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.2104079583659768
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.1417870749719441
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.05348005797713995
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.04476414469536394
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.04125614068470895
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.03730141615960747
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.012359212269075215
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.006000979556120001
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.005054709254181944
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 9.238533493771683E-4
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 1.320997512266331E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337829017,
+          "lngE7": -843957595
+        }, {
+          "latE7": 337827911,
+          "lngE7": -843950653
+        }, {
+          "latE7": 337827262,
+          "lngE7": -843949966
+        }, {
+          "latE7": 337815322,
+          "lngE7": -843906402
+        }, {
+          "latE7": 337805976,
+          "lngE7": -843886947
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJNb7XlV8E9YgRgIejDgeIuNE",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJNb7XlV8E9YgRgYejDgeIuNE",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5yFMUPhKSwE",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRp_JRuZOqX6w",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgROTRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRw57olpw-UCY",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRY4tA8hH6JcY",
+          "duration": "26s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRX4kHSifJCM4",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqZucFI359fI",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRk1otXRoJFkM",
+          "duration": "67s"
+        }, {
+          "placeId": "ChIJY2SGFPUE9YgRnpBZ3hpfHdA",
+          "duration": "89s"
+        }, {
+          "placeId": "ChIJafnTOPUE9YgRIa7Mb7dGvaY",
+          "duration": "40s"
+        }, {
+          "placeId": "ChIJm9SoN_UE9YgRfogGY6RKa1w",
+          "duration": "44s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbzewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgyosTR7uluk",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJ5Qi43V8E9YgRMVAYrAiyqH8",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJOeudJF4E9YgROkGsguVSavg",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhN2N6OVzn4c",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMgKF-HgVxUA",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJvxhzBV4E9YgR9Ik_zz69JD0",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJx7PuB14E9YgRg0kDPQaFVuA",
+          "duration": "76s"
+        }, {
+          "placeId": "ChIJZQNQ-10E9YgRxkEL73yJiRQ",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJF9wE8F0E9YgRBsSwob25NGQ",
+          "duration": "44s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgRplRKeN0MXiY",
+          "duration": "31s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgR9BBFlYHX1u8",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJqeRgjV0E9YgRKG0K5hFi3Hw",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJK_2QiF0E9YgRyW-Fe703OBc",
+          "duration": "22s"
+        }, {
+          "placeId": "ChIJKdhziF0E9YgROs1BkVu1D2Q",
+          "duration": "17s"
+        }],
+        "distanceMeters": 1557.7082493441203,
+        "travelMode": "DRIVE",
+        "confidence": 0.7143368499871009
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337827873,
+          "lngE7": -843946609,
+          "accuracyMeters": 82,
+          "timestamp": "2020-08-20T10:47:27.463Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337799297,
+          "longitudeE7": -843886846,
+          "accuracyMetres": 85
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-20T10:55:47.264Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337799820,
+        "longitudeE7": -843886990,
+        "placeId": "ChIJWWlPg2cE9YgRd2rn-UL3CYc",
+        "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "The Plaza Midtown",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 88.84389,
+        "calibratedProbability": 67.52295,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2020-08-20T10:59:24.885Z",
+        "endTimestamp": "2020-08-20T11:28:28Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337804706,
+          "longitudeE7": -843888157,
+          "placeId": "ChIJfTK9iWcE9YgRbZH2RIa6Ajc",
+          "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Publix Super Market at The Plaza Midtown",
+          "sourceInfo": {
+            "deviceTag": 144087378
+          },
+          "locationConfidence": 71.893364,
+          "calibratedProbability": 64.6986,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2020-08-20T10:59:24.885Z",
+          "endTimestamp": "2020-08-20T11:20:05.937Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337802980,
+        "centerLngE7": -843884170,
+        "visitConfidence": 82,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337813103,
+          "longitudeE7": -843894907,
+          "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+          "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Chevron",
+          "locationConfidence": 2.6015582,
+          "calibratedProbability": 2.341206
+        }, {
+          "latitudeE7": 337811167,
+          "longitudeE7": -843863479,
+          "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+          "address": "Atlanta, GA 30309, USA",
+          "name": "Midtown",
+          "locationConfidence": 1.9995996,
+          "calibratedProbability": 1.7994888
+        }, {
+          "latitudeE7": 337799877,
+          "longitudeE7": -843890706,
+          "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Insomnia Cookies",
+          "locationConfidence": 1.58624,
+          "calibratedProbability": 1.4274963
+        }, {
+          "latitudeE7": 337802506,
+          "longitudeE7": -843891809,
+          "placeId": "ChIJY0ClaGcE9YgRvkI92GrhmgI",
+          "address": "930 Spring St NW Suite 4, Atlanta, GA 30309, USA",
+          "name": "Taco Bell",
+          "locationConfidence": 1.2337779,
+          "calibratedProbability": 1.110307
+        }, {
+          "latitudeE7": 337799520,
+          "longitudeE7": -843895212,
+          "placeId": "ChIJFS69QmcE9YgRdJQuZG6iyQs",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "University House Midtown",
+          "locationConfidence": 1.07441,
+          "calibratedProbability": 0.9668879
+        }, {
+          "latitudeE7": 337817916,
+          "longitudeE7": -843886795,
+          "placeId": "ChIJH7f6nl0E9YgRXYsYDxlpUvY",
+          "address": "1010 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Tens on West",
+          "locationConfidence": 0.5792785,
+          "calibratedProbability": 0.521307
+        }, {
+          "latitudeE7": 337800213,
+          "longitudeE7": -843900752,
+          "placeId": "ChIJJ4N2SGcE9YgRQioXothHkl0",
+          "address": "95 8th St NW, Atlanta, GA 30309, USA",
+          "name": "Modera Midtown",
+          "locationConfidence": 0.5602958,
+          "calibratedProbability": 0.50422394
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 57,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }],
+      "centerLatE7": 337804929,
+      "centerLngE7": -843887243,
+      "visitConfidence": 82,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337799877,
+        "longitudeE7": -843890706,
+        "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Insomnia Cookies",
+        "locationConfidence": 1.6900979,
+        "calibratedProbability": 1.2845048
+      }, {
+        "latitudeE7": 337799520,
+        "longitudeE7": -843895212,
+        "placeId": "ChIJFS69QmcE9YgRdJQuZG6iyQs",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "University House Midtown",
+        "locationConfidence": 1.33195,
+        "calibratedProbability": 1.0123059
+      }, {
+        "latitudeE7": 337813103,
+        "longitudeE7": -843894907,
+        "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+        "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Chevron",
+        "locationConfidence": 1.2494348,
+        "calibratedProbability": 0.94959295
+      }, {
+        "latitudeE7": 337802506,
+        "longitudeE7": -843891809,
+        "placeId": "ChIJY0ClaGcE9YgRvkI92GrhmgI",
+        "address": "930 Spring St NW Suite 4, Atlanta, GA 30309, USA",
+        "name": "Taco Bell",
+        "locationConfidence": 1.1108502,
+        "calibratedProbability": 0.8442661
+      }, {
+        "latitudeE7": 337790985,
+        "longitudeE7": -843895458,
+        "placeId": "ChIJIxrEKCSj9YgRRIfAXJ2MDV8",
+        "address": "864 Spring St NW, Atlanta, GA 30308, USA",
+        "name": "NCR - Global Headquarters",
+        "locationConfidence": 0.94544035,
+        "calibratedProbability": 0.71855164
+      }, {
+        "latitudeE7": 337811167,
+        "longitudeE7": -843863479,
+        "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+        "address": "Atlanta, GA 30309, USA",
+        "name": "Midtown",
+        "locationConfidence": 0.91440374,
+        "calibratedProbability": 0.6949633
+      }, {
+        "latitudeE7": 337817916,
+        "longitudeE7": -843886795,
+        "placeId": "ChIJH7f6nl0E9YgRXYsYDxlpUvY",
+        "address": "1010 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "Tens on West",
+        "locationConfidence": 0.45049506,
+        "calibratedProbability": 0.34238434
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 74,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337795572,
+        "longitudeE7": -843894656,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337826562,
+        "longitudeE7": -843951651,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-20T11:28:28Z",
+        "endTimestamp": "2020-08-20T11:36:18.784Z"
+      },
+      "distance": 871,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 81.49148225784302
+      }, {
+        "activityType": "WALKING",
+        "probability": 11.30797415971756
+      }, {
+        "activityType": "STILL",
+        "probability": 4.558644816279411
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.0446845553815365
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.9455149993300438
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.207939138635993
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.19004081841558218
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.0883758650161326
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.08198070572689176
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.03278048534411937
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.021412852220237255
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.017370519344694912
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.006722733087372035
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.004698684278992005
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.8052014588174643E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337795562,
+          "lngE7": -843894653
+        }, {
+          "latE7": 337810096,
+          "lngE7": -843905868
+        }, {
+          "latE7": 337827606,
+          "lngE7": -843950347
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJWalFSGcE9YgRBj8C6Z-bH4E",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJA_g7SWcE9YgRoOQQKKH0lQE",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJv1TpUWcE9YgR4-MVwrhNwUg",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJZQNQ-10E9YgRx0EL73yJiRQ",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJx7PuB14E9YgRgkkDPQaFVuA",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJvxhzBV4E9YgR9Yk_zz69JD0",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMwKF-HgVxUA",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhd2N6OVzn4c",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJOeudJF4E9YgRO0GsguVSavg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ5Qi43V8E9YgRMFAYrAiyqH8",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJhduo-F8E9YgRgiosTR7uluk",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJL2mEVvUE9YgRbjewPQG8w8o",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJm9SoN_UE9YgRf4gGY6RKa1w",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJafnTOPUE9YgRIK7Mb7dGvaY",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJY2SGFPUE9YgRn5BZ3hpfHdA",
+          "duration": "32s"
+        }, {
+          "placeId": "ChIJry1ocvUE9YgRklotXRoJFkM",
+          "duration": "25s"
+        }, {
+          "placeId": "ChIJz80ecPUE9YgRqJucFI359fI",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJpfv2b_UE9YgRXokHSifJCM4",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJKWTaZPUE9YgRYotA8hH6JcY",
+          "duration": "11s"
+        }, {
+          "placeId": "ChIJCQrmfPUE9YgRwp7olpw-UCY",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJN-dXfPUE9YgRODRgW7yrcEI",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJnRy8ffUE9YgRpvJRuZOqX6w",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJh_x4h18E9YgR5iFMUPhKSwE",
+          "duration": "29s"
+        }, {
+          "placeId": "ChIJNb7XlV8E9YgRgIejDgeIuNE",
+          "duration": "5s"
+        }],
+        "distanceMeters": 1526.098028343503,
+        "travelMode": "DRIVE",
+        "confidence": 0.9744479813811875
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337826364,
+          "longitudeE7": -843952764,
+          "accuracyMetres": 74
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-20T11:35:44.518Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 82.066444,
+        "calibratedProbability": 46.0164
+      },
+      "duration": {
+        "startTimestamp": "2020-08-20T11:36:18.784Z",
+        "endTimestamp": "2020-08-20T23:01:57.944Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826525,
+      "centerLngE7": -843951675,
+      "visitConfidence": 70,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 13.175188,
+        "calibratedProbability": 7.3876085,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 3.5815136,
+        "calibratedProbability": 2.008231
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.5664007,
+        "calibratedProbability": 0.31759292
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.519213,
+        "calibratedProbability": 0.2911338
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 45.93412,
+        "calibratedProbability": 19.101255
+      },
+      "duration": {
+        "startTimestamp": "2020-08-20T23:01:57.944Z",
+        "endTimestamp": "2020-08-22T22:31:26.040Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337822900,
+      "centerLngE7": -843913250,
+      "visitConfidence": 72,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 12.860435,
+        "calibratedProbability": 5.347886
+      }, {
+        "latitudeE7": 337820119,
+        "longitudeE7": -843903551,
+        "placeId": "ChIJkwSR710E9YgRwrqybcyeEcQ",
+        "address": "97 10th St NW, Atlanta, GA 30309, USA",
+        "name": "Hilton Garden Inn Atlanta Midtown",
+        "locationConfidence": 7.307696,
+        "calibratedProbability": 3.0388339
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 7.0399675,
+        "calibratedProbability": 2.9275017
+      }, {
+        "latitudeE7": 337799820,
+        "longitudeE7": -843886990,
+        "placeId": "ChIJWWlPg2cE9YgRd2rn-UL3CYc",
+        "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "The Plaza Midtown",
+        "locationConfidence": 5.1590195,
+        "calibratedProbability": 2.1453278
+      }, {
+        "latitudeE7": 337817916,
+        "longitudeE7": -843886795,
+        "placeId": "ChIJH7f6nl0E9YgRXYsYDxlpUvY",
+        "address": "1010 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "Tens on West",
+        "locationConfidence": 3.8228936,
+        "calibratedProbability": 1.589713
+      }, {
+        "latitudeE7": 337809145,
+        "longitudeE7": -843892147,
+        "placeId": "ChIJY9PhiV0E9YgRCcM8v93lux8",
+        "address": "119 Central Ave SW, Atlanta, GA 30303, USA",
+        "name": "Opium/SPK",
+        "locationConfidence": 3.531096,
+        "calibratedProbability": 1.4683717
+      }, {
+        "latitudeE7": 337800213,
+        "longitudeE7": -843900752,
+        "placeId": "ChIJJ4N2SGcE9YgRQioXothHkl0",
+        "address": "95 8th St NW, Atlanta, GA 30309, USA",
+        "name": "Modera Midtown",
+        "locationConfidence": 3.3250537,
+        "calibratedProbability": 1.3826911
+      }, {
+        "latitudeE7": 337818715,
+        "longitudeE7": -843903617,
+        "placeId": "ChIJz7015V0E9YgR1biDQFibiIw",
+        "address": "97 10th St NW, Atlanta, GA 30309, USA",
+        "name": "Homewood Suites by Hilton Atlanta Midtown, GA",
+        "locationConfidence": 3.0679724,
+        "calibratedProbability": 1.2757864
+      }, {
+        "latitudeE7": 337810590,
+        "longitudeE7": -843901670,
+        "placeId": "ChIJiQ6H8l0E9YgRuNf8HKchVmQ",
+        "address": "100 10th St NW, Atlanta, GA 30309, USA",
+        "name": "100 Midtown",
+        "locationConfidence": 2.1252077,
+        "calibratedProbability": 0.88374686
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 37,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 52.904083,
+        "calibratedProbability": 17.748796
+      },
+      "duration": {
+        "startTimestamp": "2020-08-22T22:31:26.040Z",
+        "endTimestamp": "2020-08-24T00:06:38Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "centerLatE7": 337826800,
+      "centerLngE7": -843951650,
+      "visitConfidence": 66,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 43.700294,
+        "calibratedProbability": 14.661017,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.005709,
+        "calibratedProbability": 0.67289555
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.66326684,
+        "calibratedProbability": 0.22251947
+      }, {
+        "latitudeE7": 337825984,
+        "longitudeE7": -843926371,
+        "placeId": "ChIJYXIdVF4E9YgRa8o_aNhzL4M",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "Turner Entertainment Networks",
+        "locationConfidence": 0.6440593,
+        "calibratedProbability": 0.21607554
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 43,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337817049,
+        "longitudeE7": -843961231,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337803244,
+        "longitudeE7": -843889444,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-24T00:06:38Z",
+        "endTimestamp": "2020-08-24T00:08:58Z"
+      },
+      "distance": 705,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 74.37345385551453
+      }, {
+        "activityType": "WALKING",
+        "probability": 20.25741934776306
+      }, {
+        "activityType": "CYCLING",
+        "probability": 1.6025807708501816
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 1.3208757154643536
+      }, {
+        "activityType": "STILL",
+        "probability": 0.9119491092860699
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.5080725532025099
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.315973162651062
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.28424886986613274
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.16288808546960354
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.0984208076260984
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.0910826027393341
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.03184019878972322
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.02546247560530901
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.0152577631524764
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 4.7836333578743506E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337817039,
+          "lngE7": -843960723
+        }, {
+          "latE7": 337808113,
+          "lngE7": -843890380
+        }, {
+          "latE7": 337803230,
+          "lngE7": -843889541
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJO_-x-V8E9YgR2qve0ECD-8U",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1wcyYQ6bHbA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ5Qi43V8E9YgRMVAYrAiyqH8",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJOeudJF4E9YgROkGsguVSavg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhN2N6OVzn4c",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMgKF-HgVxUA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJvxhzBV4E9YgR9Ik_zz69JD0",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJx7PuB14E9YgRg0kDPQaFVuA",
+          "duration": "17s"
+        }, {
+          "placeId": "ChIJZQNQ-10E9YgRxkEL73yJiRQ",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJF9wE8F0E9YgRBsSwob25NGQ",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgRplRKeN0MXiY",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgR9BBFlYHX1u8",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJqeRgjV0E9YgRKG0K5hFi3Hw",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJK_2QiF0E9YgRyW-Fe703OBc",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJKdhziF0E9YgROs1BkVu1D2Q",
+          "duration": "4s"
+        }],
+        "distanceMeters": 791.331500643143,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337804299,
+          "longitudeE7": -843885684,
+          "accuracyMetres": 71
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2020-08-24T00:10:56.467Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337799820,
+        "longitudeE7": -843886990,
+        "placeId": "ChIJWWlPg2cE9YgRd2rn-UL3CYc",
+        "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "The Plaza Midtown",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 98.42796,
+        "calibratedProbability": 84.543175,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2020-08-24T00:08:58Z",
+        "endTimestamp": "2020-08-24T00:16:57Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337804706,
+          "longitudeE7": -843888157,
+          "placeId": "ChIJfTK9iWcE9YgRbZH2RIa6Ajc",
+          "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Publix Super Market at The Plaza Midtown",
+          "sourceInfo": {
+            "deviceTag": 144087378
+          },
+          "locationConfidence": 81.141914,
+          "calibratedProbability": 84.94044
+        },
+        "duration": {
+          "startTimestamp": "2020-08-24T00:08:58Z",
+          "endTimestamp": "2020-08-24T00:16:25Z"
+        },
+        "placeConfidence": "HIGH_CONFIDENCE",
+        "centerLatE7": 337803362,
+        "centerLngE7": -843885201,
+        "visitConfidence": 91,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337803746,
+          "longitudeE7": -843891768,
+          "placeId": "ChIJs0eLZGcE9YgRWckv9f5gQjk",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Twisted Kitchen - Midtown",
+          "locationConfidence": 0.3637229,
+          "calibratedProbability": 0.38074997
+        }, {
+          "latitudeE7": 337802506,
+          "longitudeE7": -843891809,
+          "placeId": "ChIJY0ClaGcE9YgRvkI92GrhmgI",
+          "address": "930 Spring St NW Suite 4, Atlanta, GA 30309, USA",
+          "name": "Taco Bell",
+          "locationConfidence": 0.13010652,
+          "calibratedProbability": 0.13619724
+        }, {
+          "latitudeE7": 337801767,
+          "longitudeE7": -843891494,
+          "placeId": "ChIJhz-laGcE9YgRJl6bakfKt8w",
+          "address": "930 Spring St NW #3a, Atlanta, GA 30309, USA",
+          "name": "Supercuts",
+          "locationConfidence": 0.082276225,
+          "calibratedProbability": 0.08612785
+        }, {
+          "latitudeE7": 337799789,
+          "longitudeE7": -843874561,
+          "placeId": "ChIJHddxjz0F9YgRbtT6yWdBR34",
+          "address": "955 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "The Mark Atlanta",
+          "locationConfidence": 0.072547905,
+          "calibratedProbability": 0.07594411
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 93,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }],
+      "centerLatE7": 337803164,
+      "centerLngE7": -843885936,
+      "visitConfidence": 91,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337811167,
+        "longitudeE7": -843863479,
+        "placeId": "ChIJdym9WF0E9YgRMBWDOd-dwzU",
+        "address": "Atlanta, GA 30309, USA",
+        "name": "Midtown",
+        "locationConfidence": 0.4783504,
+        "calibratedProbability": 0.41087168
+      }, {
+        "latitudeE7": 337808333,
+        "longitudeE7": -843877778,
+        "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+        "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+        "name": "Mac\u0027s Beer \u0026 Wine/Midtown Liquor",
+        "locationConfidence": 0.33377212,
+        "calibratedProbability": 0.28668842
+      }, {
+        "latitudeE7": 337802506,
+        "longitudeE7": -843891809,
+        "placeId": "ChIJY0ClaGcE9YgRvkI92GrhmgI",
+        "address": "930 Spring St NW Suite 4, Atlanta, GA 30309, USA",
+        "name": "Taco Bell",
+        "locationConfidence": 0.22278282,
+        "calibratedProbability": 0.19135585
+      }, {
+        "latitudeE7": 337813103,
+        "longitudeE7": -843894907,
+        "placeId": "ChIJqcdtjF0E9YgRSPjTBiiiBzI",
+        "address": "970 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Chevron",
+        "locationConfidence": 0.21813586,
+        "calibratedProbability": 0.18736443
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 86,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337804386,
+        "longitudeE7": -843885369,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337819438,
+        "longitudeE7": -843960777,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-24T00:16:57Z",
+        "endTimestamp": "2020-08-24T00:21:38Z"
+      },
+      "distance": 1253,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "LOW",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 53.18884253501892
+      }, {
+        "activityType": "STILL",
+        "probability": 35.118257999420166
+      }, {
+        "activityType": "WALKING",
+        "probability": 9.29923728108406
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.9151828475296497
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.7086717057973146
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.19509122939780354
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.17994599184021354
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.13371588429436088
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.12291120365262032
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.053861684864386916
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.03253004397265613
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.023487785074394196
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.015496817650273442
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.01219214900629595
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 5.806611170555698E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337806091,
+          "lngE7": -843885650
+        }, {
+          "latE7": 337793540,
+          "lngE7": -843887939
+        }, {
+          "latE7": 337778205,
+          "lngE7": -843894653
+        }, {
+          "latE7": 337810096,
+          "lngE7": -843905868
+        }, {
+          "latE7": 337819442,
+          "lngE7": -843960723
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJO8HIDGcE9YgRQN0CUE7f2Co",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ2bK3A2cE9YgR5qrfluG99SU",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJRQSV_WYE9YgRwXTxNccvtVc",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJ7yHP42YE9YgRREPrcmPHUpo",
+          "duration": "38s"
+        }, {
+          "placeId": "ChIJtcmg2WYE9YgRVNUZmynovVA",
+          "duration": "21s"
+        }, {
+          "placeId": "ChIJZ3BG1mYE9YgRsMaWVbuLe0w",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJW-7ZMWcE9YgRNUeu0snJDpE",
+          "duration": "15s"
+        }, {
+          "placeId": "ChIJIZ_ISWcE9YgRRd2BXfi6U-I",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJA_g7SWcE9YgRoOQQKKH0lQE",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJv1TpUWcE9YgR4-MVwrhNwUg",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJZQNQ-10E9YgRx0EL73yJiRQ",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJx7PuB14E9YgRgkkDPQaFVuA",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJvxhzBV4E9YgR9Yk_zz69JD0",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMwKF-HgVxUA",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhd2N6OVzn4c",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJOeudJF4E9YgRO0GsguVSavg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJ5Qi43V8E9YgRMFAYrAiyqH8",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJbz4i-V8E9YgR1gcyYQ6bHbA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJO_-x-V8E9YgR26ve0ECD-8U",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJeQN-918E9YgRH1pl2msqLiA",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJfSL09l8E9YgRVZVrkosM3eU",
+          "duration": "6s"
+        }],
+        "distanceMeters": 1478.8604388884603,
+        "travelMode": "DRIVE",
+        "confidence": 0.9975148978226147
+      },
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337778358,
+          "lngE7": -843894653,
+          "accuracyMeters": 16,
+          "timestamp": "2020-08-24T00:18:50Z"
+        }]
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337824038,
+          "longitudeE7": -843958287,
+          "accuracyMetres": 42
+        },
+        "method": "EXITING_VEHICLE_SIGNAL",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-24T00:22:19.608Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 82.01684,
+        "calibratedProbability": 39.002407
+      },
+      "duration": {
+        "startTimestamp": "2020-08-24T00:21:38Z",
+        "endTimestamp": "2020-08-30T06:41:08.848Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337824625,
+      "centerLngE7": -843953950,
+      "visitConfidence": 64,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 14.180188,
+        "calibratedProbability": 6.743267,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 3.6215272,
+        "calibratedProbability": 1.7221862
+      }, {
+        "latitudeE7": 337817988,
+        "longitudeE7": -843942099,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.036821123,
+        "calibratedProbability": 0.01750997
+      }, {
+        "latitudeE7": 337819533,
+        "longitudeE7": -843944408,
+        "placeId": "ChIJA7JoJAMF9YgROZ-jl1I2Dk0",
+        "address": "1010 Techwood Dr NW, Atlanta, GA 30332, USA",
+        "name": "Family Housing Parking Lot ER66",
+        "locationConfidence": 0.026634485,
+        "calibratedProbability": 0.012665801
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 67,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 52.317097,
+        "calibratedProbability": 27.761293,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2020-08-30T06:41:08.848Z",
+        "endTimestamp": "2020-08-31T22:16:33Z"
+      },
+      "placeConfidence": "MEDIUM_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337822723,
+          "longitudeE7": -843959213,
+          "placeId": "ChIJg1hF7F8E9YgRHo9ibHwsjXk",
+          "address": "251 10th St NW #153, Atlanta, GA 30332, USA",
+          "name": "GT Department of Housing (10th \u0026 Home)",
+          "sourceInfo": {
+            "deviceTag": 144087378
+          },
+          "locationConfidence": 51.29629,
+          "calibratedProbability": 48.36636,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2020-08-30T06:41:08.848Z",
+          "endTimestamp": "2020-08-30T07:43:13.909Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337826075,
+        "centerLngE7": -843952800,
+        "visitConfidence": 80,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337822723,
+          "longitudeE7": -843959213,
+          "placeId": "ChIJIcSJ818E9YgRoVWQpgiPNq0",
+          "address": "251 10th St NW, Atlanta, GA 30332, USA",
+          "name": "tenth\u0026home",
+          "locationConfidence": 2.4946063,
+          "calibratedProbability": 2.35212
+        }, {
+          "latitudeE7": 337818050,
+          "longitudeE7": -843963290,
+          "placeId": "ChIJj39PWvUE9YgR8jEE8oqtFSY",
+          "address": "301 10th St NW, Atlanta, GA 30332, USA",
+          "name": "Graduate Living Center",
+          "locationConfidence": 1.0608786,
+          "calibratedProbability": 1.0002836
+        }, {
+          "latitudeE7": 337696252,
+          "longitudeE7": -843913551,
+          "placeId": "ChIJS5N0VGME9YgR2ceU70RzXCU",
+          "address": "120 North Avenue NW, Atlanta, GA 30313, USA",
+          "name": "North Avenue East",
+          "locationConfidence": 0.91844845,
+          "calibratedProbability": 0.86598873,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337757407,
+          "longitudeE7": -844053143,
+          "placeId": "ChIJearxdI4E9YgRH337jeNBLU0",
+          "address": "Tech Pkwy NW, Atlanta, GA 30332, USA",
+          "name": "CRC Permit Parking",
+          "locationConfidence": 0.4818229,
+          "calibratedProbability": 0.45430225,
+          "isCurrentLocation": true
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 41,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }],
+      "centerLatE7": 337826800,
+      "centerLngE7": -843951057,
+      "visitConfidence": 80,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 45.600407,
+        "calibratedProbability": 24.19718
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 1.5758526,
+        "calibratedProbability": 0.83620286
+      }, {
+        "latitudeE7": 337841185,
+        "longitudeE7": -843923171,
+        "placeId": "ChIJB4pCB18E9YgRJi8vxVaMfSA",
+        "address": "1050 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "name": "TNT",
+        "locationConfidence": 0.45395786,
+        "calibratedProbability": 0.240886
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.0065811295,
+        "calibratedProbability": 0.0034921789,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "simplifiedRawPath": {
+        "points": [{
+          "latE7": 337826032,
+          "lngE7": -843951355,
+          "accuracyMeters": 52,
+          "timestamp": "2020-08-31T16:20:55.855Z"
+        }, {
+          "latE7": 337815243,
+          "lngE7": -843951916,
+          "accuracyMeters": 11,
+          "timestamp": "2020-08-31T22:06:14Z"
+        }, {
+          "latE7": 337818242,
+          "lngE7": -843959877,
+          "accuracyMeters": 5,
+          "timestamp": "2020-08-31T22:10:50Z"
+        }],
+        "source": "INFERRED",
+        "distanceMeters": 195.5181789556548
+      },
+      "locationConfidence": 42,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337814971,
+        "longitudeE7": -843946530,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337805122,
+        "longitudeE7": -843889016,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-31T22:16:33Z",
+        "endTimestamp": "2020-08-31T22:19:07Z"
+      },
+      "distance": 544,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "MEDIUM",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 72.78164029121399
+      }, {
+        "activityType": "WALKING",
+        "probability": 23.058636486530304
+      }, {
+        "activityType": "STILL",
+        "probability": 1.99373010545969
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.7746398448944092
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.4728051368147135
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.43660886585712433
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.12415042147040367
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.11188224889338017
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.08606301271356642
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.06530387909151614
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.04207653400953859
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.025746124447323382
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.014545345038641244
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.01184805587399751
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 3.180288103976636E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337814979,
+          "lngE7": -843946533
+        }, {
+          "latE7": 337808113,
+          "lngE7": -843890380
+        }, {
+          "latE7": 337805023,
+          "lngE7": -843889846
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJOeudJF4E9YgROkGsguVSavg",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhN2N6OVzn4c",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMgKF-HgVxUA",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJvxhzBV4E9YgR9Ik_zz69JD0",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJx7PuB14E9YgRg0kDPQaFVuA",
+          "duration": "23s"
+        }, {
+          "placeId": "ChIJZQNQ-10E9YgRxkEL73yJiRQ",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJF9wE8F0E9YgRBsSwob25NGQ",
+          "duration": "13s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgRplRKeN0MXiY",
+          "duration": "9s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgR9BBFlYHX1u8",
+          "duration": "5s"
+        }, {
+          "placeId": "ChIJqeRgjV0E9YgRKG0K5hFi3Hw",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJK_2QiF0E9YgRyW-Fe703OBc",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJKdhziF0E9YgROs1BkVu1D2Q",
+          "duration": "5s"
+        }],
+        "distanceMeters": 619.2005280907174,
+        "travelMode": "DRIVE",
+        "confidence": 1.0
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337797559,
+          "longitudeE7": -843882495,
+          "accuracyMetres": 152
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "NOT_FROM_RAW_LOCATION",
+        "timestamp": "2020-08-31T22:20:39.221Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337799820,
+        "longitudeE7": -843886990,
+        "placeId": "ChIJWWlPg2cE9YgRd2rn-UL3CYc",
+        "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+        "name": "The Plaza Midtown",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 94.48817,
+        "calibratedProbability": 66.65485,
+        "isCurrentLocation": true
+      },
+      "duration": {
+        "startTimestamp": "2020-08-31T22:19:07Z",
+        "endTimestamp": "2020-08-31T22:35:35Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "childVisits": [{
+        "location": {
+          "latitudeE7": 337804706,
+          "longitudeE7": -843888157,
+          "placeId": "ChIJfTK9iWcE9YgRbZH2RIa6Ajc",
+          "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Publix Super Market at The Plaza Midtown",
+          "sourceInfo": {
+            "deviceTag": 144087378
+          },
+          "locationConfidence": 85.54898,
+          "calibratedProbability": 65.23095,
+          "isCurrentLocation": true
+        },
+        "duration": {
+          "startTimestamp": "2020-08-31T22:19:07Z",
+          "endTimestamp": "2020-08-31T22:35:35Z"
+        },
+        "placeConfidence": "MEDIUM_CONFIDENCE",
+        "centerLatE7": 337803283,
+        "centerLngE7": -843885358,
+        "visitConfidence": 71,
+        "otherCandidateLocations": [{
+          "latitudeE7": 337802506,
+          "longitudeE7": -843891809,
+          "placeId": "ChIJY0ClaGcE9YgRvkI92GrhmgI",
+          "address": "930 Spring St NW Suite 4, Atlanta, GA 30309, USA",
+          "name": "Taco Bell",
+          "locationConfidence": 1.2338578,
+          "calibratedProbability": 0.9408144
+        }, {
+          "latitudeE7": 337802404,
+          "longitudeE7": -843882075,
+          "placeId": "ChIJccodBkQF9YgRpSpwJv64dHY",
+          "address": "950 W Peachtree St NW, Atlanta, GA 30309, USA",
+          "name": "Publix Pharmacy at The Plaza Midtown",
+          "locationConfidence": 0.9348774,
+          "calibratedProbability": 0.7128424,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337799877,
+          "longitudeE7": -843890706,
+          "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+          "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+          "name": "Insomnia Cookies",
+          "locationConfidence": 0.7618126,
+          "calibratedProbability": 0.5808808
+        }, {
+          "latitudeE7": 337802177,
+          "longitudeE7": -843875353,
+          "placeId": "ChIJpbjLj2cE9YgRLrcHOg489CM",
+          "address": "950 W Peachtree St NW #240, Atlanta, GA 30309, USA",
+          "name": "Pho King Midtown",
+          "locationConfidence": 0.71610326,
+          "calibratedProbability": 0.5460275,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337799883,
+          "longitudeE7": -843881435,
+          "placeId": "ChIJIziGO0ME9YgR0-eXmIHqm6c",
+          "address": "950 W Peachtree St NW Ste 275A, Atlanta, GA 30309, USA",
+          "name": "Palm Beach Tan",
+          "locationConfidence": 0.6952968,
+          "calibratedProbability": 0.53016263,
+          "isCurrentLocation": true
+        }, {
+          "latitudeE7": 337808333,
+          "longitudeE7": -843877778,
+          "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+          "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+          "name": "Mac\u0027s Beer \u0026 Wine/Midtown Liquor",
+          "locationConfidence": 0.58420616,
+          "calibratedProbability": 0.44545618
+        }],
+        "editConfirmationStatus": "NOT_CONFIRMED",
+        "locationConfidence": 70,
+        "placeVisitType": "SINGLE_PLACE",
+        "placeVisitLevel": 1
+      }],
+      "centerLatE7": 337803283,
+      "centerLngE7": -843885358,
+      "visitConfidence": 71,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337802506,
+        "longitudeE7": -843891809,
+        "placeId": "ChIJY0ClaGcE9YgRvkI92GrhmgI",
+        "address": "930 Spring St NW Suite 4, Atlanta, GA 30309, USA",
+        "name": "Taco Bell",
+        "locationConfidence": 1.362786,
+        "calibratedProbability": 0.961351
+      }, {
+        "latitudeE7": 337799877,
+        "longitudeE7": -843890706,
+        "placeId": "ChIJsYxWHWcE9YgREpi3AHjwcEE",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Insomnia Cookies",
+        "locationConfidence": 0.841416,
+        "calibratedProbability": 0.5935606
+      }, {
+        "latitudeE7": 337808333,
+        "longitudeE7": -843877778,
+        "placeId": "ChIJo8WXYl0E9YgRJCA-piPfL90",
+        "address": "21 Peachtree Pl NW, Atlanta, GA 30309, USA",
+        "name": "Mac\u0027s Beer \u0026 Wine/Midtown Liquor",
+        "locationConfidence": 0.6452511,
+        "calibratedProbability": 0.45517984
+      }, {
+        "latitudeE7": 337803746,
+        "longitudeE7": -843891768,
+        "placeId": "ChIJs0eLZGcE9YgRWckv9f5gQjk",
+        "address": "930 Spring St NW, Atlanta, GA 30309, USA",
+        "name": "Twisted Kitchen - Midtown",
+        "locationConfidence": 0.45673844,
+        "calibratedProbability": 0.32219726
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 81,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }, {
+    "activitySegment": {
+      "startLocation": {
+        "latitudeE7": 337810368,
+        "longitudeE7": -843878176,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "endLocation": {
+        "latitudeE7": 337816202,
+        "longitudeE7": -843954456,
+        "sourceInfo": {
+          "deviceTag": 144087378
+        }
+      },
+      "duration": {
+        "startTimestamp": "2020-08-31T22:35:35Z",
+        "endTimestamp": "2020-08-31T22:36:52Z"
+      },
+      "distance": 709,
+      "activityType": "IN_PASSENGER_VEHICLE",
+      "confidence": "HIGH",
+      "activities": [{
+        "activityType": "IN_PASSENGER_VEHICLE",
+        "probability": 78.68601083755493
+      }, {
+        "activityType": "WALKING",
+        "probability": 17.180827260017395
+      }, {
+        "activityType": "STILL",
+        "probability": 2.0438220351934433
+      }, {
+        "activityType": "CYCLING",
+        "probability": 0.7444391958415508
+      }, {
+        "activityType": "IN_BUS",
+        "probability": 0.5951337516307831
+      }, {
+        "activityType": "RUNNING",
+        "probability": 0.26756138540804386
+      }, {
+        "activityType": "MOTORCYCLING",
+        "probability": 0.1998186344280839
+      }, {
+        "activityType": "IN_TRAM",
+        "probability": 0.09281565435230732
+      }, {
+        "activityType": "IN_FERRY",
+        "probability": 0.06222902447916567
+      }, {
+        "activityType": "IN_TRAIN",
+        "probability": 0.04826161894015968
+      }, {
+        "activityType": "FLYING",
+        "probability": 0.03455982659943402
+      }, {
+        "activityType": "SKIING",
+        "probability": 0.017705779464449733
+      }, {
+        "activityType": "IN_SUBWAY",
+        "probability": 0.015859169070608914
+      }, {
+        "activityType": "SAILING",
+        "probability": 0.010746459884103388
+      }, {
+        "activityType": "IN_VEHICLE",
+        "probability": 2.0759266590175685E-4
+      }],
+      "waypointPath": {
+        "waypoints": [{
+          "latE7": 337810821,
+          "lngE7": -843876647
+        }, {
+          "latE7": 337815361,
+          "lngE7": -843931274
+        }, {
+          "latE7": 337815055,
+          "lngE7": -843954467
+        }],
+        "source": "INFERRED",
+        "roadSegment": [{
+          "placeId": "ChIJGXukZF0E9YgR8SkZdL1bcbE",
+          "duration": "7s"
+        }, {
+          "placeId": "ChIJhbpwd10E9YgRrtLLe7h_jOM",
+          "duration": "10s"
+        }, {
+          "placeId": "ChIJY7munF0E9YgRAySTN4i6dh4",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJhRAsm10E9YgRqK4ItVRXhEA",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJnWIAkF0E9YgR48IczwAOYmQ",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJqeRgjV0E9YgRKW0K5hFi3Hw",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgR9RBFlYHX1u8",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJ_7qo8l0E9YgRp1RKeN0MXiY",
+          "duration": "4s"
+        }, {
+          "placeId": "ChIJF9wE8F0E9YgRB8Swob25NGQ",
+          "duration": "6s"
+        }, {
+          "placeId": "ChIJZQNQ-10E9YgRx0EL73yJiRQ",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJx7PuB14E9YgRgkkDPQaFVuA",
+          "duration": "8s"
+        }, {
+          "placeId": "ChIJvxhzBV4E9YgR9Yk_zz69JD0",
+          "duration": "1s"
+        }, {
+          "placeId": "ChIJRUqNGl4E9YgRMwKF-HgVxUA",
+          "duration": "3s"
+        }, {
+          "placeId": "ChIJsSTJGV4E9YgRhd2N6OVzn4c",
+          "duration": "2s"
+        }, {
+          "placeId": "ChIJOeudJF4E9YgRO0GsguVSavg",
+          "duration": "0s"
+        }, {
+          "placeId": "ChIJ5Qi43V8E9YgRMFAYrAiyqH8",
+          "duration": "0s"
+        }],
+        "distanceMeters": 755.4919305008108,
+        "travelMode": "DRIVE",
+        "confidence": 0.9884163874812771
+      },
+      "parkingEvent": {
+        "location": {
+          "latitudeE7": 337822554,
+          "longitudeE7": -843959643,
+          "accuracyMetres": 73
+        },
+        "method": "END_OF_ACTIVITY_SEGMENT",
+        "locationSource": "FROM_RAW_LOCATION",
+        "timestamp": "2020-08-31T22:37:56Z"
+      }
+    }
+  }, {
+    "placeVisit": {
+      "location": {
+        "latitudeE7": 337826118,
+        "longitudeE7": -843951645,
+        "placeId": "ChIJVU0kNl4E9YgR7IrXTedv2Q8",
+        "address": "1010 Techwood Drive Northwest, Atlanta, Georgia 30318, United States",
+        "sourceInfo": {
+          "deviceTag": 144087378
+        },
+        "locationConfidence": 84.51421,
+        "calibratedProbability": 53.649334
+      },
+      "duration": {
+        "startTimestamp": "2020-08-31T22:36:52Z",
+        "endTimestamp": "2020-09-03T16:33:11.484Z"
+      },
+      "placeConfidence": "HIGH_CONFIDENCE",
+      "centerLatE7": 337826056,
+      "centerLngE7": -843952409,
+      "visitConfidence": 76,
+      "otherCandidateLocations": [{
+        "latitudeE7": 337756178,
+        "longitudeE7": -843962850,
+        "placeId": "ChIJ40_D64oE9YgRD8XYOj7QKrU",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "Georgia Institute of Technology",
+        "locationConfidence": 13.179902,
+        "calibratedProbability": 8.366556,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337844124,
+        "longitudeE7": -843919830,
+        "placeId": "ChIJw7-AX14E9YgRcsevIj4afZ8",
+        "address": "1060 Techwood Dr NW, Atlanta, GA 30318, USA",
+        "locationConfidence": 2.2529056,
+        "calibratedProbability": 1.4301367
+      }, {
+        "latitudeE7": 337712750,
+        "longitudeE7": -843940470,
+        "placeId": "ChIJ-feK3WIE9YgRhsL-5IE4GCE",
+        "address": "Atlanta, GA 30332, USA",
+        "name": "North Ave NW \u0026 Fowler St",
+        "locationConfidence": 0.0064892136,
+        "calibratedProbability": 0.0041193306,
+        "isCurrentLocation": true
+      }, {
+        "latitudeE7": 337774050,
+        "longitudeE7": -843983040,
+        "placeId": "ChIJn3tKT4oE9YgREScGBYQwS-g",
+        "address": "Howey Physics Bldg, 837 State St NW, Atlanta, GA 30332, USA",
+        "name": "Center for Relativistic Astrophysics",
+        "locationConfidence": 0.0053538796,
+        "calibratedProbability": 0.0033986245,
+        "isCurrentLocation": true
+      }],
+      "editConfirmationStatus": "NOT_CONFIRMED",
+      "locationConfidence": 69,
+      "placeVisitType": "SINGLE_PLACE",
+      "placeVisitImportance": "MAIN"
+    }
+  }]
+}
