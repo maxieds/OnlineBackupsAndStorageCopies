@@ -1,0 +1,46 @@
+{
+  "kind": "tasks#taskLists",
+  "items": [{
+    "kind": "tasks#tasks",
+    "id": "MDc5OTI1Nzk4NzQ2NTA5NjQ4NTI6MDow",
+    "title": "My Tasks",
+    "updated": "2023-09-14T06:37:34.176175Z",
+    "items": [
+      {
+        "notes": "See email issues",
+        "due": "2023-09-14T06:00:00Z",
+        "kind": "tasks#task",
+        "created": "2023-08-15T06:37:34.136855Z",
+        "id": "NGZXMkl6U2RqemRCRkRpbA",
+        "title": "Resubmit eQIP forms",
+        "task_type": "PERSONAL_TASK",
+        "updated": "2023-09-14T06:37:34.176175Z",
+        "selfLink": "https://www.googleapis.com/tasks/v1/lists/MDc5OTI1Nzk4NzQ2NTA5NjQ4NTI6MDow/tasks/NGZXMkl6U2RqemRCRkRpbA",
+        "status": "needsAction"
+      },
+      {
+        "due": "2023-08-30T06:00:00Z",
+        "kind": "tasks#task",
+        "created": "2022-09-26T16:34:42.281379Z",
+        "id": "YnJWanVjX2FwR3EyQUVNQg",
+        "title": "Pay rent",
+        "task_type": "PERSONAL_TASK",
+        "updated": "2023-08-30T06:37:34.428319Z",
+        "selfLink": "https://www.googleapis.com/tasks/v1/lists/MDc5OTI1Nzk4NzQ2NTA5NjQ4NTI6MDow/tasks/YnJWanVjX2FwR3EyQUVNQg",
+        "status": "needsAction"
+      },
+      {
+        "due": "2022-10-01T06:00:00Z",
+        "kind": "tasks#task",
+        "created": "2022-09-28T00:20:20.978268Z",
+        "id": "MTJ1QUZaZGFHdEYtdERUcg",
+        "title": "Submit Subaru form for Ardy ",
+        "task_type": "PERSONAL_TASK",
+        "updated": "2022-09-28T00:20:21.153007Z",
+        "selfLink": "https://www.googleapis.com/tasks/v1/lists/MDc5OTI1Nzk4NzQ2NTA5NjQ4NTI6MDow/tasks/MTJ1QUZaZGFHdEYtdERUcg",
+        "status": "needsAction"
+      }
+    ],
+    "selfLink": "https://www.googleapis.com/tasks/v1/users/@me/lists/MDc5OTI1Nzk4NzQ2NTA5NjQ4NTI6MDow"
+  }]
+}
