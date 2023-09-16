@@ -12,3 +12,6 @@
 * `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20220831_215236297.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20220831_220931475.mp4` (archived at maxieds85v6@GoogleDrive)
 * `GoogleTakeout-maxieds/GooglePhotos/PhotosFrom2022/VID_20221022_011454560.mp4` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/GoogleHangouts-Photos/2019-05-05(1)` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/GoogleHangouts-Photos/2019-12-20` (archived at maxieds85v6@GoogleDrive)
+* `GoogleTakeout-maxieds/GooglePhotos/GoogleHangouts-Photos/video-20190321_162704.mp4` (archived at maxieds85v6@GoogleDrive)
