@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220911_160005426_HDR.jpg",
+  "description": "",
+  "imageViews": "8",
+  "creationTime": {
+    "timestamp": "1667004308",
+    "formatted": "Oct 29, 2022, 12:45:08 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1662933607",
+    "formatted": "Sep 11, 2022, 10:00:07 PM UTC"
+  },
+  "geoData": {
+    "latitude": 35.152640000000005,
+    "longitude": -106.499011,
+    "altitude": 1805.9,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 35.152640000000005,
+    "longitude": -106.499011,
+    "altitude": 1805.9,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipP1zGhiR76125pIr3JgiDbY7_wA9NYUmYJ34jh-",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

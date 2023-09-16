@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220831_212638395.jpg",
+  "description": "",
+  "imageViews": "9",
+  "creationTime": {
+    "timestamp": "1666996706",
+    "formatted": "Oct 28, 2022, 10:38:26 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1662002799",
+    "formatted": "Sep 1, 2022, 3:26:39 AM UTC"
+  },
+  "geoData": {
+    "latitude": 35.150655,
+    "longitude": -106.499164,
+    "altitude": 1806.503,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 35.150655,
+    "longitude": -106.499164,
+    "altitude": 1806.503,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPT8u233ofbs3jISMdrnERdmhpEggGtn-Bvo7af",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

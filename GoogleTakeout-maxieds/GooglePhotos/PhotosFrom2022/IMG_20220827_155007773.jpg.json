@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220827_155007773.jpg",
+  "description": "",
+  "imageViews": "8",
+  "creationTime": {
+    "timestamp": "1666996549",
+    "formatted": "Oct 28, 2022, 10:35:49 PM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1661637008",
+    "formatted": "Aug 27, 2022, 9:50:08 PM UTC"
+  },
+  "geoData": {
+    "latitude": 35.150732,
+    "longitude": -106.49908699999999,
+    "altitude": 1806.9,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 35.150732,
+    "longitude": -106.49908699999999,
+    "altitude": 1806.9,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPrfNlN5Umn3DyOXLER4Z64LOGKylqMWSP9TniM",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
