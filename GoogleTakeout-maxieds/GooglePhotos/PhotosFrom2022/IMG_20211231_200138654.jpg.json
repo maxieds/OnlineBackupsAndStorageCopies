@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20211231_200138654.jpg",
+  "description": "",
+  "imageViews": "49",
+  "creationTime": {
+    "timestamp": "1640998928",
+    "formatted": "Jan 1, 2022, 1:02:08 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1640998899",
+    "formatted": "Jan 1, 2022, 1:01:39 AM UTC"
+  },
+  "geoData": {
+    "latitude": 33.782703999999995,
+    "longitude": -84.395243,
+    "altitude": 241.299,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 33.782703999999995,
+    "longitude": -84.395243,
+    "altitude": 241.299,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipPPopuLXnV9ExafeoMCR16GugQeoPLpZrv84FHq",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

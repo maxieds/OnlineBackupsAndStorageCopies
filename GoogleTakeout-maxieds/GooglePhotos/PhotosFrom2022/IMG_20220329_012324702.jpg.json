@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220329_012324702.jpg",
+  "description": "",
+  "imageViews": "30",
+  "creationTime": {
+    "timestamp": "1648535015",
+    "formatted": "Mar 29, 2022, 6:23:35 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1648531406",
+    "formatted": "Mar 29, 2022, 5:23:26 AM UTC"
+  },
+  "geoData": {
+    "latitude": 33.782649,
+    "longitude": -84.395236,
+    "altitude": 241.399,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 33.782649,
+    "longitude": -84.395236,
+    "altitude": 241.399,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipMb3AkkKf-m9VbPslXXIc9E3YkMHYfhRIDRBa0H",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}

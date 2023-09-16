@@ -1,0 +1,36 @@
+{
+  "title": "IMG_20220413_042451098.jpg",
+  "description": "",
+  "imageViews": "25",
+  "creationTime": {
+    "timestamp": "1649838314",
+    "formatted": "Apr 13, 2022, 8:25:14 AM UTC"
+  },
+  "photoTakenTime": {
+    "timestamp": "1649838293",
+    "formatted": "Apr 13, 2022, 8:24:53 AM UTC"
+  },
+  "geoData": {
+    "latitude": 33.78264000000001,
+    "longitude": -84.395158,
+    "altitude": 241.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "geoDataExif": {
+    "latitude": 33.78264000000001,
+    "longitude": -84.395158,
+    "altitude": 241.5,
+    "latitudeSpan": 0.0,
+    "longitudeSpan": 0.0
+  },
+  "url": "https://photos.google.com/photo/AF1QipN-MImEpL6CedNnagv3OlBPtOVbjxJtx4Ez0THx",
+  "googlePhotosOrigin": {
+    "mobileUpload": {
+      "deviceFolder": {
+        "localFolderName": ""
+      },
+      "deviceType": "ANDROID_PHONE"
+    }
+  }
+}
